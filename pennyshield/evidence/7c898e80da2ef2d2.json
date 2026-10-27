@@ -1,0 +1,97 @@
+{
+  "detection_id": "7c898e80da2ef2d2",
+  "token_address": "EHSmaRBJL4K3gHRUzcGeCgR2Sk4dfxpcWvpTcjGAg91X",
+  "chain": "solana",
+  "timestamp": 1792786878.694886,
+  "timestamp_iso": "2026-10-23T20:21:18.694886",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "B7EorCNDr699moCk3BXfFBSVpY4aNTkTxCkPHChi2iva",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792786878.694886,
+    "timestamp_iso": "2026-10-23T20:21:18.694886"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "m6JiJ3phyP4FNnFt1ay26nJGyzrkAcJJtMTx6UaDk1XVpZVZATEc7xmHKBCJ6eYqjAap64ZaByxePu9Y5epj6vp",
+    "log_index": 1,
+    "block_number": 460575902,
+    "block_time": 1792786654,
+    "bonding_curve": "EnjkpDMjvDXz8c1vHQ2GJmEAVvga2FeTvJMEyVs6jv1S",
+    "associated_bonding_curve": "47qpFrxCuqtPmT3Z8J5p3MVNd3wwHa27ypugeyCmdiny",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "B7EorCNDr699moCk3BXfFBSVpY4aNTkTxCkPHChi2iva",
+    "name": "Pump-Chan",
+    "symbol": "PUMPCHAN",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreiflvpnje7fjq2xpjnofhz7xgbzlpurrv3gv6noljvlootpfuzmkdu",
+    "launch_timestamp": 1792786654,
+    "launch_slot": 460575902,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

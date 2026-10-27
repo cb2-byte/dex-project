@@ -1,0 +1,92 @@
+{
+  "detection_id": "0713db6ac1e88d84",
+  "token_address": "0xtest_validation_high",
+  "chain": "solana",
+  "timestamp": 1792754091.4179935,
+  "timestamp_iso": "2026-10-23T11:14:51.417994",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_transactions"
+        },
+        "explanation": "No transactions in launch window"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "0xvalidation_deployer",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 50000,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792754091.4179935,
+    "timestamp_iso": "2026-10-23T11:14:51.417994"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "0xtest_validation_high_tx",
+    "log_index": 0,
+    "block_number": 999999,
+    "liquidity_usd": 50000,
+    "launch_block": 999999
+  },
+  "token_snapshot": {
+    "creator": "0xvalidation_deployer",
+    "total_supply": 1000000000,
+    "name": "VALIDATION_HIGH_RISK_TEST",
+    "symbol": "VALHI",
+    "funding_sources": [
+      "0xfunder1"
+    ],
+    "launch_block": 999999
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

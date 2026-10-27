@@ -1,0 +1,109 @@
+{
+  "detection_id": "b1aaa2fb9c09cfdf",
+  "token_address": "EHf63N9Y9LkcKAGJHH8Kumw2YEZxRFVZ3UNoSdAtpump",
+  "chain": "solana",
+  "timestamp": 1792749993.7360926,
+  "timestamp_iso": "2026-10-23T10:06:33.736093",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "28vU4EJbH1Rj1VeCYyz1HdzQyhxjdFxUKxqYk8omZ5iY",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792749993.7360926,
+    "timestamp_iso": "2026-10-23T10:06:33.736093"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "5yWHKaKFobc1LgTL1hyNWXFc7jS5qiYnR4tnBrP5pyQSPYhDb7L7aUdx8CDJ18GAM1Q9yaMN99ddiANeg2oTLDUW",
+    "log_index": 2,
+    "block_number": 460401942,
+    "block_time": 1792749822,
+    "bonding_curve": "DAiL4tS9sjzM5rjQrJtYWJxwg4EKoSHBDQR15i8d4sU8",
+    "associated_bonding_curve": "5NLjnBBNzRWCZ6d2dsoXNujuMVe7HMedKXUauP7tb85S",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "28vU4EJbH1Rj1VeCYyz1HdzQyhxjdFxUKxqYk8omZ5iY",
+    "name": "Fly Fight",
+    "symbol": "FLYPVP",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreib2mwwjq7tutfxyeyqeayqf2r67lrbnsbwhfrxjv243ycmqc3kcxu",
+    "launch_timestamp": 1792749822,
+    "launch_slot": 460401942,
+    "instruction": "create_v2",
+    "funding_sources": [
+      {
+        "address": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+        "evidence": {
+          "signature": "xK2AwT48KvQiJizSGoizAAo8n2hZESfH7h8irTEB561B8oj6zRaNijU5oJPT1zQvgQUMFaq42h9ozv471GpsMmT",
+          "slot": 460401571,
+          "block_time": 1792749743,
+          "lamports": 94315090,
+          "program": "system",
+          "transfer_type": "transfer"
+        }
+      }
+    ]
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

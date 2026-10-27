@@ -1,0 +1,122 @@
+{
+  "detection_id": "e5b8216d7fa2d7a0",
+  "token_address": "Db8Ht7nAspCUyiyqs3mcQ5fpgMc879WxZRCGmUeYpump",
+  "chain": "solana",
+  "timestamp": 1792864810.8074722,
+  "timestamp_iso": "2026-10-24T18:00:10.807472",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "5q6zdmWQAJuzr9Mv6mtYTEww1sF3WGuFAVQV5V3FCN3F",
+          "total_launches": 1,
+          "confirmed_rug_count": 0,
+          "rug_rate": 0.0,
+          "serial_rug_operator": false,
+          "recent_launches": [
+            {
+              "token": "CKodpsKiEzCg6MPNbX8HdqMtFbEJfsdMxtePzRt1pump",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer 5q6zdmWQ... has 1 launches, 0 rugs (0.0%)"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792864810.8074722,
+    "timestamp_iso": "2026-10-24T18:00:10.807472"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "2pzt4PSn9QiUsiAaEYeZGoFd6qL9tDEW7g6nH7JmSWqcnBdjPKth52F1aFtR9LKutqTU2dzFgsy8Zz79dy8AwcbG",
+    "log_index": 0,
+    "block_number": 460943932,
+    "block_time": 1792864772,
+    "bonding_curve": "DxhrZrJUbzwWLXo67QxM3MdkaB7ig6Xg7kCGYqyk56DX",
+    "associated_bonding_curve": "BvyEc4U8vSNWtuDXiJkiuRVtkNAyMzjbszmdgBysQF5N",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "5q6zdmWQAJuzr9Mv6mtYTEww1sF3WGuFAVQV5V3FCN3F",
+    "name": "Wendy's replied",
+    "symbol": "gary",
+    "metadata_uri": "https://metadata.j7tracker.io/metadata/91bed61ff2834938.json",
+    "launch_timestamp": 1792864772,
+    "launch_slot": 460943932,
+    "instruction": "create_v2",
+    "funding_sources": [
+      {
+        "address": "7fMwZddcRnuwWsZQT5Eg9cqa9of516sgBZQruH1pj5b8",
+        "evidence": {
+          "signature": "2G8EQzKvffXejsw6owZjKFBTbVqVzh2pd4yBbQMCQjd6Ck9FvhXn9UHRx7XXGbkzcP9a5LDvfXqneNNJQjjLipek",
+          "slot": 460943929,
+          "block_time": 1792864771,
+          "lamports": 46690880,
+          "program": "system",
+          "transfer_type": "transfer"
+        }
+      }
+    ]
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

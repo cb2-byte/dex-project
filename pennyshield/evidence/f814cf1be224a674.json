@@ -1,0 +1,97 @@
+{
+  "detection_id": "f814cf1be224a674",
+  "token_address": "A3NhjKfExkbRBed7TcEUZGqwf7ivzPD5RGvNVvqQpump",
+  "chain": "solana",
+  "timestamp": 1792905638.6210506,
+  "timestamp_iso": "2026-10-25T05:20:38.621051",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "GyxjxJQvqnDWu9PnN1B9NHTFJkCBNcbzsSKizRkofrJQ",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792905638.6210506,
+    "timestamp_iso": "2026-10-25T05:20:38.621051"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "4VNBwQgjsb2jhTtyxzMzp2FssGr9duMuCbETAJGifTsR3rY8s5QyJznvckQ1ByRnRpsPRxHhjFbJDeYqzPSLnrrj",
+    "log_index": 2,
+    "block_number": 461135602,
+    "block_time": 1792905457,
+    "bonding_curve": "Bu2zmzbqagQ3SKLTdDA2jTGzGtkV11FxxXR4UBFsrjjK",
+    "associated_bonding_curve": "JCKvivdkAetRasiLEJ3dA4rwrwD8DyKCLZnSMdK9NALR",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "GyxjxJQvqnDWu9PnN1B9NHTFJkCBNcbzsSKizRkofrJQ",
+    "name": "Bibi Netanyahu",
+    "symbol": "bibi",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreiefvx7wajqithpphkdazszm2xjamurs26whh4prj5q4vflet4hfhu",
+    "launch_timestamp": 1792905457,
+    "launch_slot": 461135602,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

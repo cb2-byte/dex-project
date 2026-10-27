@@ -1,0 +1,8 @@
+{
+  "eth_price": 2405.61,
+  "uniswap_pairs_scanned": 10,
+  "signal_threshold_low": 0.2,
+  "signal_threshold_medium": 0.5,
+  "signal_count_low": 6,
+  "timestamp": "2026-10-18T07:41:38.703977"
+}

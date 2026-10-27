@@ -1,0 +1,109 @@
+#!/usr/bin/env python3
+"""
+Debug Pump.fun discovery - scan for successful creates
+"""
+
+import sys
+import os
+sys.path.insert(0, '/home/ubuntu/.openclaw/workspace')
+
+from pennyshield.solana.detectors import SolanaRPC, PUMP_FUN_PROGRAM_ID, PUMP_CREATE_DISCRIMINATORS, _decode_create_args, _decode_base58
+
+def debug_pumpfun_discovery():
+    print("=" * 60)
+    print("Pump.fun Discovery Debug - Scan for Creates")
+    print("=" * 60)
+    
+    rpc = SolanaRPC()
+    
+    # Get more signatures to find successful creates
+    print("\n[1] Fetching signatures for Pump.fun program (limit=100)...")
+    signatures = rpc.get_signatures_for_address(PUMP_FUN_PROGRAM_ID, limit=100)
+    print(f"    Found {len(signatures)} signatures")
+    
+    successful_with_pumpf = 0
+    creates_found = 0
+    
+    for i, sig_info in enumerate(signatures):
+        signature = sig_info.get('signature')
+        if not signature:
+            continue
+            
+        tx = rpc.get_transaction(signature)
+        if not tx:
+            continue
+            
+        meta = tx.get('meta', {})
+        if meta.get('err'):
+            continue  # Skip failed transactions
+            
+        successful_with_pumpf += 1
+        message = tx.get('transaction', {}).get('message', {})
+        account_keys = [key.get('pubkey', '') if isinstance(key, dict) else key 
+                       for key in message.get('accountKeys', [])]
+        
+        # Check ALL instructions (outer + inner)
+        all_ix = []
+        for ix in message.get('instructions', []):
+            all_ix.append(('outer', ix))
+        for group in meta.get('innerInstructions', []):
+            for ix in group.get('instructions', []):
+                all_ix.append(('inner', ix))
+        
+        for ix_type, instruction in all_ix:
+            program_id = instruction.get('programId')
+            program_index = instruction.get('programIdIndex')
+            if not program_id and isinstance(program_index, int) and program_index < len(account_keys):
+                program_id = account_keys[program_index]
+            
+            if program_id == PUMP_FUN_PROGRAM_ID:
+                data = instruction.get('data', '')
+                if data:
+                    try:
+                        raw = _decode_base58(data)
+                        if len(raw) >= 8:
+                            disc = raw[:8]
+                            if disc in PUMP_CREATE_DISCRIMINATORS:
+                                creates_found += 1
+                                kind = PUMP_CREATE_DISCRIMINATORS[disc]
+                                print(f"\n    🎉 CREATE FOUND! #{creates_found}")
+                                print(f"       Signature: {signature}")
+                                print(f"       Slot: {sig_info.get('slot')}")
+                                print(f"       Time: {sig_info.get('blockTime')}")
+                                print(f"       Type: {kind}")
+                                print(f"       Location: {ix_type} instruction")
+                                
+                                # Parse the create args
+                                try:
+                                    args = _decode_create_args(raw)
+                                    print(f"       Args: {args}")
+                                except Exception as e:
+                                    print(f"       Parse error: {e}")
+                                
+                                # Show accounts
+                                accounts = []
+                                for account in instruction.get('accounts', []):
+                                    if isinstance(account, int):
+                                        accounts.append(account_keys[account] if account < len(account_keys) else '')
+                                    elif isinstance(account, dict):
+                                        accounts.append(account.get('pubkey', ''))
+                                    else:
+                                        accounts.append(account)
+                                print(f"       Accounts ({len(accounts)}):")
+                                for idx, acc in enumerate(accounts):
+                                    print(f"         [{idx}] {acc}")
+                                
+                                if creates_found >= 3:
+                                    break
+                    except Exception as e:
+                        pass
+        
+        if creates_found >= 3:
+            break
+    
+    print(f"\n{'='*60}")
+    print(f"Summary: {successful_with_pumpf} successful Pump.fun txs checked, {creates_found} creates found")
+    print("=" * 60)
+
+if __name__ == "__main__":
+    debug_pumpfun_discovery()

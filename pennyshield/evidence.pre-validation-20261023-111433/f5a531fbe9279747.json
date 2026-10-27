@@ -1,0 +1,97 @@
+{
+  "detection_id": "f5a531fbe9279747",
+  "token_address": "6P8JBNTKgk3LW9wjZw7i9az9EvuFgFMXUFUiGNMQcDZs",
+  "chain": "solana",
+  "timestamp": 1792704215.239642,
+  "timestamp_iso": "2026-10-22T21:23:35.239642",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "9VykSjvzWr8HSp6Fn54woYNcHFK64vJ9PDfvh28jEJPx",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792704215.239642,
+    "timestamp_iso": "2026-10-22T21:23:35.239642"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "pk7UWW8xmCKr2gPT3Z4mdq6V2ccgMMQuk7PR2ugscbE88o7PkzgnBnZMiXgoTeiRH2beMW43dYgD53xWketqnab",
+    "log_index": 2,
+    "block_number": 460185411,
+    "block_time": 1792703974,
+    "bonding_curve": "66GvwUHDugJUo5QMMr7n15tiHKTg55aiBeBeeXT2h4vD",
+    "associated_bonding_curve": "FFMJQfEx79XRLHDLui5pGY1seot9YC4U8iAqEtejaSn2",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "9VykSjvzWr8HSp6Fn54woYNcHFK64vJ9PDfvh28jEJPx",
+    "name": "Monero Lisa",
+    "symbol": "MONELISA",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreighy642x32b7wi3pjdihorirv7wj3zzd27oj6d6yzxh2megiy3rgi",
+    "launch_timestamp": 1792703974,
+    "launch_slot": 460185411,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

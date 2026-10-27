@@ -1,0 +1,97 @@
+{
+  "detection_id": "f3f9ca019986d4e0",
+  "token_address": "8WGdvdyh2Tyw7Rxz5P6T4zi4H8NQ1GpuVNaQtfGzpump",
+  "chain": "solana",
+  "timestamp": 1792915415.5297487,
+  "timestamp_iso": "2026-10-25T08:03:35.529749",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "67umMVu8QRVi4VAtJiiaHoJVKNSLRoHFxRrU75uUXzsc",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792915415.5297487,
+    "timestamp_iso": "2026-10-25T08:03:35.529749"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "3qmCWb8YWoFmwZAxwRn7n5z1gaVefcGgqemw1fQ3RvTiKisBFtiBHvKcRYSMKWYBHaPG5b7zZaZuqVZAecDszoX1",
+    "log_index": 2,
+    "block_number": 461182128,
+    "block_time": 1792915343,
+    "bonding_curve": "G9vzBRadz45uWw3M1mmqPbjo1Z6XR6uCRJ5mJuBccRnK",
+    "associated_bonding_curve": "DrsrnkuSn2my1RoanRx56ibPZJ74jbFCL3vntUjfsDyy",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "67umMVu8QRVi4VAtJiiaHoJVKNSLRoHFxRrU75uUXzsc",
+    "name": "Gudi Eizenkut",
+    "symbol": "GUDI",
+    "metadata_uri": "https://metadata.j7tracker.io/metadata/uZEHyyAD06.json",
+    "launch_timestamp": 1792915343,
+    "launch_slot": 461182128,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

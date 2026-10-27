@@ -1,0 +1,17 @@
+[Unit]
+Description=PennyShield read-only launch observer
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ubuntu/.openclaw/workspace
+EnvironmentFile=/home/ubuntu/.config/pennyshield/observer.env
+ExecStart=/usr/bin/python3 -m pennyshield.observer
+Restart=on-failure
+RestartSec=10
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target

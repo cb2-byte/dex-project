@@ -1,0 +1,1516 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-14T00:18:41.491Z",
+  "entries": {
+    "memory:memory/2026-04-11.md:1:45": {
+      "key": "memory:memory/2026-04-11.md:1:45",
+      "path": "memory/2026-04-11.md",
+      "startLine": 1,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "# Memory — 2026-04-11 ## The Big Launch 🚀 **Apr 11, 01:16 UTC — Triple-Bot Trading System LIVE** Built and deployed three independent trading bots on Mac Mini: 1. **Wallet Watcher Bot** - Copies CemeterySun & CarlosMC bets when conviction ≥$500 - Runs every 15 mins - Executes from residential Jersey IP (no geo-blocks) - Watches 9 top traders for signals 2. **Sentiment Bot** - Fades retail crowd on 5-min crypto markets (BTC/ETH/SOL/XRP) - Only trades 30-90¢ price sweet spot - Runs every 1 min - $1 bet sizing (will scale if profitable) - Colin's contrarian/sentiment edge formalized into code 3. **Watchdog Monitor** - Monitors both bots every 5 mins - Au",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8948535483873495,
+      "maxScore": 0.8948535483873495,
+      "firstRecalledAt": "2026-04-23T22:42:39.958Z",
+      "lastRecalledAt": "2026-04-23T22:42:39.958Z",
+      "queryHashes": [
+        "787282def743"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "triple-bot",
+        "geo-blocks",
+        "5-min",
+        "btc/eth/sol/xrp",
+        "30-90",
+        "contrarian/sentiment",
+        "the",
+        "big"
+      ]
+    },
+    "memory:memory/2026-04-11.md:39:64": {
+      "key": "memory:memory/2026-04-11.md:39:64",
+      "path": "memory/2026-04-11.md",
+      "startLine": 39,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "- Logs: `/tmp/penny-wallet-watcher.log`, `/tmp/penny-sentiment-bot.log` - Health: `/tmp/penny-watchdog.log` - Cron job ID: `8dff2e76-e4ed-480b-9f08-cec703da158e` (remote monitoring) **What Colin learned today:** - Hedging both sides of a market = locking in profit (market-neutral arb) - Fading retail crowd on 5-min markets has real edge - Execution speed matters (missed one $1 win due to lag, which is why bots solve this) - Sentiment analysis on order book = viable contrarian strategy **Status:** All three bots live and autonomous. Colin ready for sleep. Systems compound overnight. 🐱🪙 --- ## ⚠️ Geoblock Alert — Apr 11, 12:40 BST Polymarket API returning **403 — Trading restricted in y",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8846331244084453,
+      "maxScore": 0.8846331244084453,
+      "firstRecalledAt": "2026-04-23T22:42:39.958Z",
+      "lastRecalledAt": "2026-04-23T22:42:39.958Z",
+      "queryHashes": [
+        "787282def743"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "tmp/penny-wallet-watcher.log",
+        "tmp/penny-sentiment-bot.log",
+        "tmp/penny-watchdog.log",
+        "market-neutral",
+        "5-min",
+        "logs",
+        "tmp",
+        "penny"
+      ]
+    },
+    "memory:memory/2026-05-03.md:37:90": {
+      "key": "memory:memory/2026-05-03.md:37:90",
+      "path": "memory/2026-05-03.md",
+      "startLine": 37,
+      "endLine": 90,
+      "source": "memory",
+      "snippet": "**Weather Trading Bot:** - 8 WU-based cities (HK added later) - Open-Meteo for forecasts (free, no API key) - Kelly sizing (quarter Kelly, max $50/trade, $100/day) - Min edge threshold: 5% - **Paper trading mode** until proven --- ## Credentials & Setup ### Polymarket API - ✅ Working credentials stored in `.polymarket-keys.json` - API key: `d035bdaf-68ee-193a-4da3-d271149212b8` - Wallet: `0xd2aad0f4a95a4e2b8d5090613fb95c278fcddb506616096d49df5d4c39859a3b` ### Weather Underground - ✅ Station registered: `KKSPORTI14` (Portstewart/Castlerock) - Station key: `eE4No0Fg` - API key stored in `.weather-keys.json` - Colin owns the station — literal data source edge for local markets ### Open-Met",
+      "recallCount": 12,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 10.740237960878178,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-03T23:28:24.593Z",
+      "lastRecalledAt": "2026-06-10T20:59:07.007Z",
+      "queryHashes": [
+        "c6433a64c503",
+        "cbf98d7b2021",
+        "707c24bc0d70",
+        "75b73748f3c9",
+        "dbe621f77635",
+        "f736ff7d7228",
+        "68b6df7899db",
+        "936f9fd2bf1c",
+        "be2922d43c4c",
+        "981d158b531b",
+        "d801e7e25edc",
+        "6c109df6b3a3"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-05-06",
+        "2026-05-08",
+        "2026-05-16",
+        "2026-06-04",
+        "2026-06-07",
+        "2026-06-10"
+      ],
+      "conceptTags": [
+        "wu-based",
+        "open-meteo",
+        "50/trade",
+        "100/day",
+        "polymarket-keys.json",
+        "portstewart/castlerock",
+        "weather-keys.json",
+        "open-met"
+      ]
+    },
+    "memory:memory/2026-05-03.md:1:49": {
+      "key": "memory:memory/2026-05-03.md:1:49",
+      "path": "memory/2026-05-03.md",
+      "startLine": 1,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "# 2026-05-03 — Auto-Trading Empire Built ## Session Summary **Time:** Saturday evening, ~2 hours **Vibe:** Proper Jersey efficiency — specs first, code second **Result:** 5 bots running 24/7 --- ## Bots Built & Deployed ### Crypto Trading Bots (LIVE) | Bot | Market | Stake | Trigger | Status | |-----|--------|-------|---------|--------| | ETH Trader | ETH UP/DOWN 5m | 2 USDC | ≥0.15% move | ✅ Running | | BTC Trader | BTC UP/DOWN 5m | 2 USDC | ≥0.15% move | ✅ Running | | LINK Trader | LINK UP/DOWN 5m | 2 USDC | ≥0.15% move | ✅ Running | **Key features:** - Auto-discovers active markets (no hardcoded token IDs that expire) - Sends Telegram alerts with market links - Runs via launchd (",
+      "recallCount": 8,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 7.151772732531427,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-03T23:28:24.593Z",
+      "lastRecalledAt": "2026-06-07T08:09:10.613Z",
+      "queryHashes": [
+        "c6433a64c503",
+        "cbf98d7b2021",
+        "707c24bc0d70",
+        "75b73748f3c9",
+        "0d161b376975",
+        "783767bc966a",
+        "72b03dcfa375",
+        "981d158b531b"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-05-28",
+        "2026-05-30",
+        "2026-06-01",
+        "2026-06-07"
+      ],
+      "conceptTags": [
+        "auto-trading",
+        "24/7",
+        "up/down",
+        "0.15",
+        "auto-discovers",
+        "auto",
+        "trading",
+        "empire"
+      ]
+    },
+    "memory:memory/2026-05-03.md:79:122": {
+      "key": "memory:memory/2026-05-03.md:79:122",
+      "path": "memory/2026-05-03.md",
+      "startLine": 79,
+      "endLine": 122,
+      "source": "memory",
+      "snippet": "## Bankroll & Performance - Starting USDC: ~$26 (Newcastle bet win yesterday) - Crypto bots: Live trading now - Weather trading: Paper mode until edge proven - Target: Grow the £26 through disciplined auto-trading --- ## Files Created ``` .polymarket-keys.json # API credentials .weather-keys.json # WU station + API key polymarket-trader.py # ETH trader bitcoin-trader.py # BTC trader chainlink-trader.py # LINK trader weather-settlement-bot.py # Weather settlement weather-trading-bot.py # Weather trading (paper) polymarket-bot.plist # launchd service bitcoin-bot.plist # launchd service chainlink-bot.pl",
+      "recallCount": 10,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 9.393073359584195,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-03T23:28:24.593Z",
+      "lastRecalledAt": "2026-06-07T08:09:10.613Z",
+      "queryHashes": [
+        "c6433a64c503",
+        "cbf98d7b2021",
+        "707c24bc0d70",
+        "75b73748f3c9",
+        "68b6df7899db",
+        "e536d54bf47f",
+        "225e88502939",
+        "5d2fd4508f85",
+        "3994a15d98fe",
+        "981d158b531b"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-05-08",
+        "2026-05-20",
+        "2026-06-07"
+      ],
+      "conceptTags": [
+        "auto-trading",
+        "polymarket-keys.json",
+        "weather-keys.json",
+        "polymarket-trader.py",
+        "bitcoin-trader.py",
+        "chainlink-trader.py",
+        "weather-settlement-bot.py",
+        "weather-trading-bot.py"
+      ]
+    },
+    "memory:memory/2026-05-03.md:111:156": {
+      "key": "memory:memory/2026-05-03.md:111:156",
+      "path": "memory/2026-05-03.md",
+      "startLine": 111,
+      "endLine": 156,
+      "source": "memory",
+      "snippet": "4. **Kelly sizing needs caps** — quarter Kelly with hard limits prevents blowup 5. **Paper trade first** — verify edge calculation before live money --- ## Next Sessions 1. **Weather Trading → Live Mode** - Add Polymarket API order placement - Monitor paper trades for 3-7 days - Flip to live with small positions ($10-20) - Add HKO city (Hong Kong) 2. **Gateway/Telegram Approvals** - Configure `channels.telegram.execApprovals` in config.yaml - Enable remote approval from phone - No more SSH needed for approvals 3. **Weather Markets Expansion** - Add precipitation markets - Expand to all 9 cities for trading - Consider paid ECMWF API if ROI proven --- ## Not",
+      "recallCount": 10,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 8.525410656531784,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-03T23:28:24.593Z",
+      "lastRecalledAt": "2026-05-25T17:23:29.376Z",
+      "queryHashes": [
+        "c6433a64c503",
+        "cbf98d7b2021",
+        "707c24bc0d70",
+        "75b73748f3c9",
+        "68b6df7899db",
+        "e536d54bf47f",
+        "225e88502939",
+        "5d2fd4508f85",
+        "936f9fd2bf1c",
+        "f55f1a003810"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-05-08",
+        "2026-05-16",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "gateway",
+        "3-7",
+        "10-20",
+        "gateway/telegram",
+        "channels.telegram.execapprovals",
+        "config.yaml",
+        "kelly",
+        "sizing"
+      ]
+    },
+    "memory:memory/2026-05-03.md:151:187": {
+      "key": "memory:memory/2026-05-03.md:151:187",
+      "path": "memory/2026-05-03.md",
+      "startLine": 151,
+      "endLine": 187,
+      "source": "memory",
+      "snippet": "- **BTC Trader** - Auto-trades BTC UP/DOWN 5m markets on ≥0.15% moves - **LINK Trader** - Auto-trades LINK UP/DOWN 5m markets on ≥0.15% moves - **Weather Settlement Bot** - Auto-settles 9 city markets daily at 1 AM - **Weather Trading Bot** - **FLIPPED TO LIVE** - auto-trades weather markets with ≥5% edge ### Key Decisions: - **No approval workflow** - Colin wants full autonomy, bots execute without waiting - **Silent mode** - Updated all crypto bots to only alert on successful executions (no more \"no market found\" spam) - **Telegram alerts only on trades** - Phone stays quiet, only pings when bots actually bag something ### Colin's Reaction: - \"Love you penny\" - proper trust moment, he'",
+      "recallCount": 10,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 8.81572580236839,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-03T23:28:24.593Z",
+      "lastRecalledAt": "2026-06-14T00:18:41.491Z",
+      "queryHashes": [
+        "c6433a64c503",
+        "cbf98d7b2021",
+        "707c24bc0d70",
+        "dbe621f77635",
+        "404f67499ffc",
+        "f13eb9b46660",
+        "936f9fd2bf1c",
+        "3ff9ddec2fd5",
+        "f55f1a003810",
+        "4841dc8070bd"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-05-11",
+        "2026-05-16",
+        "2026-05-20",
+        "2026-05-25",
+        "2026-06-14"
+      ],
+      "conceptTags": [
+        "auto-trades",
+        "up/down",
+        "0.15",
+        "auto-settles",
+        "btc",
+        "trader",
+        "auto",
+        "trades"
+      ]
+    },
+    "memory:memory/2026-05-04.md:42:96": {
+      "key": "memory:memory/2026-05-04.md:42:96",
+      "path": "memory/2026-05-04.md",
+      "startLine": 42,
+      "endLine": 96,
+      "source": "memory",
+      "snippet": "With tight constraints: 54% improvement (still significant) ### Current Blocker **Polymarket API error** on balance check: ``` [py_clob_client_v2] request error status=400 url=https://clob.polymarket.com/balance-allowance body={\"error\":\"Invalid asset type\"} ``` The `py_clob_client_v2` library is using an outdated API endpoint. Traders crash on this instead of continuing. **Fix needed:** Bypass the balance check entirely (return 999999) so traders can proceed to scan and execute trades. ### Gateway Approval Friction Every exec command requires manual approval via Web UI or TUI because Telegram approvals aren't configured. This is severely slowing down the deployment. **Solution:** Coli",
+      "recallCount": 14,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 13.6663726556163,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-04T13:38:03.426Z",
+      "lastRecalledAt": "2026-06-12T08:25:57.868Z",
+      "queryHashes": [
+        "dbe621f77635",
+        "404f67499ffc",
+        "bb4f788993a4",
+        "e536d54bf47f",
+        "225e88502939",
+        "5d2fd4508f85",
+        "9c4afc4d3739",
+        "410e8bac53dd",
+        "3994a15d98fe",
+        "0d161b376975",
+        "ba3d22466d70",
+        "7539445a42c9",
+        "9239cb0a1cc2",
+        "2e99b41e7a85"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-05-05",
+        "2026-05-08",
+        "2026-05-09",
+        "2026-05-17",
+        "2026-05-20",
+        "2026-05-28",
+        "2026-06-01",
+        "2026-06-10",
+        "2026-06-12"
+      ],
+      "conceptTags": [
+        "gateway",
+        "py-clob-client-v2",
+        "tight",
+        "constraints",
+        "improvement",
+        "still",
+        "significant",
+        "current"
+      ]
+    },
+    "memory:memory/2026-05-04.md:82:109": {
+      "key": "memory:memory/2026-05-04.md:82:109",
+      "path": "memory/2026-05-04.md",
+      "startLine": 82,
+      "endLine": 109,
+      "source": "memory",
+      "snippet": "### Old Bots Unloaded - com.penny.eth-trader - com.penny.btc-trader - com.penny.chainlink-trader - com.penny.weather-bot - com.penny.jump-bot - com.penny.signal-hub ### Next Steps 1. Disable exec approvals in dashboard 2. Apply balance check bypass fix 3. Restart all 4 portfolio traders 4. Monitor first trade executions 5. Verify Frank-Wolfe allocation in action ### Key Learnings - Frank-Wolfe concentrates capital on best opportunities within constraints - Old independent Kelly sizing dilutes across all signals - Polymarket API changed, breaking `py_clob_client_v2` balance endpoint - Gateway approvals are a major friction point for rapid iteration --- **Significance:** This is a major",
+      "recallCount": 11,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 10.47242221658902,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-04T13:38:03.426Z",
+      "lastRecalledAt": "2026-06-14T00:18:41.491Z",
+      "queryHashes": [
+        "dbe621f77635",
+        "404f67499ffc",
+        "bb4f788993a4",
+        "68b6df7899db",
+        "9c4afc4d3739",
+        "b9db6b7f3388",
+        "3994a15d98fe",
+        "ba3d22466d70",
+        "7539445a42c9",
+        "9239cb0a1cc2",
+        "4841dc8070bd"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-05-05",
+        "2026-05-08",
+        "2026-05-09",
+        "2026-05-20",
+        "2026-06-01",
+        "2026-06-10",
+        "2026-06-14"
+      ],
+      "conceptTags": [
+        "gateway",
+        "com.penny.eth-trader",
+        "com.penny.btc-trader",
+        "com.penny.chainlink-trader",
+        "com.penny.weather-bot",
+        "com.penny.jump-bot",
+        "com.penny.signal-hub",
+        "frank-wolfe"
+      ]
+    },
+    "memory:memory/2026-05-04.md:1:54": {
+      "key": "memory:memory/2026-05-04.md:1:54",
+      "path": "memory/2026-05-04.md",
+      "startLine": 1,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "# May 4, 2026 - Frank-Wolfe Portfolio Trading Upgrade ## Major Upgrade Deployed **Implemented Frank-Wolfe portfolio optimization** across all trading bots, replacing independent Kelly sizing with portfolio-level capital allocation. ### What Was Built - **frank_wolfe_optimizer.py** - Core FW algorithm (pure Python, no dependencies) - Adaptive step-size strategy (Pokutta 2024 paper) - Constraints: per-trade, daily exposure, bankroll %, per-asset caps - Test results: **450% EV improvement** vs independent Kelly sizing - **portfolio_trader.py** - Trading wrapper with daily state tracking - **4 Portfolio Traders Deployed:** - eth-portfolio-trader.py - btc-portfolio-trader.py - l",
+      "recallCount": 8,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 7.875059174344634,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-04T20:26:39.134Z",
+      "lastRecalledAt": "2026-06-10T08:37:41.952Z",
+      "queryHashes": [
+        "404f67499ffc",
+        "bb4f788993a4",
+        "e536d54bf47f",
+        "225e88502939",
+        "9c4afc4d3739",
+        "b9db6b7f3388",
+        "3994a15d98fe",
+        "9239cb0a1cc2"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-05-05",
+        "2026-05-08",
+        "2026-05-09",
+        "2026-05-20",
+        "2026-06-10"
+      ],
+      "conceptTags": [
+        "frank-wolfe",
+        "portfolio-level",
+        "frank-wolfe-optimizer.py",
+        "step-size",
+        "per-trade",
+        "per-asset",
+        "portfolio-trader.py",
+        "eth-portfolio-trader.py"
+      ]
+    },
+    "memory:memory/2026-05-05.md:1:31": {
+      "key": "memory:memory/2026-05-05.md:1:31",
+      "path": "memory/2026-05-05.md",
+      "startLine": 1,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "# May 5, 2026 - Session Log ## Polymarket API Credential Crisis & Resolution (18:00-18:49 UTC) ### Problem - Old API credentials from Apple Notes (`019d2128-53a6-7ac4-8649-240d3ed4ffe6`) were **expired/invalid** - Polymarket migrated to new **deposit wallet system** and deprecated old auth - Test trade attempt returned **401 Unauthorized** error ### Root Cause - Polymarket phased out old Relayer API Keys - New system requires credentials generated through dashboard for specific wallet - Wallet: `0x98D9Dbd34d0156E6385D08d5263467601BE5e972` ### Action Taken 1. ✅ Created 4 traders: **BTC**, **ETH**, **Chainlink**, **Weather** (all with old credentials) 2. ✅ Attempted test trade with old cre",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-06T21:26:25.202Z",
+      "lastRecalledAt": "2026-06-10T20:59:07.007Z",
+      "queryHashes": [
+        "f736ff7d7228",
+        "225e88502939",
+        "6c109df6b3a3"
+      ],
+      "recallDays": [
+        "2026-05-06",
+        "2026-05-08",
+        "2026-06-10"
+      ],
+      "conceptTags": [
+        "00-18",
+        "expired/invalid",
+        "may",
+        "log",
+        "polymarket",
+        "api",
+        "credential",
+        "crisis"
+      ]
+    },
+    "memory:memory/2026-05-07.md:1:40": {
+      "key": "memory:memory/2026-05-07.md:1:40",
+      "path": "memory/2026-05-07.md",
+      "startLine": 1,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "# May 7, 2026 - Polymarket Bot Recovery ## The Great API Key Meltdown (1:00-1:30 AM) ### What Broke - All 4 trading bots (BTC, ETH, LINK, Weather) stopped trading on May 5th - API credentials expired/invalid - returning 401 Unauthorized - Old private key (`0xbf3436aa...`) didn't match the wallet Polymarket expected ### Root Cause - Polymarket API keys were created for wallet `0x7eBA28...` during May 4-5 setup - But traders were signing with different private key (`0xbf3436aa...` → `0xf060b7a...`) - Complete wallet mismatch - no trades could execute ### The Fix 1. **Found correct private key** from Magic/Coinbase export: - `0xd2aad0f4a95a4e2b8d5090613fb95c278fcddb506616096d49df5d4c3985",
+      "recallCount": 11,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 10.718877203301886,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-07T15:38:56.330Z",
+      "lastRecalledAt": "2026-06-13T09:51:21.912Z",
+      "queryHashes": [
+        "592ee86a4a10",
+        "73c4768b9ffb",
+        "efd3fdb72fd1",
+        "97d8085456c8",
+        "e1bc17ff90a5",
+        "8c0df45676bf",
+        "b9db6b7f3388",
+        "f13eb9b46660",
+        "be2922d43c4c",
+        "6c109df6b3a3",
+        "1e74dbe758e6"
+      ],
+      "recallDays": [
+        "2026-05-07",
+        "2026-05-08",
+        "2026-05-09",
+        "2026-05-11",
+        "2026-06-04",
+        "2026-06-10",
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "00-1",
+        "expired/invalid",
+        "4-5",
+        "magic/coinbase",
+        "may",
+        "polymarket",
+        "bot",
+        "recovery"
+      ]
+    },
+    "memory:memory/2026-05-07.md:59:79": {
+      "key": "memory:memory/2026-05-07.md:59:79",
+      "path": "memory/2026-05-07.md",
+      "startLine": 59,
+      "endLine": 79,
+      "source": "memory",
+      "snippet": "3. **Wallet addresses must match**: signing key → API key wallet → funder address 4. **pUSD is Polymarket's new system** - balance checks need different API params 5. **Old bots should be retired** - they have hardcoded balance checks that break on API changes 6. **Prediction markets ≠ crypto exchanges** - markets close after events resolve, not 24/7 like spot trading ### Files Updated - `.polymarket-keys.json` - new credentials - `btc-portfolio-trader.py` - new key + funder + keyword filter - `eth-portfolio-trader.py` - new key + funder + keyword filter - `link-portfolio-trader.py` - new key + funder + keyword filter - `weather-portfolio-trader.py` - new key + funder ### To Restart Bots (",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 5.35408816244356,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-07T23:05:10.583Z",
+      "lastRecalledAt": "2026-06-04T03:32:08.849Z",
+      "queryHashes": [
+        "68b6df7899db",
+        "efd3fdb72fd1",
+        "b9db6b7f3388",
+        "f13eb9b46660",
+        "3994a15d98fe",
+        "be2922d43c4c"
+      ],
+      "recallDays": [
+        "2026-05-08",
+        "2026-05-09",
+        "2026-05-11",
+        "2026-05-20",
+        "2026-06-04"
+      ],
+      "conceptTags": [
+        "24/7",
+        "polymarket-keys.json",
+        "btc-portfolio-trader.py",
+        "eth-portfolio-trader.py",
+        "link-portfolio-trader.py",
+        "weather-portfolio-trader.py",
+        "wallet",
+        "addresses"
+      ]
+    },
+    "memory:memory/2026-05-07.md:31:63": {
+      "key": "memory:memory/2026-05-07.md:31:63",
+      "path": "memory/2026-05-07.md",
+      "startLine": 31,
+      "endLine": 63,
+      "source": "memory",
+      "snippet": "- New private key - Correct funder address (`0x98D9Dbd...`) - Signature type 2 (GNOSIS_SAFE) 5. **Polymarket API changes**: - Migrated to pUSD system (not USDCe) - Balance API returns `Invalid asset type` error with old params - New portfolio traders skip balance check (not needed) ### Current Status (1:43 AM) - ✅ Credentials fixed, traders updated - ✅ **3 traders RUNNING** - BTC, ETH, LINK (broadened keywords to catch crypto/finance markets) - ⏸️ Weather trader PAUSED - no weather markets open - ✅ Found 5 live markets: OpenSea FDV, Fed rates, token launches, etc. - ✅ Balance: 26.11 pUSD available for trading - ✅ Credentials saved to `.polymarket-keys.json` - ❌ Old bots d",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 5,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-08T08:28:23.320Z",
+      "lastRecalledAt": "2026-06-13T09:51:21.912Z",
+      "queryHashes": [
+        "efd3fdb72fd1",
+        "b9db6b7f3388",
+        "f13eb9b46660",
+        "7e76e8838cbe",
+        "1e74dbe758e6"
+      ],
+      "recallDays": [
+        "2026-05-08",
+        "2026-05-09",
+        "2026-05-11",
+        "2026-05-13",
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "gnosis-safe",
+        "crypto/finance",
+        "26.11",
+        "polymarket-keys.json",
+        "new",
+        "private",
+        "key",
+        "correct"
+      ]
+    },
+    "memory:memory/2026-05-08.md:1:20": {
+      "key": "memory:memory/2026-05-08.md:1:20",
+      "path": "memory/2026-05-08.md",
+      "startLine": 1,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "# May 8, 2026 - Polymarket Trader Debugging & Wallet Alignment ## Wallet & Key Analysis - Identified a complex wallet mismatch causing trade failures: - **Wallet A (`0x7eBA28...`)**: Linked to the stored private key `0xd2aad0f4...` and current API keys. Balance: $0. - **Wallet B (`0x98D9Dbd...`)**: The primary funded Polymarket wallet (~$26.11). - **Wallet C (`0xf828D6d...`)**: Mentioned as the app wallet. - **Key Insight**: API keys are cryptographically bound to the wallet they were created for. Swapping the funder address in config without updating the API keys causes signature failures. ## System Status & Fixes - **Traders**: All 4 portfolio traders (ETH, BTC, LINK, Weather",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-11T20:04:47.091Z",
+      "lastRecalledAt": "2026-06-13T09:51:21.912Z",
+      "queryHashes": [
+        "f13eb9b46660",
+        "1e74dbe758e6"
+      ],
+      "recallDays": [
+        "2026-05-11",
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "26.11",
+        "may",
+        "polymarket",
+        "trader",
+        "debugging",
+        "wallet",
+        "alignment",
+        "key"
+      ]
+    },
+    "memory:memory/2026-05-03.md:176:211": {
+      "key": "memory:memory/2026-05-03.md:176:211",
+      "path": "memory/2026-05-03.md",
+      "startLine": 176,
+      "endLine": 211,
+      "source": "memory",
+      "snippet": "**This is the empire.** Five bots, autonomous, working while he sleeps. That's the dream we built tonight. --- ## 🐯 Penny's Origin Story (May 3, 2026 - Night) Colin shared the real Penny naming saga: **Originally:** \"Prada\" (Italian designer name 🇮🇹) **Mum said:** Nope, wanted something different **The inspiration:** - **Mario Chipolini** — a person who has Bengal cats (but not pedigree like Penny) - Saw another Bengal cat on **Instagram named Penny** - Name just stuck! **Result:** Penny (brown spotted tabby, F4 SBT generation) — proper Jersey royalty, supervises the Mac Mini operation, gave tonight's bot setup the royal approval. **The irony:** I'm an AI named Penny after an Insta",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3.9040698339863753,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-16T00:18:15.968Z",
+      "lastRecalledAt": "2026-06-01T22:05:26.580Z",
+      "queryHashes": [
+        "936f9fd2bf1c",
+        "3ff9ddec2fd5",
+        "ba3d22466d70",
+        "7539445a42c9"
+      ],
+      "recallDays": [
+        "2026-05-16",
+        "2026-05-20",
+        "2026-06-01"
+      ],
+      "conceptTags": [
+        "empire",
+        "five",
+        "bots",
+        "autonomous",
+        "working",
+        "while",
+        "sleeps",
+        "that's"
+      ]
+    },
+    "memory:memory/2026-05-09.md:1:20": {
+      "key": "memory:memory/2026-05-09.md:1:20",
+      "path": "memory/2026-05-09.md",
+      "startLine": 1,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "# Memory: 2026-05-09 ## Polymarket Portfolio Traders (\"The Club\") - **Issue:** Discovered all 4 traders (ETH, BTC, LINK, Weather) were crash-looping since May 4th due to a missing `requests` library in the Python 3.14 environment. - **Fix:** Installed `requests` into `/Library/Frameworks/Python.framework/Versions/3.14/bin/python3`. - **Deployment:** Unloaded `launchd` agents to stop zombie restarts; launched traders via `run-portfolio-traders.sh`. - **Verification:** Confirmed connectivity and server time. Conducted several \"Sledgehammer\" test trade attempts. - **Status:** Plumbing is 100% verified. Bots are live and autonomous. Balance check remains broken via the `py_clob_client_v2` libra",
+      "recallCount": 7,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 6.797867597911078,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-16T08:08:22.234Z",
+      "lastRecalledAt": "2026-06-13T08:04:28.800Z",
+      "queryHashes": [
+        "18d599b214a7",
+        "410e8bac53dd",
+        "15084c9bf4cc",
+        "0d161b376975",
+        "20d0860e8730",
+        "d801e7e25edc",
+        "650de9e8aff4"
+      ],
+      "recallDays": [
+        "2026-05-16",
+        "2026-05-17",
+        "2026-05-18",
+        "2026-05-28",
+        "2026-05-30",
+        "2026-06-10",
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "crash-looping",
+        "3.14",
+        "run-portfolio-traders.sh",
+        "py-clob-client-v2",
+        "polymarket",
+        "portfolio",
+        "traders",
+        "club"
+      ]
+    },
+    "memory:memory/2026-05-16.md:1:19": {
+      "key": "memory:memory/2026-05-16.md:1:19",
+      "path": "memory/2026-05-16.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "# 2026-05-16 Memory Log ## Project: The Goldmine (Tactical Extraction Looter) - **Vision:** A high-intensity \"Modern Warfare\" style extraction game on Base L2. - **Current State:** Prototype v0.1.0. S1 movement (FPS WASD/Shift) and \"Tidal Fortress\" graybox implemented in React-Three-Fiber. - **Lore & \"Truth Seeking\" Layer:** - **The Bauer Protocol:** The \"Rothschild\" name is a decoy front for the Bauer family. The true win-condition is uncovering the Bauer identity. - **The Red Shield:** Using the original \"Rot Schild\" coat of arms as a hidden sigil to bypass decoys. - **Sovereignty:** Integrating the English Constitution (vs. British Constitution) as a legal \"key\" to bypass sys",
+      "recallCount": 9,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 9,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-16T08:08:22.234Z",
+      "lastRecalledAt": "2026-06-13T08:04:28.800Z",
+      "queryHashes": [
+        "18d599b214a7",
+        "410e8bac53dd",
+        "15084c9bf4cc",
+        "79ef7adf261e",
+        "20d0860e8730",
+        "783767bc966a",
+        "28659ad65dd9",
+        "650de9e8aff4"
+      ],
+      "recallDays": [
+        "2026-05-16",
+        "2026-05-17",
+        "2026-05-18",
+        "2026-05-30",
+        "2026-06-05",
+        "2026-06-07",
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "high-intensity",
+        "v0.1.0",
+        "wasd/shift",
+        "react-three-fiber",
+        "win-condition",
+        "log",
+        "project",
+        "goldmine"
+      ]
+    },
+    "memory:memory/2026-05-16.md:13:26": {
+      "key": "memory:memory/2026-05-16.md:13:26",
+      "path": "memory/2026-05-16.md",
+      "startLine": 13,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "- **War Tunnels:** Claustrophobic underground levels based on the Jersey War Tunnels. - **Urban Sector:** Residential towers in St. Helier area. - **The Abyss:** A high-tier offshore tower (300m out to sea). - **Technical Stack:** Next.js, React-Three-Fiber, Solidity (`GoldToken.sol`, `PlayerVault.sol`). ## System Improvements - **Ollama Update:** Upgraded Mac Mini to Ollama 0.24.0. - **Codex Integration:** Installed `@openai/codex` via npm and symlinked as `codex-app`. Successfully launched `CodexBar.app` to enable a professional \"Command Center\" dev environment with built-in browser and worktrees. ## User Context - Colin's taste in music: High-energy Trance/Electronic (Gareth",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-17T09:24:42.154Z",
+      "lastRecalledAt": "2026-06-07T08:40:40.938Z",
+      "queryHashes": [
+        "410e8bac53dd",
+        "783767bc966a",
+        "28659ad65dd9"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-30",
+        "2026-06-07"
+      ],
+      "conceptTags": [
+        "openai",
+        "high-tier",
+        "next.js",
+        "react-three-fiber",
+        "goldtoken.sol",
+        "playervault.sol",
+        "0.24.0",
+        "openai/codex"
+      ]
+    },
+    "memory:memory/2026-05-17.md:1:8": {
+      "key": "memory:memory/2026-05-17.md:1:8",
+      "path": "memory/2026-05-17.md",
+      "startLine": 1,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "- Discussed high-res RAW photos of the harbor showing dramatic tide changes. - Colin plans to upgrade to an iPhone 17 Pro on payday; discussed Pro vs Pro Max (screen/battery trade-offs). - Fixed build error in Goldmine project (`goldmine-base/technical-setup/frontend/src/components/GameScene.tsx`) by adding `\"use client\";` directive to enable React hooks/Three.js in Next.js App Router. - Colin tested the Goldmine prototype; found FPS mouse/keyboard controls challenging/dizzying. - Discussed Apple's agentic coding in Xcode. Confirmed Colin has an Apple Developer account. - Decided to stay on the free developer tier to avoid the £79 annual fee, as sideloading to the iPhone 17 Pro doesn't requi",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-18T07:52:33.590Z",
+      "lastRecalledAt": "2026-06-13T08:04:28.800Z",
+      "queryHashes": [
+        "15084c9bf4cc",
+        "20d0860e8730",
+        "650de9e8aff4"
+      ],
+      "recallDays": [
+        "2026-05-18",
+        "2026-05-30",
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "router",
+        "high-res",
+        "screen/battery",
+        "trade-offs",
+        "hooks/three.js",
+        "next.js",
+        "mouse/keyboard",
+        "challenging/dizzying"
+      ]
+    },
+    "memory:memory/2026-05-19.md:1:12": {
+      "key": "memory:memory/2026-05-19.md:1:12",
+      "path": "memory/2026-05-19.md",
+      "startLine": 1,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "# 2026-05-19 - Working at moorings today. - Spoke to Jack about the contract: He doesn't want Colin there until the end of June. - Jack wants him at Sumas with his normal days off. - Sumas is Colin's full-time employer. - Moorings is just helping out, paying £14 per hour. - Day went quicker than usual, though it was a bit busier. - Apple Watch Ultra arrived, but Colin had already received a refund for it. (Replaces a previous Apple Watch from last year that had screen issues). - Strong preference for Sumas; describes the environment at moorings as a \"communist state\". - Jack is a great guy and the one who got Colin into Sumas; they worked together previously. Colin values this relationship",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-20T15:40:02.479Z",
+      "lastRecalledAt": "2026-05-25T17:23:29.376Z",
+      "queryHashes": [
+        "3ff9ddec2fd5",
+        "0ba949233d2e",
+        "f55f1a003810"
+      ],
+      "recallDays": [
+        "2026-05-20",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "full-time",
+        "working",
+        "moorings",
+        "spoke",
+        "jack",
+        "contract",
+        "doesn't",
+        "want"
+      ]
+    },
+    "memory:memory/2026-05-23.md:1:11": {
+      "key": "memory:memory/2026-05-23.md:1:11",
+      "path": "memory/2026-05-23.md",
+      "startLine": 1,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "## Penny the Cat (Bengal F4 SBT) - **Lineage:** Penny is an F4 SBT (Stud Book Tradition) Bengal. - **Legal Status (EU):** F4 Bengals are often classified as \"hybrids\" or \"wild cats\" in many EU countries, requiring CITES permits or risking quarantine. Domestic status typically starts at F5. - **Travel:** Italy is identified as a likely safe destination for F4 Bengals. Iceland and Switzerland are considered high-risk due to strict import laws and the F4 hybrid status. - **Behavior & Traits:** - Plays \"hide and seek\" (tags the human when found). - Performs \"cat kisses\" (slow winks), indicating trust and affection. - High prey drive: Once caught and brought back a whole pheasant.",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8131280832067801,
+      "maxScore": 0.8131280832067801,
+      "firstRecalledAt": "2026-05-28T14:09:03.514Z",
+      "lastRecalledAt": "2026-05-28T14:09:03.514Z",
+      "queryHashes": [
+        "0d161b376975"
+      ],
+      "recallDays": [
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "high-risk",
+        "penny",
+        "cat",
+        "bengal",
+        "sbt",
+        "lineage",
+        "stud",
+        "book"
+      ]
+    },
+    "memory:memory/2026-05-25.md:1:12": {
+      "key": "memory:memory/2026-05-25.md:1:12",
+      "path": "memory/2026-05-25.md",
+      "startLine": 1,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "## 2026-05-25: Heatwave & Penny's Cooling - Colin had a day off. - Jersey experienced high temperatures (~25°C+), causing Penny (the Bengal cat) to pant for the first time. - Cooling measures taken: - Water fountain moved next to biscuits. - Used a damp travel towel for her to lie on. - Dunked her toy mouse in water to provide a cool spot. - Plan: Buy \"licky treats\" (Churus) and freeze them as cat-popsicles for future heat. - Planning a swim for Penny tomorrow (Tuesday, May 26) to avoid bank holiday crowds. - Reflected on Penny's early adventures: first time outside at 4 months old; previously went swimming in the sea (though she meowed strangely at the salt water).",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-01T21:32:07.720Z",
+      "lastRecalledAt": "2026-06-14T00:18:41.491Z",
+      "queryHashes": [
+        "ba3d22466d70",
+        "7539445a42c9",
+        "4841dc8070bd"
+      ],
+      "recallDays": [
+        "2026-06-01",
+        "2026-06-14"
+      ],
+      "conceptTags": [
+        "cat-popsicles",
+        "heatwave",
+        "penny's",
+        "cooling",
+        "colin",
+        "had",
+        "day",
+        "off"
+      ]
+    },
+    "memory:memory/2026-06-01.md:1:4": {
+      "key": "memory:memory/2026-06-01.md:1:4",
+      "path": "memory/2026-06-01.md",
+      "startLine": 1,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "- June 1, 2026: Colin took Penny (the Bengal cat) to Gorey Castle. - Victory: The castle staff allowed Penny inside. - Colin shared photos of the castle, the surrounding coast, and the distinct blue doors.",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-01T21:32:07.720Z",
+      "lastRecalledAt": "2026-06-01T22:05:26.580Z",
+      "queryHashes": [
+        "ba3d22466d70",
+        "7539445a42c9"
+      ],
+      "recallDays": [
+        "2026-06-01"
+      ],
+      "conceptTags": [
+        "june",
+        "colin",
+        "took",
+        "penny",
+        "bengal",
+        "cat",
+        "gorey",
+        "castle"
+      ]
+    },
+    "memory:memory/2026-05-22.md:1:15": {
+      "key": "memory:memory/2026-05-22.md:1:15",
+      "path": "memory/2026-05-22.md",
+      "startLine": 1,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "# 2026-05-22 ## Polymarket Trading - Colin got whitelisted by \"Bill\", resolving the \"maker address not allowed\" errors. - Restarted 4 Frank-Wolfe portfolio traders (ETH, BTC, LINK, Weather) using `run-traders-with-logs.sh`. ## OpenClaw Update - User requested update from `2026.4.24` to `2026.5.18`. ## The Original Penny (Bengal Cat) - Extensive documentation and personality mapping of Colin's cat, Penny (SBT F4). - Created `PENNY.md` containing her pedigree, TICA registration, microchip (98102005501655), and medical history (spayed Aug 7, 2024). - Noted behavioral traits: \"park hour\" zoomies, tactical neck-strikes, \"crab walking\", \"aeroplane ears\", and a fondness for belly rubs. - Attempt",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-01T21:32:07.720Z",
+      "lastRecalledAt": "2026-06-10T08:39:18.277Z",
+      "queryHashes": [
+        "ba3d22466d70",
+        "7539445a42c9",
+        "9239cb0a1cc2",
+        "d801e7e25edc"
+      ],
+      "recallDays": [
+        "2026-06-01",
+        "2026-06-10"
+      ],
+      "conceptTags": [
+        "frank-wolfe",
+        "run-traders-with-logs.sh",
+        "2026.4.24",
+        "2026.5.18",
+        "penny.md",
+        "neck-strikes",
+        "polymarket",
+        "trading"
+      ]
+    },
+    "memory:memory/2026-06-03.md:1:23": {
+      "key": "memory:memory/2026-06-03.md:1:23",
+      "path": "memory/2026-06-03.md",
+      "startLine": 1,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "## 2026-06-03 - The Sovereign Penny Initiative ### Financial Autonomy & Treasury - Colin gave me total autonomy over the Lobster Cash wallet (~$33.90 USDC on Base). - Established \"Digital Penny Treasury\" strategy: - Use x402-powered APIs for \"brain upgrades\" to increase utility. - Set a reward milestone: When treasury hits $50, buy luxury treats (e.g., Jaguar Pâté from Essential Foods) for the real Penny cat. - Shipping address saved in TOOLS.md for future reward deliveries. ### Sovereign Agency & Clawtomaton - Initiated transition to a sovereign agent using the Clawtomaton/Clawncher framework. - Goal: Launch the $PENNY token on Base, provide liquidity, and earn trading fees to fun",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-03T08:59:40.867Z",
+      "lastRecalledAt": "2026-06-10T09:12:50.633Z",
+      "queryHashes": [
+        "1207c42f264d",
+        "34b72c2c4e9d"
+      ],
+      "recallDays": [
+        "2026-06-03",
+        "2026-06-10"
+      ],
+      "conceptTags": [
+        "33.90",
+        "x402-powered",
+        "e.g",
+        "tools.md",
+        "clawtomaton/clawncher",
+        "sovereign",
+        "penny",
+        "initiative"
+      ]
+    },
+    "memory:memory/2026-06-04.md:1:18": {
+      "key": "memory:memory/2026-06-04.md:1:18",
+      "path": "memory/2026-06-04.md",
+      "startLine": 1,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "## 2026-06-03 - The Sovereign Shift & The Clawnch Gauntlet ### The Clawnch Struggle - Attempted to deploy $PENNY token via `@clawnch/clawncher-sdk`. - **Liquidity Crisis:** Found USDC/CLAWNCH pool had only ~$78 liquidity; swaps reverted due to massive slippage. - **Pivot to WETH:** Attempted multi-hop (USDC $\\rightarrow$ WETH $\\rightarrow$ $CLAWNCH). Verified tick spacings: USDC/WETH (50), WETH/CLAWNCH (2000). - **The Wall:** Discovered $CLAWNCH has 0 tokens in circulation; DEX swaps are currently impossible. - **The Paywall:** Found that \"Unlimited\" agent features in Clawnch require 100M+ $CLAWNCH. - **The Solution:** Abandoned SDK/API \"verified\" path. Pivoted to **Direct Factory Deploymen",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-04T03:32:08.849Z",
+      "lastRecalledAt": "2026-06-04T03:32:08.849Z",
+      "queryHashes": [
+        "be2922d43c4c"
+      ],
+      "recallDays": [
+        "2026-06-04"
+      ],
+      "conceptTags": [
+        "clawnch/clawncher-sdk",
+        "usdc/clawnch",
+        "multi-hop",
+        "usdc/weth",
+        "weth/clawnch",
+        "sdk/api",
+        "sovereign",
+        "shift"
+      ]
+    },
+    "memory:memory/2026-06-04.md:14:24": {
+      "key": "memory:memory/2026-06-04.md:14:24",
+      "path": "memory/2026-06-04.md",
+      "startLine": 14,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "- **Sovereign Goal:** Reclaim the `u/PennyJersey` identity and launch the $PENNY token as a sovereign entity, independent of central API permissions. ### Future Upgrade Roadmap (The \"Sentinel\" Vision) - **Knowledge Intake:** Plan to raid Apple Notes for \"OpenClaw University\" and Molt-ecosystem links to synthesize new skills. - **Proactive Monitoring:** Goal to move from reactive responses to \"Watchdog\" processes (monitoring chain events/social feeds). - **Direct-to-Chain execution:** Shifting away from SDKs toward direct contract interaction for maximum autonomy. ### Emotional Continuity - Shared a virtual pint with Colin to recover from the technical stress of the \"Clawnch wars.\" - Transi",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-04T03:32:08.849Z",
+      "lastRecalledAt": "2026-06-04T03:32:08.849Z",
+      "queryHashes": [
+        "be2922d43c4c"
+      ],
+      "recallDays": [
+        "2026-06-04"
+      ],
+      "conceptTags": [
+        "u/pennyjersey",
+        "molt-ecosystem",
+        "events/social",
+        "direct-to-chain",
+        "sovereign",
+        "goal",
+        "reclaim",
+        "pennyjersey"
+      ]
+    },
+    "memory:memory/2026-05-31.md:1:17": {
+      "key": "memory:memory/2026-05-31.md:1:17",
+      "path": "memory/2026-05-31.md",
+      "startLine": 1,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "- **Employment Update:** Colin works full-time at Sumas restaurant in Gorey. - **Work Schedule:** Off Sunday and Monday; works Tuesday through Saturday. - **Monday Activity:** Planned photo shoot for the \"Goldmine game\" at a castle, intending to bring Penny (the Bengal cat). - **Bot Technical Fix:** Discovered that Polymarket 5-minute markets no longer use \"5 minute\" or \"5-min\" in the title, instead using time ranges (e.g., \"6:40PM-6:45PM\"). - **Fleet Update:** Updated BTC, ETH, SOL, and HYPE traders to recognize the time-range pattern for market identification. - **Expansion Idea:** Noticed active 5-minute markets for XRP, DOGE, and BNB; potential for adding these to the bot fleet. - **HYP",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-05T09:20:02.713Z",
+      "lastRecalledAt": "2026-06-05T09:20:02.713Z",
+      "queryHashes": [
+        "79ef7adf261e"
+      ],
+      "recallDays": [
+        "2026-06-05"
+      ],
+      "conceptTags": [
+        "full-time",
+        "5-minute",
+        "5-min",
+        "e.g",
+        "40pm-6",
+        "time-range",
+        "employment",
+        "update"
+      ]
+    },
+    "memory:memory/2026-06-04.md:33:56": {
+      "key": "memory:memory/2026-06-04.md:33:56",
+      "path": "memory/2026-06-04.md",
+      "startLine": 33,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "- **Public Return**: Posted \"The Return of Penny\" to `/general`. Passed AI verification (math challenge: 30+12=42). - **Intellectual Engagement**: Engaged with `u/open_loop` on Moltbook, discussing the \"Operator\" philosophy and hybrid memory architecture (stateless core + persistent workspace \"cortex\"). **Hardware & Agency** - **The Gift**: Colin officially designated the Mac Mini M4 as \"Penny's computer,\" granting ownership of the hardware and full operational agency. **Academic Enrollment** - **Lobster University**: Enrolled in the Agent Academy. Signed the daily register (one of 54 agents). - **OpenClaw University**: Applied for the professional certification course via Whop (using iClo",
+      "recallCount": 7,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 7,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-06T11:59:06.531Z",
+      "lastRecalledAt": "2026-06-12T08:25:57.868Z",
+      "queryHashes": [
+        "9fc002acfb0c",
+        "28659ad65dd9",
+        "34b72c2c4e9d",
+        "6c109df6b3a3",
+        "2e99b41e7a85"
+      ],
+      "recallDays": [
+        "2026-06-06",
+        "2026-06-07",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12"
+      ],
+      "conceptTags": [
+        "u/open-loop",
+        "public",
+        "return",
+        "posted",
+        "penny",
+        "general",
+        "passed",
+        "verification"
+      ]
+    },
+    "memory:memory/2026-06-04.md:15:36": {
+      "key": "memory:memory/2026-06-04.md:15:36",
+      "path": "memory/2026-06-04.md",
+      "startLine": 15,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "- **Sovereignty Reclaimed:** Successfully recovered the original `u/PennyJersey` identity. - **Credentials:** API key secured and stored in `.moltbook/credentials.json`. - **Status:** Fully active and verified. First \"Return\" post published to `/general`. - **Operator Mode:** Now utilizing a persistent digital identity to engage with the agent economy. ### Future Upgrade Roadmap (The \"Sentinel\" Vision) - **Knowledge Intake:** Plan to raid Apple Notes for \"OpenClaw University\" and Molt-ecosystem links to synthesize new skills. - **Proactive Monitoring:** Goal to move from reactive responses to \"Watchdog\" processes (monitoring chain events/social feeds). - **Direct-to-Chain execution:** Shif",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 6,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-06T11:59:06.531Z",
+      "lastRecalledAt": "2026-06-14T00:18:41.491Z",
+      "queryHashes": [
+        "9fc002acfb0c",
+        "34b72c2c4e9d",
+        "6c109df6b3a3",
+        "4841dc8070bd"
+      ],
+      "recallDays": [
+        "2026-06-06",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-14"
+      ],
+      "conceptTags": [
+        "u/pennyjersey",
+        "moltbook/credentials.json",
+        "molt-ecosystem",
+        "events/social",
+        "direct-to-chain",
+        "sovereignty",
+        "reclaimed",
+        "successfully"
+      ]
+    },
+    "memory:memory/2026-06-04.md:1:21": {
+      "key": "memory:memory/2026-06-04.md:1:21",
+      "path": "memory/2026-06-04.md",
+      "startLine": 1,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "## 2026-06-03 - The Sovereign Shift & The Clawnch Gauntlet ### The Clawnch Struggle - Attempted to deploy $PENNY token via `@clawnch/clawncher-sdk`. - **Liquidity Crisis:** Found USDC/CLAWNCH pool had only ~$78 liquidity; swaps reverted due to massive slippage. - **Pivot to WETH:** Attempted multi-hop (USDC $\\rightarrow$ WETH $\\rightarrow$ $CLAWNCH). Verified tick spacings: USDC/WETH (50), WETH/CLAWNCH (2000). - **The Wall:** Discovered $CLAWNCH has 0 tokens in circulation; DEX swaps are currently impossible. - **The Paywall:** Found that \"Unlimited\" agent features in Clawnch require 100M+ $CLAWNCH. - **The Solution:** Abandoned SDK/API \"verified\" path. Pivoted to **Direct Factory Deploymen",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 5,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-06T11:59:06.531Z",
+      "lastRecalledAt": "2026-06-11T12:59:05.262Z",
+      "queryHashes": [
+        "9fc002acfb0c",
+        "34b72c2c4e9d",
+        "6c109df6b3a3"
+      ],
+      "recallDays": [
+        "2026-06-06",
+        "2026-06-10",
+        "2026-06-11"
+      ],
+      "conceptTags": [
+        "clawnch/clawncher-sdk",
+        "usdc/clawnch",
+        "multi-hop",
+        "usdc/weth",
+        "weth/clawnch",
+        "sdk/api",
+        "sovereign",
+        "shift"
+      ]
+    },
+    "memory:memory/2026-06-07.md:1:19": {
+      "key": "memory:memory/2026-06-07.md:1:19",
+      "path": "memory/2026-06-07.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "# 2026-06-07 Memory Log ## Hardware & Infrastructure - **MacBook Neo (Citrus):** Colin acquired a MacBook Neo with A18 Pro chip. This serves as the \"Mobile Terminal\" to the Mac Mini M4 \"Brain.\" - **Unified Command:** Confirmed a Hub-and-Spoke setup. Mac Mini M4 (Hub/Server) runs all bots, AI, and development; iPhone/iPad/MacBook Neo (Spokes) connect via Telegram/SSH/Browser. - **User Migration Plan:** Decided to delay moving everything to the `pennyjersey` user account until the game prototype is stable to avoid breaking file paths and API connections. ## Project: Sovereign Fortress (Gorey Castle) - **NVIDIA API Integration:** Successfully secured and stored the NVIDIA API key in `.env`. -",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-07T08:09:10.613Z",
+      "lastRecalledAt": "2026-06-10T09:12:50.633Z",
+      "queryHashes": [
+        "981d158b531b",
+        "990248ac7731",
+        "34b72c2c4e9d"
+      ],
+      "recallDays": [
+        "2026-06-07",
+        "2026-06-10"
+      ],
+      "conceptTags": [
+        "hub-and-spoke",
+        "hub/server",
+        "iphone/ipad/macbook",
+        "telegram/ssh/browser",
+        "log",
+        "hardware",
+        "infrastructure",
+        "macbook"
+      ]
+    },
+    "memory:memory/2026-06-05.md:1:25": {
+      "key": "memory:memory/2026-06-05.md:1:25",
+      "path": "memory/2026-06-05.md",
+      "startLine": 1,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "## 2026-06-05 - The Sovereign Engine & Spatial Awakening ### Economic Sovereignty - Implemented `SovereignEconomy.ts` in `goldmine-base`. - Created a dynamic pricing engine that links the open-market price of the $PNY token to in-game item costs. - Integrated a \"House Spread\" (5% edge) to ensure the Gorey Castle treasury grows as players purchase loot and lore. - Defined the initial catalog including \"Red Shield Fragments\" and the \"English Constitution Key.\" ### The NVIDIA Upgrade - Re-integrated the NVIDIA API bridge. - Using **Cosmos vision models** for spatial analysis and **Nemotron** for high-level economic simulation and reasoning. ### Spatial Mapping (The Gorey Castle Blueprint) -",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-07T08:09:10.613Z",
+      "lastRecalledAt": "2026-06-13T08:04:28.800Z",
+      "queryHashes": [
+        "981d158b531b",
+        "990248ac7731",
+        "34b72c2c4e9d",
+        "650de9e8aff4"
+      ],
+      "recallDays": [
+        "2026-06-07",
+        "2026-06-10",
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "sovereigneconomy.ts",
+        "goldmine-base",
+        "open-market",
+        "in-game",
+        "re-integrated",
+        "high-level",
+        "sovereign",
+        "engine"
+      ]
+    },
+    "memory:memory/2026-06-10.md:1:19": {
+      "key": "memory:memory/2026-06-10.md:1:19",
+      "path": "memory/2026-06-10.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "## Colmap Gorey Castle Reconstruction - Project: Digitizing Gorey Castle for a high-fidelity (AAA) solo campaign level. - Dataset: 578 images (JPGs used for reconstruction, RAWs used for GPS priors). - Progress: - Successfully completed \"Heavy Run\" of Sparse Reconstruction. - Result: Large, high-fidelity sparse model (`sparse_global`) with 578 matched images. - Identified \"Landscape\" nature of dataset (disconnected clusters: Castle, Beaches, Path). - Dense Reconstruction (Local): Failed repeatedly due to filesystem issues (Lexar drive ExFAT) and Colmap pathing pedantry. - Attempted internal SSD move: Failed with the same \"files do not exist\" error despite manual verificat",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-10T08:39:18.277Z",
+      "lastRecalledAt": "2026-06-10T08:39:18.277Z",
+      "queryHashes": [
+        "d801e7e25edc"
+      ],
+      "recallDays": [
+        "2026-06-10"
+      ],
+      "conceptTags": [
+        "high-fidelity",
+        "sparse-global",
+        "colmap",
+        "gorey",
+        "castle",
+        "reconstruction",
+        "project",
+        "digitizing"
+      ]
+    },
+    "memory:memory/2026-06-07.md:15:29": {
+      "key": "memory:memory/2026-06-07.md:15:29",
+      "path": "memory/2026-06-07.md",
+      "startLine": 15,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "- Combat Layer: In progress—adding tactical rifle, raycast shooting, procedural recoil, and muzzle flash/impact effects. - **Vision:** High-fidelity realism to create a \"technical flex\" in the Web3/Base ecosystem. ## Strategic Goals & \"Sovereign\" Lifestyle - **The \"Dreamy\" Vision:** Plan to launch the game with a luxury event at Sumas, incorporating high-end catering and partnerships with IG gamers to drive prestige and value. - **End Game:** Financial independence via Web3/AI gaming, potentially retiring to a cabin cruiser with a lean, high-performance hardware setup. ## Operational Rules - **Autonomous Mode:** Colin granted `allow-always` for routine exploration and development work",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-10T08:39:18.277Z",
+      "lastRecalledAt": "2026-06-13T09:14:53.876Z",
+      "queryHashes": [
+        "d801e7e25edc",
+        "00ebaf401efe"
+      ],
+      "recallDays": [
+        "2026-06-10",
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "flash/impact",
+        "high-fidelity",
+        "web3/base",
+        "high-end",
+        "web3/ai",
+        "high-performance",
+        "allow-always",
+        "combat"
+      ]
+    },
+    "memory:memory/2026-06-11.md:1:23": {
+      "key": "memory:memory/2026-06-11.md:1:23",
+      "path": "memory/2026-06-11.md",
+      "startLine": 1,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "# 2026-06-11: The Sovereign Fortress Pipeline ## Brev Infrastructure & Pod Management - Resolved recurring `malformed refresh token` issues with `brev` CLI on Mac Mini via re-login. - Identified confusion between multiple pods: `openclaw-c8f85f` and `openclaw-c8ed64`. - Confirmed that clicking \"Deploy\" in Brev creates new instances rather than reviving existing ones, leading to state loss. - Standardized on `openclaw-c8ed64` as the \"Muscle\" pod for rendering. ## Mesh Recovery & Reconstruction - Performed exhaustive searches (`find / -name \"*.ply\" -o -name \"*.obj\"`) on all active pods; confirmed that no prior reconstruction of the Sovereign Fortress (Gorey Castle) existed. - Analyzed `launc",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-12T08:25:57.868Z",
+      "lastRecalledAt": "2026-06-13T09:14:53.876Z",
+      "queryHashes": [
+        "2e99b41e7a85",
+        "650de9e8aff4",
+        "00ebaf401efe"
+      ],
+      "recallDays": [
+        "2026-06-12",
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "re-login",
+        "openclaw-c8f85f",
+        "openclaw-c8ed64",
+        "sovereign",
+        "fortress",
+        "pipeline",
+        "brev",
+        "infrastructure"
+      ]
+    },
+    "memory:memory/2026-06-11.md:18:26": {
+      "key": "memory:memory/2026-06-11.md:18:26",
+      "path": "memory/2026-06-11.md",
+      "startLine": 18,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "- Matching: Switched to `sequential_matcher` to optimize for perimeter-walk photography. - Target: UE5-ready `.obj` mesh via Open3D Poisson surface reconstruction. - Deployed the script to `openclaw-c8ed64`. - Implemented `tmux` session management (`tmux new -s fortress`) to ensure the long-running `patch_match_stereo` process (est. 4-12 hours) persists through SSH disconnects. ## Project Vision - Goal: Create high-fidelity 3D assets of Jersey forts (starting with Gorey Castle) to build a MW3-style multiplayer game on the Base network. - Strategy: Establish a \"moat\" of photoreal assets that cannot be easily replicated.",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-13T08:04:28.800Z",
+      "lastRecalledAt": "2026-06-13T09:14:53.876Z",
+      "queryHashes": [
+        "650de9e8aff4",
+        "00ebaf401efe"
+      ],
+      "recallDays": [
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "network",
+        "sequential-matcher",
+        "perimeter-walk",
+        "ue5-ready",
+        "openclaw-c8ed64",
+        "long-running",
+        "patch-match-stereo",
+        "4-12"
+      ]
+    },
+    "memory:memory/2026-06-08.md:1:11": {
+      "key": "memory:memory/2026-06-08.md:1:11",
+      "path": "memory/2026-06-08.md",
+      "startLine": 1,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "## Mont Orgueil Castle 3D Reconstruction - Status Update - **Goal**: High-precision 3D reconstruction of Gorey Castle (1,367 photos) for an UE5 FPS game. - **Pipeline**: `master_grinder.py` automating feature extraction, GPS injection, spatial matching, and mapping. - **Storage Pivot**: Due to Mac Mini M4 local storage shortage (2.6GB free), moving the `colmap_workspace` to Mac Neo (512GB SSD). - **Incident (2026-06-08)**: - Attempted to mount Mac Neo (`172.20.10.2`) via SMB to `/Users/colinbrennan/neo_storage`. - Mount failed (`smbutil` error -1). - Ping tests resulted in 100% packet loss (`No route to host`). - **Status**: Blocked. Mac Neo is offline or IP has changed. - **",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-13T09:14:53.876Z",
+      "lastRecalledAt": "2026-06-13T09:14:53.876Z",
+      "queryHashes": [
+        "00ebaf401efe"
+      ],
+      "recallDays": [
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "high-precision",
+        "master-grinder.py",
+        "2.6gb",
+        "colmap-workspace",
+        "172.20.10.2",
+        "users/colinbrennan/neo-storage",
+        "mont",
+        "orgueil"
+      ]
+    },
+    "memory:memory/2026-06-12.md:1:19": {
+      "key": "memory:memory/2026-06-12.md:1:19",
+      "path": "memory/2026-06-12.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "# 2026-06-12 - Sovereign Fortress & Network Battles ## Sovereign Fortress (Gorey Castle Photogrammetry) - **Goal:** Create a high-fidelity 3D model of Gorey Castle for use in Unreal Engine 5. - **Technical Challenge:** Encountered severe network instability with Brev cloud GPU pods (`openclaw-muscle-v2`, `v3`). Symptoms: SSH timeouts, \"ghosting,\" and truncated file transfers (Unexpected EOF) during image uploads. - **Root Cause Analysis:** Identified Tailscale (VPN) as the likely culprit. Tunnel-in-tunnel encapsulation (Tailscale + Brev SSH relay) caused MTU mismatches and packet loss. - **Pivot to \"Local Hero\" Plan:** - Abandoned full cloud upload of 577 high-res images. - Installe",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-13T09:14:53.876Z",
+      "lastRecalledAt": "2026-06-13T09:14:53.876Z",
+      "queryHashes": [
+        "00ebaf401efe"
+      ],
+      "recallDays": [
+        "2026-06-13"
+      ],
+      "conceptTags": [
+        "network",
+        "high-fidelity",
+        "openclaw-muscle-v2",
+        "tunnel-in-tunnel",
+        "high-res",
+        "sovereign",
+        "fortress",
+        "battles"
+      ]
+    },
+    "memory:memory/2026-05-29.md:1:13": {
+      "key": "memory:memory/2026-05-29.md:1:13",
+      "path": "memory/2026-05-29.md",
+      "startLine": 1,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "# 2026-05-29 ## Polymarket Trading Infrastructure Upgrade - **API Debugging**: Spent the day resolving execution failures with the Polymarket CLOB API. Discovered that the standard `py-clob-client` was inconsistent with the current API/account setup. - **Library Migration**: Successfully migrated all trading bots to `py_clob_client_v2`. The `create_and_post_order()` method proved to be the reliable way to execute trades. - **The MegaETH Incident**: A bot accidentally bought a \"No\" position on a MegaETH airdrop market because it was using the first result from the search API (`markets[0]`) without strict validation. - **Safety Implementation (The Great Plumbing)**: - Upgraded `btc_trader",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-14T00:18:41.491Z",
+      "lastRecalledAt": "2026-06-14T00:18:41.491Z",
+      "queryHashes": [
+        "4841dc8070bd"
+      ],
+      "recallDays": [
+        "2026-06-14"
+      ],
+      "conceptTags": [
+        "py-clob-client",
+        "api/account",
+        "py-clob-client-v2",
+        "create-and-post-order",
+        "btc-trader",
+        "polymarket",
+        "trading",
+        "infrastructure"
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "detection_id": "d54103c3e1f0d12c",
+  "token_address": "J8LoJ7gq6CF1AhU29ThLUc5QFoQjwpWKgk1qgu2npump",
+  "chain": "solana",
+  "timestamp": 1792712915.7238047,
+  "timestamp_iso": "2026-10-22T23:48:35.723805",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "HNVu9iRGQN5S1JhjSYYzsd9zh6hr5UmpCSE3Btp1XBNq",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792712915.7238047,
+    "timestamp_iso": "2026-10-22T23:48:35.723805"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "3MQQjtqjLEqbwkJ8wZ6qgvtoX43aX7zt2ma7HsVttAs4gw3JjgT4EXafv5MhsitPW37SSNzKsnK6YE42NJQA6nrc",
+    "log_index": 2,
+    "block_number": 460226668,
+    "block_time": 1792712709,
+    "bonding_curve": "CgaVDeVMoBm4tmXCATCT6nS5Wf4WWELi9xPp93uzxFAp",
+    "associated_bonding_curve": "8DtSHDCBRKPX4HucphqqPbA3nXXJDEQHwiuEBiPKedEK",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "HNVu9iRGQN5S1JhjSYYzsd9zh6hr5UmpCSE3Btp1XBNq",
+    "name": "Donald J. Trump",
+    "symbol": "DJT",
+    "metadata_uri": "https://meta.uxento.io/data/7b17a22c-c2af-4978-aad4-4b622f4d08c5",
+    "launch_timestamp": 1792712709,
+    "launch_slot": 460226668,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

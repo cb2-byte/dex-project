@@ -1,0 +1,113 @@
+{
+  "detection_id": "b10a1fd351952c25",
+  "token_address": "0xtokenB",
+  "chain": "solana",
+  "timestamp": 1792364387.786109,
+  "timestamp_iso": "2026-10-18T22:59:47.786109",
+  "risk_score": {
+    "overall_score": 0.18181818181818182,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [
+      "early_snipe"
+    ],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": true,
+        "confidence": 1.0,
+        "evidence": {
+          "launch_window_blocks": 5,
+          "launch_transactions": 5,
+          "unique_buyers": 5,
+          "top_10_concentration": 1.0,
+          "bundled_groups": [
+            {
+              "block": 200,
+              "wallets": [
+                "0xwallet5",
+                "0xwallet6",
+                "0xwallet7",
+                "0xwallet8",
+                "0xwallet9"
+              ],
+              "total_amount": 150000000,
+              "avg_amount": 30000000.0
+            }
+          ],
+          "shared_funders": [
+            {
+              "funder": "0xfunder_shared",
+              "wallets": [
+                "0xwallet5",
+                "0xwallet6",
+                "0xwallet7",
+                "0xwallet8",
+                "0xwallet9"
+              ],
+              "count": 5
+            }
+          ],
+          "concentration_threshold": 0.3
+        },
+        "explanation": "1 bundled buy group(s) detected; top 10 wallets hold 100.0% of launch supply; 1 shared funder(s) detected"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "0xdeployer2",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "total_wallets": 5,
+          "clusters_found": 0,
+          "significant_clusters": 0,
+          "clusters": [],
+          "min_cluster_size": 3
+        },
+        "explanation": "No significant clusters"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 5,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 30000,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792364387.786109,
+    "timestamp_iso": "2026-10-18T22:59:47.786109"
+  },
+  "pool_snapshot": {
+    "liquidity_usd": 30000
+  },
+  "token_snapshot": {
+    "creator": "0xdeployer2"
+  },
+  "outcome": null,
+  "outcome_timestamp": null
+}

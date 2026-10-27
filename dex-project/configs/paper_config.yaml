@@ -1,0 +1,71 @@
+# Paper Trading Engine Configuration
+# =================================
+# Copy to configs/paper_config.yaml and customize as needed
+
+paper_engine:
+  # Capital & Risk Limits
+  starting_capital_usd: 1000.0
+  max_position_pct: 0.10          # 10% per trade
+  max_daily_exposure_pct: 0.50    # 50% daily
+  max_drawdown_pct: 0.20          # 20% kill switch
+  min_net_edge_pct: 0.20          # 0.2% minimum net return after all costs
+
+  # Staleness Limits per Source (seconds)
+  max_staleness_seconds:
+    coingecko_demo: 60.0
+    coinbase: 10.0
+    kraken: 10.0
+    geckoterminal: 60.0
+    alchemy_rpc: 30.0
+
+  # Liquidity Requirements
+  min_liquidity_usd: 10000.0
+
+  # Meme Sniper Specific
+  meme_max_hold_seconds: 300.0
+  meme_adverse_move_bps_per_min: 50.0
+  meme_momentum_cap_pct: 5.0
+
+  # Fee Schedule (basis points)
+  fee_schedule:
+    trading_fee_bps:
+      coinbase: 30.0
+      kraken: 26.0
+      binance: 10.0
+      bybit: 10.0
+      okx: 10.0
+      uniswap_v3_base: 5.0
+      uniswap_v3_ethereum: 30.0
+      sushiswap_base: 5.0
+      aerodrome_base: 5.0
+    withdrawal_fee_usd:
+      coinbase: 0.0
+      kraken: 2.5
+      binance: 1.0
+      bybit: 0.0
+      okx: 0.0
+    deposit_fee_usd:
+      coinbase: 0.0
+      kraken: 0.0
+      binance: 0.0
+      bybit: 0.0
+      okx: 0.0
+    gas_estimate_usd:
+      base: 0.01
+      ethereum: 5.0
+      arbitrum: 0.10
+      optimism: 0.10
+      polygon: 0.01
+      bsc: 0.01
+    bridge_fee_bps:
+      hop: 5.0
+      across: 3.0
+      wormhole: 8.0
+      synapse: 5.0
+      multichain: 6.0
+
+  # Slippage Model: impact_bps = base_bps * (trade_size / liquidity)^alpha
+  slippage_model:
+    base_bps: 10.0
+    alpha: 0.5
+    max_slippage_bps: 500.0  # Cap at 5%

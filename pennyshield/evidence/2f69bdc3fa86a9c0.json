@@ -1,0 +1,97 @@
+{
+  "detection_id": "2f69bdc3fa86a9c0",
+  "token_address": "BmwoKbUup38BiD1vWzrAH8RLjgXxECeBJqcoFmkzpump",
+  "chain": "solana",
+  "timestamp": 1793095751.687133,
+  "timestamp_iso": "2026-10-27T10:09:11.687133",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "BvS3bJ8JyMBVXmWUKnRYBE39Ag1jteSAvcRWEsHmgPAb",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793095751.687133,
+    "timestamp_iso": "2026-10-27T10:09:11.687133"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "481cm5e3F97788AUJBc9WyAoYqBDAEEyFreVF7hJ1UA7P2WJhDUfhMvewF5xeN1ppA17hAgkjHuEn1LgcVyfDNZS",
+    "log_index": 2,
+    "block_number": 462030621,
+    "block_time": 1793095613,
+    "bonding_curve": "8HQ8aA18jcFhpCYdyAk2Nx7WfLvUBjmcv5hUTNZy4diq",
+    "associated_bonding_curve": "EQVBkiKTSjpiBPZMfc3Q35bEEeHsgsV5TLZww29ESAjn",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "BvS3bJ8JyMBVXmWUKnRYBE39Ag1jteSAvcRWEsHmgPAb",
+    "name": "Farm it",
+    "symbol": "FARM",
+    "metadata_uri": "https://ipfs.io/ipfs/QmcUK6rkyYN3e23Nw9JzDUKRHaTfJpu7P85B4Q25Jr1cVB",
+    "launch_timestamp": 1793095613,
+    "launch_slot": 462030621,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

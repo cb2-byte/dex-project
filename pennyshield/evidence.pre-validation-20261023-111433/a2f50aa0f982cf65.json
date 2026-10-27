@@ -1,0 +1,28 @@
+{
+  "detection_id": "a2f50aa0f982cf65",
+  "token_address": "0xprevious_rug",
+  "chain": "solana",
+  "timestamp": 1700000000,
+  "timestamp_iso": "2023-11-14T22:13:20",
+  "risk_score": {
+    "overall_score": 0.8,
+    "threshold": 0.65,
+    "is_high_risk": true,
+    "triggered_indicators": [
+      "early_snipe",
+      "exit_detector"
+    ],
+    "indicators": [],
+    "timestamp": 1700000000,
+    "timestamp_iso": "2023-11-14T22:13:20"
+  },
+  "pool_snapshot": {
+    "liquidity_usd": 10000
+  },
+  "token_snapshot": {
+    "creator": "0xdeployer_rug",
+    "total_supply": 1000000000
+  },
+  "outcome": null,
+  "outcome_timestamp": null
+}

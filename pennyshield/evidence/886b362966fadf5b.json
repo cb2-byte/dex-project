@@ -1,0 +1,97 @@
+{
+  "detection_id": "886b362966fadf5b",
+  "token_address": "5Ldctw1BYg4AVcZVacwSnJ7R1xTdbdpGq7Vt2DqGGLwG",
+  "chain": "solana",
+  "timestamp": 1792905638.6446426,
+  "timestamp_iso": "2026-10-25T05:20:38.644643",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "866GwEbCV5233PLZSzcKaV21ysyVTRzmyey3pbb8PJDS",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792905638.6446426,
+    "timestamp_iso": "2026-10-25T05:20:38.644643"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "3oJn9AndTA7FGxKEWtqVakpSoMXwfGZwd4at1dXbfkzWMSrFtVYvRRZtHEt2Jn2VgtSHtyevmzBgiLLSQb9Q5v3B",
+    "log_index": 2,
+    "block_number": 461135586,
+    "block_time": 1792905454,
+    "bonding_curve": "2JrnSbu1izkL9t8hRpjduDiVjdMGjHbRLfCxtVaJhaap",
+    "associated_bonding_curve": "HTCdXXK8XqqyrtcZyutJwRNpCsDGQ9PPppQvSayZwRBV",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "866GwEbCV5233PLZSzcKaV21ysyVTRzmyey3pbb8PJDS",
+    "name": "Assay AI",
+    "symbol": "ASSAYAI",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreiadvfth7ikxbel3fcrh3h3h3u3tyra4bobhh3ehdivvbo4oyzxp2u",
+    "launch_timestamp": 1792905454,
+    "launch_slot": 461135586,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

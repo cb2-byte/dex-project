@@ -1,0 +1,239 @@
+{
+  "alert_id": "468e3bc418c8",
+  "token_address": "0xtest_validation_high",
+  "chain": "solana",
+  "token_symbol": "VALHI",
+  "token_name": "VALIDATION_HIGH_RISK",
+  "alert_type": "exit_detector",
+  "severity": "critical",
+  "risk_score": {
+    "overall_score": 0.6818181818181818,
+    "threshold": 0.65,
+    "is_high_risk": true,
+    "triggered_indicators": [
+      "early_snipe",
+      "deployer_intelligence",
+      "wallet_clustering",
+      "exit_detector"
+    ],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": true,
+        "confidence": 1.0,
+        "evidence": {
+          "launch_window_blocks": 5,
+          "launch_transactions": 6,
+          "unique_buyers": 6,
+          "top_10_concentration": 1.0,
+          "bundled_groups": [
+            {
+              "block": 100,
+              "wallets": [
+                "0xsniper0",
+                "0xsniper1",
+                "0xsniper2",
+                "0xsniper3",
+                "0xsniper4"
+              ],
+              "total_amount": 250000000,
+              "avg_amount": 50000000.0
+            }
+          ],
+          "shared_funders": [
+            {
+              "funder": "0xfunder1",
+              "wallets": [
+                "0xsniper0",
+                "0xsniper1",
+                "0xsniper2",
+                "0xsniper3",
+                "0xsniper4"
+              ],
+              "count": 5
+            }
+          ],
+          "concentration_threshold": 0.3
+        },
+        "explanation": "1 bundled buy group(s) detected; top 10 wallets hold 100.0% of launch supply; 1 shared funder(s) detected"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": true,
+        "confidence": 1.0,
+        "evidence": {
+          "deployer": "0xval_deployer",
+          "total_launches": 4,
+          "confirmed_rug_count": 3,
+          "rug_rate": 0.75,
+          "serial_rug_operator": true,
+          "recent_launches": [
+            {
+              "token": "0xtest_validation_high",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.3090909090909091
+            },
+            {
+              "token": "0xval_hist_rug_0",
+              "timestamp": null,
+              "outcome": "rug",
+              "risk_score": 0.9
+            },
+            {
+              "token": "0xval_hist_rug_1",
+              "timestamp": null,
+              "outcome": "rug",
+              "risk_score": 0.9
+            },
+            {
+              "token": "0xval_hist_rug_2",
+              "timestamp": null,
+              "outcome": "rug",
+              "risk_score": 0.9
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer 0xval_de... is serial rug operator: 4 launches, 3 confirmed rugs"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": true,
+        "confidence": 1.0,
+        "evidence": {
+          "total_wallets": 6,
+          "clusters_found": 1,
+          "significant_clusters": 1,
+          "clusters": [
+            {
+              "wallets": [
+                "0xfunder1",
+                "0xsniper0",
+                "0xsniper1",
+                "0xsniper2",
+                "0xsniper3",
+                "0xsniper4"
+              ],
+              "avg_similarity": 0.13333333333333333,
+              "supply_pct": 1.0
+            }
+          ],
+          "min_cluster_size": 3
+        },
+        "explanation": "Found 1 significant wallet cluster(s)"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 1,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": true,
+        "confidence": 0.4,
+        "evidence": {
+          "signals": [
+            {
+              "type": "deployer_activity",
+              "deployer": "0xval_deployer",
+              "transactions": 1,
+              "details": [
+                {
+                  "block": 105,
+                  "from": "0xval_deployer",
+                  "to": "0xmarket",
+                  "token_amount": 200000000,
+                  "type": "sell",
+                  "volume_usd": 100000,
+                  "timestamp": 1792754257.7477274
+                }
+              ]
+            }
+          ],
+          "pool_liquidity_usd": 5000,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "Detected 1 exit signal(s)"
+      }
+    ],
+    "timestamp": 1792754257.747886,
+    "timestamp_iso": "2026-10-23T11:17:37.747886"
+  },
+  "evidence_summary": {
+    "liquidity_usd": 5000,
+    "market_cap_usd": null,
+    "holder_concentration": null,
+    "unique_buyers_24h": null,
+    "net_buy_volume_24h": null,
+    "early_snipe": {
+      "confidence": 1.0,
+      "explanation": "1 bundled buy group(s) detected; top 10 wallets hold 100.0% of launch supply; 1 shared funder(s) detected",
+      "key_evidence": {
+        "launch_window_blocks": 5,
+        "launch_transactions": 6,
+        "unique_buyers": 6
+      }
+    },
+    "deployer_intelligence": {
+      "confidence": 1.0,
+      "explanation": "Deployer 0xval_de... is serial rug operator: 4 launches, 3 confirmed rugs",
+      "key_evidence": {
+        "deployer": "0xval_deployer",
+        "total_launches": 4,
+        "confirmed_rug_count": 3
+      }
+    },
+    "wallet_clustering": {
+      "confidence": 1.0,
+      "explanation": "Found 1 significant wallet cluster(s)",
+      "key_evidence": {
+        "total_wallets": 6,
+        "clusters_found": 1,
+        "significant_clusters": 1
+      }
+    },
+    "exit_detector": {
+      "confidence": 0.4,
+      "explanation": "Detected 1 exit signal(s)",
+      "key_evidence": {
+        "signals": [
+          {
+            "type": "deployer_activity",
+            "deployer": "0xval_deployer",
+            "transactions": 1,
+            "details": [
+              {
+                "block": 105,
+                "from": "0xval_deployer",
+                "to": "0xmarket",
+                "token_amount": 200000000,
+                "type": "sell",
+                "volume_usd": 100000,
+                "timestamp": 1792754257.7477274
+              }
+            ]
+          }
+        ],
+        "pool_liquidity_usd": 5000,
+        "liquidity_drop_threshold": 0.3
+      }
+    }
+  },
+  "liquidity_usd": 5000,
+  "market_cap_usd": null,
+  "transaction_links": [],
+  "timestamp": 1792754257.7480006,
+  "timestamp_iso": "2026-10-23T11:17:37.748001",
+  "acknowledged": false,
+  "outcome": null
+}

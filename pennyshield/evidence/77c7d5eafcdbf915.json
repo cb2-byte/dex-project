@@ -1,0 +1,97 @@
+{
+  "detection_id": "77c7d5eafcdbf915",
+  "token_address": "41BaZst39q9ZcXL159wcorN2B9cHcSkZ999Ud3Wrpump",
+  "chain": "solana",
+  "timestamp": 1792829862.3333576,
+  "timestamp_iso": "2026-10-24T08:17:42.333358",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "BoEVpctnMRtB7XhaJ99gNRGhP88HojtPvJ76BwX1gUwQ",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792829862.3333576,
+    "timestamp_iso": "2026-10-24T08:17:42.333358"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "3CDN6Pf2LY6RotXeyyRpdjBrXiVFgMHm3NCik736s2MpTFFANfgRuLjPM8ddyeSH2Dc93XyuHGKXKa93r1YMHfA1",
+    "log_index": 2,
+    "block_number": 460778860,
+    "block_time": 1792829743,
+    "bonding_curve": "HxAUDAt6puhiPNkWsBbWfYkPQ3tnG5xrLUkseuwiaoML",
+    "associated_bonding_curve": "H3Xf1RmXhNvTcPPpxGEUk4Htw11KYjaHqK2pYLmb3pyo",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "BoEVpctnMRtB7XhaJ99gNRGhP88HojtPvJ76BwX1gUwQ",
+    "name": "Masa & Petar",
+    "symbol": "FRIENDSHIP",
+    "metadata_uri": "https://metadata.j7tracker.io/metadata/A32WVyI6zO.json",
+    "launch_timestamp": 1792829743,
+    "launch_slot": 460778860,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

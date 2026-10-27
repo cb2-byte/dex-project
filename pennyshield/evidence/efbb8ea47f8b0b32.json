@@ -1,0 +1,97 @@
+{
+  "detection_id": "efbb8ea47f8b0b32",
+  "token_address": "AAhW7RxZ7SLDrimJLdcD1SV3Fx6PCLtLJXVceskcs1mH",
+  "chain": "solana",
+  "timestamp": 1793086875.824136,
+  "timestamp_iso": "2026-10-27T07:41:15.824136",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "28enoLeAVryVDFhoGZuXZE6Kkm7XTWJ5JV6JBM9khX81",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793086875.824136,
+    "timestamp_iso": "2026-10-27T07:41:15.824136"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "3r3ToGyG6MtKUN6hw4MBBFVqAZoHPhofuFrTN5JAv1jmji4RJbrWPT2KmiLrASZYmk1szwZpEuiTptwrqsw5XWyR",
+    "log_index": 2,
+    "block_number": 461988896,
+    "block_time": 1793086743,
+    "bonding_curve": "HTgDa1SNKfAA8z62DTNiPQibyJ1BDXgMG12BD1qFEujn",
+    "associated_bonding_curve": "6mRb1Mg4KWyxHceG3D1A5MVow2gw2Nv9vmfjWGLgZK8W",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "28enoLeAVryVDFhoGZuXZE6Kkm7XTWJ5JV6JBM9khX81",
+    "name": "Bunkercoin",
+    "symbol": "BUNK",
+    "metadata_uri": "https://ipfs2.extraction.live/ipfs/AAhW7RxZ7SLDrimJLdcD1SV3Fx6PCLtLJXVceskcs1mH",
+    "launch_timestamp": 1793086743,
+    "launch_slot": 461988896,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

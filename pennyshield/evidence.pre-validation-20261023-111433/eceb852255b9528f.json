@@ -1,0 +1,97 @@
+{
+  "detection_id": "eceb852255b9528f",
+  "token_address": "54EVCSckU1QM8PjbHuBn3FZuZFAUd15yYUYkF7tXpump",
+  "chain": "solana",
+  "timestamp": 1792700003.1161287,
+  "timestamp_iso": "2026-10-22T20:13:23.116129",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "8RB5cwrwHrxotxFURLWKH21MjkzeA93vGtLfqBbgKEiG",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792700003.1161287,
+    "timestamp_iso": "2026-10-22T20:13:23.116129"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "4PjjkWMmGCvsA1zTRJ8fX4Ki8muD49CyH5QRNJ9duMKotV7LtJm7GzgTL6CCzTkzYGJM5RUtm1c89N6gCrzQqgUX",
+    "log_index": 2,
+    "block_number": 460165158,
+    "block_time": 1792699666,
+    "bonding_curve": "EDCKGKck34YtfUMADRcusftHap3Qjz1faheotSV23DNN",
+    "associated_bonding_curve": "8hm2kLubUjJveqYZrj8U18gCmvXPWNTVaPYTwR1Rsgfo",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "8RB5cwrwHrxotxFURLWKH21MjkzeA93vGtLfqBbgKEiG",
+    "name": "ACTX: The AI Threat",
+    "symbol": "ACTX",
+    "metadata_uri": "https://metadata.j7tracker.io/metadata/c6f8856e8bd146bc.json",
+    "launch_timestamp": 1792699666,
+    "launch_slot": 460165158,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

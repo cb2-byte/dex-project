@@ -1,0 +1,110 @@
+{
+  "detection_id": "cdf343c9d08dad2a",
+  "token_address": "HY7yFweP9W9UdwKkAbDHpG1MoMm9EmJaudi66DU4FvS1",
+  "chain": "solana",
+  "timestamp": 1792829862.3519738,
+  "timestamp_iso": "2026-10-24T08:17:42.351974",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "Cf1u4VFDM2SWZB3q8yNsbpuQWd25LSGqqzGE5uNwNaFF",
+          "total_launches": 1,
+          "confirmed_rug_count": 0,
+          "rug_rate": 0.0,
+          "serial_rug_operator": false,
+          "recent_launches": [
+            {
+              "token": "G9uR9PzP6oaSFwZALS7K1Jw7VxA9Cjhht3mcb8gPr7ZV",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer Cf1u4VFD... has 1 launches, 0 rugs (0.0%)"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792829862.3519738,
+    "timestamp_iso": "2026-10-24T08:17:42.351974"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "549mRiTvCsq9kAJSz7M8NRN6QWHneytzAp8SKzr2e5wwYm55zd9LNyY6QNM2wqCgkEswsB4o4n24ZABPDVhXY2Af",
+    "log_index": 2,
+    "block_number": 460778858,
+    "block_time": 1792829742,
+    "bonding_curve": "C4uCtbNh9ZtPw4nyMdeLpKoZMgViwaDsNiiW1znF1cvL",
+    "associated_bonding_curve": "GBiSVHPZxHFYYf4MKdVjQoPSH9aq5aKVcc2ALHNbTaGj",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "Cf1u4VFDM2SWZB3q8yNsbpuQWd25LSGqqzGE5uNwNaFF",
+    "name": "Dylan READ OG",
+    "symbol": "Dylan",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreigzw6juifon653lbwp3kxmk54n3jcneo2pflz7nzd7njskgt6rwuu",
+    "launch_timestamp": 1792829742,
+    "launch_slot": 460778858,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

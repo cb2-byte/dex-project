@@ -1,0 +1,109 @@
+{
+  "detection_id": "079c31705708ac5d",
+  "token_address": "3xAgAEEiyddsb8RgCYXavJbdxXwDxGZy56H9WEGzpump",
+  "chain": "solana",
+  "timestamp": 1792905638.6568851,
+  "timestamp_iso": "2026-10-25T05:20:38.656885",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "37FZpJsGh3MgCcDzDvR7dYicdrjMC98ti5BUwk9cZZM3",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792905638.6568851,
+    "timestamp_iso": "2026-10-25T05:20:38.656885"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "3Z46jd2oAQSzbaC25Z8PaLSyhMuDsi51TWJCzLgRJaAEqcnT9hsW8tc4B7K21QToithmSxjFq3Rji9TJMMDHYPtJ",
+    "log_index": 0,
+    "block_number": 461135583,
+    "block_time": 1792905453,
+    "bonding_curve": "6zuSVYpYCnAfdvE4AahQ5oh32jU1Q2DXNwq3oaqNyDoz",
+    "associated_bonding_curve": "A5aSWrnKeiyKG7RLt3rc4SV8gDsM2iFHzh2obgcdmFuP",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "37FZpJsGh3MgCcDzDvR7dYicdrjMC98ti5BUwk9cZZM3",
+    "name": "Brainobot is acc good",
+    "symbol": "BRAINOBOT",
+    "metadata_uri": "https://metadata.j7tracker.io/metadata/1e5271eefa9c400b.json",
+    "launch_timestamp": 1792905453,
+    "launch_slot": 461135583,
+    "instruction": "create_v2",
+    "funding_sources": [
+      {
+        "address": "5KpwG4vSzfpddpTVpYhzYRSew26GFwy6HNuCz9hiJz2e",
+        "evidence": {
+          "signature": "4PhatL5gDLR6eJc9Q2uEqwByB7LnPGgZAVjtocnC4yeziAoMoqp8rhQhrswh1CFAMiyfKzYFA2jcPosAES4Bv4qt",
+          "slot": 461135583,
+          "block_time": 1792905453,
+          "lamports": 23790880,
+          "program": "system",
+          "transfer_type": "transfer"
+        }
+      }
+    ]
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

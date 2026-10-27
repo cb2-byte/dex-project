@@ -1,0 +1,568 @@
+"""
+PennyShield Unknown-Operator Launch Observation Framework
+==========================================================
+30-day observation protocol for unknown-operator launches.
+Tracks component scores, label resolution, outcomes, and confusion matrix.
+Threshold: 65% frozen, weights frozen.
+"""
+
+import json
+import time
+from datetime import datetime, timedelta
+from typing import Dict, List, Optional, Any
+from dataclasses import dataclass, field, asdict
+from collections import defaultdict
+import os
+
+# Add pennyshield to path
+import sys
+sys.path.insert(0, '/home/ubuntu/.openclaw/workspace/pennyshield')
+
+from pennyshield.__main__ import PennyShield, PennyShieldConfig, _configured_rpc_url
+from pennyshield.shared.risk_engine import EvidenceStore, RiskScorer, RiskScore, DetectionContext, WalletGraph
+from pennyshield.solana.detectors import create_solana_risk_scorer
+from pennyshield.base.detectors import create_base_risk_scorer
+from pennyshield.replay.validation import HistoricalReplay, ScenarioTester, HistoricalToken, ReplayResult
+
+
+# === Observation Data Structures ===
+
+@dataclass
+class LaunchObservation:
+    """Single launch observation with all component scores"""
+    # Required fields (no defaults) - must come first
+    launch_id: str
+    token_address: str
+    chain: str
+    token_symbol: str
+    token_name: str
+    launch_timestamp: float
+    launch_timestamp_iso: str
+    component_scores: Dict[str, float]
+    component_weights: Dict[str, float]
+    weighted_score: float
+    final_score: float
+    is_high_risk: bool
+    triggered_indicators: List[str]
+    is_unknown_operator: bool
+    deployer: Optional[str]
+    operator_history_count: int
+    operator_rug_rate: float
+    label_status: str
+    outcome_evidence: Dict[str, Any]
+    resolution_timestamp: Optional[float]
+    predicted_label: str
+    true_label: Optional[str]
+    observation_timestamp: float
+    observation_timestamp_iso: str
+
+
+@dataclass
+class WeeklySummary:
+    """Weekly observation summary"""
+    week_number: int
+    week_start: float
+    week_start_iso: str
+    week_end: float
+    week_end_iso: str
+    total_launches: int
+    unknown_operator_launches: int
+    predicted_high_risk: int
+    predicted_low_risk: int
+    resolved_rug: int
+    resolved_legitimate: int
+    still_pending: int
+    true_positives: int
+    false_positives: int
+    true_negatives: int
+    false_negatives: int
+    component_score_stats: Dict[str, Dict[str, float]] = field(default_factory=dict)
+    wallet_clustering_avg: float = 0.0
+    distribution_avg: float = 0.0
+    wallet_clustering_positive_count: int = 0
+    distribution_positive_count: int = 0
+
+
+class PennyShieldObserver:
+    """30-day observation framework for unknown-operator launches"""
+    
+    def __init__(self, config: PennyShieldConfig = None):
+        self.config = config or PennyShieldConfig(
+            scan_interval_seconds=300,
+            new_pool_scan_blocks=100,
+            solana_rpc_url=_configured_rpc_url('solana-mainnet', 'https://api.mainnet-beta.solana.com'),
+            use_mock_social=True,
+            high_risk_threshold=0.65
+        )
+        
+        # Initialize PennyShield components
+        self.evidence_store = EvidenceStore(self.config.evidence_dir)
+        self.solana_scorer = create_solana_risk_scorer(self.evidence_store)
+        self.base_scorer = create_base_risk_scorer(self.evidence_store)
+        
+        # Initialize the actual PennyShield scanner
+        self.shield = PennyShield(self.config)
+        
+        # Observation storage
+        self.observations: Dict[str, LaunchObservation] = {}
+        self.weekly_summaries: List[WeeklySummary] = []
+        
+        # Storage paths
+        self.obs_dir = os.path.join(self.config.evidence_dir, "observations")
+        os.makedirs(self.obs_dir, exist_ok=True)
+        self.obs_file = os.path.join(self.obs_dir, "observations.json")
+        self.summary_file = os.path.join(self.obs_dir, "weekly_summaries.json")
+        
+        # State persistence path
+        self.state_file = os.path.join(self.config.evidence_dir, "observation_state.json")
+        self.state = {"base_last_block": None, "solana_last_slot": None}
+        
+        # Load existing
+        self._load()
+        self._load_state()
+        
+        # Start time
+        self.start_time = time.time()
+        self.start_time_iso = datetime.now().isoformat()
+        
+        print(f"PennyShield Observer initialized")
+        print(f"Start time: {self.start_time_iso}")
+        print(f"Threshold: 65% (frozen)")
+        print(f"Observation dir: {self.obs_dir}")
+    
+    def _load(self):
+        """Load existing observations and summaries"""
+        if os.path.exists(self.obs_file):
+            with open(self.obs_file) as f:
+                data = json.load(f)
+                for obs_data in data.get("observations", []):
+                    obs = LaunchObservation(**obs_data)
+                    self.observations[obs.launch_id] = obs
+        
+        if os.path.exists(self.summary_file):
+            with open(self.summary_file) as f:
+                data = json.load(f)
+                for summ_data in data.get("summaries", []):
+                    self.weekly_summaries.append(WeeklySummary(**summ_data))
+
+    def _load_state(self):
+        """Load last processed block/slot from state file"""
+        if os.path.exists(self.state_file):
+            try:
+                with open(self.state_file, 'r') as f:
+                    saved_state = json.load(f)
+                    self.state.update(saved_state)
+                    print(f"Resumed state: {self.state}")
+            except Exception as e:
+                print(f"[ERROR] Failed to load observation state: {e}. Starting from fresh.")
+
+    def _save_state(self):
+        """Atomically save last processed block/slot"""
+        temp_file = self.state_file + ".tmp"
+        try:
+            with open(temp_file, 'w') as f:
+                json.dump(self.state, f, indent=2)
+                f.flush()
+                os.fsync(f.fileno())
+            os.replace(temp_file, self.state_file)
+        except Exception as e:
+            print(f"[ERROR] Failed to save observation state: {e}")
+
+    
+    def _save(self):
+        """Save observations and summaries"""
+        with open(self.obs_file, 'w') as f:
+            json.dump({
+                "start_time": self.start_time,
+                "start_time_iso": self.start_time_iso,
+                "threshold": 0.65,
+                "observations": [asdict(obs) for obs in self.observations.values()]
+            }, f, indent=2)
+        
+        with open(self.summary_file, 'w') as f:
+            json.dump({
+                "summaries": [asdict(s) for s in self.weekly_summaries]
+            }, f, indent=2)
+    
+    def _build_context(self, token_address: str, chain: str, token_symbol: str, 
+                       token_name: str, pool_data: Dict, token_data: Dict,
+                       transactions: List[Dict], wallet_graph: WalletGraph,
+                       historical_data: Dict) -> DetectionContext:
+        """Build detection context"""
+        return DetectionContext(
+            token_address=token_address,
+            chain=chain,
+            pool_data=pool_data,
+            token_data=token_data,
+            transactions=transactions,
+            wallet_graph=wallet_graph,
+            historical_data=historical_data,
+            metadata={'social_data': {}, 'onchain_metrics': {}}
+        )
+    
+    def _get_operator_info(self, deployer: str) -> Dict:
+        """Get operator history from evidence store"""
+        if not deployer:
+            return {"history_count": 0, "rug_rate": 0.0, "is_unknown": True}
+        
+        operator_sig = f"deployer:{deployer}"
+        history = self.evidence_store.get_operator_history(operator_sig)
+        
+        # Deduplicate by token address
+        tokens = set()
+        outcomes = []
+        for h in history:
+            token = h.get('token_address')
+            if token and token not in tokens:
+                tokens.add(token)
+                outcomes.append(h.get('outcome', 'unknown'))
+        
+        total = len(tokens)
+        rug_count = sum(1 for o in outcomes if o == 'rug')
+        rug_rate = rug_count / total if total > 0 else 0.0
+        
+        return {
+            "history_count": total,
+            "rug_count": rug_count,
+            "rug_rate": rug_rate,
+            "is_unknown": total == 0,
+            "tokens": list(tokens)
+        }
+    
+    def _convert_scan_result_to_observation(self, result: Dict, chain: str) -> LaunchObservation:
+        """Convert a scan_new_launches result to LaunchObservation"""
+        token_address = result.get('token_address', '')
+        token_symbol = result.get('token_symbol', 'UNKNOWN')
+        token_name = result.get('token_name', 'Unknown')
+        
+        # Build context from scan result
+        pool_data = result.get('pool_data', {})
+        token_data = result.get('token_data', {})
+        transactions = result.get('transactions', [])
+        
+        # Build context
+        context = self._build_context(
+            token_address, chain, token_symbol, token_name,
+            pool_data, token_data, transactions, WalletGraph(), {}
+        )
+        
+        # Run appropriate scorer
+        if chain == 'solana':
+            risk_score = self.solana_scorer.score(context)
+            indicators = self.solana_scorer.indicators
+        elif chain in ('base', 'ethereum'):
+            risk_score = self.base_scorer.score(context)
+            indicators = self.base_scorer.indicators
+        else:
+            risk_score = RiskScore(
+                overall_score=0.0, threshold=0.65, is_high_risk=False,
+                indicator_results=[], triggered_indicators=[], timestamp=time.time()
+            )
+            indicators = []
+        
+        # Extract component scores
+        component_scores = {}
+        component_weights = {}
+        for ir in risk_score.indicator_results:
+            component_scores[ir.indicator] = ir.confidence
+            for ind in (self.solana_scorer.indicators if chain == 'solana' else self.base_scorer.indicators):
+                if ind.name == ir.indicator:
+                    component_weights[ir.indicator] = ind.weight
+                    break
+        
+        # Operator info
+        deployer = token_data.get('creator') or token_data.get('deployer', '')
+        operator_info = self._get_operator_info(deployer)
+        
+        # Create observation
+        launch_id = f"{chain}_{token_address}_{int(time.time())}"
+        
+        obs = LaunchObservation(
+            launch_id=launch_id,
+            token_address=token_address,
+            chain=chain,
+            token_symbol=token_symbol,
+            token_name=token_name,
+            launch_timestamp=time.time(),
+            launch_timestamp_iso=datetime.now().isoformat(),
+            component_scores={k: float(v) for k, v in component_scores.items()},
+            component_weights={k: float(v) for k, v in component_weights.items()},
+            weighted_score=float(risk_score.overall_score),
+            final_score=float(risk_score.overall_score),
+            is_high_risk=risk_score.is_high_risk,
+            triggered_indicators=risk_score.triggered_indicators,
+            is_unknown_operator=operator_info["is_unknown"],
+            deployer=deployer if deployer else None,
+            operator_history_count=operator_info["history_count"],
+            operator_rug_rate=operator_info["rug_rate"],
+            label_status="pending",
+            outcome_evidence={},
+            resolution_timestamp=None,
+            predicted_label="high_risk" if risk_score.is_high_risk else "low_risk",
+            true_label=None,
+            observation_timestamp=time.time(),
+            observation_timestamp_iso=datetime.now().isoformat()
+        )
+        
+        return obs
+    
+    def observe_launch(self, token_address: str, chain: str, token_symbol: str,
+                       token_name: str, pool_data: Dict, token_data: Dict,
+                       transactions: List[Dict], wallet_graph: WalletGraph,
+                       historical_data: Dict) -> LaunchObservation:
+        """Observe a single launch with full component breakdown"""
+        
+        # Build context
+        context = self._build_context(
+            token_address, chain, token_address, token_symbol,
+            pool_data, {}, [], WalletGraph(), {}
+        )
+        
+        # Run appropriate scorer
+        if chain == 'solana':
+            risk_score = self.solana_scorer.score(context)
+            indicators = self.solana_scorer.indicators
+        elif chain in ('base', 'ethereum'):
+            risk_score = self.base_scorer.score(context)
+            indicators = self.base_scorer.indicators
+        else:
+            risk_score = RiskScore(
+                overall_score=0.0, threshold=0.65, is_high_risk=False,
+                indicator_results=[], triggered_indicators=[], timestamp=time.time()
+            )
+            indicators = []
+        
+        # Extract component scores
+        component_scores = {}
+        component_weights = {}
+        for ir in risk_score.indicator_results:
+            component_scores[ir.indicator] = ir.confidence
+            for ind in (self.solana_scorer.indicators if chain == 'solana' else self.base_scorer.indicators):
+                if ind.name == ir.indicator:
+                    component_weights[ir.indicator] = ind.weight
+                    break
+        
+        # Operator info
+        deployer = token_data.get('creator') or token_data.get('deployer', '')
+        operator_info = self._get_operator_info(deployer)
+        
+        # Create observation
+        launch_id = f"{chain}_{token_address}_{int(time.time())}"
+        
+        obs = LaunchObservation(
+            launch_id=launch_id,
+            token_address=token_address,
+            chain=chain,
+            token_symbol=token_symbol,
+            token_name=token_name,
+            launch_timestamp=time.time(),
+            launch_timestamp_iso=datetime.now().isoformat(),
+            component_scores={k: float(v) for k, v in component_scores.items()},
+            component_weights={k: float(v) for k, v in component_weights.items()},
+            weighted_score=float(risk_score.overall_score),
+            final_score=float(risk_score.overall_score),
+            is_high_risk=risk_score.is_high_risk,
+            triggered_indicators=risk_score.triggered_indicators,
+            is_unknown_operator=operator_info["is_unknown"],
+            deployer=deployer if deployer else None,
+            operator_history_count=operator_info["history_count"],
+            operator_rug_rate=operator_info["rug_rate"],
+            label_status="pending",
+            outcome_evidence={},
+            resolution_timestamp=None,
+            predicted_label="high_risk" if risk_score.is_high_risk else "low_risk",
+            true_label=None,
+            observation_timestamp=time.time(),
+            observation_timestamp_iso=datetime.now().isoformat()
+        )
+        
+        # Store
+        self.observations[launch_id] = obs
+        self._save()
+        
+        return obs
+    
+    def run_observation_cycle(self) -> List[LaunchObservation]:
+        """Run one observation cycle - scan for new launches and record them"""
+        results = self.shield.scan_new_launches()
+        observations = []
+        
+        for result in results:
+            chain = result.get('chain', 'unknown')
+            # Convert scan result to observation
+            obs = self._convert_scan_result_to_observation(result, chain)
+            self.observations[obs.launch_id] = obs
+            observations.append(obs)
+        
+        self._save()
+        return observations
+    
+    def update_label(self, launch_id: str, outcome: str, evidence: Dict = None):
+        """Update launch label with resolved outcome"""
+        if launch_id not in self.observations:
+            return False
+        
+        obs = self.observations[launch_id]
+        obs.label_status = "resolved_rug" if outcome == "rug" else "resolved_legitimate"
+        obs.true_label = outcome
+        obs.resolution_timestamp = time.time()
+        if evidence:
+            obs.outcome_evidence = evidence
+        self._save()
+        return True
+    
+    def generate_weekly_summary(self) -> WeeklySummary:
+        """Generate weekly summary"""
+        now = time.time()
+        week_num = len(self.weekly_summaries) + 1
+        week_start = self.start_time + (week_num - 1) * 7 * 24 * 3600
+        week_end = week_start + 7 * 24 * 3600
+        
+        # Filter observations for this week
+        week_obs = [
+            obs for obs in self.observations.values()
+            if week_start <= obs.launch_timestamp < week_end
+        ]
+        
+        unknown_ops = [obs for obs in week_obs if obs.is_unknown_operator]
+        
+        # Resolved outcomes
+        resolved = [obs for obs in week_obs if obs.label_status.startswith("resolved")]
+        rug = [obs for obs in resolved if obs.true_label == "rug"]
+        legitimate = [obs for obs in resolved if obs.true_label == "legitimate"]
+        pending = [obs for obs in week_obs if obs.label_status == "pending"]
+        
+        # Confusion matrix for resolved
+        tp = fp = tn = fn = 0
+        for obs in resolved:
+            pred = obs.predicted_label
+            true = obs.true_label
+            if pred == "high_risk" and true == "rug":
+                tp += 1
+            elif pred == "high_risk" and true == "legitimate":
+                fp += 1
+            elif pred == "low_risk" and true == "legitimate":
+                tn += 1
+            elif pred == "low_risk" and true == "rug":
+                fn += 1
+        
+        # Component stats for unknown-operator launches
+        comp_stats = {}
+        wallet_clustering_scores = []
+        distribution_scores = []
+        wallet_clustering_pos = 0
+        distribution_pos = 0
+        
+        for obs in unknown_ops:
+            for comp, score in obs.component_scores.items():
+                if comp not in comp_stats:
+                    comp_stats[comp] = []
+                comp_stats[comp].append(score)
+            
+            if "wallet_clustering" in obs.component_scores:
+                wallet_clustering_scores.append(obs.component_scores["wallet_clustering"])
+                if obs.component_scores["wallet_clustering"] > 0:
+                    wallet_clustering_pos += 1
+            if "distribution" in obs.component_scores:
+                distribution_scores.append(obs.component_scores["distribution"])
+                if obs.component_scores["distribution"] > 0:
+                    distribution_pos += 1
+        
+        comp_stats_final = {}
+        for comp, scores in comp_stats.items():
+            if scores:
+                comp_stats_final[comp] = {
+                    "mean": sum(scores) / len(scores),
+                    "max": max(scores),
+                    "min": min(scores),
+                    "count": len(scores)
+                }
+        
+        summary = WeeklySummary(
+            week_number=len(self.weekly_summaries) + 1,
+            week_start=week_start,
+            week_start_iso=datetime.fromtimestamp(week_start).isoformat(),
+            week_end=week_end,
+            week_end_iso=datetime.fromtimestamp(week_end).isoformat(),
+            total_launches=len(week_obs),
+            unknown_operator_launches=len(unknown_ops),
+            predicted_high_risk=sum(1 for obs in week_obs if obs.is_high_risk),
+            predicted_low_risk=sum(1 for obs in week_obs if not obs.is_high_risk),
+            resolved_rug=len(rug),
+            resolved_legitimate=len(legitimate),
+            still_pending=len(pending),
+            true_positives=tp,
+            false_positives=fp,
+            true_negatives=tn,
+            false_negatives=fn,
+            component_score_stats=comp_stats_final,
+            wallet_clustering_avg=sum(wallet_clustering_scores) / len(wallet_clustering_scores) if wallet_clustering_scores else 0,
+            distribution_avg=sum(distribution_scores) / len(distribution_scores) if distribution_scores else 0,
+            wallet_clustering_positive_count=wallet_clustering_pos,
+            distribution_positive_count=distribution_pos
+        )
+        
+        self.weekly_summaries.append(summary)
+        self._save()
+        return summary
+    
+    def print_weekly_summary(self, summary: WeeklySummary):
+        """Print formatted weekly summary"""
+        print(f"\n{'='*60}")
+        print(f"WEEKLY SUMMARY - Week {summary.week_number}")
+        print(f"{'='*60}")
+        print(f"Period: {summary.week_start_iso} to {summary.week_end_iso}")
+        print(f"Total launches: {summary.total_launches}")
+        print(f"Unknown-operator launches: {summary.unknown_operator_launches}")
+        print(f"Predicted HIGH RISK (>=65%): {summary.predicted_high_risk}")
+        print(f"Predicted LOW RISK (<65%): {summary.predicted_low_risk}")
+        print(f"Resolved RUG: {summary.resolved_rug}")
+        print(f"Resolved LEGITIMATE: {summary.resolved_legitimate}")
+        print(f"Still PENDING: {summary.still_pending}")
+        print(f"\nCONFUSION MATRIX (resolved only):")
+        print(f"  TP: {summary.true_positives}  FP: {summary.false_positives}")
+        print(f"  FN: {summary.false_negatives}  TN: {summary.true_negatives}")
+        if summary.true_positives + summary.false_positives > 0:
+            precision = summary.true_positives / (summary.true_positives + summary.false_positives)
+            print(f"  Precision: {precision:.1%}")
+        if summary.true_positives + summary.false_negatives > 0:
+            recall = summary.true_positives / (summary.true_positives + summary.false_negatives)
+            print(f"  Recall: {recall:.1%}")
+        print(f"\nUNKNOWN-OPERATOR COMPONENT STATS:")
+        for comp, stats in summary.component_score_stats.items():
+            print(f"  {comp}: mean={stats['mean']:.3f}, max={stats['max']:.3f}, count={stats['count']}")
+        print(f"  wallet_clustering: avg={summary.wallet_clustering_avg:.3f}, positive={summary.wallet_clustering_positive_count}")
+        print(f"  distribution: avg={summary.distribution_avg:.3f}, positive={summary.distribution_positive_count}")
+        print(f"{'='*60}")
+    
+    def export_for_analysis(self, path: str = None) -> str:
+        """Export all observations for external analysis"""
+        path = path or os.path.join(self.obs_dir, "export_analysis.json")
+        export_data = {
+            "metadata": {
+                "start_time": self.start_time,
+                "start_time_iso": self.start_time_iso,
+                "threshold": 0.65,
+                "total_observations": len(self.observations),
+                "export_time": time.time(),
+                "export_time_iso": datetime.now().isoformat()
+            },
+            "observations": [asdict(obs) for obs in self.observations.values()],
+            "weekly_summaries": [asdict(s) for s in self.weekly_summaries]
+        }
+        with open(path, 'w') as f:
+            json.dump(export_data, f, indent=2)
+        return path
+
+
+# === Demo / Test ===
+if __name__ == "__main__":
+    observer = PennyShieldObserver()
+    print("PennyShield Observer ready for 30-day observation")
+    print("Threshold: 65% (frozen)")
+    print("Weights: frozen")
+    print("\nUsage:")
+    print("  observer.run_observation_cycle() - scan and record new launches")
+    print("  observer.generate_weekly_summary() - generate weekly summary")
+    print("  observer.update_label(launch_id, 'rug'|'legitimate', evidence) - resolve label")
+    print("  observer.export_for_analysis() - export for analysis")

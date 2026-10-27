@@ -1,0 +1,97 @@
+{
+  "detection_id": "dbba34b779b46728",
+  "token_address": "0xTestToken",
+  "chain": "base",
+  "timestamp": 1792605787.958462,
+  "timestamp_iso": "2026-10-21T18:03:07.958462",
+  "risk_score": {
+    "overall_score": 0.14473684210526316,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [
+      "new_pool"
+    ],
+    "indicators": [
+      {
+        "indicator": "new_pool",
+        "triggered": true,
+        "confidence": 0.9166666666666666,
+        "evidence": {
+          "pool_age_hours": 2.0,
+          "liquidity_usd": 5000,
+          "max_age_threshold_hours": 24,
+          "min_liquidity_threshold_usd": 10000,
+          "is_new_pool": true,
+          "low_liquidity": true
+        },
+        "explanation": "New pool risk: new pool (2.0h old); low liquidity ($5,000)"
+      },
+      {
+        "indicator": "liquidity_drain",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "current_liquidity_usd": 5000,
+          "previous_liquidity_usd": 5000,
+          "drop_threshold": 0.3,
+          "min_liquidity_threshold": 5000
+        },
+        "explanation": "No liquidity drain detected"
+      },
+      {
+        "indicator": "contract_risk",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "total_risk_functions": 0,
+          "high_severity_count": 0,
+          "high_severity_functions": [],
+          "is_proxy": false,
+          "owner": null,
+          "code_size": null,
+          "high_risk_threshold": 2
+        },
+        "explanation": "No dangerous contract permissions detected"
+      },
+      {
+        "indicator": "whale_activity",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "whale_transactions": 0,
+          "coordinated_blocks": 0,
+          "coordinated_details": [],
+          "whale_threshold_usd": 50000,
+          "window_blocks": 10
+        },
+        "explanation": "No significant whale activity"
+      },
+      {
+        "indicator": "deployer_link",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "deployer": "0x1234567890123456789012345678901234567890",
+          "other_tokens_by_deployer": 0,
+          "rug_linked_tokens": 0,
+          "rug_association_rate": 0,
+          "other_tokens": [],
+          "min_shared_threshold": 2
+        },
+        "explanation": "First known token for this deployer"
+      }
+    ],
+    "timestamp": 1792605787.958462,
+    "timestamp_iso": "2026-10-21T18:03:07.958462"
+  },
+  "pool_snapshot": {
+    "pool_age_hours": 2.0,
+    "liquidity_usd": 5000
+  },
+  "token_snapshot": {
+    "creator": "0x1234567890123456789012345678901234567890"
+  },
+  "outcome": null,
+  "outcome_timestamp": null
+}

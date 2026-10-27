@@ -1,0 +1,97 @@
+{
+  "detection_id": "2440cb203dbbdffc",
+  "token_address": "1hkh4ZhEquYSZW7nhzLPF5W1mi5v3sGdx92F7Ukpump",
+  "chain": "solana",
+  "timestamp": 1792695030.740831,
+  "timestamp_iso": "2026-10-22T18:50:30.740831",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "FqoGAkP92Uc2e22UXDLMVnmtrfQPdhjrpfBMqPNLSPFD",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792695030.740831,
+    "timestamp_iso": "2026-10-22T18:50:30.740831"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "4i2EsutpRnUt1ZPptMqXKah2ij2PfNnmUpWLV7bSk754S9p5HAA9dDZLnwuNmXMCpYVzCME5eEtWedqtoWGouYJp",
+    "log_index": 2,
+    "block_number": 460142639,
+    "block_time": 1792694884,
+    "bonding_curve": "B7SmgDWNRyhS23kLpTrf6Xr3GcRFRgRqEsfsumaYiPov",
+    "associated_bonding_curve": "GicHxhGo8eTTgp9QRprrU73Jb6jd7uEfn9gyUkib9qYe",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "FqoGAkP92Uc2e22UXDLMVnmtrfQPdhjrpfBMqPNLSPFD",
+    "name": "Hot Potato",
+    "symbol": "POTATO",
+    "metadata_uri": "https://indigo-broad-mongoose-362.mypinata.cloud/ipfs/bafkreibup4tn5tvfulp5uf2f2654zondxn7luil6dgrgnmqcseefrk2lna",
+    "launch_timestamp": 1792694884,
+    "launch_slot": 460142639,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "detection_id": "3989b1dfb28a562a",
+  "token_address": "AuuQTJRtk1bP2KLJUqnJpbgBdjMJAcrQgnF3iDMxpump",
+  "chain": "solana",
+  "timestamp": 1792912654.6906114,
+  "timestamp_iso": "2026-10-25T07:17:34.690611",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "8ewU3An7PwxcJok5ayxCEXCENxSKJdd24kQrbihsga1t",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792912654.6906114,
+    "timestamp_iso": "2026-10-25T07:17:34.690611"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "2rQgnhK6vQvY9UZj1TMoeYJDMNJNsVJVsxwtk8q7CG6zyRmhMa3W5D3yL4qxs7VumHJ3xo8SzEFPh7CY4DV4FfL9",
+    "log_index": 3,
+    "block_number": 461168994,
+    "block_time": 1792912551,
+    "bonding_curve": "8BHUR456Y9BQqxKHmvRuPwb7b2KyxhnusxV3MTHeTerq",
+    "associated_bonding_curve": "4BQ2sgvbAcda9DsYVyfGDuzBVKZz5EfFBVSKajVvKKqx",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "8ewU3An7PwxcJok5ayxCEXCENxSKJdd24kQrbihsga1t",
+    "name": "Solanex",
+    "symbol": "SOLDEX",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreihcyqg6i7ucunslmr5voqdf5ctslqlvifb226tz4fisc7xu72yaxy",
+    "launch_timestamp": 1792912551,
+    "launch_slot": 461168994,
+    "instruction": "create_v2",
+    "funding_sources": [
+      {
+        "address": "5FJg4o8QkXEFRUHjY574oA43fPAxgJBjzhzZaNLSkcLE",
+        "evidence": {
+          "signature": "2cbFaZMteWTFzXFj5n2zfxJSXvoJzLcx2tp2JD1denx2PEuW94GJ8Y7avrCzzckdRPGpk7Anrbfh1vcwaRxmb9cF",
+          "slot": 461166862,
+          "block_time": 1792912101,
+          "lamports": 1003175293,
+          "program": "system",
+          "transfer_type": "transfer"
+        }
+      }
+    ]
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

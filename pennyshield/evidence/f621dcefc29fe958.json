@@ -1,0 +1,97 @@
+{
+  "detection_id": "f621dcefc29fe958",
+  "token_address": "7FgvWdknEyfuAjnvCckcRto4Ktnqatty5Aq8WQvYY2Hc",
+  "chain": "solana",
+  "timestamp": 1792865681.238627,
+  "timestamp_iso": "2026-10-24T18:14:41.238627",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "BFadWcFg4WCwLu49xmX78aBS8SnMHsLNjBArrrNK36h6",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792865681.238627,
+    "timestamp_iso": "2026-10-24T18:14:41.238627"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "2NQEmSu6afQitmmC1bsHYd9cWCFPT4xAVAvqWdrTjebW5uLaz535eu6n6kSmGXhKBNTsozsL8YpcGeN9rLSUhXmF",
+    "log_index": 0,
+    "block_number": 460947209,
+    "block_time": 1792865464,
+    "bonding_curve": "DvZA7o4izezJ86PmmcvU5rJK2E6wchLW18uNGSQ15W9J",
+    "associated_bonding_curve": "9CJvtgvaFaufLkigdAWcSDoxqdxFgo8ZgTzyvppYQxXF",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "BFadWcFg4WCwLu49xmX78aBS8SnMHsLNjBArrrNK36h6",
+    "name": "AITH Threat",
+    "symbol": "AITH",
+    "metadata_uri": "ipfs://QmYaVmJUvMYLpVB68M9W5nDV9PHK973xpJsDF4V7Xtm1F8",
+    "launch_timestamp": 1792865464,
+    "launch_slot": 460947209,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "detection_id": "d8e95f35c2888f8a",
+  "token_address": "7Na4NctL6sSVkDvQcp2kkoWWEBftewr4n2g9jpaWfWHJ",
+  "chain": "solana",
+  "timestamp": 1792880714.862207,
+  "timestamp_iso": "2026-10-24T22:25:14.862207",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "6zqubaQLFQxWebjnCMVLtc2SgDUFytpjo43LdCwH9VcH",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792880714.862207,
+    "timestamp_iso": "2026-10-24T22:25:14.862207"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "5iqMKftXYxU4mXsPXbCs7r1mRo3xSMbakdwLLZwyUMeA1usd9aEC5LSiN7Buwz6eQcxTMucJBENyqS71NeGEJ4mA",
+    "log_index": 2,
+    "block_number": 461017863,
+    "block_time": 1792880448,
+    "bonding_curve": "DKbkhpmboheXEDRTGW5ZD2dvNjoUANXLZcbBfq83TR52",
+    "associated_bonding_curve": "5p2whsCV69HnSiWyCyJMvJ6Z8c9zjxjMu1o23BAMm1pT",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "6zqubaQLFQxWebjnCMVLtc2SgDUFytpjo43LdCwH9VcH",
+    "name": "The Anti-AI Movie",
+    "symbol": "WILDWOOD",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreig6dwwm5pomrz6pysmwdbzoypk4kzeiwqpcuqdsy262k5jb52ry4a",
+    "launch_timestamp": 1792880448,
+    "launch_slot": 461017863,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "_comment": "Colin's Trading Bot Config - Cleaned Up",
+  "_notes": {
+    "last_updated": "2026-03-30",
+    "by": "Penny",
+    "status": "Ready for testing - all keys loaded from Apple Notes"
+  },
+  "platforms": {
+    "coinbase": {
+      "enabled": false,
+      "description": "Coinbase Advanced Trade API - for DCA and dip buying BTC/ETH",
+      "api_key": "organizations/73f90298-f84a-4a84-ae18-ebc759c8bde3/apiKeys/ba4e32e0-f402-432b-a721-84a145397c87",
+      "api_secret": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIKrYUnBdJaFtFzTegVuVCkO8Xgz+TiCmy1c4613k0MwSoAoGCCqGSM49\nAwEHoUQDQgAE627lZAL1gOi7k+u2pI+kKpLjqDeltyowUfBeXNe2um1l46SRh8kV\nmCXZRtSySaO5cQ4D+lARuGsaubdqc0y9CQ==\n-----END EC PRIVATE KEY-----",
+      "passphrase": "",
+      "sandbox": true,
+      "strategies": {
+        "dca": {
+          "enabled": true,
+          "description": "Buy \u00a310 BTC every week",
+          "product": "BTC-GBP",
+          "amount_gbp": 10,
+          "frequency_days": 7,
+          "day_of_week": 1
+        },
+        "buy_dips": {
+          "enabled": true,
+          "description": "Buy \u00a315 BTC when price drops 3%",
+          "product": "BTC-GBP",
+          "dip_threshold_percent": 3,
+          "max_buy_amount": 15,
+          "check_interval_hours": 6
+        }
+      },
+      "safety": {
+        "max_total_invested": 100,
+        "stop_loss_percent": 20,
+        "max_daily_loss": 20,
+        "min_account_balance": 10,
+        "warning": "Won't spend more than \u00a3100 total. Stops if down \u00a320 in one day or any position drops 20%"
+      }
+    },
+    "polymarket": {
+      "enabled": false,
+      "description": "Polymarket prediction markets - copy trading top wallets",
+      "note": "You haven't used this yet - wallet ready but no trades",
+      "wallet_address": "0x98D9Dbd34d0156E6385D08d5263467601BE5e972",
+      "private_key": "PASTE_PRIVATE_KEY_HERE_WHEN_READY",
+      "api_key": "",
+      "mode": "alerts",
+      "copy_trading": {
+        "description": "Copy top traders with small amounts",
+        "min_wallet_profit": 1000,
+        "min_trade_size": 100,
+        "max_trade_size": 10,
+        "copy_percentage": 0.05,
+        "min_market_confidence": 0.55,
+        "max_market_confidence": 0.85
+      },
+      "alerts": {
+        "description": "Get Telegram alerts about top trader moves",
+        "telegram_bot_token": "8527377021:AAGGB02Cr9OjdZIxjnrdkixWBLBEsyUf5qQ",
+        "telegram_chat_id": "868123037",
+        "min_trade_to_alert": 500
+      },
+      "safety": {
+        "max_daily_spend": 20,
+        "max_open_positions": 3,
+        "min_wallet_age_days": 30
+      }
+    },
+    "polytrade": {
+      "enabled": false,
+      "description": "Polytrade platform - separate from Polymarket",
+      "note": "You have API key but haven't used it yet",
+      "api_key": "pdm_4K5F37Xqma80iJdbXAmdOAXYUJCn7Hj9",
+      "wallet": "PASTE_POLYTRADE_WALLET_HERE"
+    },
+    "bankr": {
+      "description": "Bankr wallet - your main on-chain wallet (used for $PNY etc)",
+      "note": "You've used this for ages - your main wallet",
+      "api_key": "bk_B3QACLFVLKPTXMMBD9GYS985XBG7LQJD",
+      "base_address": "0x841cc80C5f5820EBB2223fb22Cc7A6d60FE0effc",
+      "backup_address": "0xbbcd8e2261628c001e020e9e3d045c51d800411f"
+    }
+  },
+  "all_wallets": {
+    "description": "All your crypto addresses in one place",
+    "ethereum": {
+      "bankr_main": "0xbbcd8e2261628c001e020e9e3d045c51d800411f",
+      "bankr_alt": "0x841cc80C5f5820EBB2223fb22Cc7A6d60FE0effc",
+      "evm_note_wallet": "0x3644e5bb8ae56a7688ba455dbc2d3dd4e42a1267",
+      "polymarket_ready": "0x98D9Dbd34d0156E6385D08d5263467601BE5e972",
+      "base_usdc": "0x0422557b9F4F2AFae5752e00085B07218bC11496",
+      "eth": "0x10a04f457A03Bf24103ec0952639DDF5ebB6946a"
+    },
+    "bitcoin": {
+      "address": "bc1q2cx3kw88muflslj38rfjulrpvv823ym9en02al"
+    },
+    "xrp": {
+      "address": "rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg",
+      "memo": "4043222322"
+    },
+    "monero": {
+      "address": "5wEcu7WwmKSH1j68WhcocRLWMxvYoEmR356CHuuBXo8v",
+      "mining_address": "47omdFcsFYzDhEn4n7ar5MZhjPzmcaPDFcQZxHYxtcCfQqk9S5NSwkR6weaCUN9feVdsntRgQijT2fhoRceWTY3P82d69Gy"
+    },
+    "trust_wallet": {
+      "mnemonic": "pepper slim lyrics crane sorry flower mouse regret south original nest box"
+    }
+  },
+  "telegram": {
+    "bot_token": "8527377021:AAGGB02Cr9OjdZIxjnrdkixWBLBEsyUf5qQ",
+    "chat_id": "868123037",
+    "note": "Your Telegram @colin7924"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "trading_bot.log",
+    "console": true
+  },
+  "dry_run": true,
+  "_dry_run_note": "Keep this TRUE until you're ready to trade for real. When true = simulates only, no money spent"
+}

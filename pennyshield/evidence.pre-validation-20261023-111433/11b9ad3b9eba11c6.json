@@ -1,0 +1,509 @@
+{
+  "detection_id": "11b9ad3b9eba11c6",
+  "token_address": "0xprevious_rug_2",
+  "chain": "solana",
+  "timestamp": 1700172800,
+  "timestamp_iso": "2023-11-16T22:13:20",
+  "risk_score": {
+    "overall_score": 0.8,
+    "threshold": 0.65,
+    "is_high_risk": true,
+    "triggered_indicators": [
+      "early_snipe",
+      "exit_detector"
+    ],
+    "indicators": [],
+    "timestamp": 1700172800,
+    "timestamp_iso": "2023-11-16T22:13:20"
+  },
+  "pool_snapshot": {
+    "liquidity_usd": 10000,
+    "transactions": [
+      {
+        "block": 100,
+        "buyer": "0xsniper0",
+        "token_amount": 50000000,
+        "from": "0xsniper0",
+        "type": "buy",
+        "timestamp": 1792396657.159565
+      },
+      {
+        "block": 100,
+        "buyer": "0xsniper1",
+        "token_amount": 50000000,
+        "from": "0xsniper1",
+        "type": "buy",
+        "timestamp": 1792396657.1595664
+      },
+      {
+        "block": 100,
+        "buyer": "0xsniper2",
+        "token_amount": 50000000,
+        "from": "0xsniper2",
+        "type": "buy",
+        "timestamp": 1792396657.1595669
+      },
+      {
+        "block": 100,
+        "buyer": "0xsniper3",
+        "token_amount": 50000000,
+        "from": "0xsniper3",
+        "type": "buy",
+        "timestamp": 1792396657.1595674
+      },
+      {
+        "block": 100,
+        "buyer": "0xsniper4",
+        "token_amount": 50000000,
+        "from": "0xsniper4",
+        "type": "buy",
+        "timestamp": 1792396657.1595678
+      },
+      {
+        "block": 100,
+        "buyer": "0xsniper5",
+        "token_amount": 50000000,
+        "from": "0xsniper5",
+        "type": "buy",
+        "timestamp": 1792396657.1595685
+      },
+      {
+        "block": 100,
+        "buyer": "0xsniper6",
+        "token_amount": 50000000,
+        "from": "0xsniper6",
+        "type": "buy",
+        "timestamp": 1792396657.1595693
+      },
+      {
+        "block": 100,
+        "buyer": "0xsniper7",
+        "token_amount": 50000000,
+        "from": "0xsniper7",
+        "type": "buy",
+        "timestamp": 1792396657.1595697
+      },
+      {
+        "block": 100,
+        "buyer": "0xsniper8",
+        "token_amount": 50000000,
+        "from": "0xsniper8",
+        "type": "buy",
+        "timestamp": 1792396657.1595702
+      },
+      {
+        "block": 100,
+        "buyer": "0xsniper9",
+        "token_amount": 50000000,
+        "from": "0xsniper9",
+        "type": "buy",
+        "timestamp": 1792396657.1595707
+      },
+      {
+        "block": 105,
+        "buyer": "0xbuyer0",
+        "from": "0xsniper0",
+        "token_amount": 10000000,
+        "type": "sell",
+        "volume_usd": 5000,
+        "timestamp": 1792400257.1595716
+      },
+      {
+        "block": 105,
+        "buyer": "0xbuyer1",
+        "from": "0xsniper1",
+        "token_amount": 10000000,
+        "type": "sell",
+        "volume_usd": 5000,
+        "timestamp": 1792400257.1595721
+      },
+      {
+        "block": 105,
+        "buyer": "0xbuyer2",
+        "from": "0xsniper2",
+        "token_amount": 10000000,
+        "type": "sell",
+        "volume_usd": 5000,
+        "timestamp": 1792400257.159573
+      },
+      {
+        "block": 105,
+        "buyer": "0xbuyer3",
+        "from": "0xsniper3",
+        "token_amount": 10000000,
+        "type": "sell",
+        "volume_usd": 5000,
+        "timestamp": 1792400257.1595736
+      },
+      {
+        "block": 105,
+        "buyer": "0xbuyer4",
+        "from": "0xsniper4",
+        "token_amount": 10000000,
+        "type": "sell",
+        "volume_usd": 5000,
+        "timestamp": 1792400257.159574
+      },
+      {
+        "block": 105,
+        "buyer": "0xbuyer5",
+        "from": "0xsniper5",
+        "token_amount": 10000000,
+        "type": "sell",
+        "volume_usd": 5000,
+        "timestamp": 1792400257.1595745
+      },
+      {
+        "block": 105,
+        "buyer": "0xbuyer6",
+        "from": "0xsniper6",
+        "token_amount": 10000000,
+        "type": "sell",
+        "volume_usd": 5000,
+        "timestamp": 1792400257.159575
+      },
+      {
+        "block": 105,
+        "buyer": "0xbuyer7",
+        "from": "0xsniper7",
+        "token_amount": 10000000,
+        "type": "sell",
+        "volume_usd": 5000,
+        "timestamp": 1792400257.1595755
+      },
+      {
+        "block": 105,
+        "buyer": "0xbuyer8",
+        "from": "0xsniper8",
+        "token_amount": 10000000,
+        "type": "sell",
+        "volume_usd": 5000,
+        "timestamp": 1792400257.1595762
+      },
+      {
+        "block": 105,
+        "buyer": "0xbuyer9",
+        "from": "0xsniper9",
+        "token_amount": 10000000,
+        "type": "sell",
+        "volume_usd": 5000,
+        "timestamp": 1792400257.1595767
+      },
+      {
+        "block": 110,
+        "buyer": "0xorganic0",
+        "from": "0xorganic0",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792403057.1595778
+      },
+      {
+        "block": 111,
+        "buyer": "0xorganic1",
+        "from": "0xorganic1",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792403157.1595786
+      },
+      {
+        "block": 112,
+        "buyer": "0xorganic2",
+        "from": "0xorganic2",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792403257.1595793
+      },
+      {
+        "block": 113,
+        "buyer": "0xorganic3",
+        "from": "0xorganic3",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792403357.15958
+      },
+      {
+        "block": 114,
+        "buyer": "0xorganic4",
+        "from": "0xorganic4",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792403457.1595805
+      },
+      {
+        "block": 115,
+        "buyer": "0xorganic5",
+        "from": "0xorganic5",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792403557.1595812
+      },
+      {
+        "block": 116,
+        "buyer": "0xorganic6",
+        "from": "0xorganic6",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792403657.1595817
+      },
+      {
+        "block": 117,
+        "buyer": "0xorganic7",
+        "from": "0xorganic7",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792403757.1595821
+      },
+      {
+        "block": 118,
+        "buyer": "0xorganic8",
+        "from": "0xorganic8",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792403857.159583
+      },
+      {
+        "block": 119,
+        "buyer": "0xorganic9",
+        "from": "0xorganic9",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792403957.1595836
+      },
+      {
+        "block": 120,
+        "buyer": "0xorganic10",
+        "from": "0xorganic10",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792404057.1595843
+      },
+      {
+        "block": 121,
+        "buyer": "0xorganic11",
+        "from": "0xorganic11",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792404157.1595848
+      },
+      {
+        "block": 122,
+        "buyer": "0xorganic12",
+        "from": "0xorganic12",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792404257.1595852
+      },
+      {
+        "block": 123,
+        "buyer": "0xorganic13",
+        "from": "0xorganic13",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792404357.1595857
+      },
+      {
+        "block": 124,
+        "buyer": "0xorganic14",
+        "from": "0xorganic14",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792404457.1595867
+      },
+      {
+        "block": 125,
+        "buyer": "0xorganic15",
+        "from": "0xorganic15",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792404557.1595871
+      },
+      {
+        "block": 126,
+        "buyer": "0xorganic16",
+        "from": "0xorganic16",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792404657.1595879
+      },
+      {
+        "block": 127,
+        "buyer": "0xorganic17",
+        "from": "0xorganic17",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792404757.1595883
+      },
+      {
+        "block": 128,
+        "buyer": "0xorganic18",
+        "from": "0xorganic18",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792404857.159589
+      },
+      {
+        "block": 129,
+        "buyer": "0xorganic19",
+        "from": "0xorganic19",
+        "token_amount": 5000000,
+        "type": "buy",
+        "volume_usd": 2500,
+        "timestamp": 1792404957.1595895
+      }
+    ],
+    "wallet_graph": {
+      "edges": [
+        {
+          "from": "0xfunder1",
+          "to": "0xsniper0",
+          "type": "funded",
+          "weight": 1.0
+        },
+        {
+          "from": "0xfunder1",
+          "to": "0xsniper1",
+          "type": "funded",
+          "weight": 1.0
+        },
+        {
+          "from": "0xfunder1",
+          "to": "0xsniper2",
+          "type": "funded",
+          "weight": 1.0
+        },
+        {
+          "from": "0xfunder1",
+          "to": "0xsniper3",
+          "type": "funded",
+          "weight": 1.0
+        },
+        {
+          "from": "0xfunder1",
+          "to": "0xsniper4",
+          "type": "funded",
+          "weight": 1.0
+        },
+        {
+          "from": "0xfunder1",
+          "to": "0xsniper5",
+          "type": "funded",
+          "weight": 1.0
+        },
+        {
+          "from": "0xfunder1",
+          "to": "0xsniper6",
+          "type": "funded",
+          "weight": 1.0
+        },
+        {
+          "from": "0xfunder1",
+          "to": "0xsniper7",
+          "type": "funded",
+          "weight": 1.0
+        },
+        {
+          "from": "0xfunder1",
+          "to": "0xsniper8",
+          "type": "funded",
+          "weight": 1.0
+        },
+        {
+          "from": "0xfunder1",
+          "to": "0xsniper9",
+          "type": "funded",
+          "weight": 1.0
+        },
+        {
+          "from": "0xsniper0",
+          "to": "0xsniper1",
+          "type": "co_traded",
+          "weight": 0.5
+        },
+        {
+          "from": "0xsniper1",
+          "to": "0xsniper2",
+          "type": "co_traded",
+          "weight": 0.5
+        },
+        {
+          "from": "0xsniper2",
+          "to": "0xsniper3",
+          "type": "co_traded",
+          "weight": 0.5
+        },
+        {
+          "from": "0xsniper3",
+          "to": "0xsniper4",
+          "type": "co_traded",
+          "weight": 0.5
+        },
+        {
+          "from": "0xsniper4",
+          "to": "0xsniper5",
+          "type": "co_traded",
+          "weight": 0.5
+        },
+        {
+          "from": "0xsniper5",
+          "to": "0xsniper6",
+          "type": "co_traded",
+          "weight": 0.5
+        },
+        {
+          "from": "0xsniper6",
+          "to": "0xsniper7",
+          "type": "co_traded",
+          "weight": 0.5
+        },
+        {
+          "from": "0xsniper7",
+          "to": "0xsniper8",
+          "type": "co_traded",
+          "weight": 0.5
+        },
+        {
+          "from": "0xsniper8",
+          "to": "0xsniper9",
+          "type": "co_traded",
+          "weight": 0.5
+        },
+        {
+          "from": "0xsniper9",
+          "to": "0xsniper0",
+          "type": "co_traded",
+          "weight": 0.5
+        }
+      ]
+    },
+    "pool_age_hours": 12,
+    "previous_liquidity_usd": 100000,
+    "launch_block": 100
+  },
+  "token_snapshot": {
+    "creator": "0xdeployer_rug",
+    "total_supply": 1000000000,
+    "launch_block": 100
+  },
+  "outcome": "rug",
+  "outcome_timestamp": 1792421971.825213,
+  "outcome_timestamp_iso": "2026-10-19T14:59:31.825213"
+}

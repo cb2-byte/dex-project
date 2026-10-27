@@ -1,0 +1,97 @@
+{
+  "detection_id": "15f0f0feedb86ecf",
+  "token_address": "FzAZUKMV3M8qPCQPkDKArCY1qnJxT9UTvfq632H6pump",
+  "chain": "solana",
+  "timestamp": 1792890429.8244789,
+  "timestamp_iso": "2026-10-25T01:07:09.824479",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "8Je1bYSQoXNPJJSTHQah3hwNKpVqYRBoYGGJPAVVLYsT",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792890429.8244789,
+    "timestamp_iso": "2026-10-25T01:07:09.824479"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "5vsoywNYKn1BoWT7J421v49ESRMM894MQxZ7qRy6QYdRJsZMtbusQ8Mm2hBnNm7ybPouD4u5ZGKuuortGmouczgr",
+    "log_index": 0,
+    "block_number": 461064209,
+    "block_time": 1792890283,
+    "bonding_curve": "8TwrRD9juHwckHu5NEXRQSL2a7ufDmLgW5MidJs7RxFB",
+    "associated_bonding_curve": "7qgG4tf4T8aTVubFZz9E3GppiTff6BYZHSgeK1ZFWwTV",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "8Je1bYSQoXNPJJSTHQah3hwNKpVqYRBoYGGJPAVVLYsT",
+    "name": "November Is Coming",
+    "symbol": "$NOVEMBER",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreiabwe7kepa5isdoagqg2qj3elp7uiswewny5hksxedq25hkkydgny",
+    "launch_timestamp": 1792890283,
+    "launch_slot": 461064209,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

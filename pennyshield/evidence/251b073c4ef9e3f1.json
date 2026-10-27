@@ -1,0 +1,97 @@
+{
+  "detection_id": "251b073c4ef9e3f1",
+  "token_address": "9TuauPHLXhGjpW75SYKcM3QdxmAD9fnmsPP6vwSWpump",
+  "chain": "solana",
+  "timestamp": 1793008293.3309631,
+  "timestamp_iso": "2026-10-26T09:51:33.330963",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "H6fpVixrKfqxuFSKFwMm75qhWRHJarm13Bjhn6GLUibL",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793008293.3309631,
+    "timestamp_iso": "2026-10-26T09:51:33.330963"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "2TrhSmPgsKFg5mHvA6rJLWYKkpxoW3Ye2uiQ7cvdACziSu6T9jsscZVEHbdJWkN14zEhG3vSNxX9PDqMcAomioc1",
+    "log_index": 2,
+    "block_number": 461618691,
+    "block_time": 1793008080,
+    "bonding_curve": "9d75sf629SatUyxjuj49pQv2hMS46nzetNif82TaKE8z",
+    "associated_bonding_curve": "8L8UyPkBvZh858W1ZR5g8apstCSYxAf2Mc6RFxAGRUNR",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "H6fpVixrKfqxuFSKFwMm75qhWRHJarm13Bjhn6GLUibL",
+    "name": "overhang",
+    "symbol": "OVERHANG",
+    "metadata_uri": "https://soltrack.tech/m/eb998173c8ebb260cb638a16ba851672732372f443080b0ee020b250489b1f86.json",
+    "launch_timestamp": 1793008080,
+    "launch_slot": 461618691,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

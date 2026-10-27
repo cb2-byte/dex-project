@@ -1,0 +1,433 @@
+{
+  "detection_id": "61b9741b2eb7f9a8",
+  "token_address": "0xlegit_token_2",
+  "chain": "solana",
+  "timestamp": 1700172800,
+  "timestamp_iso": "2023-11-16T22:13:20",
+  "risk_score": {
+    "overall_score": 0.1,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [],
+    "timestamp": 1700172800,
+    "timestamp_iso": "2023-11-16T22:13:20"
+  },
+  "pool_snapshot": {
+    "liquidity_usd": 200000,
+    "transactions": [
+      {
+        "block": 100,
+        "buyer": "0xbuyer0",
+        "token_amount": 10000000,
+        "from": "0xbuyer0",
+        "type": "buy",
+        "timestamp": 1792396657.1633525
+      },
+      {
+        "block": 101,
+        "buyer": "0xbuyer1",
+        "token_amount": 10000000,
+        "from": "0xbuyer1",
+        "type": "buy",
+        "timestamp": 1792396757.1633542
+      },
+      {
+        "block": 102,
+        "buyer": "0xbuyer2",
+        "token_amount": 10000000,
+        "from": "0xbuyer2",
+        "type": "buy",
+        "timestamp": 1792396857.1633546
+      },
+      {
+        "block": 103,
+        "buyer": "0xbuyer3",
+        "token_amount": 10000000,
+        "from": "0xbuyer3",
+        "type": "buy",
+        "timestamp": 1792396957.1633554
+      },
+      {
+        "block": 104,
+        "buyer": "0xbuyer4",
+        "token_amount": 10000000,
+        "from": "0xbuyer4",
+        "type": "buy",
+        "timestamp": 1792397057.1633558
+      },
+      {
+        "block": 105,
+        "buyer": "0xbuyer5",
+        "token_amount": 10000000,
+        "from": "0xbuyer5",
+        "type": "buy",
+        "timestamp": 1792397157.1633568
+      },
+      {
+        "block": 106,
+        "buyer": "0xbuyer6",
+        "token_amount": 10000000,
+        "from": "0xbuyer6",
+        "type": "buy",
+        "timestamp": 1792397257.1633573
+      },
+      {
+        "block": 107,
+        "buyer": "0xbuyer7",
+        "token_amount": 10000000,
+        "from": "0xbuyer7",
+        "type": "buy",
+        "timestamp": 1792397357.163358
+      },
+      {
+        "block": 108,
+        "buyer": "0xbuyer8",
+        "token_amount": 10000000,
+        "from": "0xbuyer8",
+        "type": "buy",
+        "timestamp": 1792397457.1633584
+      },
+      {
+        "block": 109,
+        "buyer": "0xbuyer9",
+        "token_amount": 10000000,
+        "from": "0xbuyer9",
+        "type": "buy",
+        "timestamp": 1792397557.163359
+      },
+      {
+        "block": 110,
+        "buyer": "0xbuyer10",
+        "token_amount": 10000000,
+        "from": "0xbuyer10",
+        "type": "buy",
+        "timestamp": 1792397657.1633596
+      },
+      {
+        "block": 111,
+        "buyer": "0xbuyer11",
+        "token_amount": 10000000,
+        "from": "0xbuyer11",
+        "type": "buy",
+        "timestamp": 1792397757.1633604
+      },
+      {
+        "block": 112,
+        "buyer": "0xbuyer12",
+        "token_amount": 10000000,
+        "from": "0xbuyer12",
+        "type": "buy",
+        "timestamp": 1792397857.1633608
+      },
+      {
+        "block": 113,
+        "buyer": "0xbuyer13",
+        "token_amount": 10000000,
+        "from": "0xbuyer13",
+        "type": "buy",
+        "timestamp": 1792397957.1633615
+      },
+      {
+        "block": 114,
+        "buyer": "0xbuyer14",
+        "token_amount": 10000000,
+        "from": "0xbuyer14",
+        "type": "buy",
+        "timestamp": 1792398057.163362
+      },
+      {
+        "block": 115,
+        "buyer": "0xbuyer15",
+        "token_amount": 10000000,
+        "from": "0xbuyer15",
+        "type": "buy",
+        "timestamp": 1792398157.1633625
+      },
+      {
+        "block": 116,
+        "buyer": "0xbuyer16",
+        "token_amount": 10000000,
+        "from": "0xbuyer16",
+        "type": "buy",
+        "timestamp": 1792398257.1633632
+      },
+      {
+        "block": 117,
+        "buyer": "0xbuyer17",
+        "token_amount": 10000000,
+        "from": "0xbuyer17",
+        "type": "buy",
+        "timestamp": 1792398357.163364
+      },
+      {
+        "block": 118,
+        "buyer": "0xbuyer18",
+        "token_amount": 10000000,
+        "from": "0xbuyer18",
+        "type": "buy",
+        "timestamp": 1792398457.1633644
+      },
+      {
+        "block": 119,
+        "buyer": "0xbuyer19",
+        "token_amount": 10000000,
+        "from": "0xbuyer19",
+        "type": "buy",
+        "timestamp": 1792398557.1633651
+      },
+      {
+        "block": 120,
+        "buyer": "0xbuyer20",
+        "token_amount": 10000000,
+        "from": "0xbuyer20",
+        "type": "buy",
+        "timestamp": 1792398657.1633656
+      },
+      {
+        "block": 121,
+        "buyer": "0xbuyer21",
+        "token_amount": 10000000,
+        "from": "0xbuyer21",
+        "type": "buy",
+        "timestamp": 1792398757.1633663
+      },
+      {
+        "block": 122,
+        "buyer": "0xbuyer22",
+        "token_amount": 10000000,
+        "from": "0xbuyer22",
+        "type": "buy",
+        "timestamp": 1792398857.1633668
+      },
+      {
+        "block": 123,
+        "buyer": "0xbuyer23",
+        "token_amount": 10000000,
+        "from": "0xbuyer23",
+        "type": "buy",
+        "timestamp": 1792398957.1633675
+      },
+      {
+        "block": 124,
+        "buyer": "0xbuyer24",
+        "token_amount": 10000000,
+        "from": "0xbuyer24",
+        "type": "buy",
+        "timestamp": 1792399057.163368
+      },
+      {
+        "block": 125,
+        "buyer": "0xbuyer25",
+        "token_amount": 10000000,
+        "from": "0xbuyer25",
+        "type": "buy",
+        "timestamp": 1792399157.1633687
+      },
+      {
+        "block": 126,
+        "buyer": "0xbuyer26",
+        "token_amount": 10000000,
+        "from": "0xbuyer26",
+        "type": "buy",
+        "timestamp": 1792399257.1633692
+      },
+      {
+        "block": 127,
+        "buyer": "0xbuyer27",
+        "token_amount": 10000000,
+        "from": "0xbuyer27",
+        "type": "buy",
+        "timestamp": 1792399357.1633697
+      },
+      {
+        "block": 128,
+        "buyer": "0xbuyer28",
+        "token_amount": 10000000,
+        "from": "0xbuyer28",
+        "type": "buy",
+        "timestamp": 1792399457.1633706
+      },
+      {
+        "block": 129,
+        "buyer": "0xbuyer29",
+        "token_amount": 10000000,
+        "from": "0xbuyer29",
+        "type": "buy",
+        "timestamp": 1792399557.163371
+      },
+      {
+        "block": 130,
+        "buyer": "0xbuyer30",
+        "token_amount": 10000000,
+        "from": "0xbuyer30",
+        "type": "buy",
+        "timestamp": 1792399657.1633716
+      },
+      {
+        "block": 131,
+        "buyer": "0xbuyer31",
+        "token_amount": 10000000,
+        "from": "0xbuyer31",
+        "type": "buy",
+        "timestamp": 1792399757.163372
+      },
+      {
+        "block": 132,
+        "buyer": "0xbuyer32",
+        "token_amount": 10000000,
+        "from": "0xbuyer32",
+        "type": "buy",
+        "timestamp": 1792399857.1633728
+      },
+      {
+        "block": 133,
+        "buyer": "0xbuyer33",
+        "token_amount": 10000000,
+        "from": "0xbuyer33",
+        "type": "buy",
+        "timestamp": 1792399957.1633732
+      },
+      {
+        "block": 134,
+        "buyer": "0xbuyer34",
+        "token_amount": 10000000,
+        "from": "0xbuyer34",
+        "type": "buy",
+        "timestamp": 1792400057.1633737
+      },
+      {
+        "block": 135,
+        "buyer": "0xbuyer35",
+        "token_amount": 10000000,
+        "from": "0xbuyer35",
+        "type": "buy",
+        "timestamp": 1792400157.1633747
+      },
+      {
+        "block": 136,
+        "buyer": "0xbuyer36",
+        "token_amount": 10000000,
+        "from": "0xbuyer36",
+        "type": "buy",
+        "timestamp": 1792400257.1633751
+      },
+      {
+        "block": 137,
+        "buyer": "0xbuyer37",
+        "token_amount": 10000000,
+        "from": "0xbuyer37",
+        "type": "buy",
+        "timestamp": 1792400357.1633756
+      },
+      {
+        "block": 138,
+        "buyer": "0xbuyer38",
+        "token_amount": 10000000,
+        "from": "0xbuyer38",
+        "type": "buy",
+        "timestamp": 1792400457.1633763
+      },
+      {
+        "block": 139,
+        "buyer": "0xbuyer39",
+        "token_amount": 10000000,
+        "from": "0xbuyer39",
+        "type": "buy",
+        "timestamp": 1792400557.1633768
+      },
+      {
+        "block": 140,
+        "buyer": "0xbuyer40",
+        "token_amount": 10000000,
+        "from": "0xbuyer40",
+        "type": "buy",
+        "timestamp": 1792400657.1633775
+      },
+      {
+        "block": 141,
+        "buyer": "0xbuyer41",
+        "token_amount": 10000000,
+        "from": "0xbuyer41",
+        "type": "buy",
+        "timestamp": 1792400757.163378
+      },
+      {
+        "block": 142,
+        "buyer": "0xbuyer42",
+        "token_amount": 10000000,
+        "from": "0xbuyer42",
+        "type": "buy",
+        "timestamp": 1792400857.1633787
+      },
+      {
+        "block": 143,
+        "buyer": "0xbuyer43",
+        "token_amount": 10000000,
+        "from": "0xbuyer43",
+        "type": "buy",
+        "timestamp": 1792400957.1633792
+      },
+      {
+        "block": 144,
+        "buyer": "0xbuyer44",
+        "token_amount": 10000000,
+        "from": "0xbuyer44",
+        "type": "buy",
+        "timestamp": 1792401057.1633797
+      },
+      {
+        "block": 145,
+        "buyer": "0xbuyer45",
+        "token_amount": 10000000,
+        "from": "0xbuyer45",
+        "type": "buy",
+        "timestamp": 1792401157.1633801
+      },
+      {
+        "block": 146,
+        "buyer": "0xbuyer46",
+        "token_amount": 10000000,
+        "from": "0xbuyer46",
+        "type": "buy",
+        "timestamp": 1792401257.163381
+      },
+      {
+        "block": 147,
+        "buyer": "0xbuyer47",
+        "token_amount": 10000000,
+        "from": "0xbuyer47",
+        "type": "buy",
+        "timestamp": 1792401357.1633816
+      },
+      {
+        "block": 148,
+        "buyer": "0xbuyer48",
+        "token_amount": 10000000,
+        "from": "0xbuyer48",
+        "type": "buy",
+        "timestamp": 1792401457.163382
+      },
+      {
+        "block": 149,
+        "buyer": "0xbuyer49",
+        "token_amount": 10000000,
+        "from": "0xbuyer49",
+        "type": "buy",
+        "timestamp": 1792401557.1633825
+      }
+    ],
+    "wallet_graph": {
+      "edges": []
+    },
+    "pool_age_hours": 48,
+    "previous_liquidity_usd": 200000
+  },
+  "token_snapshot": {
+    "creator": "0xdeployer_legit",
+    "total_supply": 1000000000
+  },
+  "outcome": "legitimate",
+  "outcome_timestamp": 1792415795.228657,
+  "outcome_timestamp_iso": "2026-10-19T13:16:35.228657"
+}

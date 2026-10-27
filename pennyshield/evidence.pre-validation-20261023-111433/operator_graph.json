@@ -1,0 +1,1843 @@
+{
+  "edges": {
+    "024e34d559443d88cab53716": {
+      "event_key": "173751b2e2b6dc71",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "173751b2e2b6dc71",
+        "name": "SKYNET",
+        "signature": "4NcpC3oZSxRxgcyA9j23bRrCHd3arfgHZw1joEFGSiRdbrGuSEgMu13UVUE5hfRYydDSe6xu9jkKb3wQV4EQnpzc",
+        "slot": 460165158,
+        "symbol": "SKYNET",
+        "timestamp": 1792699666
+      },
+      "id": "024e34d559443d88cab53716",
+      "relationship": "deployed",
+      "source": "wallet:BThe8Fs1vaTXvHU1s8Rii4hVkkumgxGthLSNpVYLNLWx",
+      "target": "launch:solana:SKY5NKfmsSFxytcXsC2bKuQrAdYPrYA6yPQZszkaNeT"
+    },
+    "046ce572246deb7ee91abda2": {
+      "event_key": "4cae952ff236e577",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "4cae952ff236e577",
+        "name": "Tesla SpaceX",
+        "signature": "ak5cGhLxihHP5Snw2HEnCMgfPcLVmdQeVK2G59ZLczLXBzZtsRiAsjPC8PVjYLDbtm8jEBZo2N99vGxPi6ZCUAR",
+        "slot": 460303382,
+        "symbol": "ASS-SALSA",
+        "timestamp": 1792728949
+      },
+      "id": "046ce572246deb7ee91abda2",
+      "relationship": "deployed",
+      "source": "wallet:8E8sAZBXkcWrpP82oEctNJ8Pcv2YPqcx9Uxcsd2Wx9Ta",
+      "target": "launch:solana:C5Tbe2RtD6QQXgPH2AkDMv2BeS1UUbg3mUmo5vX4kMub"
+    },
+    "05529bce148ec4bdbc9ab272": {
+      "event_key": "4bc63863e492408e",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "4bc63863e492408e",
+        "name": "Chicken Nugget",
+        "signature": "4yohY3vNteh5XspXjrxtgRAUARmAKjYM8HLTza1GFLL2PHorhhtve8LwVZZzGo1JEKpoct1YbcP49LMZg3vgXdjq",
+        "slot": 460170791,
+        "symbol": "NUGGET",
+        "timestamp": 1792700860
+      },
+      "id": "05529bce148ec4bdbc9ab272",
+      "relationship": "deployed",
+      "source": "wallet:GuAKE5EgK7Au7EARH81oHrWjJvvg2Axf9AVNMpt7yEzH",
+      "target": "launch:solana:4WxsAaboPQw7WvoyvNBEiT2VcW3L8QpFmMRUatPB7enC"
+    },
+    "060eb51f4cef173439ebd6be": {
+      "event_key": "c91f6fd255a7188f",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "c91f6fd255a7188f",
+        "name": "Donald J. Trump",
+        "signature": "45Mq197tLUcVKxKWFfy7LXy2dJqiweG5qWa6zih1PGM9WGvwNJXe6NwfrTvtjRQ8itCVpyBbuen8A86b69M7HGzZ",
+        "slot": 460226668,
+        "symbol": "DJT",
+        "timestamp": 1792712709
+      },
+      "id": "060eb51f4cef173439ebd6be",
+      "relationship": "deployed",
+      "source": "wallet:35dxJTcSCRNfBev3qBCzNq5mBPtp9ZaegzUBekfZtBXE",
+      "target": "launch:solana:9W5FSWTjWCDE3tQsQu2B3hym6p3bWZg8rcCQKxNVpump"
+    },
+    "0f3b5d4869a5e01fa175a9e4": {
+      "event_key": "9424dabd1b2ba00b",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "9424dabd1b2ba00b",
+        "name": "m",
+        "signature": "3LdqAJyJyUFLANkmtfeRrUV3EhAhFqUtkgRLBJZybM8EPhDAKrmnbiL7N32UbdgS5YUZzfPCz2CgL76vhZdLpV9z",
+        "slot": 460276477,
+        "symbol": "M",
+        "timestamp": 1792723255
+      },
+      "id": "0f3b5d4869a5e01fa175a9e4",
+      "relationship": "deployed",
+      "source": "wallet:2mncRSZ7tAPBGCcYA7kfNx84spSJnz9w6zcawGxCH8K7",
+      "target": "launch:solana:4BEcVEab46feF7LANMoJ5krR7N8tSADLmF8YQBNNpump"
+    },
+    "10c19f7b2ba957322ee8e678": {
+      "event_key": "9be69ca1c88c9a3f",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "9be69ca1c88c9a3f",
+        "name": "ChineseWarHound",
+        "signature": "4CHNbTFjxF1RzMwNuPKF3dFrYbVFWqvVioRpHMSyrSUwpcSQUe7UBAzWuD1GSuCYSdFzPdbWqFBfLXvYSKF4niZ7",
+        "slot": 460326571,
+        "symbol": "WRHND",
+        "timestamp": 1792733866
+      },
+      "id": "10c19f7b2ba957322ee8e678",
+      "relationship": "deployed",
+      "source": "wallet:H2wSezKYjT6ekSQ23XfcgfxwxueXtKBkTQeQLCwokdFJ",
+      "target": "launch:solana:UKrvzmTEcXZWJCLPKEuteN5hCVgBx3ug1Ka5JnNpump"
+    },
+    "13ecc7ec74a97743e56e7ade": {
+      "event_key": "9386829b83ec5d0c",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "9386829b83ec5d0c",
+        "name": "CHROMA.exe",
+        "signature": "2e9dH1xQfFywvfTP781FxRfWqZxzmucVnu5bFYR58iUAqJrYTph7J6Q59r1EsSMppGtUaGqbe9pLQkSVmKuEQzf7",
+        "slot": 460122955,
+        "symbol": "CHRM",
+        "timestamp": 1792690701
+      },
+      "id": "13ecc7ec74a97743e56e7ade",
+      "relationship": "deployed",
+      "source": "wallet:6UaANN2AkbneBhjGGLicoGdG8rS6e1Ls1Fr67mgLXsq2",
+      "target": "launch:solana:3PBxNGn9bgpg7JLNZFRUV7fquBTSgdoXCyH5K2yeDt5B"
+    },
+    "1730cf237323e4c595049917": {
+      "event_key": "adff36fc98c7c886",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "adff36fc98c7c886",
+        "name": "Free KIMCHI tek , KIMCHI FAUCET",
+        "signature": "4jawiNqWoNd868CYK71oZTpDX2Ggw5JU55KSB1r4es2SZc8KKFHF9f3DjES777JNBHzUGJFtd3KhzXBoNo6pPcRe",
+        "slot": 460226670,
+        "symbol": "FAUCET",
+        "timestamp": 1792712709
+      },
+      "id": "1730cf237323e4c595049917",
+      "relationship": "deployed",
+      "source": "wallet:6aQ9F5sm8kjVKbWYBXBkF9jxpUxEN3759vmFfQkURdKj",
+      "target": "launch:solana:51t44rLrtscqFbkZVkCKUDKkw1W3ssFnQxD1gAnUnU1t"
+    },
+    "1adce792562eb65d084d113c": {
+      "event_key": "b7a35fd58f6ce919",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "b7a35fd58f6ce919",
+        "name": "Randy",
+        "signature": "33Q1MYUmC3QH3qKi8RGgzh6nFWAqn7nTMqNdJpi2YivVEefNy8uymkJNkM9unPHWwzBwG7czH5XoNBU6phm5kheF",
+        "slot": 460404182,
+        "symbol": "RANDY",
+        "timestamp": 1792750294
+      },
+      "id": "1adce792562eb65d084d113c",
+      "relationship": "deployed",
+      "source": "wallet:9wRuFPJZFviuHv9q4hsaxUUADDphX6oSjcMA3RuxTFRG",
+      "target": "launch:solana:F1B3zfVPdMuEZ9qeruomNdTe7pss49YByzA1k1HV4fdz"
+    },
+    "2067903e428be2bdc8458f58": {
+      "event_key": "78ea1296f4e67ee0",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "78ea1296f4e67ee0",
+        "name": "ITS REAL!!!!!",
+        "signature": "VnwZEc2ENuiYQgFRpLVkQ7sy9fPmReiRbUvZbLinBoqpAZGC1gXL1Sy83Nus7ETL9fNDSKRWkytg6bSHiPkocrd",
+        "slot": 460331306,
+        "symbol": "hello",
+        "timestamp": 1792734872
+      },
+      "id": "2067903e428be2bdc8458f58",
+      "relationship": "deployed",
+      "source": "wallet:E2hRodJxc5mGt4rzf26QfUtBQaDC5ErNaBufrxUMpR8E",
+      "target": "launch:solana:FYKrYjkRC3LJWZY6mUkUmGP87CnCbM4S8wsXrR4bne2g"
+    },
+    "20af56b30ee991e10b5cb3ee": {
+      "event_key": "9aae637813f6dee2",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "9aae637813f6dee2",
+        "name": "Btc to the floor",
+        "signature": "qviwhuyk2svWRShF965Wcd2hHWaTFQAsf8PJkig4wX3kUN8hhZhWAGXRQiAYRNiuY4XNgGGEHNx1Up4shU7Lna6",
+        "slot": 460261999,
+        "symbol": "BTCF",
+        "timestamp": 1792720189
+      },
+      "id": "20af56b30ee991e10b5cb3ee",
+      "relationship": "deployed",
+      "source": "wallet:FYe6yTHwmXysospTm1GqRt6TGrec8QXfKGbx6tFuyhiG",
+      "target": "launch:solana:8o78mne5tnLmpiZChhnzh583cZcPVuzm8N7SPCsBpump"
+    },
+    "2b39a32d8c225cdcac0e4eb1": {
+      "event_key": "7817badcc5bdde88",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "7817badcc5bdde88",
+        "name": "Big Titty Coin",
+        "signature": "5YgifYaygZPxaDju5kzSGwdRXcLPBKprLsjZ84Se17ewSSSD3KBSzJ9kYGXEdJkn6FP9bvPjubcSn5qfBLnj33JP",
+        "slot": 460075606,
+        "symbol": "BTC",
+        "timestamp": 1792680663
+      },
+      "id": "2b39a32d8c225cdcac0e4eb1",
+      "relationship": "deployed",
+      "source": "wallet:HkRzNU9Nh7F49UAycTSW1NHQmn3cwgfjQPxfkWTtJPdp",
+      "target": "launch:solana:3vgN4FzmxegtqzN2DhjTw38waRyCRw3MnZWvwEYJpump"
+    },
+    "3a504f3c6e2b65faeca219c2": {
+      "event_key": "f5a531fbe9279747",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "f5a531fbe9279747",
+        "name": "Monero Lisa",
+        "signature": "pk7UWW8xmCKr2gPT3Z4mdq6V2ccgMMQuk7PR2ugscbE88o7PkzgnBnZMiXgoTeiRH2beMW43dYgD53xWketqnab",
+        "slot": 460185411,
+        "symbol": "MONELISA",
+        "timestamp": 1792703974
+      },
+      "id": "3a504f3c6e2b65faeca219c2",
+      "relationship": "deployed",
+      "source": "wallet:9VykSjvzWr8HSp6Fn54woYNcHFK64vJ9PDfvh28jEJPx",
+      "target": "launch:solana:6P8JBNTKgk3LW9wjZw7i9az9EvuFgFMXUFUiGNMQcDZs"
+    },
+    "3aedf6259647c7b735f7ae01": {
+      "event_key": "d908e2ef01108758",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "d908e2ef01108758",
+        "name": "1 Pill Can Change Your Life",
+        "signature": "hUt6CT57dmE6kCwZ9KNymF6tdTiLwJEKdWeErmSVkMsGNpy2Wfd6meu4fFZRDPGfqTX9sHUsvnXRcAZ6Tp19Ghu",
+        "slot": 460333362,
+        "symbol": "BONDED 70K",
+        "timestamp": 1792735306
+      },
+      "id": "3aedf6259647c7b735f7ae01",
+      "relationship": "deployed",
+      "source": "wallet:DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU",
+      "target": "launch:solana:EE1NDKfVS1fP6z2Mwd725CYahK2vnexfcPfBD1PSpump"
+    },
+    "42792dba8f5cf2caff63df62": {
+      "event_key": "ea562d464541f3a3",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "ea562d464541f3a3",
+        "name": "Kill Switch",
+        "signature": "79hRGJ9ftaS9Bo1euVLAy8Dp5Njgsk2uLgNEticmxBGU29XFJmttTPuu2mXiMb1bANRehgwoSehZdJo1ndyC62T",
+        "slot": 460291176,
+        "symbol": "KILLSWITCH",
+        "timestamp": 1792726360
+      },
+      "id": "42792dba8f5cf2caff63df62",
+      "relationship": "deployed",
+      "source": "wallet:B3rM6meQUs4ugJX7MhkGNeqHpU5dWZwZgDphnDpAaeHo",
+      "target": "launch:solana:FXqbm2AsPLWrwbgu4VtenM84QqBMJQV5d2Y1V7MEM4Xw"
+    },
+    "50f244e087c80170110f808a": {
+      "event_key": "6eb740b1f6e63b91",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "6eb740b1f6e63b91",
+        "name": "while they are out partying btw",
+        "signature": "3aiSCLV1gfrY9V54XagZ7LU5CEaX2PCFt2m7pyV8hYAgT3hs8RMwJcHJLcpmZnAAeZpd69vS5EU2CUmswT5Rib6s",
+        "slot": 460261997,
+        "symbol": "partying",
+        "timestamp": 1792720189
+      },
+      "id": "50f244e087c80170110f808a",
+      "relationship": "deployed",
+      "source": "wallet:CZWberudF1TyyAcrYgfQDDcarNEzqiJeKxK8Qra92Uke",
+      "target": "launch:solana:6yfph6r3vucLZba1ZjQpzbG9QFSC2isRBsoFzd4iGdNJ"
+    },
+    "596962ddcb2d02f8b88f03a1": {
+      "event_key": "140b8c59ed583517",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "140b8c59ed583517",
+        "name": "Donald J. Trump",
+        "signature": "z3bcXkoMTpHDECAYcYHwXFY4YFdR7cZ2e1mha2zbxbhkiqcQPs5VHHoD6CnVAqMjv8W2HdpNSgBfJeLpqCiqPCA",
+        "slot": 460226668,
+        "symbol": "DJT",
+        "timestamp": 1792712709
+      },
+      "id": "596962ddcb2d02f8b88f03a1",
+      "relationship": "deployed",
+      "source": "wallet:2oqDrFSz1sdeYN2KRzqTR4rnpN8BUjdgQ4jtDtBQDcck",
+      "target": "launch:solana:FSYqZaiR9jmYynaFCFCCZ51D3wxVtEyDH4Noc799pump"
+    },
+    "5c1ac2a10f01695813c5c340": {
+      "event_key": "5336a9f6643db48c",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "5336a9f6643db48c",
+        "name": "Dogewifpinkbeanie",
+        "signature": "4S5WY3FL3tfNBapY2J9XGncMpHzof9S8sdjH9isa2ekbNejeX9srSbhgwacf7iiUkxkeZNH7kaVrPNLYUXFAYYVs",
+        "slot": 460208508,
+        "symbol": "WIF",
+        "timestamp": 1792708873
+      },
+      "id": "5c1ac2a10f01695813c5c340",
+      "relationship": "deployed",
+      "source": "wallet:CMqNoWGtww1uz9UwWwEqjQLX4ZFzsen8Ph576f6fpgTt",
+      "target": "launch:solana:7SaabEcE5fV1713tbeXxeBBwcCTmJzHw41SkbQYv95o4"
+    },
+    "5e84bac00729d598c84bdc2a": {
+      "event_key": "562c50f433035bdd",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "562c50f433035bdd",
+        "name": "PeriodicPad",
+        "signature": "cuuYKUr5RriMq6J9wi7jmZBkDM6gb8LToqr4MPYoxj9Fri3Z1AztgvpCZZh8hapUZb7f9dsh8rWAKgwcDix7SXz",
+        "slot": 460208507,
+        "symbol": "Periodic",
+        "timestamp": 1792708873
+      },
+      "id": "5e84bac00729d598c84bdc2a",
+      "relationship": "deployed",
+      "source": "wallet:HHbu3Da4tBV66guqieQVre8FQPp8N9HdHrB2E3Gn9EdT",
+      "target": "launch:solana:CXzpwXfJ6H8emf7dKAGX8vbxrvNKhiD63iFMuceTpump"
+    },
+    "637cc90975086ed2ef01ad68": {
+      "event_key": "a6b44927772cad88",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "a6b44927772cad88",
+        "name": "Sir Crust",
+        "signature": "2r4km9c8ESSzASVRA7roMvVoQm8q6HTnxAAaSyKNnUE3P9vS2rR7qxQaktiELMGcq23iCk6xVxFKgoSbMHoady8c",
+        "slot": 460154890,
+        "symbol": "SIRCRUST",
+        "timestamp": 1792697487
+      },
+      "id": "637cc90975086ed2ef01ad68",
+      "relationship": "deployed",
+      "source": "wallet:3tC672H5qooHs3rZiCzUj9iLMEPjmgDbUYE41qPyGgVx",
+      "target": "launch:solana:CWnwk4a2BXyDEWLBX3Va8NAydwTm6CpeHCNBw5Yspump"
+    },
+    "644b0353dd62416e03546386": {
+      "event_key": "77957ac05b450bd4",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "77957ac05b450bd4",
+        "name": "Doge",
+        "signature": "4CNEdaNbxtRfX8G7cr84QDrhbKH3DqWahDdFdRXojihpgAqC9gWN79vw5aqM7Z4WbCnzbBws4sbHSPDLs6DVbsd7",
+        "slot": 460368855,
+        "symbol": "DOGE",
+        "timestamp": 1792742818
+      },
+      "id": "644b0353dd62416e03546386",
+      "relationship": "deployed",
+      "source": "wallet:CNqtNd9y1B29PRRAhSKvA1ZzTsFYgr5Pjm8K6VVqePnq",
+      "target": "launch:solana:HvVZb63kpkKm6BXdDS2xjvognifcdD4gTe8wV9Ybpump"
+    },
+    "66aca394a0cff70a365b70e5": {
+      "event_key": "d54103c3e1f0d12c",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "d54103c3e1f0d12c",
+        "name": "Donald J. Trump",
+        "signature": "3MQQjtqjLEqbwkJ8wZ6qgvtoX43aX7zt2ma7HsVttAs4gw3JjgT4EXafv5MhsitPW37SSNzKsnK6YE42NJQA6nrc",
+        "slot": 460226668,
+        "symbol": "DJT",
+        "timestamp": 1792712709
+      },
+      "id": "66aca394a0cff70a365b70e5",
+      "relationship": "deployed",
+      "source": "wallet:HNVu9iRGQN5S1JhjSYYzsd9zh6hr5UmpCSE3Btp1XBNq",
+      "target": "launch:solana:J8LoJ7gq6CF1AhU29ThLUc5QFoQjwpWKgk1qgu2npump"
+    },
+    "6f5eb8c257d1b1bcb4dd559f": {
+      "event_key": "5b96777dc0739987",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "5b96777dc0739987",
+        "name": "Mopad",
+        "signature": "4ezAcEZm2rTqSnZoidSvdLnzt6DxA7q4zJ6sJDtzZp6jCin69qsHF9N9sS77bDPxWmegZNW1aX6mRu2DC1tiDC8T",
+        "slot": 460348406,
+        "symbol": "MOPAD",
+        "timestamp": 1792738488
+      },
+      "id": "6f5eb8c257d1b1bcb4dd559f",
+      "relationship": "deployed",
+      "source": "wallet:FenAmipD5ZX1ig5VTyHLgSUgMt23C6jGEyXDJtq89NoJ",
+      "target": "launch:solana:HudooLFD7Q68MV257LbkZsgYkGtTs4TQp774qswBpump"
+    },
+    "6fd0b1fbf25bd37bd16c7444": {
+      "event_key": "8c57a3dee5d2eac8",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "8c57a3dee5d2eac8",
+        "name": "PluggedGPT",
+        "signature": "Yr5wy5U3W81QZXG2SqRUfS2hChJYSZkN4u5LypQjKPGVihiEeBfqFJTpG4FSYKRMdgLpxBYHEaqQLhyqfpJzvk6",
+        "slot": 460390965,
+        "symbol": "PLUGGEDGPT",
+        "timestamp": 1792747500
+      },
+      "id": "6fd0b1fbf25bd37bd16c7444",
+      "relationship": "deployed",
+      "source": "wallet:36nrVA3AUWc1Pw62SsENpw1zYT2VVTsyMieJy55PvXpz",
+      "target": "launch:solana:GzeBKxB4hcs4hfUSLEXdumUZpn3rXWZUQqNocswafxeW"
+    },
+    "7216c50419050ad7de162fe6": {
+      "event_key": "2d6ZB8EXEZC5P8EuR85R4DXx8hZjkdZYtmeWWdDDSAUMFUxH8Qk8tfEMjEahDQYGxnzjy4qNsDqEGsNX3GMDuSZf",
+      "evidence": {
+        "block_time": 1792699011,
+        "lamports": 18449040,
+        "observed_for_detection": "abd29593b3dde470",
+        "program": "system",
+        "signature": "2d6ZB8EXEZC5P8EuR85R4DXx8hZjkdZYtmeWWdDDSAUMFUxH8Qk8tfEMjEahDQYGxnzjy4qNsDqEGsNX3GMDuSZf",
+        "slot": 460162066,
+        "transfer_type": "transfer"
+      },
+      "id": "7216c50419050ad7de162fe6",
+      "relationship": "funded",
+      "source": "wallet:3JdMzzjzZxfCE7ntRBPZ3geYUc8pyVNiaRhohTW6QTGs",
+      "target": "wallet:8rwh68LhKbwAcLGSkTQWJAyAEmchRwNHXQrZ6rCMJU4T"
+    },
+    "78427462a7e6409927c9d3ec": {
+      "event_key": "ce8b8e2e7bf7de63",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "ce8b8e2e7bf7de63",
+        "name": "1 Pill Can Change Your Life",
+        "signature": "3P1RE3RwJRKhdgECiN9j7NHdbSiUDk7THeQD7sMXvkhE2685zSRnMH6RC6eQbnTAoqgxRN1ZwMh4jPqTsDq3tmpS",
+        "slot": 460333356,
+        "symbol": "BONDED 70K",
+        "timestamp": 1792735305
+      },
+      "id": "78427462a7e6409927c9d3ec",
+      "relationship": "deployed",
+      "source": "wallet:DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU",
+      "target": "launch:solana:9icYmge9qaaGaeSrkk8ucHJbfrBp7pPqbgS14TRvpump"
+    },
+    "83ccda1a8a4414bcd9a3463e": {
+      "event_key": "98f7239ca8899a2a",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "98f7239ca8899a2a",
+        "name": "BetOnBlack",
+        "signature": "5oQZCz5x83TGqi9WDxNVdkLrPVvstFuscc5ZuF8HsKHGbDMk3Uma7pDngpE8r7nhGeDWZwnTrwXorpiy7Zqaivzz",
+        "slot": 460399907,
+        "symbol": "BetOnBlak",
+        "timestamp": 1792749391
+      },
+      "id": "83ccda1a8a4414bcd9a3463e",
+      "relationship": "deployed",
+      "source": "wallet:3QivjZCQxan7mj1ZQi9DXhFtFV8dCGhi739FLe2PcJXy",
+      "target": "launch:solana:EbjkwzFKhWSQxEiG3ofoAeAi9DH6fejzmHRuyv9Qpump"
+    },
+    "8af4f8ff1051db0a48eca3b1": {
+      "event_key": "65aWcVY8TrFUhPUvpjvEUEvXsMYM9NyBZvxTHyQhvPXgZvxwLpB3BSgRPh4Mf8jNabMCZdLgVDrgUtgM31bDeZ4M",
+      "evidence": {
+        "block_time": 1792690623,
+        "lamports": 299963000,
+        "observed_for_detection": "9386829b83ec5d0c",
+        "program": "system",
+        "signature": "65aWcVY8TrFUhPUvpjvEUEvXsMYM9NyBZvxTHyQhvPXgZvxwLpB3BSgRPh4Mf8jNabMCZdLgVDrgUtgM31bDeZ4M",
+        "slot": 460122589,
+        "transfer_type": "transfer"
+      },
+      "id": "8af4f8ff1051db0a48eca3b1",
+      "relationship": "funded",
+      "source": "wallet:ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ",
+      "target": "wallet:6UaANN2AkbneBhjGGLicoGdG8rS6e1Ls1Fr67mgLXsq2"
+    },
+    "957e71292e5ebe5f5ae336f6": {
+      "event_key": "90907376d4eec869",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "90907376d4eec869",
+        "name": "Keyboard trading bot",
+        "signature": "2uQn7BYG9forXkL8TmZmpDk7EAD56ypg3G5MAMjXLxLwZYuDhM4VE21RctZ6id7HoLnCQknXe2BAE8orFhhHWbCt",
+        "slot": 460236311,
+        "symbol": "KEYBOARD",
+        "timestamp": 1792714748
+      },
+      "id": "957e71292e5ebe5f5ae336f6",
+      "relationship": "deployed",
+      "source": "wallet:7phBUYiijEuJR96hd2NxrjQVVW5az9fR6RxA6KDoz3Ch",
+      "target": "launch:solana:4zz8UMCVuPsqqDM6GvtSnvFsKhyEGMXzHqNQKACDpump"
+    },
+    "973f6e966077f542221cc1f9": {
+      "event_key": "a808a31709764c42",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "a808a31709764c42",
+        "name": "$DOGLABS",
+        "signature": "2hbwCt3F4HYXYiYeoUUiqCu1uWUtjzq6jwuzH1VpAyNDrsdaz6UhmoKCYijiBwxQJbgHynz8sY7N5rPfJzwKKbyX",
+        "slot": 460291176,
+        "symbol": "DGLBS",
+        "timestamp": 1792726360
+      },
+      "id": "973f6e966077f542221cc1f9",
+      "relationship": "deployed",
+      "source": "wallet:FLzNN3PBfnHBsH4au9DkgfTTPdL6BmWwJLeAtGY8jvJX",
+      "target": "launch:solana:286ZU7R7Nae6hEY2LavZbxt3J8fYABxvexeD1jNppump"
+    },
+    "9c0b3682e390e77d201d6805": {
+      "event_key": "ed7d59fc5a3301ee",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "ed7d59fc5a3301ee",
+        "name": "clank",
+        "signature": "ucRzemmvZqnBBVDGPC2JndXQ29L6txVxYrw2A7dGzjD2MRCDYtSiXTTPsZBfEE1EYjjV23s6gLyKJHaKTv6GNpX",
+        "slot": 460421172,
+        "symbol": "clank",
+        "timestamp": 1792753883
+      },
+      "id": "9c0b3682e390e77d201d6805",
+      "relationship": "deployed",
+      "source": "wallet:3gJVrzZP1c3263CMZ5or66weywPXNaDXhKTCrvm666jQ",
+      "target": "launch:solana:4Mt7jLukA5H11g8ee4HJABteFcuDG6Rizr7mPs9UgnHL"
+    },
+    "9f9d7be5b36bb1a4c7444a9d": {
+      "event_key": "63stfR5DDGr31uU3PSrx2zgLPJS6uLDquxKStZ14edvEwJgb7pNqQ6DKrMukX6WtoDKN3px8P61ja36zQJ4Ya96C",
+      "evidence": {
+        "block_time": 1792708421,
+        "lamports": 1000,
+        "observed_for_detection": "562c50f433035bdd",
+        "program": "system",
+        "signature": "63stfR5DDGr31uU3PSrx2zgLPJS6uLDquxKStZ14edvEwJgb7pNqQ6DKrMukX6WtoDKN3px8P61ja36zQJ4Ya96C",
+        "slot": 460206394,
+        "transfer_type": "transfer"
+      },
+      "id": "9f9d7be5b36bb1a4c7444a9d",
+      "relationship": "funded",
+      "source": "wallet:Bd6Fuki63SZWMRhQkgdQEePM2Ag9riMv2BeNfqSz54ev",
+      "target": "wallet:HHbu3Da4tBV66guqieQVre8FQPp8N9HdHrB2E3Gn9EdT"
+    },
+    "a0dc2fbdb97d57f4e23648c1": {
+      "event_key": "b149d6a98063b4c2",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "b149d6a98063b4c2",
+        "name": "AI FINAL BOSS",
+        "signature": "2b5ZUbjR4phbcjMvDnDUwAoNH4CgsGNGWqq46YVbhSjXv9mqb3yDEtHj98VQYZrcjTX2rHK45oTdJZiYJg8g64kE",
+        "slot": 460205763,
+        "symbol": "kimchai",
+        "timestamp": 1792708288
+      },
+      "id": "a0dc2fbdb97d57f4e23648c1",
+      "relationship": "deployed",
+      "source": "wallet:2EL1HqDWtMThqmJLpr73DRfeAVMRCm5MtUhoyocrCsNE",
+      "target": "launch:solana:AEihANkHBEVaYqQEXSCVPZb4Bc2HdBnANRa9fQXHpump"
+    },
+    "a11b3eb541e03bd454a8cc3e": {
+      "event_key": "319dq4hJ2NTWyhgi6dF8hcpMGyP1bQ6cpZCDYFb7hTPfNvAuZarn64c18rZz55JtJez7CBGCk4jz8YBULdW5LnkQ",
+      "evidence": {
+        "block_time": 1792680182,
+        "lamports": 209000000,
+        "observed_for_detection": "7817badcc5bdde88",
+        "program": "system",
+        "signature": "319dq4hJ2NTWyhgi6dF8hcpMGyP1bQ6cpZCDYFb7hTPfNvAuZarn64c18rZz55JtJez7CBGCk4jz8YBULdW5LnkQ",
+        "slot": 460073351,
+        "transfer_type": "transfer"
+      },
+      "id": "a11b3eb541e03bd454a8cc3e",
+      "relationship": "funded",
+      "source": "wallet:5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "target": "wallet:HkRzNU9Nh7F49UAycTSW1NHQmn3cwgfjQPxfkWTtJPdp"
+    },
+    "a16f08c1b1ef8e6093c75c6c": {
+      "event_key": "58hSkBMeK4z6iQo4jvPwQkegcGYXosfmaaq7pFFjX9kmsRXsWWSzt6D8cMkAYxs9xbraY3vvbGA6znkUanZxX4Mu",
+      "evidence": {
+        "block_time": 1792733155,
+        "lamports": 400000000,
+        "observed_for_detection": "4d7fca9b440a04ef",
+        "program": "system",
+        "signature": "58hSkBMeK4z6iQo4jvPwQkegcGYXosfmaaq7pFFjX9kmsRXsWWSzt6D8cMkAYxs9xbraY3vvbGA6znkUanZxX4Mu",
+        "slot": 460323221,
+        "transfer_type": "transfer"
+      },
+      "id": "a16f08c1b1ef8e6093c75c6c",
+      "relationship": "funded",
+      "source": "wallet:7yokEFdVe9ZBLa6EB9EDo4FM8Gn9aDTYyftwa2GnVDR5",
+      "target": "wallet:4nMpqY3SeaYbFvNs4vmCPE7y3LTJ4XGPfnUoZz8cQ2ej"
+    },
+    "a2aef86b1a347fa2f8f26c6c": {
+      "event_key": "89fa03fa1103358e",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "89fa03fa1103358e",
+        "name": "Stock Inu",
+        "signature": "679JUQ4D41MUXEVj42djqryN7rqNrHTrdCnwzQMFQhMJanjjicMY93P2ydpZGfW3FCKovTvFdo8AFRDJP2bKrPWW",
+        "slot": 460078086,
+        "symbol": "SI",
+        "timestamp": 1792681192
+      },
+      "id": "a2aef86b1a347fa2f8f26c6c",
+      "relationship": "deployed",
+      "source": "wallet:36A6mEN5rYJdVTb6fMqVvG6ez8g2mTYdr1omWcQ1kDKG",
+      "target": "launch:solana:nqiefNngAetU3sGWLnTihBCJ2tQweAvNEuriP5gpump"
+    },
+    "a55f52b6d8082ceedd404f8e": {
+      "event_key": "2362b33fc081dd93",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "2362b33fc081dd93",
+        "name": "Slop Intelligence",
+        "signature": "3cCv4AV5x8s8jFYWV6YHtGsoKm6WAGRDod9ab17TG6fTxoRHj3rTWiZaLsBkkb1Gs91kyBybn3RG1jC7T4nmTNQr",
+        "slot": 460416429,
+        "symbol": "SLOP",
+        "timestamp": 1792752878
+      },
+      "id": "a55f52b6d8082ceedd404f8e",
+      "relationship": "deployed",
+      "source": "wallet:8v9WH1AKNA5WCfrajw8dtCGBxVKMEVa6BthVEHbBkwdL",
+      "target": "launch:solana:3jwJsApyPThGDw8XKEggUp3ptHtVZ4MydyP5twu1jix5"
+    },
+    "acb6d26984e15a1e073bf158": {
+      "event_key": "65QwbgcBougGX5GESe8eKkhmC2pBkDFvg5UEaZGUcNpufFVrkfo1xNPcHDCZkRJqnrWF8KC2pDnDAL3QG53D8ZNg",
+      "evidence": {
+        "block_time": 1792739529,
+        "lamports": 49606820,
+        "observed_for_detection": "ee8abd5c37276555",
+        "program": "system",
+        "signature": "65QwbgcBougGX5GESe8eKkhmC2pBkDFvg5UEaZGUcNpufFVrkfo1xNPcHDCZkRJqnrWF8KC2pDnDAL3QG53D8ZNg",
+        "slot": 460353318,
+        "transfer_type": "transfer"
+      },
+      "id": "acb6d26984e15a1e073bf158",
+      "relationship": "funded",
+      "source": "wallet:ARu4n5mFdZogZAravu7CcizaojWnS6oqka37gdLT5SZn",
+      "target": "wallet:41Q29HP5tZ8edLVPB3cYu4CrzL2gJGMpzQxKS6aHpsV2"
+    },
+    "ae7eb56b7da4b715be5de3b7": {
+      "event_key": "ae12e9299c7ce34e",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "ae12e9299c7ce34e",
+        "name": "kimchi",
+        "signature": "EUxTQ8i1TTitVE8cswu3JeAeqGYb9gLjTie2VF9Bh9WFSUzwS1py7hUGU8FAYNSYfjqPibsdbwxJ21i6MnyEbEk",
+        "slot": 460173432,
+        "symbol": "kimchi",
+        "timestamp": 1792701424
+      },
+      "id": "ae7eb56b7da4b715be5de3b7",
+      "relationship": "deployed",
+      "source": "wallet:5MTjkAZMe1ur64ADTgnaYFN1ByTapu2RqcKYUdQNaE2E",
+      "target": "launch:solana:13SfHhn8LPw3s2Qi1ovbovj97vy2F5h4ZPJKNYeTpump"
+    },
+    "b66390913311112cf68c5091": {
+      "event_key": "5b0bd27d060cb549",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "5b0bd27d060cb549",
+        "name": "Sundycoin",
+        "signature": "5JvyPQwYh42WK38wgz3cuszYQDeMe3JYxhjpuJYe7wsejrtMCRCiscTotgmbrjmRodvzpK13usXJe8MxFsCrfuV4",
+        "slot": 460240268,
+        "symbol": "SUNDY",
+        "timestamp": 1792715585
+      },
+      "id": "b66390913311112cf68c5091",
+      "relationship": "deployed",
+      "source": "wallet:d7fN77kH6H8mwi8msA6Vir1WtvmNJ69V8PPHfVkz3ps",
+      "target": "launch:solana:3C77JKvBZMoUpF6Ro67Rms23t1L7nqMFJ8tthpvVr3aL"
+    },
+    "b7bb7a4b7d7c7257c3a29cbb": {
+      "event_key": "80a7ac5906f6aa94",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "80a7ac5906f6aa94",
+        "name": "1 Pill Can Change Your Life",
+        "signature": "4VaYoaAehSoP6ZsGxh6vHvXSnCF8UiunEcUekizN8N7Qwxnn9D2e712WECtepzpjE8wavQ2zCApxWa1wvEKHp7kK",
+        "slot": 460333357,
+        "symbol": "BONDED 70K",
+        "timestamp": 1792735305
+      },
+      "id": "b7bb7a4b7d7c7257c3a29cbb",
+      "relationship": "deployed",
+      "source": "wallet:DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU",
+      "target": "launch:solana:BX9iCavnGdNbVbtQ8mTmKkYMqhLQW7ZKY6XRWpy8pump"
+    },
+    "b98e4b2441260e0a466d22f6": {
+      "event_key": "3467200415407d61",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "3467200415407d61",
+        "name": "PumpPill",
+        "signature": "32J9PXCKyXQYAwXUcTATEYo5sYxzi1qWiw5hCjupDVC1xm7twnbLvwopiFcm7jkoyHxFfx3iM6R4sugPfmB3d5R2",
+        "slot": 460213369,
+        "symbol": "PP",
+        "timestamp": 1792709902
+      },
+      "id": "b98e4b2441260e0a466d22f6",
+      "relationship": "deployed",
+      "source": "wallet:GdLvhCbiR54aeygfRzuiWamqH2eHPDr9bU43jKVt4PWi",
+      "target": "launch:solana:8GvjSKUYUe8ow9riUd1efV5N7a85ieovW2nx9Mrwpump"
+    },
+    "bd50b3ae5223a8f9c4bb9d53": {
+      "event_key": "ee8abd5c37276555",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "ee8abd5c37276555",
+        "name": "Caturity",
+        "signature": "27yDqQA42Lv5TUsox4mYR2GSPdZWzdutWU6uBJssjGxT8CFU4umxFUh3hw41enVwycsDHK7X4CTYMB1uD1VCt8St",
+        "slot": 460354762,
+        "symbol": "CY",
+        "timestamp": 1792739834
+      },
+      "id": "bd50b3ae5223a8f9c4bb9d53",
+      "relationship": "deployed",
+      "source": "wallet:41Q29HP5tZ8edLVPB3cYu4CrzL2gJGMpzQxKS6aHpsV2",
+      "target": "launch:solana:Ax51zmGgL8q6DRckvnvgM1hhiaa2VbwvYqmiN4oE35DF"
+    },
+    "be31ec40abcb6b8531f4b490": {
+      "event_key": "3z7WWe55FcRfQChFH2kmYyrgjZ3eBwmHQoathZ5ieA9PWqdhc6Gas1sF42qHkGFaAYL4Hc3reDg8YeTWVb1fDxt6",
+      "evidence": {
+        "block_time": 1792749304,
+        "lamports": 49490647,
+        "observed_for_detection": "98f7239ca8899a2a",
+        "program": "system",
+        "signature": "3z7WWe55FcRfQChFH2kmYyrgjZ3eBwmHQoathZ5ieA9PWqdhc6Gas1sF42qHkGFaAYL4Hc3reDg8YeTWVb1fDxt6",
+        "slot": 460399495,
+        "transfer_type": "transfer"
+      },
+      "id": "be31ec40abcb6b8531f4b490",
+      "relationship": "funded",
+      "source": "wallet:EEKwmVicE4w5roG13Ne3U4WtTggwuszdrnwGQTAu8x7J",
+      "target": "wallet:3QivjZCQxan7mj1ZQi9DXhFtFV8dCGhi739FLe2PcJXy"
+    },
+    "bfab4861c113347f3ec9145c": {
+      "event_key": "eceb852255b9528f",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "eceb852255b9528f",
+        "name": "ACTX: The AI Threat",
+        "signature": "4PjjkWMmGCvsA1zTRJ8fX4Ki8muD49CyH5QRNJ9duMKotV7LtJm7GzgTL6CCzTkzYGJM5RUtm1c89N6gCrzQqgUX",
+        "slot": 460165158,
+        "symbol": "ACTX",
+        "timestamp": 1792699666
+      },
+      "id": "bfab4861c113347f3ec9145c",
+      "relationship": "deployed",
+      "source": "wallet:8RB5cwrwHrxotxFURLWKH21MjkzeA93vGtLfqBbgKEiG",
+      "target": "launch:solana:54EVCSckU1QM8PjbHuBn3FZuZFAUd15yYUYkF7tXpump"
+    },
+    "bfdfe8f04a9946d3dd9ee67e": {
+      "event_key": "xK2AwT48KvQiJizSGoizAAo8n2hZESfH7h8irTEB561B8oj6zRaNijU5oJPT1zQvgQUMFaq42h9ozv471GpsMmT",
+      "evidence": {
+        "block_time": 1792749743,
+        "lamports": 94315090,
+        "observed_for_detection": "b1aaa2fb9c09cfdf",
+        "program": "system",
+        "signature": "xK2AwT48KvQiJizSGoizAAo8n2hZESfH7h8irTEB561B8oj6zRaNijU5oJPT1zQvgQUMFaq42h9ozv471GpsMmT",
+        "slot": 460401571,
+        "transfer_type": "transfer"
+      },
+      "id": "bfdfe8f04a9946d3dd9ee67e",
+      "relationship": "funded",
+      "source": "wallet:5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "target": "wallet:28vU4EJbH1Rj1VeCYyz1HdzQyhxjdFxUKxqYk8omZ5iY"
+    },
+    "c3269a79907958ebc3243bb2": {
+      "event_key": "2440cb203dbbdffc",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "2440cb203dbbdffc",
+        "name": "Hot Potato",
+        "signature": "4i2EsutpRnUt1ZPptMqXKah2ij2PfNnmUpWLV7bSk754S9p5HAA9dDZLnwuNmXMCpYVzCME5eEtWedqtoWGouYJp",
+        "slot": 460142639,
+        "symbol": "POTATO",
+        "timestamp": 1792694884
+      },
+      "id": "c3269a79907958ebc3243bb2",
+      "relationship": "deployed",
+      "source": "wallet:FqoGAkP92Uc2e22UXDLMVnmtrfQPdhjrpfBMqPNLSPFD",
+      "target": "launch:solana:1hkh4ZhEquYSZW7nhzLPF5W1mi5v3sGdx92F7Ukpump"
+    },
+    "c67fe258562e32e9169e507b": {
+      "event_key": "c2c42d9197f12ce2",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "c2c42d9197f12ce2",
+        "name": "Deep Blue Chip",
+        "signature": "3gdocEn9c3hUaNZLzyZdpiXXEKdnADruXLyokSSe8bxVhasx6w4qpnVtwx8aUyxB5g68Y3ExQAUgyZVy3dQjAZcr",
+        "slot": 460333357,
+        "symbol": "$CHIP",
+        "timestamp": 1792735305
+      },
+      "id": "c67fe258562e32e9169e507b",
+      "relationship": "deployed",
+      "source": "wallet:BejLSqNCJj1oH1UVg3GCh1TT8wVVCsyxNh73KYvY7soP",
+      "target": "launch:solana:8wdaRERr78X5U87tDx7aXuBKEV1ouqQnLhcUciqZpump"
+    },
+    "c84774f4eb72d0c5783504f0": {
+      "event_key": "4d7fca9b440a04ef",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "4d7fca9b440a04ef",
+        "name": "S1MWORLD",
+        "signature": "3dTCy8bki9jsSqALTaUa1AfEtPCHkX6DYT5ihVGfjh2Aav1zRFxpN5hEMz2wuD1jwPaZ3g9CBriHs2H8x3mGpcUs",
+        "slot": 460324555,
+        "symbol": "S1MWORLD",
+        "timestamp": 1792733439
+      },
+      "id": "c84774f4eb72d0c5783504f0",
+      "relationship": "deployed",
+      "source": "wallet:4nMpqY3SeaYbFvNs4vmCPE7y3LTJ4XGPfnUoZz8cQ2ej",
+      "target": "launch:solana:EF3qCibGAU5KzRkmTJiUea3zfDMCnFJsc3kRdkGvpump"
+    },
+    "c9ec501b93cc86b71d322d5a": {
+      "event_key": "ef60015df6645c42",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "ef60015df6645c42",
+        "name": "Seal Ignition",
+        "signature": "41BKCwHZ8wgwko2JmXKbb3xcMrHriWJLUArFXq1MFn97iGJuSgTmzaNqawAFmAhsbc3scoARqvJGVXEMJyB86oWA",
+        "slot": 460278374,
+        "symbol": "SEALIG",
+        "timestamp": 1792723656
+      },
+      "id": "c9ec501b93cc86b71d322d5a",
+      "relationship": "deployed",
+      "source": "wallet:8AhgWtd4D6hSj274Suqtx8mHGiigw4SzjWoc27yzQsoq",
+      "target": "launch:solana:C8Yy5rghjK2FZZd8ToboYmKu5Bn31EDqQu9uNJUUhdWh"
+    },
+    "cbf7bf5597e69d7b2898144c": {
+      "event_key": "2ba6621ffd741e33",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "2ba6621ffd741e33",
+        "name": "I Remember When You Were Little",
+        "signature": "5cVMxMV7vfSdzAZweCi2GT5vCckW3v7gnac4QMu3GwkQJ5JeQqozzVVXrBkVgTWv39AqovyiQrVue1w6eoGjLCC9",
+        "slot": 460319327,
+        "symbol": "LITTLE",
+        "timestamp": 1792732328
+      },
+      "id": "cbf7bf5597e69d7b2898144c",
+      "relationship": "deployed",
+      "source": "wallet:9yyqw71m4PtmJPertrSRK7rkhMBu35RCYUd6miSrS8hM",
+      "target": "launch:solana:9gUQLttXD3b4NuNnfRcb6Q75LNpJkUBACGEj3AeTpump"
+    },
+    "cda9b0eb7ad324be7a5f8757": {
+      "event_key": "188d1e48dc65e958",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "188d1e48dc65e958",
+        "name": "RAGE",
+        "signature": "3FqpAAxnCEWZDBYix7iMcisSz35Qu1MNmUEuczRFgssfjNUC7jvfecFBd9hGpiK3CWYYhpk6QjiHDp8aW9b5aRLk",
+        "slot": 460354764,
+        "symbol": "RAG3",
+        "timestamp": 1792739835
+      },
+      "id": "cda9b0eb7ad324be7a5f8757",
+      "relationship": "deployed",
+      "source": "wallet:6pKEuTgNLuR3HF5cRcsqeF1jzhMVcN8XpAcVxTbny2ED",
+      "target": "launch:solana:C1JqgsJrXe2MvmU33WWFrd1KFKvSYxk8NTC5Gjt2pump"
+    },
+    "cf97be279261ae433ae2d3db": {
+      "event_key": "d07ef6ba92cd9a04",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "d07ef6ba92cd9a04",
+        "name": "ARC Alliance",
+        "signature": "2va5DBtaMbqErrqTuzcajXTufM8AbDCxooyGnYPb4EF8ggtuTAW7FwHRgvNwHu1NG6JWXKLum89v7Kht4ViJ7u87",
+        "slot": 460078088,
+        "symbol": "ARC",
+        "timestamp": 1792681192
+      },
+      "id": "cf97be279261ae433ae2d3db",
+      "relationship": "deployed",
+      "source": "wallet:4uB1sip34w6caBQrp751c7b2YLXhtCbWseBJYMejYHga",
+      "target": "launch:solana:Bx5hoVBNGveZKNJE32vrQazfvFF7iCxcEQ841HoGpump"
+    },
+    "d2aaef0c095181e0723bea6e": {
+      "event_key": "d4253f1e25cfa5a5",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "d4253f1e25cfa5a5",
+        "name": "On The Computer",
+        "signature": "3UjCjGPpoJwFb8Vud3cKcXkaSPDvCR2G4P7AWHNQnzHfSnyms3EU3x8HDUYP3fm6bx2K3B4QkvaMXwNkxdWR1irD",
+        "slot": 460356871,
+        "symbol": "OTC",
+        "timestamp": 1792740283
+      },
+      "id": "d2aaef0c095181e0723bea6e",
+      "relationship": "deployed",
+      "source": "wallet:ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC",
+      "target": "launch:solana:6CvTYPi4EnBHu15tUsdz4yvex8z3w953omEmC5DBpump"
+    },
+    "d517bf6a731db705258a02df": {
+      "event_key": "3KPENAgZSkGW1rF7eifeEd2sqd9ZN5Vne8iYoSM4foMfTeaPvG5vPHVtA5G1dDJmQCfbog8kpFMd3nEJ5h3D3U4x",
+      "evidence": {
+        "block_time": 1792742143,
+        "lamports": 39594000,
+        "observed_for_detection": "77957ac05b450bd4",
+        "program": "system",
+        "signature": "3KPENAgZSkGW1rF7eifeEd2sqd9ZN5Vne8iYoSM4foMfTeaPvG5vPHVtA5G1dDJmQCfbog8kpFMd3nEJ5h3D3U4x",
+        "slot": 460365657,
+        "transfer_type": "transfer"
+      },
+      "id": "d517bf6a731db705258a02df",
+      "relationship": "funded",
+      "source": "wallet:5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "target": "wallet:CNqtNd9y1B29PRRAhSKvA1ZzTsFYgr5Pjm8K6VVqePnq"
+    },
+    "dad3c77717e93b6473e4bfc7": {
+      "event_key": "abd29593b3dde470",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "abd29593b3dde470",
+        "name": "BYD AUTO",
+        "signature": "31irAfgtjd8gXoyt2GHh74bUhVf9iHMJqLX8mhkt7NH5PYU7HttPuVGhmJDfY8yBDntE2Uy8mHXtqz3gDmMyMrJn",
+        "slot": 460162287,
+        "symbol": "$BYD",
+        "timestamp": 1792699058
+      },
+      "id": "dad3c77717e93b6473e4bfc7",
+      "relationship": "deployed",
+      "source": "wallet:8rwh68LhKbwAcLGSkTQWJAyAEmchRwNHXQrZ6rCMJU4T",
+      "target": "launch:solana:9EmeQCVRXiq84KRFQ4wqw8GDT1BscCvmg3cQeuDjpump"
+    },
+    "e6d4d9988d981408371b924f": {
+      "event_key": "9488d46cb186a286",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "9488d46cb186a286",
+        "name": "HE SAID CANT BE PAIRED",
+        "signature": "5QR9ZQUfqm1JbaccjDKkc74rCvcKt2MjChMxqsCxG9VBEVjKXS6jxKaJPYN27PjXbJqEUweHQ8cj4jofViwhDqT4",
+        "slot": 460252557,
+        "symbol": "stablecoin",
+        "timestamp": 1792718189
+      },
+      "id": "e6d4d9988d981408371b924f",
+      "relationship": "deployed",
+      "source": "wallet:5XaW8JqVDgDGjF8DFXg9SLFuqpkTMv2KKKxMJhiHvwid",
+      "target": "launch:solana:jG3DJoveU54h5MbSKRB1ycBzgBipRzTX8i81s1Rpump"
+    },
+    "eb31f120b68c6de164f3d25d": {
+      "event_key": "b1aaa2fb9c09cfdf",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "b1aaa2fb9c09cfdf",
+        "name": "Fly Fight",
+        "signature": "5yWHKaKFobc1LgTL1hyNWXFc7jS5qiYnR4tnBrP5pyQSPYhDb7L7aUdx8CDJ18GAM1Q9yaMN99ddiANeg2oTLDUW",
+        "slot": 460401942,
+        "symbol": "FLYPVP",
+        "timestamp": 1792749822
+      },
+      "id": "eb31f120b68c6de164f3d25d",
+      "relationship": "deployed",
+      "source": "wallet:28vU4EJbH1Rj1VeCYyz1HdzQyhxjdFxUKxqYk8omZ5iY",
+      "target": "launch:solana:EHf63N9Y9LkcKAGJHH8Kumw2YEZxRFVZ3UNoSdAtpump"
+    },
+    "f968ce63ed764ad56bbc5b37": {
+      "event_key": "1f369da2a167e592",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "1f369da2a167e592",
+        "name": "Chad Bot",
+        "signature": "3vbabo4VnYqaMJ37iJAdEbhSh4KUghQ8MBmMV9w4FmMarDJaDHnXby5eiVWenPM7Harb3nhrDcUtUdDSusCXzUTx",
+        "slot": 460249953,
+        "symbol": "Chad",
+        "timestamp": 1792717639
+      },
+      "id": "f968ce63ed764ad56bbc5b37",
+      "relationship": "deployed",
+      "source": "wallet:8E8sAZBXkcWrpP82oEctNJ8Pcv2YPqcx9Uxcsd2Wx9Ta",
+      "target": "launch:solana:BFJNysB7WDNmxKsmabXsMV3zvgje6ovm11UmnLgD8GjW"
+    },
+    "fed7b06f8a848976b8a418b0": {
+      "event_key": "5cKYC1kKXrHSgrnnEyKjaziTfDdrMww9eZsKAn9krwWfL1g8UtYfGJmkZyi8SADcPid1pbNcxxrh6UX9Pzx8enSn",
+      "evidence": {
+        "block_time": 1792707963,
+        "lamports": 1106775000,
+        "observed_for_detection": "ef60015df6645c42",
+        "program": "system",
+        "signature": "5cKYC1kKXrHSgrnnEyKjaziTfDdrMww9eZsKAn9krwWfL1g8UtYfGJmkZyi8SADcPid1pbNcxxrh6UX9Pzx8enSn",
+        "slot": 460204242,
+        "transfer_type": "transfer"
+      },
+      "id": "fed7b06f8a848976b8a418b0",
+      "relationship": "funded",
+      "source": "wallet:5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "target": "wallet:8AhgWtd4D6hSj274Suqtx8mHGiigw4SzjWoc27yzQsoq"
+    }
+  },
+  "nodes": {
+    "launch:base:0x0ffc31980d775ba13b3f9ed23348445059b3ca40": {
+      "chain": "base",
+      "id": "launch:base:0x0ffc31980d775ba13b3f9ed23348445059b3ca40",
+      "kind": "launch",
+      "mint": "0x0ffc31980d775ba13b3f9ed23348445059b3ca40"
+    },
+    "launch:base:0x18ee8cc79a7f3ab1e2fe88ba0c1af0c82fdb8215": {
+      "chain": "base",
+      "id": "launch:base:0x18ee8cc79a7f3ab1e2fe88ba0c1af0c82fdb8215",
+      "kind": "launch",
+      "mint": "0x18ee8cc79a7f3ab1e2fe88ba0c1af0c82fdb8215"
+    },
+    "launch:base:0x1f29162d00751408fe208f0a91f0b1d5e1b78599": {
+      "chain": "base",
+      "id": "launch:base:0x1f29162d00751408fe208f0a91f0b1d5e1b78599",
+      "kind": "launch",
+      "mint": "0x1f29162d00751408fe208f0a91f0b1d5e1b78599"
+    },
+    "launch:base:0x2bdc3e3441dd5540ea50920c158405ccd5727de2": {
+      "chain": "base",
+      "id": "launch:base:0x2bdc3e3441dd5540ea50920c158405ccd5727de2",
+      "kind": "launch",
+      "mint": "0x2bdc3e3441dd5540ea50920c158405ccd5727de2"
+    },
+    "launch:base:0x4200000000000000000000000000000000000006": {
+      "chain": "base",
+      "id": "launch:base:0x4200000000000000000000000000000000000006",
+      "kind": "launch",
+      "mint": "0x4200000000000000000000000000000000000006"
+    },
+    "launch:base:0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea": {
+      "chain": "base",
+      "id": "launch:base:0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
+      "kind": "launch",
+      "mint": "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea"
+    },
+    "launch:base:0x833589fcd6edb6e08f4c7c32d4f71b54bda02913": {
+      "chain": "base",
+      "id": "launch:base:0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "kind": "launch",
+      "mint": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+    },
+    "launch:base:0xed6e000def95780fb89734c07ee2ce9f6dcaf110": {
+      "chain": "base",
+      "id": "launch:base:0xed6e000def95780fb89734c07ee2ce9f6dcaf110",
+      "kind": "launch",
+      "mint": "0xed6e000def95780fb89734c07ee2ce9f6dcaf110"
+    },
+    "launch:solana:13SfHhn8LPw3s2Qi1ovbovj97vy2F5h4ZPJKNYeTpump": {
+      "chain": "solana",
+      "creator": "5MTjkAZMe1ur64ADTgnaYFN1ByTapu2RqcKYUdQNaE2E",
+      "id": "launch:solana:13SfHhn8LPw3s2Qi1ovbovj97vy2F5h4ZPJKNYeTpump",
+      "kind": "launch",
+      "mint": "13SfHhn8LPw3s2Qi1ovbovj97vy2F5h4ZPJKNYeTpump",
+      "name": "kimchi",
+      "symbol": "kimchi"
+    },
+    "launch:solana:1hkh4ZhEquYSZW7nhzLPF5W1mi5v3sGdx92F7Ukpump": {
+      "chain": "solana",
+      "creator": "FqoGAkP92Uc2e22UXDLMVnmtrfQPdhjrpfBMqPNLSPFD",
+      "id": "launch:solana:1hkh4ZhEquYSZW7nhzLPF5W1mi5v3sGdx92F7Ukpump",
+      "kind": "launch",
+      "mint": "1hkh4ZhEquYSZW7nhzLPF5W1mi5v3sGdx92F7Ukpump",
+      "name": "Hot Potato",
+      "symbol": "POTATO"
+    },
+    "launch:solana:286ZU7R7Nae6hEY2LavZbxt3J8fYABxvexeD1jNppump": {
+      "chain": "solana",
+      "creator": "FLzNN3PBfnHBsH4au9DkgfTTPdL6BmWwJLeAtGY8jvJX",
+      "id": "launch:solana:286ZU7R7Nae6hEY2LavZbxt3J8fYABxvexeD1jNppump",
+      "kind": "launch",
+      "mint": "286ZU7R7Nae6hEY2LavZbxt3J8fYABxvexeD1jNppump",
+      "name": "$DOGLABS",
+      "symbol": "DGLBS"
+    },
+    "launch:solana:3C77JKvBZMoUpF6Ro67Rms23t1L7nqMFJ8tthpvVr3aL": {
+      "chain": "solana",
+      "creator": "d7fN77kH6H8mwi8msA6Vir1WtvmNJ69V8PPHfVkz3ps",
+      "id": "launch:solana:3C77JKvBZMoUpF6Ro67Rms23t1L7nqMFJ8tthpvVr3aL",
+      "kind": "launch",
+      "mint": "3C77JKvBZMoUpF6Ro67Rms23t1L7nqMFJ8tthpvVr3aL",
+      "name": "Sundycoin",
+      "symbol": "SUNDY"
+    },
+    "launch:solana:3PBxNGn9bgpg7JLNZFRUV7fquBTSgdoXCyH5K2yeDt5B": {
+      "chain": "solana",
+      "creator": "6UaANN2AkbneBhjGGLicoGdG8rS6e1Ls1Fr67mgLXsq2",
+      "id": "launch:solana:3PBxNGn9bgpg7JLNZFRUV7fquBTSgdoXCyH5K2yeDt5B",
+      "kind": "launch",
+      "mint": "3PBxNGn9bgpg7JLNZFRUV7fquBTSgdoXCyH5K2yeDt5B",
+      "name": "CHROMA.exe",
+      "symbol": "CHRM"
+    },
+    "launch:solana:3jwJsApyPThGDw8XKEggUp3ptHtVZ4MydyP5twu1jix5": {
+      "chain": "solana",
+      "creator": "8v9WH1AKNA5WCfrajw8dtCGBxVKMEVa6BthVEHbBkwdL",
+      "id": "launch:solana:3jwJsApyPThGDw8XKEggUp3ptHtVZ4MydyP5twu1jix5",
+      "kind": "launch",
+      "mint": "3jwJsApyPThGDw8XKEggUp3ptHtVZ4MydyP5twu1jix5",
+      "name": "Slop Intelligence",
+      "symbol": "SLOP"
+    },
+    "launch:solana:3vgN4FzmxegtqzN2DhjTw38waRyCRw3MnZWvwEYJpump": {
+      "chain": "solana",
+      "creator": "HkRzNU9Nh7F49UAycTSW1NHQmn3cwgfjQPxfkWTtJPdp",
+      "id": "launch:solana:3vgN4FzmxegtqzN2DhjTw38waRyCRw3MnZWvwEYJpump",
+      "kind": "launch",
+      "mint": "3vgN4FzmxegtqzN2DhjTw38waRyCRw3MnZWvwEYJpump",
+      "name": "Big Titty Coin",
+      "symbol": "BTC"
+    },
+    "launch:solana:4BEcVEab46feF7LANMoJ5krR7N8tSADLmF8YQBNNpump": {
+      "chain": "solana",
+      "creator": "2mncRSZ7tAPBGCcYA7kfNx84spSJnz9w6zcawGxCH8K7",
+      "id": "launch:solana:4BEcVEab46feF7LANMoJ5krR7N8tSADLmF8YQBNNpump",
+      "kind": "launch",
+      "mint": "4BEcVEab46feF7LANMoJ5krR7N8tSADLmF8YQBNNpump",
+      "name": "m",
+      "symbol": "M"
+    },
+    "launch:solana:4Mt7jLukA5H11g8ee4HJABteFcuDG6Rizr7mPs9UgnHL": {
+      "chain": "solana",
+      "creator": "3gJVrzZP1c3263CMZ5or66weywPXNaDXhKTCrvm666jQ",
+      "id": "launch:solana:4Mt7jLukA5H11g8ee4HJABteFcuDG6Rizr7mPs9UgnHL",
+      "kind": "launch",
+      "mint": "4Mt7jLukA5H11g8ee4HJABteFcuDG6Rizr7mPs9UgnHL",
+      "name": "clank",
+      "symbol": "clank"
+    },
+    "launch:solana:4WxsAaboPQw7WvoyvNBEiT2VcW3L8QpFmMRUatPB7enC": {
+      "chain": "solana",
+      "creator": "GuAKE5EgK7Au7EARH81oHrWjJvvg2Axf9AVNMpt7yEzH",
+      "id": "launch:solana:4WxsAaboPQw7WvoyvNBEiT2VcW3L8QpFmMRUatPB7enC",
+      "kind": "launch",
+      "mint": "4WxsAaboPQw7WvoyvNBEiT2VcW3L8QpFmMRUatPB7enC",
+      "name": "Chicken Nugget",
+      "symbol": "NUGGET"
+    },
+    "launch:solana:4zz8UMCVuPsqqDM6GvtSnvFsKhyEGMXzHqNQKACDpump": {
+      "chain": "solana",
+      "creator": "7phBUYiijEuJR96hd2NxrjQVVW5az9fR6RxA6KDoz3Ch",
+      "id": "launch:solana:4zz8UMCVuPsqqDM6GvtSnvFsKhyEGMXzHqNQKACDpump",
+      "kind": "launch",
+      "mint": "4zz8UMCVuPsqqDM6GvtSnvFsKhyEGMXzHqNQKACDpump",
+      "name": "Keyboard trading bot",
+      "symbol": "KEYBOARD"
+    },
+    "launch:solana:51t44rLrtscqFbkZVkCKUDKkw1W3ssFnQxD1gAnUnU1t": {
+      "chain": "solana",
+      "creator": "6aQ9F5sm8kjVKbWYBXBkF9jxpUxEN3759vmFfQkURdKj",
+      "id": "launch:solana:51t44rLrtscqFbkZVkCKUDKkw1W3ssFnQxD1gAnUnU1t",
+      "kind": "launch",
+      "mint": "51t44rLrtscqFbkZVkCKUDKkw1W3ssFnQxD1gAnUnU1t",
+      "name": "Free KIMCHI tek , KIMCHI FAUCET",
+      "symbol": "FAUCET"
+    },
+    "launch:solana:54EVCSckU1QM8PjbHuBn3FZuZFAUd15yYUYkF7tXpump": {
+      "chain": "solana",
+      "creator": "8RB5cwrwHrxotxFURLWKH21MjkzeA93vGtLfqBbgKEiG",
+      "id": "launch:solana:54EVCSckU1QM8PjbHuBn3FZuZFAUd15yYUYkF7tXpump",
+      "kind": "launch",
+      "mint": "54EVCSckU1QM8PjbHuBn3FZuZFAUd15yYUYkF7tXpump",
+      "name": "ACTX: The AI Threat",
+      "symbol": "ACTX"
+    },
+    "launch:solana:6CvTYPi4EnBHu15tUsdz4yvex8z3w953omEmC5DBpump": {
+      "chain": "solana",
+      "creator": "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC",
+      "id": "launch:solana:6CvTYPi4EnBHu15tUsdz4yvex8z3w953omEmC5DBpump",
+      "kind": "launch",
+      "mint": "6CvTYPi4EnBHu15tUsdz4yvex8z3w953omEmC5DBpump",
+      "name": "On The Computer",
+      "symbol": "OTC"
+    },
+    "launch:solana:6P8JBNTKgk3LW9wjZw7i9az9EvuFgFMXUFUiGNMQcDZs": {
+      "chain": "solana",
+      "creator": "9VykSjvzWr8HSp6Fn54woYNcHFK64vJ9PDfvh28jEJPx",
+      "id": "launch:solana:6P8JBNTKgk3LW9wjZw7i9az9EvuFgFMXUFUiGNMQcDZs",
+      "kind": "launch",
+      "mint": "6P8JBNTKgk3LW9wjZw7i9az9EvuFgFMXUFUiGNMQcDZs",
+      "name": "Monero Lisa",
+      "symbol": "MONELISA"
+    },
+    "launch:solana:6yfph6r3vucLZba1ZjQpzbG9QFSC2isRBsoFzd4iGdNJ": {
+      "chain": "solana",
+      "creator": "CZWberudF1TyyAcrYgfQDDcarNEzqiJeKxK8Qra92Uke",
+      "id": "launch:solana:6yfph6r3vucLZba1ZjQpzbG9QFSC2isRBsoFzd4iGdNJ",
+      "kind": "launch",
+      "mint": "6yfph6r3vucLZba1ZjQpzbG9QFSC2isRBsoFzd4iGdNJ",
+      "name": "while they are out partying btw",
+      "symbol": "partying"
+    },
+    "launch:solana:7SaabEcE5fV1713tbeXxeBBwcCTmJzHw41SkbQYv95o4": {
+      "chain": "solana",
+      "creator": "CMqNoWGtww1uz9UwWwEqjQLX4ZFzsen8Ph576f6fpgTt",
+      "id": "launch:solana:7SaabEcE5fV1713tbeXxeBBwcCTmJzHw41SkbQYv95o4",
+      "kind": "launch",
+      "mint": "7SaabEcE5fV1713tbeXxeBBwcCTmJzHw41SkbQYv95o4",
+      "name": "Dogewifpinkbeanie",
+      "symbol": "WIF"
+    },
+    "launch:solana:8GvjSKUYUe8ow9riUd1efV5N7a85ieovW2nx9Mrwpump": {
+      "chain": "solana",
+      "creator": "GdLvhCbiR54aeygfRzuiWamqH2eHPDr9bU43jKVt4PWi",
+      "id": "launch:solana:8GvjSKUYUe8ow9riUd1efV5N7a85ieovW2nx9Mrwpump",
+      "kind": "launch",
+      "mint": "8GvjSKUYUe8ow9riUd1efV5N7a85ieovW2nx9Mrwpump",
+      "name": "PumpPill",
+      "symbol": "PP"
+    },
+    "launch:solana:8o78mne5tnLmpiZChhnzh583cZcPVuzm8N7SPCsBpump": {
+      "chain": "solana",
+      "creator": "FYe6yTHwmXysospTm1GqRt6TGrec8QXfKGbx6tFuyhiG",
+      "id": "launch:solana:8o78mne5tnLmpiZChhnzh583cZcPVuzm8N7SPCsBpump",
+      "kind": "launch",
+      "mint": "8o78mne5tnLmpiZChhnzh583cZcPVuzm8N7SPCsBpump",
+      "name": "Btc to the floor",
+      "symbol": "BTCF"
+    },
+    "launch:solana:8wdaRERr78X5U87tDx7aXuBKEV1ouqQnLhcUciqZpump": {
+      "chain": "solana",
+      "creator": "BejLSqNCJj1oH1UVg3GCh1TT8wVVCsyxNh73KYvY7soP",
+      "id": "launch:solana:8wdaRERr78X5U87tDx7aXuBKEV1ouqQnLhcUciqZpump",
+      "kind": "launch",
+      "mint": "8wdaRERr78X5U87tDx7aXuBKEV1ouqQnLhcUciqZpump",
+      "name": "Deep Blue Chip",
+      "symbol": "$CHIP"
+    },
+    "launch:solana:9EmeQCVRXiq84KRFQ4wqw8GDT1BscCvmg3cQeuDjpump": {
+      "chain": "solana",
+      "creator": "8rwh68LhKbwAcLGSkTQWJAyAEmchRwNHXQrZ6rCMJU4T",
+      "id": "launch:solana:9EmeQCVRXiq84KRFQ4wqw8GDT1BscCvmg3cQeuDjpump",
+      "kind": "launch",
+      "mint": "9EmeQCVRXiq84KRFQ4wqw8GDT1BscCvmg3cQeuDjpump",
+      "name": "BYD AUTO",
+      "symbol": "$BYD"
+    },
+    "launch:solana:9W5FSWTjWCDE3tQsQu2B3hym6p3bWZg8rcCQKxNVpump": {
+      "chain": "solana",
+      "creator": "35dxJTcSCRNfBev3qBCzNq5mBPtp9ZaegzUBekfZtBXE",
+      "id": "launch:solana:9W5FSWTjWCDE3tQsQu2B3hym6p3bWZg8rcCQKxNVpump",
+      "kind": "launch",
+      "mint": "9W5FSWTjWCDE3tQsQu2B3hym6p3bWZg8rcCQKxNVpump",
+      "name": "Donald J. Trump",
+      "symbol": "DJT"
+    },
+    "launch:solana:9gUQLttXD3b4NuNnfRcb6Q75LNpJkUBACGEj3AeTpump": {
+      "chain": "solana",
+      "creator": "9yyqw71m4PtmJPertrSRK7rkhMBu35RCYUd6miSrS8hM",
+      "id": "launch:solana:9gUQLttXD3b4NuNnfRcb6Q75LNpJkUBACGEj3AeTpump",
+      "kind": "launch",
+      "mint": "9gUQLttXD3b4NuNnfRcb6Q75LNpJkUBACGEj3AeTpump",
+      "name": "I Remember When You Were Little",
+      "symbol": "LITTLE"
+    },
+    "launch:solana:9icYmge9qaaGaeSrkk8ucHJbfrBp7pPqbgS14TRvpump": {
+      "chain": "solana",
+      "creator": "DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU",
+      "id": "launch:solana:9icYmge9qaaGaeSrkk8ucHJbfrBp7pPqbgS14TRvpump",
+      "kind": "launch",
+      "mint": "9icYmge9qaaGaeSrkk8ucHJbfrBp7pPqbgS14TRvpump",
+      "name": "1 Pill Can Change Your Life",
+      "symbol": "BONDED 70K"
+    },
+    "launch:solana:AEihANkHBEVaYqQEXSCVPZb4Bc2HdBnANRa9fQXHpump": {
+      "chain": "solana",
+      "creator": "2EL1HqDWtMThqmJLpr73DRfeAVMRCm5MtUhoyocrCsNE",
+      "id": "launch:solana:AEihANkHBEVaYqQEXSCVPZb4Bc2HdBnANRa9fQXHpump",
+      "kind": "launch",
+      "mint": "AEihANkHBEVaYqQEXSCVPZb4Bc2HdBnANRa9fQXHpump",
+      "name": "AI FINAL BOSS",
+      "symbol": "kimchai"
+    },
+    "launch:solana:Ax51zmGgL8q6DRckvnvgM1hhiaa2VbwvYqmiN4oE35DF": {
+      "chain": "solana",
+      "creator": "41Q29HP5tZ8edLVPB3cYu4CrzL2gJGMpzQxKS6aHpsV2",
+      "id": "launch:solana:Ax51zmGgL8q6DRckvnvgM1hhiaa2VbwvYqmiN4oE35DF",
+      "kind": "launch",
+      "mint": "Ax51zmGgL8q6DRckvnvgM1hhiaa2VbwvYqmiN4oE35DF",
+      "name": "Caturity",
+      "symbol": "CY"
+    },
+    "launch:solana:BFJNysB7WDNmxKsmabXsMV3zvgje6ovm11UmnLgD8GjW": {
+      "chain": "solana",
+      "creator": "8E8sAZBXkcWrpP82oEctNJ8Pcv2YPqcx9Uxcsd2Wx9Ta",
+      "id": "launch:solana:BFJNysB7WDNmxKsmabXsMV3zvgje6ovm11UmnLgD8GjW",
+      "kind": "launch",
+      "mint": "BFJNysB7WDNmxKsmabXsMV3zvgje6ovm11UmnLgD8GjW",
+      "name": "Chad Bot",
+      "symbol": "Chad"
+    },
+    "launch:solana:BX9iCavnGdNbVbtQ8mTmKkYMqhLQW7ZKY6XRWpy8pump": {
+      "chain": "solana",
+      "creator": "DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU",
+      "id": "launch:solana:BX9iCavnGdNbVbtQ8mTmKkYMqhLQW7ZKY6XRWpy8pump",
+      "kind": "launch",
+      "mint": "BX9iCavnGdNbVbtQ8mTmKkYMqhLQW7ZKY6XRWpy8pump",
+      "name": "1 Pill Can Change Your Life",
+      "symbol": "BONDED 70K"
+    },
+    "launch:solana:Bx5hoVBNGveZKNJE32vrQazfvFF7iCxcEQ841HoGpump": {
+      "chain": "solana",
+      "creator": "4uB1sip34w6caBQrp751c7b2YLXhtCbWseBJYMejYHga",
+      "id": "launch:solana:Bx5hoVBNGveZKNJE32vrQazfvFF7iCxcEQ841HoGpump",
+      "kind": "launch",
+      "mint": "Bx5hoVBNGveZKNJE32vrQazfvFF7iCxcEQ841HoGpump",
+      "name": "ARC Alliance",
+      "symbol": "ARC"
+    },
+    "launch:solana:C1JqgsJrXe2MvmU33WWFrd1KFKvSYxk8NTC5Gjt2pump": {
+      "chain": "solana",
+      "creator": "6pKEuTgNLuR3HF5cRcsqeF1jzhMVcN8XpAcVxTbny2ED",
+      "id": "launch:solana:C1JqgsJrXe2MvmU33WWFrd1KFKvSYxk8NTC5Gjt2pump",
+      "kind": "launch",
+      "mint": "C1JqgsJrXe2MvmU33WWFrd1KFKvSYxk8NTC5Gjt2pump",
+      "name": "RAGE",
+      "symbol": "RAG3"
+    },
+    "launch:solana:C5Tbe2RtD6QQXgPH2AkDMv2BeS1UUbg3mUmo5vX4kMub": {
+      "chain": "solana",
+      "creator": "8E8sAZBXkcWrpP82oEctNJ8Pcv2YPqcx9Uxcsd2Wx9Ta",
+      "id": "launch:solana:C5Tbe2RtD6QQXgPH2AkDMv2BeS1UUbg3mUmo5vX4kMub",
+      "kind": "launch",
+      "mint": "C5Tbe2RtD6QQXgPH2AkDMv2BeS1UUbg3mUmo5vX4kMub",
+      "name": "Tesla SpaceX",
+      "symbol": "ASS-SALSA"
+    },
+    "launch:solana:C8Yy5rghjK2FZZd8ToboYmKu5Bn31EDqQu9uNJUUhdWh": {
+      "chain": "solana",
+      "creator": "8AhgWtd4D6hSj274Suqtx8mHGiigw4SzjWoc27yzQsoq",
+      "id": "launch:solana:C8Yy5rghjK2FZZd8ToboYmKu5Bn31EDqQu9uNJUUhdWh",
+      "kind": "launch",
+      "mint": "C8Yy5rghjK2FZZd8ToboYmKu5Bn31EDqQu9uNJUUhdWh",
+      "name": "Seal Ignition",
+      "symbol": "SEALIG"
+    },
+    "launch:solana:CWnwk4a2BXyDEWLBX3Va8NAydwTm6CpeHCNBw5Yspump": {
+      "chain": "solana",
+      "creator": "3tC672H5qooHs3rZiCzUj9iLMEPjmgDbUYE41qPyGgVx",
+      "id": "launch:solana:CWnwk4a2BXyDEWLBX3Va8NAydwTm6CpeHCNBw5Yspump",
+      "kind": "launch",
+      "mint": "CWnwk4a2BXyDEWLBX3Va8NAydwTm6CpeHCNBw5Yspump",
+      "name": "Sir Crust",
+      "symbol": "SIRCRUST"
+    },
+    "launch:solana:CXzpwXfJ6H8emf7dKAGX8vbxrvNKhiD63iFMuceTpump": {
+      "chain": "solana",
+      "creator": "HHbu3Da4tBV66guqieQVre8FQPp8N9HdHrB2E3Gn9EdT",
+      "id": "launch:solana:CXzpwXfJ6H8emf7dKAGX8vbxrvNKhiD63iFMuceTpump",
+      "kind": "launch",
+      "mint": "CXzpwXfJ6H8emf7dKAGX8vbxrvNKhiD63iFMuceTpump",
+      "name": "PeriodicPad",
+      "symbol": "Periodic"
+    },
+    "launch:solana:EE1NDKfVS1fP6z2Mwd725CYahK2vnexfcPfBD1PSpump": {
+      "chain": "solana",
+      "creator": "DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU",
+      "id": "launch:solana:EE1NDKfVS1fP6z2Mwd725CYahK2vnexfcPfBD1PSpump",
+      "kind": "launch",
+      "mint": "EE1NDKfVS1fP6z2Mwd725CYahK2vnexfcPfBD1PSpump",
+      "name": "1 Pill Can Change Your Life",
+      "symbol": "BONDED 70K"
+    },
+    "launch:solana:EF3qCibGAU5KzRkmTJiUea3zfDMCnFJsc3kRdkGvpump": {
+      "chain": "solana",
+      "creator": "4nMpqY3SeaYbFvNs4vmCPE7y3LTJ4XGPfnUoZz8cQ2ej",
+      "id": "launch:solana:EF3qCibGAU5KzRkmTJiUea3zfDMCnFJsc3kRdkGvpump",
+      "kind": "launch",
+      "mint": "EF3qCibGAU5KzRkmTJiUea3zfDMCnFJsc3kRdkGvpump",
+      "name": "S1MWORLD",
+      "symbol": "S1MWORLD"
+    },
+    "launch:solana:EHf63N9Y9LkcKAGJHH8Kumw2YEZxRFVZ3UNoSdAtpump": {
+      "chain": "solana",
+      "creator": "28vU4EJbH1Rj1VeCYyz1HdzQyhxjdFxUKxqYk8omZ5iY",
+      "id": "launch:solana:EHf63N9Y9LkcKAGJHH8Kumw2YEZxRFVZ3UNoSdAtpump",
+      "kind": "launch",
+      "mint": "EHf63N9Y9LkcKAGJHH8Kumw2YEZxRFVZ3UNoSdAtpump",
+      "name": "Fly Fight",
+      "symbol": "FLYPVP"
+    },
+    "launch:solana:EbjkwzFKhWSQxEiG3ofoAeAi9DH6fejzmHRuyv9Qpump": {
+      "chain": "solana",
+      "creator": "3QivjZCQxan7mj1ZQi9DXhFtFV8dCGhi739FLe2PcJXy",
+      "id": "launch:solana:EbjkwzFKhWSQxEiG3ofoAeAi9DH6fejzmHRuyv9Qpump",
+      "kind": "launch",
+      "mint": "EbjkwzFKhWSQxEiG3ofoAeAi9DH6fejzmHRuyv9Qpump",
+      "name": "BetOnBlack",
+      "symbol": "BetOnBlak"
+    },
+    "launch:solana:F1B3zfVPdMuEZ9qeruomNdTe7pss49YByzA1k1HV4fdz": {
+      "chain": "solana",
+      "creator": "9wRuFPJZFviuHv9q4hsaxUUADDphX6oSjcMA3RuxTFRG",
+      "id": "launch:solana:F1B3zfVPdMuEZ9qeruomNdTe7pss49YByzA1k1HV4fdz",
+      "kind": "launch",
+      "mint": "F1B3zfVPdMuEZ9qeruomNdTe7pss49YByzA1k1HV4fdz",
+      "name": "Randy",
+      "symbol": "RANDY"
+    },
+    "launch:solana:FSYqZaiR9jmYynaFCFCCZ51D3wxVtEyDH4Noc799pump": {
+      "chain": "solana",
+      "creator": "2oqDrFSz1sdeYN2KRzqTR4rnpN8BUjdgQ4jtDtBQDcck",
+      "id": "launch:solana:FSYqZaiR9jmYynaFCFCCZ51D3wxVtEyDH4Noc799pump",
+      "kind": "launch",
+      "mint": "FSYqZaiR9jmYynaFCFCCZ51D3wxVtEyDH4Noc799pump",
+      "name": "Donald J. Trump",
+      "symbol": "DJT"
+    },
+    "launch:solana:FXqbm2AsPLWrwbgu4VtenM84QqBMJQV5d2Y1V7MEM4Xw": {
+      "chain": "solana",
+      "creator": "B3rM6meQUs4ugJX7MhkGNeqHpU5dWZwZgDphnDpAaeHo",
+      "id": "launch:solana:FXqbm2AsPLWrwbgu4VtenM84QqBMJQV5d2Y1V7MEM4Xw",
+      "kind": "launch",
+      "mint": "FXqbm2AsPLWrwbgu4VtenM84QqBMJQV5d2Y1V7MEM4Xw",
+      "name": "Kill Switch",
+      "symbol": "KILLSWITCH"
+    },
+    "launch:solana:FYKrYjkRC3LJWZY6mUkUmGP87CnCbM4S8wsXrR4bne2g": {
+      "chain": "solana",
+      "creator": "E2hRodJxc5mGt4rzf26QfUtBQaDC5ErNaBufrxUMpR8E",
+      "id": "launch:solana:FYKrYjkRC3LJWZY6mUkUmGP87CnCbM4S8wsXrR4bne2g",
+      "kind": "launch",
+      "mint": "FYKrYjkRC3LJWZY6mUkUmGP87CnCbM4S8wsXrR4bne2g",
+      "name": "ITS REAL!!!!!",
+      "symbol": "hello"
+    },
+    "launch:solana:GzeBKxB4hcs4hfUSLEXdumUZpn3rXWZUQqNocswafxeW": {
+      "chain": "solana",
+      "creator": "36nrVA3AUWc1Pw62SsENpw1zYT2VVTsyMieJy55PvXpz",
+      "id": "launch:solana:GzeBKxB4hcs4hfUSLEXdumUZpn3rXWZUQqNocswafxeW",
+      "kind": "launch",
+      "mint": "GzeBKxB4hcs4hfUSLEXdumUZpn3rXWZUQqNocswafxeW",
+      "name": "PluggedGPT",
+      "symbol": "PLUGGEDGPT"
+    },
+    "launch:solana:HudooLFD7Q68MV257LbkZsgYkGtTs4TQp774qswBpump": {
+      "chain": "solana",
+      "creator": "FenAmipD5ZX1ig5VTyHLgSUgMt23C6jGEyXDJtq89NoJ",
+      "id": "launch:solana:HudooLFD7Q68MV257LbkZsgYkGtTs4TQp774qswBpump",
+      "kind": "launch",
+      "mint": "HudooLFD7Q68MV257LbkZsgYkGtTs4TQp774qswBpump",
+      "name": "Mopad",
+      "symbol": "MOPAD"
+    },
+    "launch:solana:HvVZb63kpkKm6BXdDS2xjvognifcdD4gTe8wV9Ybpump": {
+      "chain": "solana",
+      "creator": "CNqtNd9y1B29PRRAhSKvA1ZzTsFYgr5Pjm8K6VVqePnq",
+      "id": "launch:solana:HvVZb63kpkKm6BXdDS2xjvognifcdD4gTe8wV9Ybpump",
+      "kind": "launch",
+      "mint": "HvVZb63kpkKm6BXdDS2xjvognifcdD4gTe8wV9Ybpump",
+      "name": "Doge",
+      "symbol": "DOGE"
+    },
+    "launch:solana:J8LoJ7gq6CF1AhU29ThLUc5QFoQjwpWKgk1qgu2npump": {
+      "chain": "solana",
+      "creator": "HNVu9iRGQN5S1JhjSYYzsd9zh6hr5UmpCSE3Btp1XBNq",
+      "id": "launch:solana:J8LoJ7gq6CF1AhU29ThLUc5QFoQjwpWKgk1qgu2npump",
+      "kind": "launch",
+      "mint": "J8LoJ7gq6CF1AhU29ThLUc5QFoQjwpWKgk1qgu2npump",
+      "name": "Donald J. Trump",
+      "symbol": "DJT"
+    },
+    "launch:solana:SKY5NKfmsSFxytcXsC2bKuQrAdYPrYA6yPQZszkaNeT": {
+      "chain": "solana",
+      "creator": "BThe8Fs1vaTXvHU1s8Rii4hVkkumgxGthLSNpVYLNLWx",
+      "id": "launch:solana:SKY5NKfmsSFxytcXsC2bKuQrAdYPrYA6yPQZszkaNeT",
+      "kind": "launch",
+      "mint": "SKY5NKfmsSFxytcXsC2bKuQrAdYPrYA6yPQZszkaNeT",
+      "name": "SKYNET",
+      "symbol": "SKYNET"
+    },
+    "launch:solana:UKrvzmTEcXZWJCLPKEuteN5hCVgBx3ug1Ka5JnNpump": {
+      "chain": "solana",
+      "creator": "H2wSezKYjT6ekSQ23XfcgfxwxueXtKBkTQeQLCwokdFJ",
+      "id": "launch:solana:UKrvzmTEcXZWJCLPKEuteN5hCVgBx3ug1Ka5JnNpump",
+      "kind": "launch",
+      "mint": "UKrvzmTEcXZWJCLPKEuteN5hCVgBx3ug1Ka5JnNpump",
+      "name": "ChineseWarHound",
+      "symbol": "WRHND"
+    },
+    "launch:solana:jG3DJoveU54h5MbSKRB1ycBzgBipRzTX8i81s1Rpump": {
+      "chain": "solana",
+      "creator": "5XaW8JqVDgDGjF8DFXg9SLFuqpkTMv2KKKxMJhiHvwid",
+      "id": "launch:solana:jG3DJoveU54h5MbSKRB1ycBzgBipRzTX8i81s1Rpump",
+      "kind": "launch",
+      "mint": "jG3DJoveU54h5MbSKRB1ycBzgBipRzTX8i81s1Rpump",
+      "name": "HE SAID CANT BE PAIRED",
+      "symbol": "stablecoin"
+    },
+    "launch:solana:nqiefNngAetU3sGWLnTihBCJ2tQweAvNEuriP5gpump": {
+      "chain": "solana",
+      "creator": "36A6mEN5rYJdVTb6fMqVvG6ez8g2mTYdr1omWcQ1kDKG",
+      "id": "launch:solana:nqiefNngAetU3sGWLnTihBCJ2tQweAvNEuriP5gpump",
+      "kind": "launch",
+      "mint": "nqiefNngAetU3sGWLnTihBCJ2tQweAvNEuriP5gpump",
+      "name": "Stock Inu",
+      "symbol": "SI"
+    },
+    "wallet:28vU4EJbH1Rj1VeCYyz1HdzQyhxjdFxUKxqYk8omZ5iY": {
+      "address": "28vU4EJbH1Rj1VeCYyz1HdzQyhxjdFxUKxqYk8omZ5iY",
+      "chain": "solana",
+      "id": "wallet:28vU4EJbH1Rj1VeCYyz1HdzQyhxjdFxUKxqYk8omZ5iY",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:2EL1HqDWtMThqmJLpr73DRfeAVMRCm5MtUhoyocrCsNE": {
+      "address": "2EL1HqDWtMThqmJLpr73DRfeAVMRCm5MtUhoyocrCsNE",
+      "chain": "solana",
+      "id": "wallet:2EL1HqDWtMThqmJLpr73DRfeAVMRCm5MtUhoyocrCsNE",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:2mncRSZ7tAPBGCcYA7kfNx84spSJnz9w6zcawGxCH8K7": {
+      "address": "2mncRSZ7tAPBGCcYA7kfNx84spSJnz9w6zcawGxCH8K7",
+      "chain": "solana",
+      "id": "wallet:2mncRSZ7tAPBGCcYA7kfNx84spSJnz9w6zcawGxCH8K7",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:2oqDrFSz1sdeYN2KRzqTR4rnpN8BUjdgQ4jtDtBQDcck": {
+      "address": "2oqDrFSz1sdeYN2KRzqTR4rnpN8BUjdgQ4jtDtBQDcck",
+      "chain": "solana",
+      "id": "wallet:2oqDrFSz1sdeYN2KRzqTR4rnpN8BUjdgQ4jtDtBQDcck",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:35dxJTcSCRNfBev3qBCzNq5mBPtp9ZaegzUBekfZtBXE": {
+      "address": "35dxJTcSCRNfBev3qBCzNq5mBPtp9ZaegzUBekfZtBXE",
+      "chain": "solana",
+      "id": "wallet:35dxJTcSCRNfBev3qBCzNq5mBPtp9ZaegzUBekfZtBXE",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:36A6mEN5rYJdVTb6fMqVvG6ez8g2mTYdr1omWcQ1kDKG": {
+      "address": "36A6mEN5rYJdVTb6fMqVvG6ez8g2mTYdr1omWcQ1kDKG",
+      "chain": "solana",
+      "id": "wallet:36A6mEN5rYJdVTb6fMqVvG6ez8g2mTYdr1omWcQ1kDKG",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:36nrVA3AUWc1Pw62SsENpw1zYT2VVTsyMieJy55PvXpz": {
+      "address": "36nrVA3AUWc1Pw62SsENpw1zYT2VVTsyMieJy55PvXpz",
+      "chain": "solana",
+      "id": "wallet:36nrVA3AUWc1Pw62SsENpw1zYT2VVTsyMieJy55PvXpz",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:3JdMzzjzZxfCE7ntRBPZ3geYUc8pyVNiaRhohTW6QTGs": {
+      "address": "3JdMzzjzZxfCE7ntRBPZ3geYUc8pyVNiaRhohTW6QTGs",
+      "chain": "solana",
+      "id": "wallet:3JdMzzjzZxfCE7ntRBPZ3geYUc8pyVNiaRhohTW6QTGs",
+      "kind": "wallet",
+      "role": "funding_source"
+    },
+    "wallet:3QivjZCQxan7mj1ZQi9DXhFtFV8dCGhi739FLe2PcJXy": {
+      "address": "3QivjZCQxan7mj1ZQi9DXhFtFV8dCGhi739FLe2PcJXy",
+      "chain": "solana",
+      "id": "wallet:3QivjZCQxan7mj1ZQi9DXhFtFV8dCGhi739FLe2PcJXy",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:3gJVrzZP1c3263CMZ5or66weywPXNaDXhKTCrvm666jQ": {
+      "address": "3gJVrzZP1c3263CMZ5or66weywPXNaDXhKTCrvm666jQ",
+      "chain": "solana",
+      "id": "wallet:3gJVrzZP1c3263CMZ5or66weywPXNaDXhKTCrvm666jQ",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:3tC672H5qooHs3rZiCzUj9iLMEPjmgDbUYE41qPyGgVx": {
+      "address": "3tC672H5qooHs3rZiCzUj9iLMEPjmgDbUYE41qPyGgVx",
+      "chain": "solana",
+      "id": "wallet:3tC672H5qooHs3rZiCzUj9iLMEPjmgDbUYE41qPyGgVx",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:41Q29HP5tZ8edLVPB3cYu4CrzL2gJGMpzQxKS6aHpsV2": {
+      "address": "41Q29HP5tZ8edLVPB3cYu4CrzL2gJGMpzQxKS6aHpsV2",
+      "chain": "solana",
+      "id": "wallet:41Q29HP5tZ8edLVPB3cYu4CrzL2gJGMpzQxKS6aHpsV2",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:4nMpqY3SeaYbFvNs4vmCPE7y3LTJ4XGPfnUoZz8cQ2ej": {
+      "address": "4nMpqY3SeaYbFvNs4vmCPE7y3LTJ4XGPfnUoZz8cQ2ej",
+      "chain": "solana",
+      "id": "wallet:4nMpqY3SeaYbFvNs4vmCPE7y3LTJ4XGPfnUoZz8cQ2ej",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:4uB1sip34w6caBQrp751c7b2YLXhtCbWseBJYMejYHga": {
+      "address": "4uB1sip34w6caBQrp751c7b2YLXhtCbWseBJYMejYHga",
+      "chain": "solana",
+      "id": "wallet:4uB1sip34w6caBQrp751c7b2YLXhtCbWseBJYMejYHga",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:5MTjkAZMe1ur64ADTgnaYFN1ByTapu2RqcKYUdQNaE2E": {
+      "address": "5MTjkAZMe1ur64ADTgnaYFN1ByTapu2RqcKYUdQNaE2E",
+      "chain": "solana",
+      "id": "wallet:5MTjkAZMe1ur64ADTgnaYFN1ByTapu2RqcKYUdQNaE2E",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:5XaW8JqVDgDGjF8DFXg9SLFuqpkTMv2KKKxMJhiHvwid": {
+      "address": "5XaW8JqVDgDGjF8DFXg9SLFuqpkTMv2KKKxMJhiHvwid",
+      "chain": "solana",
+      "id": "wallet:5XaW8JqVDgDGjF8DFXg9SLFuqpkTMv2KKKxMJhiHvwid",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9": {
+      "address": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "chain": "solana",
+      "id": "wallet:5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "kind": "wallet",
+      "role": "funding_source"
+    },
+    "wallet:6UaANN2AkbneBhjGGLicoGdG8rS6e1Ls1Fr67mgLXsq2": {
+      "address": "6UaANN2AkbneBhjGGLicoGdG8rS6e1Ls1Fr67mgLXsq2",
+      "chain": "solana",
+      "id": "wallet:6UaANN2AkbneBhjGGLicoGdG8rS6e1Ls1Fr67mgLXsq2",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:6aQ9F5sm8kjVKbWYBXBkF9jxpUxEN3759vmFfQkURdKj": {
+      "address": "6aQ9F5sm8kjVKbWYBXBkF9jxpUxEN3759vmFfQkURdKj",
+      "chain": "solana",
+      "id": "wallet:6aQ9F5sm8kjVKbWYBXBkF9jxpUxEN3759vmFfQkURdKj",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:6pKEuTgNLuR3HF5cRcsqeF1jzhMVcN8XpAcVxTbny2ED": {
+      "address": "6pKEuTgNLuR3HF5cRcsqeF1jzhMVcN8XpAcVxTbny2ED",
+      "chain": "solana",
+      "id": "wallet:6pKEuTgNLuR3HF5cRcsqeF1jzhMVcN8XpAcVxTbny2ED",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:7phBUYiijEuJR96hd2NxrjQVVW5az9fR6RxA6KDoz3Ch": {
+      "address": "7phBUYiijEuJR96hd2NxrjQVVW5az9fR6RxA6KDoz3Ch",
+      "chain": "solana",
+      "id": "wallet:7phBUYiijEuJR96hd2NxrjQVVW5az9fR6RxA6KDoz3Ch",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:7yokEFdVe9ZBLa6EB9EDo4FM8Gn9aDTYyftwa2GnVDR5": {
+      "address": "7yokEFdVe9ZBLa6EB9EDo4FM8Gn9aDTYyftwa2GnVDR5",
+      "chain": "solana",
+      "id": "wallet:7yokEFdVe9ZBLa6EB9EDo4FM8Gn9aDTYyftwa2GnVDR5",
+      "kind": "wallet",
+      "role": "funding_source"
+    },
+    "wallet:8AhgWtd4D6hSj274Suqtx8mHGiigw4SzjWoc27yzQsoq": {
+      "address": "8AhgWtd4D6hSj274Suqtx8mHGiigw4SzjWoc27yzQsoq",
+      "chain": "solana",
+      "id": "wallet:8AhgWtd4D6hSj274Suqtx8mHGiigw4SzjWoc27yzQsoq",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:8E8sAZBXkcWrpP82oEctNJ8Pcv2YPqcx9Uxcsd2Wx9Ta": {
+      "address": "8E8sAZBXkcWrpP82oEctNJ8Pcv2YPqcx9Uxcsd2Wx9Ta",
+      "chain": "solana",
+      "id": "wallet:8E8sAZBXkcWrpP82oEctNJ8Pcv2YPqcx9Uxcsd2Wx9Ta",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:8RB5cwrwHrxotxFURLWKH21MjkzeA93vGtLfqBbgKEiG": {
+      "address": "8RB5cwrwHrxotxFURLWKH21MjkzeA93vGtLfqBbgKEiG",
+      "chain": "solana",
+      "id": "wallet:8RB5cwrwHrxotxFURLWKH21MjkzeA93vGtLfqBbgKEiG",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:8rwh68LhKbwAcLGSkTQWJAyAEmchRwNHXQrZ6rCMJU4T": {
+      "address": "8rwh68LhKbwAcLGSkTQWJAyAEmchRwNHXQrZ6rCMJU4T",
+      "chain": "solana",
+      "id": "wallet:8rwh68LhKbwAcLGSkTQWJAyAEmchRwNHXQrZ6rCMJU4T",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:8v9WH1AKNA5WCfrajw8dtCGBxVKMEVa6BthVEHbBkwdL": {
+      "address": "8v9WH1AKNA5WCfrajw8dtCGBxVKMEVa6BthVEHbBkwdL",
+      "chain": "solana",
+      "id": "wallet:8v9WH1AKNA5WCfrajw8dtCGBxVKMEVa6BthVEHbBkwdL",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:9VykSjvzWr8HSp6Fn54woYNcHFK64vJ9PDfvh28jEJPx": {
+      "address": "9VykSjvzWr8HSp6Fn54woYNcHFK64vJ9PDfvh28jEJPx",
+      "chain": "solana",
+      "id": "wallet:9VykSjvzWr8HSp6Fn54woYNcHFK64vJ9PDfvh28jEJPx",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:9wRuFPJZFviuHv9q4hsaxUUADDphX6oSjcMA3RuxTFRG": {
+      "address": "9wRuFPJZFviuHv9q4hsaxUUADDphX6oSjcMA3RuxTFRG",
+      "chain": "solana",
+      "id": "wallet:9wRuFPJZFviuHv9q4hsaxUUADDphX6oSjcMA3RuxTFRG",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:9yyqw71m4PtmJPertrSRK7rkhMBu35RCYUd6miSrS8hM": {
+      "address": "9yyqw71m4PtmJPertrSRK7rkhMBu35RCYUd6miSrS8hM",
+      "chain": "solana",
+      "id": "wallet:9yyqw71m4PtmJPertrSRK7rkhMBu35RCYUd6miSrS8hM",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:ARu4n5mFdZogZAravu7CcizaojWnS6oqka37gdLT5SZn": {
+      "address": "ARu4n5mFdZogZAravu7CcizaojWnS6oqka37gdLT5SZn",
+      "chain": "solana",
+      "id": "wallet:ARu4n5mFdZogZAravu7CcizaojWnS6oqka37gdLT5SZn",
+      "kind": "wallet",
+      "role": "funding_source"
+    },
+    "wallet:ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ": {
+      "address": "ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ",
+      "chain": "solana",
+      "id": "wallet:ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ",
+      "kind": "wallet",
+      "role": "funding_source"
+    },
+    "wallet:B3rM6meQUs4ugJX7MhkGNeqHpU5dWZwZgDphnDpAaeHo": {
+      "address": "B3rM6meQUs4ugJX7MhkGNeqHpU5dWZwZgDphnDpAaeHo",
+      "chain": "solana",
+      "id": "wallet:B3rM6meQUs4ugJX7MhkGNeqHpU5dWZwZgDphnDpAaeHo",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:BThe8Fs1vaTXvHU1s8Rii4hVkkumgxGthLSNpVYLNLWx": {
+      "address": "BThe8Fs1vaTXvHU1s8Rii4hVkkumgxGthLSNpVYLNLWx",
+      "chain": "solana",
+      "id": "wallet:BThe8Fs1vaTXvHU1s8Rii4hVkkumgxGthLSNpVYLNLWx",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:Bd6Fuki63SZWMRhQkgdQEePM2Ag9riMv2BeNfqSz54ev": {
+      "address": "Bd6Fuki63SZWMRhQkgdQEePM2Ag9riMv2BeNfqSz54ev",
+      "chain": "solana",
+      "id": "wallet:Bd6Fuki63SZWMRhQkgdQEePM2Ag9riMv2BeNfqSz54ev",
+      "kind": "wallet",
+      "role": "funding_source"
+    },
+    "wallet:BejLSqNCJj1oH1UVg3GCh1TT8wVVCsyxNh73KYvY7soP": {
+      "address": "BejLSqNCJj1oH1UVg3GCh1TT8wVVCsyxNh73KYvY7soP",
+      "chain": "solana",
+      "id": "wallet:BejLSqNCJj1oH1UVg3GCh1TT8wVVCsyxNh73KYvY7soP",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:CMqNoWGtww1uz9UwWwEqjQLX4ZFzsen8Ph576f6fpgTt": {
+      "address": "CMqNoWGtww1uz9UwWwEqjQLX4ZFzsen8Ph576f6fpgTt",
+      "chain": "solana",
+      "id": "wallet:CMqNoWGtww1uz9UwWwEqjQLX4ZFzsen8Ph576f6fpgTt",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:CNqtNd9y1B29PRRAhSKvA1ZzTsFYgr5Pjm8K6VVqePnq": {
+      "address": "CNqtNd9y1B29PRRAhSKvA1ZzTsFYgr5Pjm8K6VVqePnq",
+      "chain": "solana",
+      "id": "wallet:CNqtNd9y1B29PRRAhSKvA1ZzTsFYgr5Pjm8K6VVqePnq",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:CZWberudF1TyyAcrYgfQDDcarNEzqiJeKxK8Qra92Uke": {
+      "address": "CZWberudF1TyyAcrYgfQDDcarNEzqiJeKxK8Qra92Uke",
+      "chain": "solana",
+      "id": "wallet:CZWberudF1TyyAcrYgfQDDcarNEzqiJeKxK8Qra92Uke",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU": {
+      "address": "DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU",
+      "chain": "solana",
+      "id": "wallet:DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:E2hRodJxc5mGt4rzf26QfUtBQaDC5ErNaBufrxUMpR8E": {
+      "address": "E2hRodJxc5mGt4rzf26QfUtBQaDC5ErNaBufrxUMpR8E",
+      "chain": "solana",
+      "id": "wallet:E2hRodJxc5mGt4rzf26QfUtBQaDC5ErNaBufrxUMpR8E",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:EEKwmVicE4w5roG13Ne3U4WtTggwuszdrnwGQTAu8x7J": {
+      "address": "EEKwmVicE4w5roG13Ne3U4WtTggwuszdrnwGQTAu8x7J",
+      "chain": "solana",
+      "id": "wallet:EEKwmVicE4w5roG13Ne3U4WtTggwuszdrnwGQTAu8x7J",
+      "kind": "wallet",
+      "role": "funding_source"
+    },
+    "wallet:ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": {
+      "address": "ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC",
+      "chain": "solana",
+      "id": "wallet:ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:FLzNN3PBfnHBsH4au9DkgfTTPdL6BmWwJLeAtGY8jvJX": {
+      "address": "FLzNN3PBfnHBsH4au9DkgfTTPdL6BmWwJLeAtGY8jvJX",
+      "chain": "solana",
+      "id": "wallet:FLzNN3PBfnHBsH4au9DkgfTTPdL6BmWwJLeAtGY8jvJX",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:FYe6yTHwmXysospTm1GqRt6TGrec8QXfKGbx6tFuyhiG": {
+      "address": "FYe6yTHwmXysospTm1GqRt6TGrec8QXfKGbx6tFuyhiG",
+      "chain": "solana",
+      "id": "wallet:FYe6yTHwmXysospTm1GqRt6TGrec8QXfKGbx6tFuyhiG",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:FenAmipD5ZX1ig5VTyHLgSUgMt23C6jGEyXDJtq89NoJ": {
+      "address": "FenAmipD5ZX1ig5VTyHLgSUgMt23C6jGEyXDJtq89NoJ",
+      "chain": "solana",
+      "id": "wallet:FenAmipD5ZX1ig5VTyHLgSUgMt23C6jGEyXDJtq89NoJ",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:FqoGAkP92Uc2e22UXDLMVnmtrfQPdhjrpfBMqPNLSPFD": {
+      "address": "FqoGAkP92Uc2e22UXDLMVnmtrfQPdhjrpfBMqPNLSPFD",
+      "chain": "solana",
+      "id": "wallet:FqoGAkP92Uc2e22UXDLMVnmtrfQPdhjrpfBMqPNLSPFD",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:GdLvhCbiR54aeygfRzuiWamqH2eHPDr9bU43jKVt4PWi": {
+      "address": "GdLvhCbiR54aeygfRzuiWamqH2eHPDr9bU43jKVt4PWi",
+      "chain": "solana",
+      "id": "wallet:GdLvhCbiR54aeygfRzuiWamqH2eHPDr9bU43jKVt4PWi",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:GuAKE5EgK7Au7EARH81oHrWjJvvg2Axf9AVNMpt7yEzH": {
+      "address": "GuAKE5EgK7Au7EARH81oHrWjJvvg2Axf9AVNMpt7yEzH",
+      "chain": "solana",
+      "id": "wallet:GuAKE5EgK7Au7EARH81oHrWjJvvg2Axf9AVNMpt7yEzH",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:H2wSezKYjT6ekSQ23XfcgfxwxueXtKBkTQeQLCwokdFJ": {
+      "address": "H2wSezKYjT6ekSQ23XfcgfxwxueXtKBkTQeQLCwokdFJ",
+      "chain": "solana",
+      "id": "wallet:H2wSezKYjT6ekSQ23XfcgfxwxueXtKBkTQeQLCwokdFJ",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:HHbu3Da4tBV66guqieQVre8FQPp8N9HdHrB2E3Gn9EdT": {
+      "address": "HHbu3Da4tBV66guqieQVre8FQPp8N9HdHrB2E3Gn9EdT",
+      "chain": "solana",
+      "id": "wallet:HHbu3Da4tBV66guqieQVre8FQPp8N9HdHrB2E3Gn9EdT",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:HNVu9iRGQN5S1JhjSYYzsd9zh6hr5UmpCSE3Btp1XBNq": {
+      "address": "HNVu9iRGQN5S1JhjSYYzsd9zh6hr5UmpCSE3Btp1XBNq",
+      "chain": "solana",
+      "id": "wallet:HNVu9iRGQN5S1JhjSYYzsd9zh6hr5UmpCSE3Btp1XBNq",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:HkRzNU9Nh7F49UAycTSW1NHQmn3cwgfjQPxfkWTtJPdp": {
+      "address": "HkRzNU9Nh7F49UAycTSW1NHQmn3cwgfjQPxfkWTtJPdp",
+      "chain": "solana",
+      "id": "wallet:HkRzNU9Nh7F49UAycTSW1NHQmn3cwgfjQPxfkWTtJPdp",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:d7fN77kH6H8mwi8msA6Vir1WtvmNJ69V8PPHfVkz3ps": {
+      "address": "d7fN77kH6H8mwi8msA6Vir1WtvmNJ69V8PPHfVkz3ps",
+      "chain": "solana",
+      "id": "wallet:d7fN77kH6H8mwi8msA6Vir1WtvmNJ69V8PPHfVkz3ps",
+      "kind": "wallet",
+      "role": "creator"
+    }
+  },
+  "schema_version": 1
+}

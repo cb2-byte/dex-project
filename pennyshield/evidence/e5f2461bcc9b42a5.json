@@ -1,0 +1,100 @@
+{
+  "detection_id": "e5f2461bcc9b42a5",
+  "token_address": "0xtest_validation_low",
+  "chain": "base",
+  "timestamp": 1792754215.627444,
+  "timestamp_iso": "2026-10-23T11:16:55.627444",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "new_pool",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "pool_age_hours": 48,
+          "liquidity_usd": 500000,
+          "max_age_threshold_hours": 24,
+          "min_liquidity_threshold_usd": 10000,
+          "is_new_pool": false,
+          "low_liquidity": false
+        },
+        "explanation": "Pool age and liquidity within normal ranges"
+      },
+      {
+        "indicator": "liquidity_drain",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "current_liquidity_usd": 500000,
+          "previous_liquidity_usd": 500000,
+          "drop_threshold": 0.3,
+          "min_liquidity_threshold": 5000
+        },
+        "explanation": "No liquidity drain detected"
+      },
+      {
+        "indicator": "contract_risk",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "not_a_contract"
+        },
+        "explanation": "Token is not a contract (native token)"
+      },
+      {
+        "indicator": "whale_activity",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "whale_transactions": 0,
+          "coordinated_blocks": 0,
+          "coordinated_details": [],
+          "whale_threshold_usd": 50000,
+          "window_blocks": 10
+        },
+        "explanation": "No significant whale activity"
+      },
+      {
+        "indicator": "deployer_link",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "deployer": "0xval_deployer2",
+          "other_tokens_by_deployer": 0,
+          "rug_linked_tokens": 0,
+          "rug_association_rate": 0,
+          "other_tokens": [],
+          "min_shared_threshold": 2
+        },
+        "explanation": "First known token for this deployer"
+      }
+    ],
+    "timestamp": 1792754215.627444,
+    "timestamp_iso": "2026-10-23T11:16:55.627444"
+  },
+  "pool_snapshot": {
+    "pool_age_hours": 48,
+    "liquidity_usd": 500000,
+    "launch_block": 50
+  },
+  "token_snapshot": {
+    "creator": "0xval_deployer2",
+    "total_supply": 1000000000,
+    "name": "VALIDATION_LOW_RISK",
+    "symbol": "VALL",
+    "unique_buyers_24h": 100,
+    "net_buy_volume_usd_24h": 50000,
+    "top_10_holder_pct": 10,
+    "launch_block": 50
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "unstable"
+  }
+}

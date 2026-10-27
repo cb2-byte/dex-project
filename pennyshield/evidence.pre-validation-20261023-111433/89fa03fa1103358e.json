@@ -1,0 +1,97 @@
+{
+  "detection_id": "89fa03fa1103358e",
+  "token_address": "nqiefNngAetU3sGWLnTihBCJ2tQweAvNEuriP5gpump",
+  "chain": "solana",
+  "timestamp": 1792681414.5079083,
+  "timestamp_iso": "2026-10-22T15:03:34.507908",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "36A6mEN5rYJdVTb6fMqVvG6ez8g2mTYdr1omWcQ1kDKG",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792681414.5079083,
+    "timestamp_iso": "2026-10-22T15:03:34.507908"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "679JUQ4D41MUXEVj42djqryN7rqNrHTrdCnwzQMFQhMJanjjicMY93P2ydpZGfW3FCKovTvFdo8AFRDJP2bKrPWW",
+    "log_index": 1,
+    "block_number": 460078086,
+    "block_time": 1792681192,
+    "bonding_curve": "CVQZMPYKawo6HWAbFMENknD3nqxWwCtAdXk33Q5s6zpF",
+    "associated_bonding_curve": "9LG38kNoYc9u9heGCXvvFTyvSEqCRnyAMeNMcixvc2ST",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "36A6mEN5rYJdVTb6fMqVvG6ez8g2mTYdr1omWcQ1kDKG",
+    "name": "Stock Inu",
+    "symbol": "SI",
+    "metadata_uri": "https://meta.uxento.io/data/d4f3f28c-9d3a-4fab-a1ba-03fb8a22f3a6",
+    "launch_timestamp": 1792681192,
+    "launch_slot": 460078086,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

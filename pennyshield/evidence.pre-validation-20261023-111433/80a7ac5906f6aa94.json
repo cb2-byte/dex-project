@@ -1,0 +1,110 @@
+{
+  "detection_id": "80a7ac5906f6aa94",
+  "token_address": "BX9iCavnGdNbVbtQ8mTmKkYMqhLQW7ZKY6XRWpy8pump",
+  "chain": "solana",
+  "timestamp": 1792735414.243634,
+  "timestamp_iso": "2026-10-23T06:03:34.243634",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU",
+          "total_launches": 1,
+          "confirmed_rug_count": 0,
+          "rug_rate": 0.0,
+          "serial_rug_operator": false,
+          "recent_launches": [
+            {
+              "token": "EE1NDKfVS1fP6z2Mwd725CYahK2vnexfcPfBD1PSpump",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer DXGjbdka... has 1 launches, 0 rugs (0.0%)"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792735414.243634,
+    "timestamp_iso": "2026-10-23T06:03:34.243634"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "4VaYoaAehSoP6ZsGxh6vHvXSnCF8UiunEcUekizN8N7Qwxnn9D2e712WECtepzpjE8wavQ2zCApxWa1wvEKHp7kK",
+    "log_index": 0,
+    "block_number": 460333357,
+    "block_time": 1792735305,
+    "bonding_curve": "zbjawjMx8E58Uke8dqEM3njciRCpMVV3qLRtbgQKnjt",
+    "associated_bonding_curve": "GvKHZuMazABMNbQMN6a6rhtAhvhAk5V4wiUePMFkDRSA",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU",
+    "name": "1 Pill Can Change Your Life",
+    "symbol": "BONDED 70K",
+    "metadata_uri": "https://metadata.j7tracker.io/metadata/353cff9dc245483f.json",
+    "launch_timestamp": 1792735305,
+    "launch_slot": 460333357,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

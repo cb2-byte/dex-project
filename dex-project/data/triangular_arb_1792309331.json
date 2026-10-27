@@ -1,0 +1,14 @@
+{
+  "eth_price": 2407.34,
+  "sol_price": 103.26,
+  "sol_usdt_price": 103.26,
+  "sol_received_for_1_eth": 23.31338369165214,
+  "usdt_received": 2407.34,
+  "eth_after_round_trip": 1.0,
+  "profit_percentage": 0.0,
+  "signal_threshold_low": 0.2,
+  "signal_threshold_medium": 0.5,
+  "arbitrage_opportunity": false,
+  "strong_arbitrage": false,
+  "arbitrage_direction": "loss"
+}

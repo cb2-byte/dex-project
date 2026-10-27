@@ -1,0 +1,110 @@
+{
+  "detection_id": "b9d266aa74f0a7fb",
+  "token_address": "8D3ZvV12kHRxQmxvNrQMm16AeqxzcoCvcd7FoDp8ytSf",
+  "chain": "solana",
+  "timestamp": 1792916203.4474523,
+  "timestamp_iso": "2026-10-25T08:16:43.447452",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "3ep8j4RVF5uPAkn4mgsMsL3an1CoSWYuWFhJPLWeSoup",
+          "total_launches": 1,
+          "confirmed_rug_count": 0,
+          "rug_rate": 0.0,
+          "serial_rug_operator": false,
+          "recent_launches": [
+            {
+              "token": "3Qsp5boKvdx6RMEnPKY3DrczLTBFf4nGwW4UjvgsNAMB",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer 3ep8j4RV... has 1 launches, 0 rugs (0.0%)"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792916203.4474523,
+    "timestamp_iso": "2026-10-25T08:16:43.447452"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "37mBXqLZxnKUpKhbopLN1kYLwuwYCqwbDjpsneQoMHb3ntC7NZGcvPA6fBB9dgQh4ScFq5Ji13YnE6AYgBxRnMQV",
+    "log_index": 2,
+    "block_number": 461185769,
+    "block_time": 1792916116,
+    "bonding_curve": "7HofeZJSWHs5yr4Mzuzxe68izUdnUKyXc5UCGz4TvyT3",
+    "associated_bonding_curve": "5AygRvNDCV6hPX7ZR2dCGYmsdGdfnFLHWu7LPFC7CpJL",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "3ep8j4RVF5uPAkn4mgsMsL3an1CoSWYuWFhJPLWeSoup",
+    "name": "Slightly Used Pumpfun C130",
+    "symbol": "C130",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreiago2r6ffykgve4pdyiqe5o63y2ib5p5c5qo5f2msakhrbqjvad7e",
+    "launch_timestamp": 1792916116,
+    "launch_slot": 461185769,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

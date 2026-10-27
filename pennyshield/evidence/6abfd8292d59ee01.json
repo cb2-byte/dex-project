@@ -1,0 +1,97 @@
+{
+  "detection_id": "6abfd8292d59ee01",
+  "token_address": "J59nmJks7HPLEchvpZKVSYxSHsRbeD5g7LDpmyf2pump",
+  "chain": "solana",
+  "timestamp": 1792982036.861907,
+  "timestamp_iso": "2026-10-26T02:33:56.861907",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "27qgZzGu1i7KuWxpVtSrEZmGK2JaW7crXaBiYphVrCRp",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792982036.861907,
+    "timestamp_iso": "2026-10-26T02:33:56.861907"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "5hwSushfDjnHSxALsNimBb86s6Z5dRBYtBcmDnVv3ZERk1T1dvKeJ6FRntn7qM9XdZTyyCParMcMYq5nidXFCUZi",
+    "log_index": 2,
+    "block_number": 461495353,
+    "block_time": 1792981870,
+    "bonding_curve": "55HEy5KgkxsUWEGV1QgLoc1774Zi8cDy3Su6X21e9Dsz",
+    "associated_bonding_curve": "FRQim2eJGhsd6oXWsuNgAmn8c5VDkmbyW5tDsGwmbvhC",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "27qgZzGu1i7KuWxpVtSrEZmGK2JaW7crXaBiYphVrCRp",
+    "name": "Ultra Soft Delicate Tits",
+    "symbol": "USDT",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreiceoowigkdodrrtxgr2mvzydq7co3kr2gxrm4qseul4hmrujg3umq",
+    "launch_timestamp": 1792981870,
+    "launch_slot": 461495353,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

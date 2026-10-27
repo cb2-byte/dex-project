@@ -1,0 +1,116 @@
+{
+  "detection_id": "c3752fdf110c4150",
+  "token_address": "Eumuhu9CwCuQh18ZY46CQv2YAg7GhnVKsvZG8Z4tJ1HK",
+  "chain": "solana",
+  "timestamp": 1792973500.9434283,
+  "timestamp_iso": "2026-10-26T00:11:40.943428",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "3ep8j4RVF5uPAkn4mgsMsL3an1CoSWYuWFhJPLWeSoup",
+          "total_launches": 2,
+          "confirmed_rug_count": 0,
+          "rug_rate": 0.0,
+          "serial_rug_operator": false,
+          "recent_launches": [
+            {
+              "token": "3Qsp5boKvdx6RMEnPKY3DrczLTBFf4nGwW4UjvgsNAMB",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            },
+            {
+              "token": "8D3ZvV12kHRxQmxvNrQMm16AeqxzcoCvcd7FoDp8ytSf",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer 3ep8j4RV... has 2 launches, 0 rugs (0.0%)"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792973500.9434283,
+    "timestamp_iso": "2026-10-26T00:11:40.943428"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "2metGQygpnBfgnHrG6yXCPH6acgKDXp1cAuYrZkLMgNzyA1WKMfBYg99oH6cKAHYYoctasoo8UKUyHBd7sPkUMqw",
+    "log_index": 2,
+    "block_number": 461455362,
+    "block_time": 1792973362,
+    "bonding_curve": "2U7k6ULrxNo4TZy4tH5DHDueupPmnMqDJUuHk548PMVP",
+    "associated_bonding_curve": "7qf82L9sFKVoBCunLFzCKwCAKsk5gJwNQEF68nvrkTey",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "3ep8j4RVF5uPAkn4mgsMsL3an1CoSWYuWFhJPLWeSoup",
+    "name": "Larp Coin",
+    "symbol": "Larp",
+    "metadata_uri": "https://meta.uxento.io/data/2e7fbc55-9ebd-4ea9-96ba-39f0e6ec0828",
+    "launch_timestamp": 1792973362,
+    "launch_slot": 461455362,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

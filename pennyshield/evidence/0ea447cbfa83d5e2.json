@@ -1,0 +1,120 @@
+{
+  "detection_id": "0ea447cbfa83d5e2",
+  "token_address": "0x00f3c42833c3170159af4e92dbb451fb3f708917",
+  "chain": "base",
+  "timestamp": 1792959695.0204954,
+  "timestamp_iso": "2026-10-25T20:21:35.020495",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "new_pool",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "pool_age_hours": 0,
+          "liquidity_usd": 0,
+          "max_age_threshold_hours": 24,
+          "min_liquidity_threshold_usd": 10000,
+          "is_new_pool": false,
+          "low_liquidity": false
+        },
+        "explanation": "Pool age and liquidity within normal ranges"
+      },
+      {
+        "indicator": "liquidity_drain",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "current_liquidity_usd": 0,
+          "previous_liquidity_usd": 0,
+          "drop_threshold": 0.3,
+          "min_liquidity_threshold": 5000
+        },
+        "explanation": "No liquidity drain detected"
+      },
+      {
+        "indicator": "contract_risk",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "not_a_contract"
+        },
+        "explanation": "Token is not a contract (native token)"
+      },
+      {
+        "indicator": "whale_activity",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "whale_transactions": 0,
+          "coordinated_blocks": 0,
+          "coordinated_details": [],
+          "whale_threshold_usd": 50000,
+          "window_blocks": 10
+        },
+        "explanation": "No significant whale activity"
+      },
+      {
+        "indicator": "deployer_link",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_deployer_data"
+        },
+        "explanation": "Deployer address not available"
+      }
+    ],
+    "timestamp": 1792959695.0204954,
+    "timestamp_iso": "2026-10-25T20:21:35.020495"
+  },
+  "pool_snapshot": {
+    "pool_address": "0x00000000000000000000000053ad8124be7ffc4c",
+    "token0": "0x00f3c42833c3170159af4e92dbb451fb3f708917",
+    "token1": "0xed7e6b2dad38442913f2c769a062da3f03e07330",
+    "fee": 3000,
+    "pool_age_hours": 0,
+    "liquidity_usd": 0
+  },
+  "token_snapshot": {
+    "creator": "",
+    "contract_analysis": {
+      "is_contract": true,
+      "is_proxy": false,
+      "owner": null,
+      "code_size": 6542,
+      "risks": [
+        {
+          "selector": "0x40c10f19",
+          "function": "setMinter",
+          "severity": "high"
+        },
+        {
+          "selector": "0x8da5cb5b",
+          "function": "owner",
+          "severity": "low"
+        },
+        {
+          "selector": "0xf2fde38b",
+          "function": "transferOwnership",
+          "severity": "medium"
+        },
+        {
+          "selector": "0x715018a6",
+          "function": "renounceOwnership",
+          "severity": "medium"
+        }
+      ],
+      "risk_count": 4
+    }
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "unstable"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "summaries": [
+    {
+      "week_number": 1,
+      "week_start": 1792491474.7637699,
+      "week_start_iso": "2026-10-20T10:17:54.763770",
+      "week_end": 1793096274.7637699,
+      "week_end_iso": "2026-10-27T10:17:54.763770",
+      "total_launches": 0,
+      "unknown_operator_launches": 0,
+      "predicted_high_risk": 0,
+      "predicted_low_risk": 0,
+      "resolved_rug": 0,
+      "resolved_legitimate": 0,
+      "still_pending": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "true_negatives": 0,
+      "false_negatives": 0,
+      "component_score_stats": {},
+      "wallet_clustering_avg": 0,
+      "distribution_avg": 0,
+      "wallet_clustering_positive_count": 0,
+      "distribution_positive_count": 0
+    }
+  ]
+}

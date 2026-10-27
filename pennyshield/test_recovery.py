@@ -1,0 +1,88 @@
+
+import json
+import os
+import time
+import shutil
+from typing import Dict, Any
+from pennyshield.observation import PennyShieldObserver
+from pennyshield.shared.risk_engine import EvidenceStore, RiskScore
+
+def mock_config():
+    class Config:
+        def __init__(self):
+            self.evidence_dir = "/home/ubuntu/.openclaw/workspace/pennyshield/evidence/recovery_test"
+            self.scan_interval_seconds = 1
+            self.new_pool_scan_blocks = 10
+            self.solana_rpc_url = (os.environ.get("SOLANA_MAINNET_RPC_URL") or os.environ.get("SOLANA_RPC_URL") or "https://api.mainnet-beta.solana.com")
+            self.base_rpc_url = (os.environ.get("BASE_MAINNET_RPC_URL") or os.environ.get("BASE_RPC_URL") or "https://mainnet.base.org")
+            self.use_mock_social = True
+            self.high_risk_threshold = 0.65
+            # Added missing Telegram credentials for constructor
+            self.telegram_bot_token = "mock_token"
+            self.telegram_chat_id = "mock_id"
+    return Config()
+
+def run_recovery_test():
+    print("--- PennyShield Recovery Tests ---")
+    test_dir = "/home/ubuntu/.openclaw/workspace/pennyshield/evidence/recovery_test"
+    if os.path.exists(test_dir):
+        shutil.rmtree(test_dir)
+    os.makedirs(test_dir)
+    
+    config = mock_config()
+    
+    # Test 1: Normal Advance
+    print("\n[Test 1] Normal Advance...")
+    obs = PennyShieldObserver(config)
+    obs.state = {"base_last_block": 1000, "solana_last_slot": 5000}
+    obs._save_state()
+    print(f"✅ Checkpoint saved: {obs.state}")
+    
+    # Test 2: RPC failure / Crash simulation
+    # We simulate a crash by just not calling _save_state()
+    print("\n[Test 2] Simulated Crash halfway through chunk...")
+    obs.state = {"base_last_block": 1010, "solana_last_slot": 5010}
+    # CRASH HERE: we do NOT call _save_state()
+    print("💥 Simulated crash occurred before state save.")
+    
+    # Restart and verify recovery
+    print("\n[Test 3] Restart and Recovery...")
+    obs_restart = PennyShieldObserver(config)
+    print(f"Resumed state: {obs_restart.state}")
+    if obs_restart.state["base_last_block"] == 1000:
+        print("✅ Correctly resumed from last valid checkpoint (1000), not the crashed state (1010).")
+    else:
+        print(f"❌ Failed recovery. Expected 1000, got {obs_restart.state['base_last_block']}")
+
+    # Test 4: Corrupt State
+    print("\n[Test 4] Corrupt State Handling...")
+    with open(obs_restart.state_file, 'w') as f:
+        f.write("NOT_JSON_DATA")
+    
+    try:
+        obs_corrupt = PennyShieldObserver(config)
+        # If it doesn't crash the constructor and uses defaults/fails safely
+        print("✅ Observer initialized despite corrupt state.")
+        print(f"State after corruption: {obs_corrupt.state}")
+    except Exception as e:
+        print(f"❌ Observer crashed on corrupt state: {e}")
+
+    # Test 5: Chain Independence
+    print("\n[Test 5] Chain Independence...")
+    obs_indep = PennyShieldObserver(config)
+    obs_indep.state = {"base_last_block": 2000, "solana_last_slot": 8000}
+    obs_indep._save_state()
+    
+    obs_indep.state["base_last_block"] = 2010
+    obs_indep._save_state()
+    
+    # Reload and check
+    obs_final = PennyShieldObserver(config)
+    print(f"Final State: {obs_final.state}")
+    if obs_final.state["base_last_block"] == 2010 and obs_final.state["solana_last_slot"] == 8000:
+        print("✅ Base and Solana progress are independent.")
+    else:
+        print("❌ Chain state leak detected.")
+
+if __name__ == "__main__":
+    run_recovery_test()

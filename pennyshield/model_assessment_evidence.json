@@ -1,0 +1,258 @@
+{
+  "legitimate": {
+    "early_snipe": {
+      "triggered": false,
+      "confidence": 0.0,
+      "explanation": "top 10 wallets hold 100.0% of launch supply",
+      "evidence": {
+        "launch_window_blocks": 5,
+        "launch_transactions": 6,
+        "unique_buyers": 6,
+        "top_10_concentration": 1.0,
+        "bundled_groups": [],
+        "shared_funders": [],
+        "concentration_threshold": 0.3
+      }
+    },
+    "deployer_intelligence": {
+      "triggered": false,
+      "confidence": 0.0,
+      "explanation": "Deployer 0xdeploy... has 54 launches, 0 rugs (0.0%)",
+      "evidence": {
+        "deployer": "0xdeployer_legit",
+        "total_launches": 54,
+        "rug_count": 0,
+        "rug_rate": 0.0,
+        "recent_launches": [
+          {
+            "token": "0xlegit_token_0",
+            "timestamp": null,
+            "outcome": "legitimate",
+            "risk_score": 0.1
+          },
+          {
+            "token": "0xlegit_token_1",
+            "timestamp": null,
+            "outcome": "legitimate",
+            "risk_score": 0.1
+          },
+          {
+            "token": "0xlegit_token_2",
+            "timestamp": null,
+            "outcome": "legitimate",
+            "risk_score": 0.1
+          },
+          {
+            "token": "0xlegit_token_0",
+            "timestamp": null,
+            "outcome": null,
+            "risk_score": 0.1
+          },
+          {
+            "token": "0xlegit_token_1",
+            "timestamp": null,
+            "outcome": null,
+            "risk_score": 0.1
+          }
+        ],
+        "repeat_threshold": 3,
+        "rug_rate_threshold": 0.5
+      }
+    },
+    "wallet_clustering": {
+      "triggered": false,
+      "confidence": 0,
+      "explanation": "No significant clusters",
+      "evidence": {
+        "total_wallets": 100,
+        "clusters_found": 0,
+        "significant_clusters": 0,
+        "clusters": [],
+        "min_cluster_size": 3
+      }
+    },
+    "distribution": {
+      "triggered": false,
+      "confidence": 0,
+      "explanation": "No distribution pattern detected",
+      "evidence": {
+        "suspicious_clusters": [],
+        "total_clusters": 100,
+        "min_sell_volume_ratio": 0.2,
+        "min_price_support_ratio": 0.3
+      }
+    },
+    "exit_detector": {
+      "triggered": false,
+      "confidence": 0.0,
+      "explanation": "No exit signals",
+      "evidence": {
+        "signals": [],
+        "pool_liquidity_usd": 150000,
+        "liquidity_drop_threshold": 0.3
+      }
+    }
+  },
+  "rug": {
+    "early_snipe": {
+      "triggered": true,
+      "confidence": 1.0,
+      "explanation": "1 bundled buy group(s) detected; top 10 wallets hold 100.0% of launch supply; 1 shared funder(s) detected",
+      "evidence": {
+        "launch_window_blocks": 5,
+        "launch_transactions": 20,
+        "unique_buyers": 10,
+        "top_10_concentration": 1.0,
+        "bundled_groups": [
+          {
+            "block": 100,
+            "wallets": [
+              "0xwallet_rug0",
+              "0xwallet_rug1",
+              "0xwallet_rug2",
+              "0xwallet_rug3",
+              "0xwallet_rug4",
+              "0xwallet_rug5",
+              "0xwallet_rug6",
+              "0xwallet_rug7",
+              "0xwallet_rug8",
+              "0xwallet_rug9"
+            ],
+            "total_amount": 600000000,
+            "avg_amount": 60000000.0
+          }
+        ],
+        "shared_funders": [
+          {
+            "funder": "0xfunder_rug",
+            "wallets": [
+              "0xwallet_rug0",
+              "0xwallet_rug1",
+              "0xwallet_rug2",
+              "0xwallet_rug3",
+              "0xwallet_rug4",
+              "0xwallet_rug5",
+              "0xwallet_rug6",
+              "0xwallet_rug7",
+              "0xwallet_rug8",
+              "0xwallet_rug9"
+            ],
+            "count": 10
+          }
+        ],
+        "concentration_threshold": 0.3
+      }
+    },
+    "deployer_intelligence": {
+      "triggered": false,
+      "confidence": 0.23684210526315788,
+      "explanation": "Deployer 0xdeploy... has 19 launches, 3 rugs (15.8%)",
+      "evidence": {
+        "deployer": "0xdeployer_rug",
+        "total_launches": 19,
+        "rug_count": 3,
+        "rug_rate": 0.15789473684210525,
+        "recent_launches": [
+          {
+            "token": "0xprevious_rug",
+            "timestamp": null,
+            "outcome": null,
+            "risk_score": 0.8
+          },
+          {
+            "token": "0xprevious_rug_0",
+            "timestamp": null,
+            "outcome": "rug",
+            "risk_score": 0.8
+          },
+          {
+            "token": "0xprevious_rug_1",
+            "timestamp": null,
+            "outcome": "rug",
+            "risk_score": 0.8
+          },
+          {
+            "token": "0xprevious_rug_2",
+            "timestamp": null,
+            "outcome": "rug",
+            "risk_score": 0.8
+          },
+          {
+            "token": "0xprevious_rug_0",
+            "timestamp": null,
+            "outcome": null,
+            "risk_score": 0.8
+          }
+        ],
+        "repeat_threshold": 3,
+        "rug_rate_threshold": 0.5
+      }
+    },
+    "wallet_clustering": {
+      "triggered": true,
+      "confidence": 0.2,
+      "explanation": "Found 1 significant wallet cluster(s)",
+      "evidence": {
+        "total_wallets": 11,
+        "clusters_found": 1,
+        "significant_clusters": 1,
+        "clusters": [
+          {
+            "wallets": [
+              "0xfunder_rug",
+              "0xwallet_rug0",
+              "0xwallet_rug1",
+              "0xwallet_rug2",
+              "0xwallet_rug3",
+              "0xwallet_rug4",
+              "0xwallet_rug5",
+              "0xwallet_rug6",
+              "0xwallet_rug7",
+              "0xwallet_rug8",
+              "0xwallet_rug9"
+            ],
+            "avg_similarity": 0.19454545454545463,
+            "supply_pct": 0.0
+          }
+        ],
+        "min_cluster_size": 3
+      }
+    },
+    "distribution": {
+      "triggered": false,
+      "confidence": 0,
+      "explanation": "No distribution pattern detected",
+      "evidence": {
+        "suspicious_clusters": [],
+        "total_clusters": 1,
+        "min_sell_volume_ratio": 0.2,
+        "min_price_support_ratio": 0.3
+      }
+    },
+    "exit_detector": {
+      "triggered": true,
+      "confidence": 0.4,
+      "explanation": "Detected 1 exit signal(s)",
+      "evidence": {
+        "signals": [
+          {
+            "type": "deployer_activity",
+            "deployer": "0xdeployer_rug",
+            "transactions": 1,
+            "details": [
+              {
+                "block": 110,
+                "wallet": "0xdeployer_rug",
+                "from": "0xdeployer_rug",
+                "type": "transfer",
+                "volume_usd": 20000
+              }
+            ]
+          }
+        ],
+        "pool_liquidity_usd": 50000,
+        "liquidity_drop_threshold": 0.3
+      }
+    }
+  }
+}

@@ -1,0 +1,1489 @@
+{
+  "tokens": {
+    "0xtest_persist": [
+      "4ef03f34788d8250",
+      "08be777edda27a95"
+    ],
+    "0xtest_alert": [
+      "69637841308199e8"
+    ],
+    "0xtokenA": [
+      "b7283690f24b8d4a",
+      "a234f67cc788cf81",
+      "2bed34ff76b0fb94",
+      "f54823200b2e39f5",
+      "f6fdba28684dd3c3",
+      "b647de5a17944045"
+    ],
+    "0xtokenB": [
+      "b10a1fd351952c25"
+    ],
+    "0xprevious_rug": [
+      "a2f50aa0f982cf65"
+    ],
+    "0xprevious_rug_0": [
+      "b7da7ec210f6d877",
+      "b7da7ec210f6d877",
+      "b7da7ec210f6d877",
+      "b7da7ec210f6d877",
+      "b7da7ec210f6d877",
+      "b7da7ec210f6d877",
+      "b7da7ec210f6d877",
+      "b7da7ec210f6d877",
+      "b7da7ec210f6d877",
+      "b7da7ec210f6d877",
+      "b7da7ec210f6d877"
+    ],
+    "0xprevious_rug_1": [
+      "c2ce62558e49f56c",
+      "c2ce62558e49f56c",
+      "c2ce62558e49f56c",
+      "c2ce62558e49f56c",
+      "c2ce62558e49f56c",
+      "c2ce62558e49f56c",
+      "c2ce62558e49f56c",
+      "c2ce62558e49f56c",
+      "c2ce62558e49f56c",
+      "c2ce62558e49f56c",
+      "c2ce62558e49f56c"
+    ],
+    "0xprevious_rug_2": [
+      "11b9ad3b9eba11c6",
+      "11b9ad3b9eba11c6",
+      "11b9ad3b9eba11c6",
+      "11b9ad3b9eba11c6",
+      "11b9ad3b9eba11c6",
+      "11b9ad3b9eba11c6",
+      "11b9ad3b9eba11c6",
+      "11b9ad3b9eba11c6",
+      "11b9ad3b9eba11c6",
+      "11b9ad3b9eba11c6",
+      "11b9ad3b9eba11c6"
+    ],
+    "0xlegit_token_0": [
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d",
+      "66888f73e71fa88d"
+    ],
+    "0xlegit_token_1": [
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34",
+      "06710b3d4c563e34"
+    ],
+    "0xlegit_token_2": [
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8",
+      "61b9741b2eb7f9a8"
+    ],
+    "3vgN4FzmxegtqzN2DhjTw38waRyCRw3MnZWvwEYJpump": [
+      "7817badcc5bdde88"
+    ],
+    "Bx5hoVBNGveZKNJE32vrQazfvFF7iCxcEQ841HoGpump": [
+      "d07ef6ba92cd9a04"
+    ],
+    "nqiefNngAetU3sGWLnTihBCJ2tQweAvNEuriP5gpump": [
+      "89fa03fa1103358e"
+    ],
+    "0x1f29162d00751408fe208f0a91f0b1d5e1b78599": [
+      "64dae7cd00007610"
+    ],
+    "0x4200000000000000000000000000000000000006": [
+      "b563b97b2519bedd",
+      "6eb9211718c67837",
+      "39b9dcf27aa7e4b0",
+      "2fc64b8184405732",
+      "998c9f911d03d5a3",
+      "9aa3cb1fbe49ec50",
+      "f9033a06d4cc6a3c",
+      "cbe6cdca4644c394",
+      "36b4810d07d4c5e6"
+    ],
+    "3PBxNGn9bgpg7JLNZFRUV7fquBTSgdoXCyH5K2yeDt5B": [
+      "9386829b83ec5d0c"
+    ],
+    "0x2bdc3e3441dd5540ea50920c158405ccd5727de2": [
+      "8c73730d265f5046"
+    ],
+    "1hkh4ZhEquYSZW7nhzLPF5W1mi5v3sGdx92F7Ukpump": [
+      "2440cb203dbbdffc"
+    ],
+    "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913": [
+      "0f48ba3bd3694e4e"
+    ],
+    "CWnwk4a2BXyDEWLBX3Va8NAydwTm6CpeHCNBw5Yspump": [
+      "a6b44927772cad88"
+    ],
+    "0x18ee8cc79a7f3ab1e2fe88ba0c1af0c82fdb8215": [
+      "90a16985b45e1c3b"
+    ],
+    "9EmeQCVRXiq84KRFQ4wqw8GDT1BscCvmg3cQeuDjpump": [
+      "abd29593b3dde470"
+    ],
+    "54EVCSckU1QM8PjbHuBn3FZuZFAUd15yYUYkF7tXpump": [
+      "eceb852255b9528f"
+    ],
+    "SKY5NKfmsSFxytcXsC2bKuQrAdYPrYA6yPQZszkaNeT": [
+      "173751b2e2b6dc71"
+    ],
+    "4WxsAaboPQw7WvoyvNBEiT2VcW3L8QpFmMRUatPB7enC": [
+      "4bc63863e492408e"
+    ],
+    "13SfHhn8LPw3s2Qi1ovbovj97vy2F5h4ZPJKNYeTpump": [
+      "ae12e9299c7ce34e"
+    ],
+    "6P8JBNTKgk3LW9wjZw7i9az9EvuFgFMXUFUiGNMQcDZs": [
+      "f5a531fbe9279747"
+    ],
+    "0x0ffc31980d775ba13b3f9ed23348445059b3ca40": [
+      "fbd1ecda129c345c"
+    ],
+    "AEihANkHBEVaYqQEXSCVPZb4Bc2HdBnANRa9fQXHpump": [
+      "b149d6a98063b4c2"
+    ],
+    "7SaabEcE5fV1713tbeXxeBBwcCTmJzHw41SkbQYv95o4": [
+      "5336a9f6643db48c"
+    ],
+    "CXzpwXfJ6H8emf7dKAGX8vbxrvNKhiD63iFMuceTpump": [
+      "562c50f433035bdd"
+    ],
+    "8GvjSKUYUe8ow9riUd1efV5N7a85ieovW2nx9Mrwpump": [
+      "3467200415407d61"
+    ],
+    "51t44rLrtscqFbkZVkCKUDKkw1W3ssFnQxD1gAnUnU1t": [
+      "adff36fc98c7c886"
+    ],
+    "9W5FSWTjWCDE3tQsQu2B3hym6p3bWZg8rcCQKxNVpump": [
+      "c91f6fd255a7188f"
+    ],
+    "FSYqZaiR9jmYynaFCFCCZ51D3wxVtEyDH4Noc799pump": [
+      "140b8c59ed583517"
+    ],
+    "J8LoJ7gq6CF1AhU29ThLUc5QFoQjwpWKgk1qgu2npump": [
+      "d54103c3e1f0d12c"
+    ],
+    "4zz8UMCVuPsqqDM6GvtSnvFsKhyEGMXzHqNQKACDpump": [
+      "90907376d4eec869"
+    ],
+    "3C77JKvBZMoUpF6Ro67Rms23t1L7nqMFJ8tthpvVr3aL": [
+      "5b0bd27d060cb549"
+    ],
+    "BFJNysB7WDNmxKsmabXsMV3zvgje6ovm11UmnLgD8GjW": [
+      "1f369da2a167e592"
+    ],
+    "jG3DJoveU54h5MbSKRB1ycBzgBipRzTX8i81s1Rpump": [
+      "9488d46cb186a286"
+    ],
+    "8o78mne5tnLmpiZChhnzh583cZcPVuzm8N7SPCsBpump": [
+      "9aae637813f6dee2"
+    ],
+    "6yfph6r3vucLZba1ZjQpzbG9QFSC2isRBsoFzd4iGdNJ": [
+      "6eb740b1f6e63b91"
+    ],
+    "4BEcVEab46feF7LANMoJ5krR7N8tSADLmF8YQBNNpump": [
+      "9424dabd1b2ba00b"
+    ],
+    "C8Yy5rghjK2FZZd8ToboYmKu5Bn31EDqQu9uNJUUhdWh": [
+      "ef60015df6645c42"
+    ],
+    "FXqbm2AsPLWrwbgu4VtenM84QqBMJQV5d2Y1V7MEM4Xw": [
+      "ea562d464541f3a3"
+    ],
+    "286ZU7R7Nae6hEY2LavZbxt3J8fYABxvexeD1jNppump": [
+      "a808a31709764c42"
+    ],
+    "C5Tbe2RtD6QQXgPH2AkDMv2BeS1UUbg3mUmo5vX4kMub": [
+      "4cae952ff236e577"
+    ],
+    "0xed6e000def95780fb89734c07ee2ce9f6dcaf110": [
+      "2ffb1ea78e131c16"
+    ],
+    "9gUQLttXD3b4NuNnfRcb6Q75LNpJkUBACGEj3AeTpump": [
+      "2ba6621ffd741e33"
+    ],
+    "EF3qCibGAU5KzRkmTJiUea3zfDMCnFJsc3kRdkGvpump": [
+      "4d7fca9b440a04ef"
+    ],
+    "UKrvzmTEcXZWJCLPKEuteN5hCVgBx3ug1Ka5JnNpump": [
+      "9be69ca1c88c9a3f"
+    ],
+    "FYKrYjkRC3LJWZY6mUkUmGP87CnCbM4S8wsXrR4bne2g": [
+      "78ea1296f4e67ee0"
+    ],
+    "EE1NDKfVS1fP6z2Mwd725CYahK2vnexfcPfBD1PSpump": [
+      "d908e2ef01108758"
+    ],
+    "8wdaRERr78X5U87tDx7aXuBKEV1ouqQnLhcUciqZpump": [
+      "c2c42d9197f12ce2"
+    ],
+    "BX9iCavnGdNbVbtQ8mTmKkYMqhLQW7ZKY6XRWpy8pump": [
+      "80a7ac5906f6aa94"
+    ],
+    "9icYmge9qaaGaeSrkk8ucHJbfrBp7pPqbgS14TRvpump": [
+      "ce8b8e2e7bf7de63"
+    ],
+    "HudooLFD7Q68MV257LbkZsgYkGtTs4TQp774qswBpump": [
+      "5b96777dc0739987"
+    ],
+    "C1JqgsJrXe2MvmU33WWFrd1KFKvSYxk8NTC5Gjt2pump": [
+      "188d1e48dc65e958"
+    ],
+    "Ax51zmGgL8q6DRckvnvgM1hhiaa2VbwvYqmiN4oE35DF": [
+      "ee8abd5c37276555"
+    ],
+    "6CvTYPi4EnBHu15tUsdz4yvex8z3w953omEmC5DBpump": [
+      "d4253f1e25cfa5a5"
+    ],
+    "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea": [
+      "b42ab0051e08ab3c"
+    ],
+    "HvVZb63kpkKm6BXdDS2xjvognifcdD4gTe8wV9Ybpump": [
+      "77957ac05b450bd4"
+    ],
+    "GzeBKxB4hcs4hfUSLEXdumUZpn3rXWZUQqNocswafxeW": [
+      "8c57a3dee5d2eac8"
+    ],
+    "EbjkwzFKhWSQxEiG3ofoAeAi9DH6fejzmHRuyv9Qpump": [
+      "98f7239ca8899a2a"
+    ],
+    "EHf63N9Y9LkcKAGJHH8Kumw2YEZxRFVZ3UNoSdAtpump": [
+      "b1aaa2fb9c09cfdf"
+    ],
+    "F1B3zfVPdMuEZ9qeruomNdTe7pss49YByzA1k1HV4fdz": [
+      "b7a35fd58f6ce919"
+    ],
+    "3jwJsApyPThGDw8XKEggUp3ptHtVZ4MydyP5twu1jix5": [
+      "2362b33fc081dd93"
+    ],
+    "4Mt7jLukA5H11g8ee4HJABteFcuDG6Rizr7mPs9UgnHL": [
+      "ed7d59fc5a3301ee"
+    ]
+  },
+  "wallets": {},
+  "operators": {
+    "deployer:0xdeployer1": [
+      {
+        "token_address": "0xrug0",
+        "chain": "solana",
+        "outcome": "rug",
+        "risk_score": 0.8,
+        "timestamp": 1000
+      },
+      {
+        "token_address": "0xrug1",
+        "chain": "solana",
+        "outcome": "rug",
+        "risk_score": 0.8,
+        "timestamp": 1001
+      },
+      {
+        "token_address": "0xrug2",
+        "chain": "solana",
+        "outcome": "rug",
+        "risk_score": 0.8,
+        "timestamp": 1002
+      }
+    ],
+    "deployer:0xdeployer2": [],
+    "deployer:0xdeployer_shared": [
+      {
+        "detection_id": "2bed34ff76b0fb94",
+        "token_address": "0xtokenA",
+        "chain": "solana",
+        "risk_score": 0.18181818181818182,
+        "linked_at": 1792364642.469075
+      },
+      {
+        "detection_id": "f54823200b2e39f5",
+        "token_address": "0xtokenA",
+        "chain": "solana",
+        "risk_score": 0.18181818181818182,
+        "linked_at": 1792364665.343144
+      },
+      {
+        "detection_id": "f6fdba28684dd3c3",
+        "token_address": "0xtokenA",
+        "chain": "solana",
+        "risk_score": 0.18181818181818182,
+        "linked_at": 1792370607.4505467
+      },
+      {
+        "detection_id": "b647de5a17944045",
+        "token_address": "0xtokenA",
+        "chain": "solana",
+        "risk_score": 0.18181818181818182,
+        "linked_at": 1792370743.3656414,
+        "outcome": "rug",
+        "outcome_timestamp": 1792370743.3670988
+      }
+    ],
+    "deployer:0xdeployer_rug": [
+      {
+        "detection_id": "a2f50aa0f982cf65",
+        "token_address": "0xprevious_rug",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792371239.6885812
+      },
+      {
+        "detection_id": "b7da7ec210f6d877",
+        "token_address": "0xprevious_rug_0",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792371253.6033044,
+        "outcome": "rug",
+        "outcome_timestamp": 1792421971.8181565
+      },
+      {
+        "detection_id": "c2ce62558e49f56c",
+        "token_address": "0xprevious_rug_1",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792371253.6047764,
+        "outcome": "rug",
+        "outcome_timestamp": 1792421971.8218775
+      },
+      {
+        "detection_id": "11b9ad3b9eba11c6",
+        "token_address": "0xprevious_rug_2",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792371253.6062715,
+        "outcome": "rug",
+        "outcome_timestamp": 1792421971.8256648
+      },
+      {
+        "detection_id": "b7da7ec210f6d877",
+        "token_address": "0xprevious_rug_0",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792407811.0757055
+      },
+      {
+        "detection_id": "c2ce62558e49f56c",
+        "token_address": "0xprevious_rug_1",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792407811.0775104
+      },
+      {
+        "detection_id": "11b9ad3b9eba11c6",
+        "token_address": "0xprevious_rug_2",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792407811.0797331
+      },
+      {
+        "detection_id": "b7da7ec210f6d877",
+        "token_address": "0xprevious_rug_0",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792409436.974678
+      },
+      {
+        "detection_id": "c2ce62558e49f56c",
+        "token_address": "0xprevious_rug_1",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792409436.9775553
+      },
+      {
+        "detection_id": "11b9ad3b9eba11c6",
+        "token_address": "0xprevious_rug_2",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792409436.9807446
+      },
+      {
+        "detection_id": "b7da7ec210f6d877",
+        "token_address": "0xprevious_rug_0",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792410150.2553988
+      },
+      {
+        "detection_id": "c2ce62558e49f56c",
+        "token_address": "0xprevious_rug_1",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792410150.2580242
+      },
+      {
+        "detection_id": "11b9ad3b9eba11c6",
+        "token_address": "0xprevious_rug_2",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792410150.2611637
+      },
+      {
+        "detection_id": "b7da7ec210f6d877",
+        "token_address": "0xprevious_rug_0",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792412209.8433182
+      },
+      {
+        "detection_id": "c2ce62558e49f56c",
+        "token_address": "0xprevious_rug_1",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792412209.8456168
+      },
+      {
+        "detection_id": "11b9ad3b9eba11c6",
+        "token_address": "0xprevious_rug_2",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792412209.8483868
+      },
+      {
+        "detection_id": "b7da7ec210f6d877",
+        "token_address": "0xprevious_rug_0",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792413897.7393112
+      },
+      {
+        "detection_id": "c2ce62558e49f56c",
+        "token_address": "0xprevious_rug_1",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792413897.741949
+      },
+      {
+        "detection_id": "11b9ad3b9eba11c6",
+        "token_address": "0xprevious_rug_2",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792413897.7447298
+      },
+      {
+        "detection_id": "b7da7ec210f6d877",
+        "token_address": "0xprevious_rug_0",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792414371.1816163
+      },
+      {
+        "detection_id": "c2ce62558e49f56c",
+        "token_address": "0xprevious_rug_1",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792414371.185054
+      },
+      {
+        "detection_id": "11b9ad3b9eba11c6",
+        "token_address": "0xprevious_rug_2",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792414371.1885076
+      },
+      {
+        "detection_id": "b7da7ec210f6d877",
+        "token_address": "0xprevious_rug_0",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792415637.7817106
+      },
+      {
+        "detection_id": "c2ce62558e49f56c",
+        "token_address": "0xprevious_rug_1",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792415637.785074
+      },
+      {
+        "detection_id": "11b9ad3b9eba11c6",
+        "token_address": "0xprevious_rug_2",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792415637.7886093
+      },
+      {
+        "detection_id": "b7da7ec210f6d877",
+        "token_address": "0xprevious_rug_0",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792415963.6793659
+      },
+      {
+        "detection_id": "c2ce62558e49f56c",
+        "token_address": "0xprevious_rug_1",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792415963.683315
+      },
+      {
+        "detection_id": "11b9ad3b9eba11c6",
+        "token_address": "0xprevious_rug_2",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792415963.687119
+      },
+      {
+        "detection_id": "b7da7ec210f6d877",
+        "token_address": "0xprevious_rug_0",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792421889.2036521
+      },
+      {
+        "detection_id": "c2ce62558e49f56c",
+        "token_address": "0xprevious_rug_1",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792421889.2076006
+      },
+      {
+        "detection_id": "11b9ad3b9eba11c6",
+        "token_address": "0xprevious_rug_2",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792421889.211461
+      },
+      {
+        "detection_id": "b7da7ec210f6d877",
+        "token_address": "0xprevious_rug_0",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792421971.8156931
+      },
+      {
+        "detection_id": "c2ce62558e49f56c",
+        "token_address": "0xprevious_rug_1",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792421971.819998
+      },
+      {
+        "detection_id": "11b9ad3b9eba11c6",
+        "token_address": "0xprevious_rug_2",
+        "chain": "solana",
+        "risk_score": 0.8,
+        "linked_at": 1792421971.8237486
+      }
+    ],
+    "deployer:0xdeployer_legit": [
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792405980.2336664,
+        "outcome": "legitimate",
+        "outcome_timestamp": 1792415795.2225878
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792405980.2355509,
+        "outcome": "legitimate",
+        "outcome_timestamp": 1792415795.2258487
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792405980.2381735,
+        "outcome": "legitimate",
+        "outcome_timestamp": 1792415795.2287815
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792406645.4995916
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792406645.5017717
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792406645.5042243
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407556.8468783
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407556.8501546
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407556.853112
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407574.081164
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407574.0843146
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407574.0874732
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407605.3800745
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407605.3828375
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407605.3863904
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407625.0059745
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407625.007694
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407625.009819
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407642.061551
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407642.0633028
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407642.0652597
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407682.0760174
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407682.0778825
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407682.0819397
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407888.4491887
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407888.4511166
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407888.4532602
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407929.1235974
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407929.126878
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792407929.1299512
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408321.9910789
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408321.9930048
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408321.995101
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408334.8211462
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408334.823175
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408334.8254514
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408661.0299666
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408661.033435
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408661.036667
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408674.355753
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408674.3595948
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408674.3632996
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408694.3047335
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408694.3080797
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408694.311262
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408984.7682207
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408984.7716413
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792408984.7749596
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792409266.8203428
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792409266.8225703
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792409266.8257875
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792412494.8450158
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792412494.8474152
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792412494.8504379
+      },
+      {
+        "detection_id": "66888f73e71fa88d",
+        "token_address": "0xlegit_token_0",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792415795.2213643
+      },
+      {
+        "detection_id": "06710b3d4c563e34",
+        "token_address": "0xlegit_token_1",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792415795.2241602
+      },
+      {
+        "detection_id": "61b9741b2eb7f9a8",
+        "token_address": "0xlegit_token_2",
+        "chain": "solana",
+        "risk_score": 0.1,
+        "linked_at": 1792415795.2272863
+      }
+    ],
+    "deployer:0xdeployer_3rugs": [
+      {
+        "token_address": "0xrug0",
+        "chain": "solana",
+        "outcome": "rug",
+        "risk_score": 0.8,
+        "timestamp": 1000
+      },
+      {
+        "token_address": "0xrug1",
+        "chain": "solana",
+        "outcome": "rug",
+        "risk_score": 0.8,
+        "timestamp": 1001
+      },
+      {
+        "token_address": "0xrug2",
+        "chain": "solana",
+        "outcome": "rug",
+        "risk_score": 0.8,
+        "timestamp": 1002
+      }
+    ],
+    "deployer:HkRzNU9Nh7F49UAycTSW1NHQmn3cwgfjQPxfkWTtJPdp": [
+      {
+        "detection_id": "7817badcc5bdde88",
+        "token_address": "3vgN4FzmxegtqzN2DhjTw38waRyCRw3MnZWvwEYJpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792680891.8607056
+      }
+    ],
+    "deployer:4uB1sip34w6caBQrp751c7b2YLXhtCbWseBJYMejYHga": [
+      {
+        "detection_id": "d07ef6ba92cd9a04",
+        "token_address": "Bx5hoVBNGveZKNJE32vrQazfvFF7iCxcEQ841HoGpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792681414.5067267
+      }
+    ],
+    "deployer:36A6mEN5rYJdVTb6fMqVvG6ez8g2mTYdr1omWcQ1kDKG": [
+      {
+        "detection_id": "89fa03fa1103358e",
+        "token_address": "nqiefNngAetU3sGWLnTihBCJ2tQweAvNEuriP5gpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792681414.5105176
+      }
+    ],
+    "deployer:6UaANN2AkbneBhjGGLicoGdG8rS6e1Ls1Fr67mgLXsq2": [
+      {
+        "detection_id": "9386829b83ec5d0c",
+        "token_address": "3PBxNGn9bgpg7JLNZFRUV7fquBTSgdoXCyH5K2yeDt5B",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792690936.1306186
+      }
+    ],
+    "deployer:FqoGAkP92Uc2e22UXDLMVnmtrfQPdhjrpfBMqPNLSPFD": [
+      {
+        "detection_id": "2440cb203dbbdffc",
+        "token_address": "1hkh4ZhEquYSZW7nhzLPF5W1mi5v3sGdx92F7Ukpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792695030.7440176
+      }
+    ],
+    "deployer:3tC672H5qooHs3rZiCzUj9iLMEPjmgDbUYE41qPyGgVx": [
+      {
+        "detection_id": "a6b44927772cad88",
+        "token_address": "CWnwk4a2BXyDEWLBX3Va8NAydwTm6CpeHCNBw5Yspump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792697686.1658556
+      }
+    ],
+    "deployer:8rwh68LhKbwAcLGSkTQWJAyAEmchRwNHXQrZ6rCMJU4T": [
+      {
+        "detection_id": "abd29593b3dde470",
+        "token_address": "9EmeQCVRXiq84KRFQ4wqw8GDT1BscCvmg3cQeuDjpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792699365.454432
+      }
+    ],
+    "deployer:8RB5cwrwHrxotxFURLWKH21MjkzeA93vGtLfqBbgKEiG": [
+      {
+        "detection_id": "eceb852255b9528f",
+        "token_address": "54EVCSckU1QM8PjbHuBn3FZuZFAUd15yYUYkF7tXpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792700003.121247
+      }
+    ],
+    "deployer:BThe8Fs1vaTXvHU1s8Rii4hVkkumgxGthLSNpVYLNLWx": [
+      {
+        "detection_id": "173751b2e2b6dc71",
+        "token_address": "SKY5NKfmsSFxytcXsC2bKuQrAdYPrYA6yPQZszkaNeT",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792700003.1253798
+      }
+    ],
+    "deployer:GuAKE5EgK7Au7EARH81oHrWjJvvg2Axf9AVNMpt7yEzH": [
+      {
+        "detection_id": "4bc63863e492408e",
+        "token_address": "4WxsAaboPQw7WvoyvNBEiT2VcW3L8QpFmMRUatPB7enC",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792701123.704665
+      }
+    ],
+    "deployer:5MTjkAZMe1ur64ADTgnaYFN1ByTapu2RqcKYUdQNaE2E": [
+      {
+        "detection_id": "ae12e9299c7ce34e",
+        "token_address": "13SfHhn8LPw3s2Qi1ovbovj97vy2F5h4ZPJKNYeTpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792701698.5822098
+      }
+    ],
+    "deployer:9VykSjvzWr8HSp6Fn54woYNcHFK64vJ9PDfvh28jEJPx": [
+      {
+        "detection_id": "f5a531fbe9279747",
+        "token_address": "6P8JBNTKgk3LW9wjZw7i9az9EvuFgFMXUFUiGNMQcDZs",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792704215.2433288
+      }
+    ],
+    "deployer:2EL1HqDWtMThqmJLpr73DRfeAVMRCm5MtUhoyocrCsNE": [
+      {
+        "detection_id": "b149d6a98063b4c2",
+        "token_address": "AEihANkHBEVaYqQEXSCVPZb4Bc2HdBnANRa9fQXHpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792708571.749547
+      }
+    ],
+    "deployer:CMqNoWGtww1uz9UwWwEqjQLX4ZFzsen8Ph576f6fpgTt": [
+      {
+        "detection_id": "5336a9f6643db48c",
+        "token_address": "7SaabEcE5fV1713tbeXxeBBwcCTmJzHw41SkbQYv95o4",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792709025.6898952
+      }
+    ],
+    "deployer:HHbu3Da4tBV66guqieQVre8FQPp8N9HdHrB2E3Gn9EdT": [
+      {
+        "detection_id": "562c50f433035bdd",
+        "token_address": "CXzpwXfJ6H8emf7dKAGX8vbxrvNKhiD63iFMuceTpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792709025.6945288
+      }
+    ],
+    "deployer:GdLvhCbiR54aeygfRzuiWamqH2eHPDr9bU43jKVt4PWi": [
+      {
+        "detection_id": "3467200415407d61",
+        "token_address": "8GvjSKUYUe8ow9riUd1efV5N7a85ieovW2nx9Mrwpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792710065.9414268
+      }
+    ],
+    "deployer:6aQ9F5sm8kjVKbWYBXBkF9jxpUxEN3759vmFfQkURdKj": [
+      {
+        "detection_id": "adff36fc98c7c886",
+        "token_address": "51t44rLrtscqFbkZVkCKUDKkw1W3ssFnQxD1gAnUnU1t",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792712915.7116213
+      }
+    ],
+    "deployer:35dxJTcSCRNfBev3qBCzNq5mBPtp9ZaegzUBekfZtBXE": [
+      {
+        "detection_id": "c91f6fd255a7188f",
+        "token_address": "9W5FSWTjWCDE3tQsQu2B3hym6p3bWZg8rcCQKxNVpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792712915.7170064
+      }
+    ],
+    "deployer:2oqDrFSz1sdeYN2KRzqTR4rnpN8BUjdgQ4jtDtBQDcck": [
+      {
+        "detection_id": "140b8c59ed583517",
+        "token_address": "FSYqZaiR9jmYynaFCFCCZ51D3wxVtEyDH4Noc799pump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792712915.7224543
+      }
+    ],
+    "deployer:HNVu9iRGQN5S1JhjSYYzsd9zh6hr5UmpCSE3Btp1XBNq": [
+      {
+        "detection_id": "d54103c3e1f0d12c",
+        "token_address": "J8LoJ7gq6CF1AhU29ThLUc5QFoQjwpWKgk1qgu2npump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792712915.7273462
+      }
+    ],
+    "deployer:7phBUYiijEuJR96hd2NxrjQVVW5az9fR6RxA6KDoz3Ch": [
+      {
+        "detection_id": "90907376d4eec869",
+        "token_address": "4zz8UMCVuPsqqDM6GvtSnvFsKhyEGMXzHqNQKACDpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792714892.803979
+      }
+    ],
+    "deployer:d7fN77kH6H8mwi8msA6Vir1WtvmNJ69V8PPHfVkz3ps": [
+      {
+        "detection_id": "5b0bd27d060cb549",
+        "token_address": "3C77JKvBZMoUpF6Ro67Rms23t1L7nqMFJ8tthpvVr3aL",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792715831.191612
+      }
+    ],
+    "deployer:8E8sAZBXkcWrpP82oEctNJ8Pcv2YPqcx9Uxcsd2Wx9Ta": [
+      {
+        "detection_id": "1f369da2a167e592",
+        "token_address": "BFJNysB7WDNmxKsmabXsMV3zvgje6ovm11UmnLgD8GjW",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792717889.2951946
+      },
+      {
+        "detection_id": "4cae952ff236e577",
+        "token_address": "C5Tbe2RtD6QQXgPH2AkDMv2BeS1UUbg3mUmo5vX4kMub",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792729098.732001
+      }
+    ],
+    "deployer:5XaW8JqVDgDGjF8DFXg9SLFuqpkTMv2KKKxMJhiHvwid": [
+      {
+        "detection_id": "9488d46cb186a286",
+        "token_address": "jG3DJoveU54h5MbSKRB1ycBzgBipRzTX8i81s1Rpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792718331.807218
+      }
+    ],
+    "deployer:FYe6yTHwmXysospTm1GqRt6TGrec8QXfKGbx6tFuyhiG": [
+      {
+        "detection_id": "9aae637813f6dee2",
+        "token_address": "8o78mne5tnLmpiZChhnzh583cZcPVuzm8N7SPCsBpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792720442.2637744
+      }
+    ],
+    "deployer:CZWberudF1TyyAcrYgfQDDcarNEzqiJeKxK8Qra92Uke": [
+      {
+        "detection_id": "6eb740b1f6e63b91",
+        "token_address": "6yfph6r3vucLZba1ZjQpzbG9QFSC2isRBsoFzd4iGdNJ",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792720442.2692018
+      }
+    ],
+    "deployer:2mncRSZ7tAPBGCcYA7kfNx84spSJnz9w6zcawGxCH8K7": [
+      {
+        "detection_id": "9424dabd1b2ba00b",
+        "token_address": "4BEcVEab46feF7LANMoJ5krR7N8tSADLmF8YQBNNpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792723356.8349843
+      }
+    ],
+    "deployer:8AhgWtd4D6hSj274Suqtx8mHGiigw4SzjWoc27yzQsoq": [
+      {
+        "detection_id": "ef60015df6645c42",
+        "token_address": "C8Yy5rghjK2FZZd8ToboYmKu5Bn31EDqQu9uNJUUhdWh",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792723784.9428153
+      }
+    ],
+    "deployer:B3rM6meQUs4ugJX7MhkGNeqHpU5dWZwZgDphnDpAaeHo": [
+      {
+        "detection_id": "ea562d464541f3a3",
+        "token_address": "FXqbm2AsPLWrwbgu4VtenM84QqBMJQV5d2Y1V7MEM4Xw",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792726579.4564352
+      }
+    ],
+    "deployer:FLzNN3PBfnHBsH4au9DkgfTTPdL6BmWwJLeAtGY8jvJX": [
+      {
+        "detection_id": "a808a31709764c42",
+        "token_address": "286ZU7R7Nae6hEY2LavZbxt3J8fYABxvexeD1jNppump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792726579.4623559
+      }
+    ],
+    "deployer:9yyqw71m4PtmJPertrSRK7rkhMBu35RCYUd6miSrS8hM": [
+      {
+        "detection_id": "2ba6621ffd741e33",
+        "token_address": "9gUQLttXD3b4NuNnfRcb6Q75LNpJkUBACGEj3AeTpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792732597.1335235
+      }
+    ],
+    "deployer:4nMpqY3SeaYbFvNs4vmCPE7y3LTJ4XGPfnUoZz8cQ2ej": [
+      {
+        "detection_id": "4d7fca9b440a04ef",
+        "token_address": "EF3qCibGAU5KzRkmTJiUea3zfDMCnFJsc3kRdkGvpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792733568.1611502
+      }
+    ],
+    "deployer:H2wSezKYjT6ekSQ23XfcgfxwxueXtKBkTQeQLCwokdFJ": [
+      {
+        "detection_id": "9be69ca1c88c9a3f",
+        "token_address": "UKrvzmTEcXZWJCLPKEuteN5hCVgBx3ug1Ka5JnNpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792733995.0091956
+      }
+    ],
+    "deployer:E2hRodJxc5mGt4rzf26QfUtBQaDC5ErNaBufrxUMpR8E": [
+      {
+        "detection_id": "78ea1296f4e67ee0",
+        "token_address": "FYKrYjkRC3LJWZY6mUkUmGP87CnCbM4S8wsXrR4bne2g",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792735004.8302217
+      }
+    ],
+    "deployer:DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU": [
+      {
+        "detection_id": "d908e2ef01108758",
+        "token_address": "EE1NDKfVS1fP6z2Mwd725CYahK2vnexfcPfBD1PSpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792735414.2360337
+      },
+      {
+        "detection_id": "80a7ac5906f6aa94",
+        "token_address": "BX9iCavnGdNbVbtQ8mTmKkYMqhLQW7ZKY6XRWpy8pump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792735414.2479336
+      },
+      {
+        "detection_id": "ce8b8e2e7bf7de63",
+        "token_address": "9icYmge9qaaGaeSrkk8ucHJbfrBp7pPqbgS14TRvpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792735414.2537122
+      }
+    ],
+    "deployer:BejLSqNCJj1oH1UVg3GCh1TT8wVVCsyxNh73KYvY7soP": [
+      {
+        "detection_id": "c2c42d9197f12ce2",
+        "token_address": "8wdaRERr78X5U87tDx7aXuBKEV1ouqQnLhcUciqZpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792735414.2420053
+      }
+    ],
+    "deployer:FenAmipD5ZX1ig5VTyHLgSUgMt23C6jGEyXDJtq89NoJ": [
+      {
+        "detection_id": "5b96777dc0739987",
+        "token_address": "HudooLFD7Q68MV257LbkZsgYkGtTs4TQp774qswBpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792738746.7548938
+      }
+    ],
+    "deployer:6pKEuTgNLuR3HF5cRcsqeF1jzhMVcN8XpAcVxTbny2ED": [
+      {
+        "detection_id": "188d1e48dc65e958",
+        "token_address": "C1JqgsJrXe2MvmU33WWFrd1KFKvSYxk8NTC5Gjt2pump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792739981.4963553
+      }
+    ],
+    "deployer:41Q29HP5tZ8edLVPB3cYu4CrzL2gJGMpzQxKS6aHpsV2": [
+      {
+        "detection_id": "ee8abd5c37276555",
+        "token_address": "Ax51zmGgL8q6DRckvnvgM1hhiaa2VbwvYqmiN4oE35DF",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792739981.5026195
+      }
+    ],
+    "deployer:ENskGQev2bXPjaCYPV9bUcPLv3635Y18BWzLN95x4soC": [
+      {
+        "detection_id": "d4253f1e25cfa5a5",
+        "token_address": "6CvTYPi4EnBHu15tUsdz4yvex8z3w953omEmC5DBpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792740343.4076533
+      }
+    ],
+    "deployer:CNqtNd9y1B29PRRAhSKvA1ZzTsFYgr5Pjm8K6VVqePnq": [
+      {
+        "detection_id": "77957ac05b450bd4",
+        "token_address": "HvVZb63kpkKm6BXdDS2xjvognifcdD4gTe8wV9Ybpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792742903.030174
+      }
+    ],
+    "deployer:36nrVA3AUWc1Pw62SsENpw1zYT2VVTsyMieJy55PvXpz": [
+      {
+        "detection_id": "8c57a3dee5d2eac8",
+        "token_address": "GzeBKxB4hcs4hfUSLEXdumUZpn3rXWZUQqNocswafxeW",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792747734.5795941
+      }
+    ],
+    "deployer:3QivjZCQxan7mj1ZQi9DXhFtFV8dCGhi739FLe2PcJXy": [
+      {
+        "detection_id": "98f7239ca8899a2a",
+        "token_address": "EbjkwzFKhWSQxEiG3ofoAeAi9DH6fejzmHRuyv9Qpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792749521.7984335
+      }
+    ],
+    "deployer:28vU4EJbH1Rj1VeCYyz1HdzQyhxjdFxUKxqYk8omZ5iY": [
+      {
+        "detection_id": "b1aaa2fb9c09cfdf",
+        "token_address": "EHf63N9Y9LkcKAGJHH8Kumw2YEZxRFVZ3UNoSdAtpump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792749993.74156
+      }
+    ],
+    "deployer:9wRuFPJZFviuHv9q4hsaxUUADDphX6oSjcMA3RuxTFRG": [
+      {
+        "detection_id": "b7a35fd58f6ce919",
+        "token_address": "F1B3zfVPdMuEZ9qeruomNdTe7pss49YByzA1k1HV4fdz",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792750431.5706532
+      }
+    ],
+    "deployer:8v9WH1AKNA5WCfrajw8dtCGBxVKMEVa6BthVEHbBkwdL": [
+      {
+        "detection_id": "2362b33fc081dd93",
+        "token_address": "3jwJsApyPThGDw8XKEggUp3ptHtVZ4MydyP5twu1jix5",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792753019.4110086
+      }
+    ],
+    "deployer:3gJVrzZP1c3263CMZ5or66weywPXNaDXhKTCrvm666jQ": [
+      {
+        "detection_id": "ed7d59fc5a3301ee",
+        "token_address": "4Mt7jLukA5H11g8ee4HJABteFcuDG6Rizr7mPs9UgnHL",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792754032.045901
+      }
+    ]
+  },
+  "runs": []
+}

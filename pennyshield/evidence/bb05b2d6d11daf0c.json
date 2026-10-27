@@ -1,0 +1,97 @@
+{
+  "detection_id": "bb05b2d6d11daf0c",
+  "token_address": "DRyn2VyJdgtpM6r3zaobZV6KZnKjN9bKL7mB6K6FGKxZ",
+  "chain": "solana",
+  "timestamp": 1792758630.1762092,
+  "timestamp_iso": "2026-10-23T12:30:30.176209",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "2aFjaPidodQyWFfw6LLKUBm4EjTh6oxM2W3RT1J8vpgR",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792758630.1762092,
+    "timestamp_iso": "2026-10-23T12:30:30.176209"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "2zLZUYCsywY57LBhgFmyuV3ZAqXKmdCQoc8EiAYtkMXongQcsqb2XZsQqeN5yVZkwqVB2FNonX1SzCETwi9krhX7",
+    "log_index": 2,
+    "block_number": 460442371,
+    "block_time": 1792758368,
+    "bonding_curve": "BZgTLHKexUkdcbupRDqZ8S1EFUjeebydaRfVCQYDwoA8",
+    "associated_bonding_curve": "FMFXbq6xDUeA88CxjzjxiEY2t9XNFMmmzmuyurb4p6Ky",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "2aFjaPidodQyWFfw6LLKUBm4EjTh6oxM2W3RT1J8vpgR",
+    "name": "BONERO",
+    "symbol": "BONERO",
+    "metadata_uri": "https://firebasestorage.googleapis.com/v0/b/mp3project-fef5a.firebasestorage.app/o/m%2FDRyn2VyJdgtpM6r3zaobZV6KZnKjN9bKL7mB6K6FGKxZ%2Fd.json?alt=media&token=otc",
+    "launch_timestamp": 1792758368,
+    "launch_slot": 460442371,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

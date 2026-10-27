@@ -1,0 +1,83 @@
+{
+  "start_time": 1792753638.8894315,
+  "start_time_iso": "2026-10-23T11:07:18.889434",
+  "threshold": 0.65,
+  "observations": [
+    {
+      "launch_id": "solana_HhkYj9B8MXVjeQWwqMgnaG5hqRHfdFgkMi6bs5QVY6SR_1793122742",
+      "token_address": "HhkYj9B8MXVjeQWwqMgnaG5hqRHfdFgkMi6bs5QVY6SR",
+      "chain": "solana",
+      "token_symbol": "Launch",
+      "token_name": "Use Launch",
+      "launch_timestamp": 1793122742.420935,
+      "launch_timestamp_iso": "2026-10-27T17:39:02.420938",
+      "component_scores": {
+        "early_snipe": 0.0,
+        "deployer_intelligence": 0.0,
+        "wallet_clustering": 0.0,
+        "distribution": 0.0,
+        "exit_detector": 0.0
+      },
+      "component_weights": {
+        "early_snipe": 2.0,
+        "deployer_intelligence": 2.5,
+        "wallet_clustering": 2.0,
+        "distribution": 2.0,
+        "exit_detector": 2.5
+      },
+      "weighted_score": 0.0,
+      "final_score": 0.0,
+      "is_high_risk": false,
+      "triggered_indicators": [],
+      "is_unknown_operator": true,
+      "deployer": "GwQH3hcty2ZMmCqL9XX3ap2sAQbHQuguoWohpBawwFLD",
+      "operator_history_count": 0,
+      "operator_rug_rate": 0.0,
+      "label_status": "pending",
+      "outcome_evidence": {},
+      "resolution_timestamp": null,
+      "predicted_label": "low_risk",
+      "true_label": null,
+      "observation_timestamp": 1793122742.420956,
+      "observation_timestamp_iso": "2026-10-27T17:39:02.420956"
+    },
+    {
+      "launch_id": "base_0x4200000000000000000000000000000000000006_1793122742",
+      "token_address": "0x4200000000000000000000000000000000000006",
+      "chain": "base",
+      "token_symbol": "NEW",
+      "token_name": "New Token",
+      "launch_timestamp": 1793122742.4210126,
+      "launch_timestamp_iso": "2026-10-27T17:39:02.421013",
+      "component_scores": {
+        "new_pool": 0.0,
+        "liquidity_drain": 0.0,
+        "contract_risk": 0.0,
+        "whale_activity": 0.0,
+        "deployer_link": 0.0
+      },
+      "component_weights": {
+        "new_pool": 1.5,
+        "liquidity_drain": 2.5,
+        "contract_risk": 2.0,
+        "whale_activity": 1.5,
+        "deployer_link": 2.0
+      },
+      "weighted_score": 0.0,
+      "final_score": 0.0,
+      "is_high_risk": false,
+      "triggered_indicators": [],
+      "is_unknown_operator": true,
+      "deployer": null,
+      "operator_history_count": 0,
+      "operator_rug_rate": 0.0,
+      "label_status": "pending",
+      "outcome_evidence": {},
+      "resolution_timestamp": null,
+      "predicted_label": "low_risk",
+      "true_label": null,
+      "observation_timestamp": 1793122742.4210184,
+      "observation_timestamp_iso": "2026-10-27T17:39:02.421018"
+    }
+  ]
+}

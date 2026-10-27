@@ -1,0 +1,106 @@
+{
+  "detection_id": "af0773d316988ca5",
+  "token_address": "TestMint111111111111111111111111111111111111111",
+  "chain": "solana",
+  "timestamp": 1700000000.0,
+  "timestamp_iso": "2023-11-14T22:13:20",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_transactions"
+        },
+        "explanation": "No transactions in launch window"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "TestCreator11111111111111111111111111111111111",
+          "total_launches": 1,
+          "confirmed_rug_count": 0,
+          "rug_rate": 0.0,
+          "serial_rug_operator": false,
+          "recent_launches": [
+            {
+              "token": "TestMint111111111111111111111111111111111111111",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            },
+            {
+              "token": "TestMint111111111111111111111111111111111111111",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            },
+            {
+              "token": "TestMint111111111111111111111111111111111111111",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer TestCrea... has 1 launches, 0 rugs (0.0%)"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1700000000.0,
+    "timestamp_iso": "2023-11-14T22:13:20"
+  },
+  "pool_snapshot": {
+    "block_number": 123456789
+  },
+  "token_snapshot": {
+    "creator": "TestCreator11111111111111111111111111111111111"
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

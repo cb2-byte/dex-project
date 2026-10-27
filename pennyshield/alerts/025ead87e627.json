@@ -1,0 +1,35 @@
+{
+  "alert_id": "025ead87e627",
+  "token_address": "0xtest_alert",
+  "chain": "solana",
+  "token_symbol": "ALERT",
+  "token_name": "Alert Test Token",
+  "alert_type": "early_snipe",
+  "severity": "high",
+  "risk_score": {
+    "overall_score": 0.85,
+    "threshold": 0.65,
+    "is_high_risk": true,
+    "triggered_indicators": [
+      "early_snipe",
+      "wallet_clustering"
+    ],
+    "indicators": [],
+    "timestamp": 1792319902.5028903,
+    "timestamp_iso": "2026-10-18T10:38:22.502890"
+  },
+  "evidence_summary": {
+    "liquidity_usd": 50000,
+    "market_cap_usd": null,
+    "holder_concentration": null,
+    "unique_buyers_24h": null,
+    "net_buy_volume_24h": null
+  },
+  "liquidity_usd": 50000,
+  "market_cap_usd": null,
+  "transaction_links": [],
+  "timestamp": 1792319902.5029693,
+  "timestamp_iso": "2026-10-18T10:38:22.502969",
+  "acknowledged": false,
+  "outcome": null
+}

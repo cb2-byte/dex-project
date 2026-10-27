@@ -1,0 +1,97 @@
+{
+  "detection_id": "5b0bd27d060cb549",
+  "token_address": "3C77JKvBZMoUpF6Ro67Rms23t1L7nqMFJ8tthpvVr3aL",
+  "chain": "solana",
+  "timestamp": 1792715831.1875174,
+  "timestamp_iso": "2026-10-23T00:37:11.187517",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "d7fN77kH6H8mwi8msA6Vir1WtvmNJ69V8PPHfVkz3ps",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792715831.1875174,
+    "timestamp_iso": "2026-10-23T00:37:11.187517"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "5JvyPQwYh42WK38wgz3cuszYQDeMe3JYxhjpuJYe7wsejrtMCRCiscTotgmbrjmRodvzpK13usXJe8MxFsCrfuV4",
+    "log_index": 0,
+    "block_number": 460240268,
+    "block_time": 1792715585,
+    "bonding_curve": "Fxfbu71MHQzere7eMzYfy1Z9v1hxvdva2yMz1EWm6Ue1",
+    "associated_bonding_curve": "6jCqkw4jdBwMP437NCUyysyw8emNty1LTJ3EV2JYednY",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "d7fN77kH6H8mwi8msA6Vir1WtvmNJ69V8PPHfVkz3ps",
+    "name": "Sundycoin",
+    "symbol": "SUNDY",
+    "metadata_uri": "https://metadata.j7tracker.io/m/CljYnwSpSz",
+    "launch_timestamp": 1792715585,
+    "launch_slot": 460240268,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

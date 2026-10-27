@@ -1,0 +1,2 @@
+{"event_id":"c6ec1e64-fd4","event_type":"signal","strategy":"triangular","timestamp":1793041937.4098225,"data":{"signal_id":"0a2a168c-67e","symbol":"ETH/SOL/USDC","accepted":true,"net_return_pct":1.0565920836929377},"session_id":"test_triangular"}
+{"event_id":"ba06838d-620","event_type":"trade","strategy":"triangular","timestamp":1793041937.5105329,"data":{"trade_id":"edaa155b-7b0","symbol":"ETH/USDC","net_pnl_usd":0.05645891231870215,"return_pct":0.05645891231870215},"session_id":"test_triangular"}

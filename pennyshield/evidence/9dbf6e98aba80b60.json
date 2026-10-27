@@ -1,0 +1,97 @@
+{
+  "detection_id": "9dbf6e98aba80b60",
+  "token_address": "AMa6vJyoCahcU5coNcWjEWWpF4BBMV5bwrsJKKL1pump",
+  "chain": "solana",
+  "timestamp": 1792893508.858765,
+  "timestamp_iso": "2026-10-25T01:58:28.858765",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "C81XyaJk3u5v1fgxnqr9ccyExBQhda5KZRDVTt59LtPm",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792893508.858765,
+    "timestamp_iso": "2026-10-25T01:58:28.858765"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "6393ApYTrw3bGXbMH1ESmByGnzSN4bZK1UgfUNVUR168c4zN1rC8mZwNTzLFEycfxW9vZbyhrr8kMfifSxPCZZyk",
+    "log_index": 2,
+    "block_number": 461078923,
+    "block_time": 1792893401,
+    "bonding_curve": "AkJJQWrnpdQ3pVS6vCUTiUD5h7HmZyUNTLPyYXDPtbKG",
+    "associated_bonding_curve": "JBrvdaVfTsjwSTMazdM5zxde4KxtrdZjh4kacq4ChQjE",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "C81XyaJk3u5v1fgxnqr9ccyExBQhda5KZRDVTt59LtPm",
+    "name": "Ultra Sized Double Cups",
+    "symbol": "USDC",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreiewfsafpcaf7jvx3jd2mmdlo7fuvhhn3tyigukdfppxyietj3tcmm",
+    "launch_timestamp": 1792893401,
+    "launch_slot": 461078923,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

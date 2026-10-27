@@ -1,0 +1,134 @@
+{
+  "detection_id": "76239adf58df899b",
+  "token_address": "ETyRT4U1sXwEo5MafQiKHMk1p39gd8wsTcSU4R2Zh1WR",
+  "chain": "solana",
+  "timestamp": 1793089876.658881,
+  "timestamp_iso": "2026-10-27T08:31:16.658881",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "66mKPXWFqaeYudnYQxQg15ykTBjGXMhqARsJqsDRNiH7",
+          "total_launches": 7,
+          "confirmed_rug_count": 0,
+          "rug_rate": 0.0,
+          "serial_rug_operator": false,
+          "recent_launches": [
+            {
+              "token": "CNobFq2eADV1hbCJnqsXJtxjcPN1ajTfDCyPeTVWtQAf",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            },
+            {
+              "token": "MknvVZ8mhR8LsnjnCcNHHTMw4KLYU3HaGRQtaszWpFW",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            },
+            {
+              "token": "EWQ2yaDjmtAKH3KaBtVVzSFDxvnagrJ83A8WBsaJhvkY",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            },
+            {
+              "token": "9gRe3fVrTAhvKqgxB5jPJsuNwhDut6jJSPkPu2H5sQAU",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            },
+            {
+              "token": "3jKRR9i5uazhANg9MWNTmmGkrRvC8ZnNKUoEquFP6NRL",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer 66mKPXWF... has 7 launches, 0 rugs (0.0%)"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793089876.658881,
+    "timestamp_iso": "2026-10-27T08:31:16.658881"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "4YxYsdon8XewLTH1nbQyXByG6gQd7eq12i4tLDec4Zy6dQ5VCqV4hqqF1ZEm9MwBonrGvN4PyP6aBif1DPqULyJX",
+    "log_index": 2,
+    "block_number": 462003254,
+    "block_time": 1793089794,
+    "bonding_curve": "D9xn3LS3rYctvWKD1otubf5MnAUsTjmf4PRcpFExHMyN",
+    "associated_bonding_curve": "HSzC3KEC2ebM2XuinyKk5nZ7tPcf8Bj9Hu2oTn5VwT2E",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "66mKPXWFqaeYudnYQxQg15ykTBjGXMhqARsJqsDRNiH7",
+    "name": "Use Launch",
+    "symbol": "LAUNCH",
+    "metadata_uri": "https://vdrpxyqjaasussgt.public.blob.vercel-storage.com/tokens/metadata-rO84TEJXBjDcQXP6Eeon3dpXnVABG1.json",
+    "launch_timestamp": 1793089794,
+    "launch_slot": 462003254,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

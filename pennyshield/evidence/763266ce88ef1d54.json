@@ -1,0 +1,122 @@
+{
+  "detection_id": "763266ce88ef1d54",
+  "token_address": "HKnqBsoWszkdqmHTMmRhBGDFwG57tfd4he5YWS1Jpump",
+  "chain": "solana",
+  "timestamp": 1792912250.700152,
+  "timestamp_iso": "2026-10-25T07:10:50.700152",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "LpwUsv9iJ7YZYn13QuWHn1nrdMJgVMLEZbaTg9wK7w5",
+          "total_launches": 1,
+          "confirmed_rug_count": 0,
+          "rug_rate": 0.0,
+          "serial_rug_operator": false,
+          "recent_launches": [
+            {
+              "token": "6dWiC4PwWzZs1VW1iuRa4WSV8h1dkMhrkggggjPopump",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer LpwUsv9i... has 1 launches, 0 rugs (0.0%)"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792912250.700152,
+    "timestamp_iso": "2026-10-25T07:10:50.700152"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "4GHfZVdxh5PqnvwLQKzazwpvRSNnjBsWft1XZ6gk9mFGUedzByqVpDwQjPKASsTLXs7Y72hjFANVewMmg7YUzeuS",
+    "log_index": 0,
+    "block_number": 461167316,
+    "block_time": 1792912197,
+    "bonding_curve": "BPyC738NJr7tBtpH8RmPyM7WroHekooE7TRoNWUJm4aj",
+    "associated_bonding_curve": "CJyXcHqP5opV8HZrcmFXKZaQachgAcsu4Gq2D67eqA3b",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "LpwUsv9iJ7YZYn13QuWHn1nrdMJgVMLEZbaTg9wK7w5",
+    "name": "whitewhale devved one on stonk?",
+    "symbol": "check devwall",
+    "metadata_uri": "https://metadata.j7tracker.io/metadata/376f370d66b44be0.json",
+    "launch_timestamp": 1792912197,
+    "launch_slot": 461167316,
+    "instruction": "create_v2",
+    "funding_sources": [
+      {
+        "address": "BeWxtucrbTqEoGyhfk4XY9S6NaR9LvNiJZ9fomnxXGKL",
+        "evidence": {
+          "signature": "5ERfARHVktkdAPijJe6ypCgE5pfsAuwzzokvWyjfeetLbssndG7uHLUJ6wXdnb6c1Sip4zkmDYq1zQCH65Yu3bbM",
+          "slot": 461167316,
+          "block_time": 1792912197,
+          "lamports": 46690880,
+          "program": "system",
+          "transfer_type": "transfer"
+        }
+      }
+    ]
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

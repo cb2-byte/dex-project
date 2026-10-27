@@ -1,0 +1,97 @@
+{
+  "detection_id": "9aae637813f6dee2",
+  "token_address": "8o78mne5tnLmpiZChhnzh583cZcPVuzm8N7SPCsBpump",
+  "chain": "solana",
+  "timestamp": 1792720442.259705,
+  "timestamp_iso": "2026-10-23T01:54:02.259705",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "FYe6yTHwmXysospTm1GqRt6TGrec8QXfKGbx6tFuyhiG",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792720442.259705,
+    "timestamp_iso": "2026-10-23T01:54:02.259705"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "qviwhuyk2svWRShF965Wcd2hHWaTFQAsf8PJkig4wX3kUN8hhZhWAGXRQiAYRNiuY4XNgGGEHNx1Up4shU7Lna6",
+    "log_index": 2,
+    "block_number": 460261999,
+    "block_time": 1792720189,
+    "bonding_curve": "4VF5efXVgNzCpyZTm2EExHWRktRQSyWXcKEuJ6PaJE9A",
+    "associated_bonding_curve": "Gufot9hzigSRjDBHeKQF9GVMBHePA9t5pB9yjyaXhpnr",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "FYe6yTHwmXysospTm1GqRt6TGrec8QXfKGbx6tFuyhiG",
+    "name": "Btc to the floor",
+    "symbol": "BTCF",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreigt2h3nye7l2dneoue7hlgt5savuchjfyrbnncqfxxroq27ixzaue",
+    "launch_timestamp": 1792720189,
+    "launch_slot": 460261999,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

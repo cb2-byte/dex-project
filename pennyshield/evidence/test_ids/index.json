@@ -1,0 +1,57 @@
+{
+  "tokens": {
+    "0xTokenA": [
+      "698b2304f3c3c57f"
+    ],
+    "0xTokenB": [
+      "0dbd70e26952588a"
+    ],
+    "0xTokenC": [
+      "bf40f8b6ad0c06fc"
+    ],
+    "0xTokenD": [
+      "cc7765bb816cea45"
+    ]
+  },
+  "wallets": {},
+  "operators": {
+    "deployer:0xdeployer": [
+      {
+        "detection_id": "698b2304f3c3c57f",
+        "token_address": "0xTokenA",
+        "chain": "base",
+        "risk_score": 0.1,
+        "linked_at": 1792606145.884237
+      },
+      {
+        "detection_id": "698b2304f3c3c57f",
+        "token_address": "0xTokenA",
+        "chain": "base",
+        "risk_score": 0.1,
+        "linked_at": 1792606145.884475
+      },
+      {
+        "detection_id": "0dbd70e26952588a",
+        "token_address": "0xTokenB",
+        "chain": "base",
+        "risk_score": 0.1,
+        "linked_at": 1792606145.8846984
+      },
+      {
+        "detection_id": "bf40f8b6ad0c06fc",
+        "token_address": "0xTokenC",
+        "chain": "base",
+        "risk_score": 0.1,
+        "linked_at": 1792606145.885503
+      },
+      {
+        "detection_id": "cc7765bb816cea45",
+        "token_address": "0xTokenD",
+        "chain": "base",
+        "risk_score": 0.1,
+        "linked_at": 1792606145.8860915
+      }
+    ]
+  },
+  "runs": []
+}

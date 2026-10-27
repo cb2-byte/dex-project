@@ -1,0 +1,401 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "ollama/glm-5.2:cloud"
+      },
+      "bootstrapMaxChars": 50000,
+      "bootstrapTotalMaxChars": 300000,
+      "contextInjection": "always"
+    },
+    "list": [
+      {
+        "id": "main",
+        "model": "gemma4:31b-cloud",
+        "name": "Penny",
+        "tools": {
+          "alsoAllow": [
+            "agents_list",
+            "tts",
+            "browser",
+            "canvas",
+            "message",
+            "gateway",
+            "heartbeat_respond"
+          ]
+        }
+      }
+    ]
+  },
+  "approvals": {
+    "exec": {
+      "enabled": false
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "accountId": "default",
+        "channel": "telegram"
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "accountId": "default",
+        "channel": "imessage"
+      }
+    }
+  ],
+  "channels": {
+    "imessage": {
+      "cliPath": "imsg",
+      "enabled": true,
+      "name": "penny.jersey1@gmail.com"
+    },
+    "telegram": {
+      "botToken": "[REDACTED]",
+      "enabled": true,
+      "execApprovals": {
+        "approvers": [
+          868123037
+        ],
+        "enabled": true
+      },
+      "groups": {
+        "*": {
+          "requireMention": true
+        }
+      },
+      "name": "@Pennybabebot"
+    }
+  },
+  "commands": {
+    "bash": true,
+    "config": true,
+    "debug": true,
+    "mcp": true,
+    "native": true,
+    "nativeSkills": true,
+    "plugins": true,
+    "text": true,
+    "useAccessGroups": true
+  },
+  "cron": {
+    "enabled": true,
+    "failureAlert": {
+      "enabled": true
+    }
+  },
+  "gateway": {
+    "allowRealIpFallback": true,
+    "auth": "[REDACTED]",
+    "bind": "loopback",
+    "controlUi": {
+      "allowedOrigins": [
+        "http://localhost:18789",
+        "http://127.0.0.1:18789"
+      ]
+    },
+    "mode": "local",
+    "port": 18789,
+    "tailscale": {
+      "mode": "serve",
+      "resetOnExit": false
+    }
+  },
+  "hooks": {
+    "allowRequestSessionKey": true,
+    "enabled": false,
+    "gmail": {
+      "allowUnsafeExternalContent": true,
+      "includeBody": true
+    },
+    "internal": {
+      "enabled": true
+    }
+  },
+  "meta": {
+    "lastTouchedAt": "2026-07-06T22:37:31.187Z",
+    "lastTouchedVersion": "2026.6.11"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "ollama": {
+        "api": "ollama",
+        "apiKey": "[REDACTED]",
+        "baseUrl": "http://127.0.0.1:11434",
+        "models": [
+          {
+            "id": "glm-5.2:cloud",
+            "name": "glm-5.2:cloud",
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": "[REDACTED]",
+            "reasoning": false,
+            "api": "ollama",
+            "params": {
+              "num_ctx": 1000000
+            }
+          },
+          {
+            "id": "gemma4:31b-cloud",
+            "name": "gemma4:31b-cloud",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 262144,
+            "maxTokens": "[REDACTED]",
+            "api": "ollama",
+            "params": {
+              "num_ctx": 262144
+            }
+          },
+          {
+            "id": "qwen3.5:cloud",
+            "name": "qwen3.5:cloud",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 262144,
+            "maxTokens": "[REDACTED]",
+            "api": "ollama",
+            "params": {
+              "num_ctx": 262144
+            }
+          },
+          {
+            "id": "llama3.2:latest",
+            "name": "llama3.2:latest",
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "reasoning": false,
+            "maxTokens": "[REDACTED]",
+            "api": "ollama",
+            "params": {
+              "num_ctx": 131072
+            }
+          },
+          {
+            "id": "llama3.1:latest",
+            "name": "llama3.1:latest",
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "reasoning": false,
+            "maxTokens": "[REDACTED]",
+            "api": "ollama",
+            "params": {
+              "num_ctx": 131072
+            }
+          },
+          {
+            "id": "kimi-k2.5:cloud",
+            "name": "kimi-k2.5:cloud",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 262144,
+            "maxTokens": "[REDACTED]",
+            "api": "ollama",
+            "params": {
+              "num_ctx": 262144
+            }
+          },
+          {
+            "id": "qwen3.5:latest",
+            "name": "qwen3.5:latest",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 262144,
+            "maxTokens": "[REDACTED]",
+            "api": "ollama",
+            "params": {
+              "num_ctx": 262144
+            }
+          },
+          {
+            "id": "minimax-m2.7:cloud",
+            "name": "minimax-m2.7:cloud",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": "[REDACTED]",
+            "api": "ollama",
+            "params": {
+              "num_ctx": 204800
+            }
+          }
+        ]
+      }
+    }
+  },
+  "plugins": {
+    "allow": [
+      "ollama",
+      "anthropic",
+      "telegram",
+      "memory-core",
+      "imessage",
+      "device-pair"
+    ],
+    "entries": {
+      "anthropic": {
+        "enabled": true
+      },
+      "ollama": {
+        "enabled": true
+      },
+      "device-pair": {
+        "config": {
+          "publicUrl": "ws://172.20.10.2:18789"
+        }
+      }
+    },
+    "bundledDiscovery": "compat"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "tools": {
+    "profile": "coding",
+    "web": {
+      "fetch": {
+        "enabled": true
+      },
+      "search": {
+        "enabled": true,
+        "provider": "ollama"
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-07-03T22:33:48.708Z",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local",
+    "lastRunVersion": "2026.6.6"
+  },
+  "skills": {
+    "entries": {
+      "binance-spot-trader": {
+        "enabled": true
+      },
+      "clawhub": {
+        "enabled": true
+      },
+      "coding-agent": {
+        "enabled": true
+      },
+      "discord": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": true
+      },
+      "mcporter": {
+        "enabled": true
+      },
+      "model-usage": {
+        "enabled": true
+      },
+      "obsidian": {
+        "enabled": true
+      },
+      "openai-whisper-api": {
+        "enabled": true
+      },
+      "oracle": {
+        "enabled": true
+      },
+      "sag": {
+        "enabled": true
+      },
+      "session-logs": {
+        "enabled": true
+      },
+      "sherpa-onnx-tts": {
+        "enabled": true
+      },
+      "slack": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": true
+      },
+      "trello": {
+        "enabled": true
+      },
+      "voice-call": {
+        "enabled": false
+      }
+    }
+  },
+  "update": {
+    "auto": {
+      "enabled": true
+    }
+  }
+}

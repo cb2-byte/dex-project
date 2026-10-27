@@ -1,0 +1,705 @@
+"""
+Base/Ethereum Specific Detectors
+=================================
+Detectors for Base/Ethereum Uniswap V3 pools, liquidity changes,
+contract permissions, and wallet activity patterns.
+Reuses the shared risk engine from PennyShield.
+"""
+import json
+import time
+from datetime import datetime
+from typing import Dict, List, Optional, Any, Set, Tuple
+from dataclasses import dataclass, field
+from collections import defaultdict
+import os
+
+from ..shared.risk_engine import (
+    RiskIndicator, IndicatorResult, DetectionContext, 
+    WalletGraph, WalletNode, WalletEdge, RiskScorer, EvidenceStore
+)
+
+
+# === Base RPC Client ===
+class BaseRPC:
+    """Base/Ethereum RPC client for read-only queries"""
+    
+    def __init__(self, rpc_url: Optional[str] = None):
+        self.rpc_url = (
+            rpc_url
+            or os.environ.get("BASE_MAINNET_RPC_URL")
+            or os.environ.get("BASE_RPC_URL")
+        )
+        if not self.rpc_url:
+            api_key = os.environ.get("ALCHEMY_API_KEY")
+            self.rpc_url = (
+                f"https://base-mainnet.g.alchemy.com/v2/{api_key}"
+                if api_key else "https://mainnet.base.org"
+            )
+        self.headers = {"Content-Type": "application/json", "User-Agent": "pennyshield/1.0"}
+    
+    def _request(self, method: str, params: List[Any]) -> Optional[Dict]:
+        import urllib.request
+        payload = json.dumps({"jsonrpc": "2.0", "id": 1, "method": method, "params": params}).encode()
+        try:
+            req = urllib.request.Request(self.rpc_url, data=payload, headers=self.headers)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                return json.loads(resp.read().decode())
+        except Exception as e:
+            print(f"[WARNING] Base RPC {method} failed: {e}")
+            return None
+    
+    def get_block_number(self) -> Optional[int]:
+        result = self._request("eth_blockNumber", [])
+        if result and "result" in result:
+            return int(result["result"], 16)
+        return None
+    
+    def get_block(self, block_number: int, full_transactions: bool = False) -> Optional[Dict]:
+        result = self._request("eth_getBlockByNumber", [hex(block_number), full_transactions])
+        return result.get("result") if result else None
+    
+    def get_transaction(self, tx_hash: str) -> Optional[Dict]:
+        result = self._request("eth_getTransactionByHash", [tx_hash])
+        return result.get("result") if result else None
+    
+    def get_transaction_receipt(self, tx_hash: str) -> Optional[Dict]:
+        result = self._request("eth_getTransactionReceipt", [tx_hash])
+        return result.get("result") if result else None
+    
+    def get_logs(self, from_block: int, to_block: int, address: str = None, 
+                 topics: List[str] = None) -> List[Dict]:
+        params = {
+            "fromBlock": hex(from_block),
+            "toBlock": hex(to_block)
+        }
+        if address:
+            params["address"] = address
+        if topics:
+            params["topics"] = topics
+        result = self._request("eth_getLogs", [params])
+        if result is None or "error" in result:
+            raise RuntimeError("Base RPC eth_getLogs request failed")
+        logs = result.get("result")
+        if not isinstance(logs, list):
+            raise RuntimeError("Base RPC eth_getLogs returned an invalid result")
+        return logs
+    
+    def get_code(self, address: str) -> Optional[str]:
+        result = self._request("eth_getCode", [address, "latest"])
+        return result.get("result") if result else None
+    
+    def get_storage_at(self, address: str, position: str) -> Optional[str]:
+        result = self._request("eth_getStorageAt", [address, position, "latest"])
+        return result.get("result") if result else None
+
+
+# === Uniswap V3 Pool Monitor ===
+@dataclass
+class UniswapV3PoolState:
+    """State of a Uniswap V3 pool"""
+    address: str
+    token0: str
+    token1: str
+    fee: int
+    tick_spacing: int
+    liquidity: int = 0
+    sqrt_price_x96: int = 0
+    tick: int = 0
+    fee_growth_global_0_x128: int = 0
+    fee_growth_global_1_x128: int = 0
+    protocol_fees: Tuple[int, int] = (0, 0)
+    slot0_timestamp: float = 0
+    
+    @property
+    def price_token0_in_token1(self) -> float:
+        """Price of token0 in terms of token1"""
+        if self.sqrt_price_x96 == 0:
+            return 0.0
+        # price = (sqrt_price_x96 / 2^96)^2
+        return (self.sqrt_price_x96 / (2**96)) ** 2
+    
+    @property
+    def price_token1_in_token0(self) -> float:
+        """Price of token1 in terms of token0"""
+        if self.sqrt_price_x96 == 0:
+            return 0.0
+        return 1.0 / self.price_token0_in_token1
+
+
+class UniswapV3Monitor:
+    """Monitor Uniswap V3 pools on Base for rug patterns"""
+    
+    # Uniswap V3 Factory on Base
+    FACTORY_ADDRESS = "0x33128a8fC17869897dcE68Ed026d694621f6FDfD"
+    
+    # Event signatures
+    POOL_CREATED_TOPIC = "0x783cca1c0412dd0d695e784568c96da2e9c22ff989357a2e8b1d9b2b4e6b7118"
+    SWAP_TOPIC = "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67"
+    MINT_TOPIC = "0x7a53080ba414158be7ec69b987b5fb7d07dee101fe85488f0853ae16239d0bde"
+    BURN_TOPIC = "0x0c396cd989a39f4459b5fa1aed6a9a8dcdbc45908acfd67e028cd568da98982c"
+    FLASH_TOPIC = "0x7e0a9f2d7e6c4f2b8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e"
+    
+    def __init__(self, rpc: BaseRPC, evidence_store: EvidenceStore):
+        self.rpc = rpc
+        self.evidence_store = evidence_store
+        self.known_pools: Dict[str, UniswapV3PoolState] = {}
+    
+    def fetch_new_pools(self, from_block: int, to_block: int) -> List[Dict]:
+        """Fetch newly created pools from factory logs"""
+        pools = []
+        # Alchemy Free Tier limit: max 10 blocks inclusive. 
+        # Using 9 to stay strictly safe and avoid off-by-one errors.
+        step = 9
+        import time
+        for start in range(from_block, to_block, step):
+            end = min(start + step - 1, to_block)
+            logs = self.rpc.get_logs(
+                from_block=start,
+                to_block=end,
+                address=self.FACTORY_ADDRESS,
+                topics=[self.POOL_CREATED_TOPIC]
+            )
+            if logs:
+                for log in logs:
+                    pool_data = self._parse_pool_created_log(log)
+                    if pool_data:
+                        pools.append(pool_data)
+            time.sleep(0.1) # Prevent burst rate-limiting
+        return pools
+    
+    def _parse_pool_created_log(self, log: Dict) -> Optional[Dict]:
+        """Parse PoolCreated event log"""
+        try:
+            # topics[1] = token0, topics[2] = token1, topics[3] = fee
+            # data = tickSpacing, pool address
+            if len(log.get("topics", [])) < 4:
+                return None
+            
+            token0 = "0x" + log["topics"][1][-40:]
+            token1 = "0x" + log["topics"][2][-40:]
+            fee = int(log["topics"][3], 16)
+            
+            data = log.get("data", "0x")
+            if len(data) < 66:
+                return None
+            
+            tick_spacing = int(data[2:66], 16)
+            pool_address = "0x" + data[66:106]
+            
+            return {
+                'pool_address': pool_address,
+                'token0': token0,
+                'token1': token1,
+                'fee': fee,
+                'tick_spacing': tick_spacing,
+                'block_number': int(log["blockNumber"], 16),
+                'block_hash': log["blockHash"],
+                'transaction_hash': log["transactionHash"],
+                'log_index': int(log["logIndex"], 16)
+            }
+        except Exception as e:
+            print(f"[WARNING] Failed to parse PoolCreated log: {e}")
+            return None
+    
+    def fetch_pool_state(self, pool_address: str) -> Optional[UniswapV3PoolState]:
+        """Fetch current pool state from slot0 and liquidity"""
+        # This would require multicall or multiple RPC calls
+        # Simplified for now - would need contract ABI calls
+        return None
+    
+    def detect_liquidity_changes(self, pool_address: str, 
+                                  from_block: int, to_block: int) -> List[Dict]:
+        """Detect mint/burn (liquidity add/remove) events"""
+        logs = self.rpc.get_logs(
+            from_block=from_block,
+            to_block=to_block,
+            address=pool_address,
+            topics=[self.MINT_TOPIC, self.BURN_TOPIC]
+        )
+        
+        changes = []
+        for log in logs:
+            change = self._parse_liquidity_log(log)
+            if change:
+                changes.append(change)
+        return changes
+    
+    def _parse_liquidity_log(self, log: Dict) -> Optional[Dict]:
+        """Parse Mint/Burn event log"""
+        try:
+            topics = log.get("topics", [])
+            if not topics:
+                return None
+            
+            event_type = "mint" if topics[0] == self.MINT_TOPIC else "burn"
+            
+            # sender = topics[1], amount0 = topics[2], amount1 = topics[3]
+            # data = amount0, amount1 (for mint) or amount0, amount1, fee0, fee1 (for burn)
+            sender = "0x" + topics[1][-40:] if len(topics) > 1 else ""
+            
+            data = log.get("data", "0x")
+            amounts = []
+            for i in range(0, min(len(data) - 2, 128), 64):
+                if i + 66 <= len(data):
+                    amounts.append(int(data[2+i:66+i], 16))
+            
+            return {
+                'type': event_type,
+                'pool': log["address"],
+                'sender': sender,
+                'amounts': amounts,
+                'block_number': int(log["blockNumber"], 16),
+                'transaction_hash': log["transactionHash"],
+                'timestamp': time.time()  # Would need block timestamp
+            }
+        except Exception as e:
+            print(f"[WARNING] Failed to parse liquidity log: {e}")
+            return None
+    
+    def detect_suspicious_swaps(self, pool_address: str,
+                                 from_block: int, to_block: int) -> List[Dict]:
+        """Detect suspicious swap patterns (large sells, sandwich attacks, etc.)"""
+        logs = self.rpc.get_logs(
+            from_block=from_block,
+            to_block=to_block,
+            address=pool_address,
+            topics=[self.SWAP_TOPIC]
+        )
+        
+        swaps = []
+        for log in logs:
+            swap = self._parse_swap_log(log)
+            if swap:
+                swaps.append(swap)
+        return swaps
+    
+    def _parse_swap_log(self, log: Dict) -> Optional[Dict]:
+        """Parse Swap event log"""
+        try:
+            # sender = topics[1], recipient = topics[2]
+            # amount0, amount1, sqrtPriceX96, liquidity, tick in data
+            topics = log.get("topics", [])
+            if len(topics) < 3:
+                return None
+            
+            sender = "0x" + topics[1][-40:]
+            recipient = "0x" + topics[2][-40:]
+            
+            data = log.get("data", "0x")
+            if len(data) < 130:
+                return None
+            
+            amount0 = int(data[2:66], 16)
+            amount1 = int(data[66:130], 16)
+            
+            # Determine if buy or sell based on token0/token1
+            # Positive amount0 = token0 out (selling token0 for token1)
+            # Negative amount0 = token0 in (buying token0 with token1)
+            
+            return {
+                'pool': log["address"],
+                'sender': sender,
+                'recipient': recipient,
+                'amount0': amount0,
+                'amount1': amount1,
+                'is_buy': amount0 < 0,  # Simplified
+                'block_number': int(log["blockNumber"], 16),
+                'transaction_hash': log["transactionHash"],
+                'timestamp': time.time()
+            }
+        except Exception as e:
+            print(f"[WARNING] Failed to parse swap log: {e}")
+            return None
+
+
+# === Contract Permission Analyzer ===
+class ContractPermissionAnalyzer:
+    """Analyze token contract permissions for rug risks"""
+    
+    # Common dangerous functions (4-byte selectors)
+    DANGEROUS_SELECTORS = {
+        "0x3f4ba83a": "setFee",  # Can change fees
+        "0x40c10f19": "setMinter",  # Can mint new tokens
+        "0x8da5cb5b": "owner",  # Has owner
+        "0xf2fde38b": "transferOwnership",  # Can transfer ownership
+        "0x715018a6": "renounceOwnership",  # Can renounce ownership
+        "0x8456cb59": "pause",  # Can pause trading
+        "0x3f4ba83a": "setTax",  # Can change taxes
+        "0xa217fddf": "excludeFromFee",  # Can exclude from fees
+        "0x8b077a9c": "setMaxTxAmount",  # Can limit tx size
+        "0x4e71d92d": "setMaxWalletSize",  # Can limit wallet size
+        "0x9e8e527e": "setTradingEnabled",  # Can disable trading
+        "0x7e644d79": "updateUniswapV2Router",  # Can change router
+    }
+    
+    def __init__(self, rpc: BaseRPC):
+        self.rpc = rpc
+    
+    def analyze_contract(self, token_address: str) -> Dict[str, Any]:
+        """Analyze token contract for dangerous functions"""
+        code = self.rpc.get_code(token_address)
+        if not code or code == "0x":
+            return {'is_contract': False, 'risks': []}
+        
+        risks = []
+        code_lower = code.lower()
+        
+        for selector, description in self.DANGEROUS_SELECTORS.items():
+            if selector[2:].lower() in code_lower:
+                risks.append({
+                    'selector': selector,
+                    'function': description,
+                    'severity': self._get_severity(selector)
+                })
+        
+        # Check for proxy pattern (upgradeable)
+        is_proxy = self._is_proxy(code)
+        
+        # Check ownership
+        owner = self._get_owner(token_address)
+        
+        return {
+            'is_contract': True,
+            'is_proxy': is_proxy,
+            'owner': owner,
+            'code_size': len(code) // 2 - 1,  # bytes
+            'risks': risks,
+            'risk_count': len(risks)
+        }
+    
+    def _get_severity(self, selector: str) -> str:
+        high_severity = {"0x40c10f19", "0x8456cb59", "0x3f4ba83a", "0x9e8e527e"}
+        medium_severity = {"0xf2fde38b", "0x715018a6", "0xa217fddf", "0x8b077a9c", "0x4e71d92d"}
+        if selector in high_severity:
+            return "high"
+        elif selector in medium_severity:
+            return "medium"
+        return "low"
+    
+    def _is_proxy(self, code: str) -> bool:
+        """Check if contract is a proxy (EIP-1967 or similar)"""
+        # Check for delegatecall pattern
+        return "f23d6e0f" in code.lower() or "360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc" in code.lower()
+    
+    def _get_owner(self, token_address: str) -> Optional[str]:
+        """Try to get owner from Ownable pattern"""
+        # Would need to call owner() function - simplified for now
+        return None
+
+
+# === Base/Ethereum Specific Risk Indicators ===
+
+class NewPoolDetector(RiskIndicator):
+    """Detect newly created pools and track pool age"""
+    
+    def __init__(self, max_pool_age_hours: float = 24,
+                 min_liquidity_usd: float = 10000):
+        super().__init__("new_pool", weight=1.5)
+        self.max_pool_age_hours = max_pool_age_hours
+        self.min_liquidity_usd = min_liquidity_usd
+    
+    def evaluate(self, context: DetectionContext) -> IndicatorResult:
+        pool_age_hours = context.pool_data.get('pool_age_hours', 0)
+        liquidity_usd = context.pool_data.get('liquidity_usd', 0)
+        
+        is_new = pool_age_hours > 0 and pool_age_hours <= self.max_pool_age_hours
+        low_liq = liquidity_usd > 0 and liquidity_usd < self.min_liquidity_usd
+        
+        triggered = is_new or low_liq
+        confidence = 0.0
+        
+        if is_new:
+            confidence = max(confidence, 1.0 - (pool_age_hours / self.max_pool_age_hours))
+        if low_liq:
+            confidence = max(confidence, 1.0 - (liquidity_usd / self.min_liquidity_usd))
+        
+        return IndicatorResult(
+            indicator=self.name,
+            triggered=triggered,
+            confidence=min(confidence, 1.0),
+            evidence={
+                'pool_age_hours': pool_age_hours,
+                'liquidity_usd': liquidity_usd,
+                'max_age_threshold_hours': self.max_pool_age_hours,
+                'min_liquidity_threshold_usd': self.min_liquidity_usd,
+                'is_new_pool': is_new,
+                'low_liquidity': low_liq
+            },
+            explanation=self._build_explanation(is_new, low_liq, pool_age_hours, liquidity_usd)
+        )
+    
+    def _build_explanation(self, is_new: bool, low_liq: bool, 
+                           age_hours: float, liq_usd: float) -> str:
+        parts = []
+        if is_new:
+            parts.append(f"new pool ({age_hours:.1f}h old)")
+        if low_liq:
+            parts.append(f"low liquidity (${liq_usd:,.0f})")
+        if not parts:
+            return "Pool age and liquidity within normal ranges"
+        return "New pool risk: " + "; ".join(parts)
+
+
+class LiquidityDrainDetector(RiskIndicator):
+    """Detect liquidity removal and deterioration on Base/Uniswap V3"""
+    
+    def __init__(self, drop_threshold: float = 0.3,
+                 min_liquidity_usd: float = 5000):
+        super().__init__("liquidity_drain", weight=2.5)
+        self.drop_threshold = drop_threshold
+        self.min_liquidity_usd = min_liquidity_usd
+    
+    def evaluate(self, context: DetectionContext) -> IndicatorResult:
+        current_liq = context.pool_data.get('liquidity_usd', 0)
+        prev_liq = context.historical_data.get('previous_liquidity_usd', current_liq)
+        
+        signals = []
+        
+        if prev_liq > 0:
+            drop_pct = (prev_liq - current_liq) / prev_liq
+            if drop_pct > self.drop_threshold:
+                signals.append({
+                    'type': 'liquidity_drop',
+                    'drop_percentage': drop_pct,
+                    'previous_liquidity': prev_liq,
+                    'current_liquidity': current_liq
+                })
+        
+        if current_liq > 0 and current_liq < self.min_liquidity_usd:
+            signals.append({
+                'type': 'critically_low_liquidity',
+                'liquidity_usd': current_liq,
+                'threshold': self.min_liquidity_usd
+            })
+        
+        # Check for large burns (liquidity removal) in recent transactions
+        large_burns = self._detect_large_burns(context)
+        if large_burns:
+            signals.extend(large_burns)
+        
+        triggered = len(signals) > 0
+        confidence = min(len(signals) * 0.4, 1.0)
+        
+        return IndicatorResult(
+            indicator=self.name,
+            triggered=triggered,
+            confidence=confidence,
+            evidence={
+                'signals': signals,
+                'current_liquidity_usd': current_liq,
+                'previous_liquidity_usd': prev_liq,
+                'drop_threshold': self.drop_threshold,
+                'min_liquidity_threshold': self.min_liquidity_usd
+            },
+            explanation=f"Detected {len(signals)} liquidity drain signal(s)" if triggered else "No liquidity drain detected"
+        )
+    
+    def _detect_large_burns(self, context: DetectionContext) -> List[Dict]:
+        """Detect large liquidity removal transactions"""
+        burns = []
+        for tx in context.transactions:
+            if tx.get('type') == 'burn' or tx.get('event') == 'Burn':
+                amount_usd = tx.get('amount_usd', 0)
+                if amount_usd > context.pool_data.get('liquidity_usd', 1) * 0.1:
+                    burns.append({
+                        'type': 'large_burn',
+                        'tx_hash': tx.get('hash'),
+                        'amount_usd': amount_usd,
+                        'sender': tx.get('sender')
+                    })
+        return burns
+
+
+class ContractRiskDetector(RiskIndicator):
+    """Detect dangerous contract permissions and proxy patterns"""
+    
+    def __init__(self, evidence_store: EvidenceStore,
+                 high_risk_functions: int = 2):
+        super().__init__("contract_risk", weight=2.0)
+        self.evidence_store = evidence_store
+        self.high_risk_functions = high_risk_functions
+    
+    def evaluate(self, context: DetectionContext) -> IndicatorResult:
+        contract_analysis = context.metadata.get('contract_analysis', {})
+        
+        if not contract_analysis.get('is_contract', False):
+            return IndicatorResult(
+                indicator=self.name,
+                triggered=False,
+                confidence=0.0,
+                evidence={'reason': 'not_a_contract'},
+                explanation="Token is not a contract (native token)"
+            )
+        
+        risks = contract_analysis.get('risks', [])
+        high_severity = [r for r in risks if r.get('severity') == 'high']
+        is_proxy = contract_analysis.get('is_proxy', False)
+        owner = contract_analysis.get('owner')
+        
+        triggered = len(high_severity) >= self.high_risk_functions or is_proxy
+        confidence = min(len(high_severity) * 0.3 + (0.4 if is_proxy else 0), 1.0)
+        
+        return IndicatorResult(
+            indicator=self.name,
+            triggered=triggered,
+            confidence=confidence,
+            evidence={
+                'total_risk_functions': len(risks),
+                'high_severity_count': len(high_severity),
+                'high_severity_functions': [r['function'] for r in high_severity],
+                'is_proxy': is_proxy,
+                'owner': owner,
+                'code_size': contract_analysis.get('code_size'),
+                'high_risk_threshold': self.high_risk_functions
+            },
+            explanation=self._build_explanation(high_severity, is_proxy, owner)
+        )
+    
+    def _build_explanation(self, high_severity: List, is_proxy: bool, 
+                           owner: Optional[str]) -> str:
+        parts = []
+        if high_severity:
+            parts.append(f"{len(high_severity)} high-risk functions: {', '.join(r['function'] for r in high_severity)}")
+        if is_proxy:
+            parts.append("upgradeable proxy detected")
+        if owner:
+            parts.append(f"owner: {owner[:8]}...")
+        if not parts:
+            return "No dangerous contract permissions detected"
+        return "Contract risks: " + "; ".join(parts)
+
+
+class WhaleActivityDetector(RiskIndicator):
+    """Detect large wallet activity and coordination on Base"""
+    
+    def __init__(self, whale_threshold_usd: float = 50000,
+                 coordination_window_blocks: int = 10):
+        super().__init__("whale_activity", weight=1.5)
+        self.whale_threshold_usd = whale_threshold_usd
+        self.coordination_window_blocks = coordination_window_blocks
+    
+    def evaluate(self, context: DetectionContext) -> IndicatorResult:
+        # Analyze transactions for large moves
+        whale_txs = []
+        for tx in context.transactions:
+            volume_usd = tx.get('volume_usd', tx.get('amount_usd', 0))
+            if volume_usd >= self.whale_threshold_usd:
+                whale_txs.append(tx)
+        
+        # Check for coordinated whale activity (same block, multiple whales)
+        block_groups = defaultdict(list)
+        for tx in whale_txs:
+            block = tx.get('block_number', 0)
+            if block:
+                block_groups[block].append(tx)
+        
+        coordinated = [
+            {'block': b, 'tx_count': len(txs), 'total_volume': sum(t.get('volume_usd', 0) for t in txs)}
+            for b, txs in block_groups.items() if len(txs) >= 2
+        ]
+        
+        triggered = len(whale_txs) > 0 or len(coordinated) > 0
+        confidence = min(len(whale_txs) * 0.1 + len(coordinated) * 0.3, 1.0)
+        
+        return IndicatorResult(
+            indicator=self.name,
+            triggered=triggered,
+            confidence=confidence,
+            evidence={
+                'whale_transactions': len(whale_txs),
+                'coordinated_blocks': len(coordinated),
+                'coordinated_details': coordinated[:5],
+                'whale_threshold_usd': self.whale_threshold_usd,
+                'window_blocks': self.coordination_window_blocks
+            },
+            explanation=self._build_explanation(whale_txs, coordinated)
+        )
+    
+    def _build_explanation(self, whale_txs: List, coordinated: List) -> str:
+        parts = []
+        if whale_txs:
+            parts.append(f"{len(whale_txs)} whale transaction(s)")
+        if coordinated:
+            parts.append(f"{len(coordinated)} coordinated block(s)")
+        if not parts:
+            return "No significant whale activity"
+        return "Whale activity: " + "; ".join(parts)
+
+
+class DeployerLinkDetector(RiskIndicator):
+    """Link deployers across multiple tokens on Base/Ethereum"""
+    
+    def __init__(self, evidence_store: EvidenceStore,
+                 min_shared_deployer: int = 2):
+        super().__init__("deployer_link", weight=2.0)
+        self.evidence_store = evidence_store
+        self.min_shared_deployer = min_shared_deployer
+    
+    def evaluate(self, context: DetectionContext) -> IndicatorResult:
+        deployer = context.token_data.get('creator') or context.token_data.get('deployer')
+        if not deployer:
+            return IndicatorResult(
+                indicator=self.name,
+                triggered=False,
+                confidence=0.0,
+                evidence={'reason': 'no_deployer_data'},
+                explanation="Deployer address not available"
+            )
+        
+        # Check evidence store for other tokens by same deployer
+        operator_sig = f"deployer:{deployer}"
+        history = self.evidence_store.get_operator_history(operator_sig)
+        
+        other_tokens = [
+            h for h in history 
+            if h.get('token_address') != context.token_address
+        ]
+        
+        rug_linked = sum(1 for h in other_tokens if h.get('outcome') == 'rug')
+        total_other = len(other_tokens)
+        
+        triggered = total_other >= self.min_shared_deployer and rug_linked > 0
+        confidence = min(rug_linked / total_other if total_other > 0 else 0, 1.0)
+        
+        return IndicatorResult(
+            indicator=self.name,
+            triggered=triggered,
+            confidence=confidence,
+            evidence={
+                'deployer': deployer,
+                'other_tokens_by_deployer': total_other,
+                'rug_linked_tokens': rug_linked,
+                'rug_association_rate': rug_linked / total_other if total_other > 0 else 0,
+                'other_tokens': [
+                    {
+                        'token': h.get('token_address'),
+                        'outcome': h.get('outcome'),
+                        'timestamp': h.get('timestamp')
+                    }
+                    for h in other_tokens[:10]
+                ],
+                'min_shared_threshold': self.min_shared_deployer
+            },
+            explanation=self._build_explanation(deployer, total_other, rug_linked, triggered)
+        )
+    
+    def _build_explanation(self, deployer: str, total: int, rugs: int, 
+                           triggered: bool) -> str:
+        if total == 0:
+            return "First known token for this deployer"
+        if triggered:
+            return f"Deployer {deployer[:8]}... created {total} other tokens, {rugs} rugged"
+        return f"Deployer {deployer[:8]}... has {total} other tokens ({rugs} rugged)"
+
+
+# === Base Risk Scorer Factory ===
+def create_base_risk_scorer(evidence_store: EvidenceStore) -> RiskScorer:
+    """Create a risk scorer configured for Base/Ethereum"""
+    indicators = [
+        NewPoolDetector(),
+        LiquidityDrainDetector(),
+        ContractRiskDetector(evidence_store),
+        WhaleActivityDetector(),
+        DeployerLinkDetector(evidence_store),
+    ]
+    return RiskScorer(indicators, threshold=0.65)

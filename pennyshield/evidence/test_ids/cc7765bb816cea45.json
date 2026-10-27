@@ -1,0 +1,19 @@
+{
+  "detection_id": "cc7765bb816cea45",
+  "token_address": "0xTokenD",
+  "chain": "base",
+  "timestamp": 1792606145.884068,
+  "timestamp_iso": "2026-10-21T18:09:05.884068",
+  "risk_score": {
+    "overall_score": 0.1
+  },
+  "pool_snapshot": {},
+  "token_snapshot": {
+    "creator": "0xdeployer"
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "unstable"
+  }
+}

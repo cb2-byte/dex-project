@@ -1,0 +1,27 @@
+{
+  "tokens": {
+    "MockMint123456789": [
+      "3e75b28382bf5469"
+    ]
+  },
+  "wallets": {},
+  "operators": {
+    "deployer:MockCreator123456789": [
+      {
+        "detection_id": "3e75b28382bf5469",
+        "token_address": "MockMint123456789",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792606680.3099847
+      },
+      {
+        "detection_id": "3e75b28382bf5469",
+        "token_address": "MockMint123456789",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792606680.3103664
+      }
+    ]
+  },
+  "runs": []
+}

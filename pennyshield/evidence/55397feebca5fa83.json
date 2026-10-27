@@ -1,0 +1,109 @@
+{
+  "detection_id": "55397feebca5fa83",
+  "token_address": "2fetT7NJHpefqyhV49frxEsQFEWpV4NwE9a1DjQMpump",
+  "chain": "solana",
+  "timestamp": 1792819504.3412147,
+  "timestamp_iso": "2026-10-24T05:25:04.341215",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "HdjcD9J85wCam9NtYneBMfGcKaiJdiN1BvHStUUxdZRT",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792819504.3412147,
+    "timestamp_iso": "2026-10-24T05:25:04.341215"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "4CM3ZEeLqWaCAv6n2jKSR3QDSXtKfbk8QirdFFAMrksqS3gpw55j9Nj7DKWS7PMmeA3R4SGDwCMCLFkZ3thhKjvF",
+    "log_index": 2,
+    "block_number": 460729965,
+    "block_time": 1792819363,
+    "bonding_curve": "CfDKXMhaNW5FpgWF8nWmqTxJitfFVpgn4Mi23pEBbo3z",
+    "associated_bonding_curve": "37Xfx5wh68j1pCXaHepwzr6Sp7WVD7i3pEyGkr7y2MZe",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "HdjcD9J85wCam9NtYneBMfGcKaiJdiN1BvHStUUxdZRT",
+    "name": "Benny",
+    "symbol": "GLITCH",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreigk6alt6w2ghuqzpvi6m6rdss4rucgg3x56cawffwt3csv6z6h2y4",
+    "launch_timestamp": 1792819363,
+    "launch_slot": 460729965,
+    "instruction": "create_v2",
+    "funding_sources": [
+      {
+        "address": "GUeafkU9zZDoZUyNmdhPT5w2GRVc6sSuHMWxxhTrch9K",
+        "evidence": {
+          "signature": "3kbJoTozrPbMersH3twGighqBEnhBfyUHA79ZUWvDnZ8ovzBMUJYKVva9DxJiCyZmz1VCj6jFXHzCwmLxTN9WLQ1",
+          "slot": 459767625,
+          "block_time": 1792615227,
+          "lamports": 6799354,
+          "program": "system",
+          "transfer_type": "transfer"
+        }
+      }
+    ]
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

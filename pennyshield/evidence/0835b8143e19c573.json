@@ -1,0 +1,110 @@
+{
+  "detection_id": "0835b8143e19c573",
+  "token_address": "2Jy7FcKLsSHrjcxuzBjnhTw9ijUAqbQxySxVWNHmpump",
+  "chain": "solana",
+  "timestamp": 1793086875.810061,
+  "timestamp_iso": "2026-10-27T07:41:15.810061",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "D6tfu4AWsEYTPZxcuYMtU7WN5HWeYH8gWDu9nNAJiUBk",
+          "total_launches": 1,
+          "confirmed_rug_count": 0,
+          "rug_rate": 0.0,
+          "serial_rug_operator": false,
+          "recent_launches": [
+            {
+              "token": "CmFs24gaetSKdgJJBQGkW7BXgjRMsQDLRTmYB8g5pump",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer D6tfu4AW... has 1 launches, 0 rugs (0.0%)"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793086875.810061,
+    "timestamp_iso": "2026-10-27T07:41:15.810061"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "5PtFDH9eU3utPB4NXVzPQi4HRJhUecyF8xSNhjBm6m9c2PrqT8gU9RsAKWWnTfguXNq3Xpo2wm35GrPxu7uCSEez",
+    "log_index": 2,
+    "block_number": 461988897,
+    "block_time": 1793086744,
+    "bonding_curve": "D5J4Ho3MjnQkF8f57AsSStYAxSzF9jGuPDro6kzPAKyq",
+    "associated_bonding_curve": "Bmb4matskFPgQU4LjMrrGTKyCQ3mizt7L29AVYw5oMGU",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "D6tfu4AWsEYTPZxcuYMtU7WN5HWeYH8gWDu9nNAJiUBk",
+    "name": "xcx`x`",
+    "symbol": "SX`XS`X",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreiabtk7t6x5jpququ5yt3lx2snuc6rezswsuptbv2e5xz44mq7mzsu",
+    "launch_timestamp": 1793086744,
+    "launch_slot": 461988897,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

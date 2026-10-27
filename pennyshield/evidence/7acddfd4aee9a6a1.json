@@ -1,0 +1,97 @@
+{
+  "detection_id": "7acddfd4aee9a6a1",
+  "token_address": "649rrzxeaTt1KvhLqcBidKAAHHjxV88unPT1mCpXpump",
+  "chain": "solana",
+  "timestamp": 1792805071.4282231,
+  "timestamp_iso": "2026-10-24T01:24:31.428223",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "BAoJmpEfo7MQcUeeeH5rHm4ktLBubT5jLeUNhLYKVAak",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792805071.4282231,
+    "timestamp_iso": "2026-10-24T01:24:31.428223"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "3U3TZcqamhFtqekb6ALVNrYBjqGevocYbs9LUS13HCYSqpyXnpsGbQYTCidBrroR25bwzYRbxVc2fnqhFveQCf1d",
+    "log_index": 2,
+    "block_number": 460661557,
+    "block_time": 1792804845,
+    "bonding_curve": "Y5rzgcvigYQ2fsxKSywEr7cYALCJmSueLLH4QR1iSmj",
+    "associated_bonding_curve": "Gzm8hgDpB4iac72QkFeLrSaY1orSozRNAuXySrj168D4",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "BAoJmpEfo7MQcUeeeH5rHm4ktLBubT5jLeUNhLYKVAak",
+    "name": "Kimchi Coin",
+    "symbol": "KIMCHI",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreigwfbxrc5ivvixf42ixwv3m4vs2jyfyzh7nzrszu63elc3nixtdiu",
+    "launch_timestamp": 1792804845,
+    "launch_slot": 460661557,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

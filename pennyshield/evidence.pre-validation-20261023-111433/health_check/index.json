@@ -1,0 +1,44 @@
+{
+  "tokens": {
+    "0xTestToken": [
+      "32bd8903775e2ba6",
+      "498293b6ba6cc36c",
+      "dbba34b779b46728",
+      "5d9cf8be2fbe185e"
+    ]
+  },
+  "wallets": {},
+  "operators": {
+    "deployer:0x1234567890123456789012345678901234567890": [
+      {
+        "detection_id": "32bd8903775e2ba6",
+        "token_address": "0xTestToken",
+        "chain": "base",
+        "risk_score": 0.14473684210526316,
+        "linked_at": 1792605539.6526153
+      },
+      {
+        "detection_id": "498293b6ba6cc36c",
+        "token_address": "0xTestToken",
+        "chain": "base",
+        "risk_score": 0.14473684210526316,
+        "linked_at": 1792605680.8655088
+      },
+      {
+        "detection_id": "dbba34b779b46728",
+        "token_address": "0xTestToken",
+        "chain": "base",
+        "risk_score": 0.14473684210526316,
+        "linked_at": 1792605787.958852
+      },
+      {
+        "detection_id": "5d9cf8be2fbe185e",
+        "token_address": "0xTestToken",
+        "chain": "base",
+        "risk_score": 0.14473684210526316,
+        "linked_at": 1792605858.3260787
+      }
+    ]
+  },
+  "runs": []
+}

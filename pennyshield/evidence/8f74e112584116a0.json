@@ -1,0 +1,97 @@
+{
+  "detection_id": "8f74e112584116a0",
+  "token_address": "7eWP6XTs1mE6d7FR5gaarksWbcRAf1csUR5DfEMvpump",
+  "chain": "solana",
+  "timestamp": 1792955269.960798,
+  "timestamp_iso": "2026-10-25T19:07:49.960798",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "8z5VL4ZMeWuT1t9Bb7CRLJmeqdG5jv5htfWUQM39zoh2",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792955269.960798,
+    "timestamp_iso": "2026-10-25T19:07:49.960798"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "4ysYHPC3n6Tu9aXUxDU1mWscxMeHeToskRPoyicbiBotY3MSA1PvB4pLbm4A4r9wvNcBqffV2deBMv1hrJuiM53R",
+    "log_index": 2,
+    "block_number": 461369855,
+    "block_time": 1792955206,
+    "bonding_curve": "G8eHjbXeM7pJmQo7cJ9FuKKUaAkf5ES78zBxpEhGEoe4",
+    "associated_bonding_curve": "8S7UEgfpqiNVfSf4G2gRxHTQ7xvYrEACAQTNe8pUTR7Y",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "8z5VL4ZMeWuT1t9Bb7CRLJmeqdG5jv5htfWUQM39zoh2",
+    "name": "Feral Specter",
+    "symbol": "FERSPE",
+    "metadata_uri": "https://ipfs.io/ipfs/QmUagRfNKZ1euHSuo2WLw1vtVkm7KqGJY9MTb2Kcxa3CXw",
+    "launch_timestamp": 1792955206,
+    "launch_slot": 461369855,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

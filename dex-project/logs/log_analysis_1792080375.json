@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-10-15T16:06:15.826088",
+  "total_files": 5,
+  "strategies": {
+    "base_meme_sniper": {
+      "files_scanned": 2,
+      "signals_low_threshold": 0,
+      "signals_medium_threshold": 0,
+      "total_signals_found": 2,
+      "win_loss": "neutral"
+    },
+    "triangular_arbitrage": {
+      "files_scanned": 2,
+      "signals_low_threshold": 2,
+      "signals_medium_threshold": 2,
+      "total_signals_found": 2,
+      "profit_loss": -42.248300347746934,
+      "win_loss": "loss",
+      "profit_percentage_values": [
+        -41.77583697234352,
+        -42.720763723150355
+      ]
+    },
+    "cross_exchange_arbitrage": {
+      "files_scanned": 1,
+      "signals_low_threshold": 0,
+      "signals_medium_threshold": 0,
+      "total_signals_found": 1,
+      "discrepancy_values": [],
+      "arbitrage_direction": "neutral"
+    }
+  },
+  "recommendations": [
+    "(-) No meme signals exceeding 0.2% low threshold detected \u2014 consider lowering threshold or scanning more Uniswap V3 pairs on Base",
+    "(-) Triangular arbitrage showing loss: loss (-42.2483% avg per signal) \u2014 consider adjusting 0.2%/0.5% thresholds or exchange pairs",
+    "(+) 2 signal(s) exceeding 0.2% low threshold \u2014 threshold is working",
+    "(+) 2 signal(s) exceeding 0.5% medium threshold \u2014 strong signals detected",
+    "(-) Profit trend negative: 2 loss vs 0 profit signals \u2014 consider strategy adjustment",
+    "(o) No arbitrage signals detected \u2014 consider widening 0.2%-0.5% threshold range or adding more exchange comparisons"
+  ]
+}

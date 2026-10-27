@@ -1,0 +1,625 @@
+2026-10-03 15:17:38,910 - INFO - ==================================================
+2026-10-03 15:17:38,910 - INFO - Whale Sentry Monitor Starting (Simple)
+2026-10-03 15:17:38,910 - INFO - ==================================================
+2026-10-03 15:17:38,913 - INFO - Monitoring 4 wallets:
+2026-10-03 15:17:38,914 - INFO -   - Vitalik Buterin (ethereum): 0xd8da6bf2...
+2026-10-03 15:17:38,914 - INFO -   - Whale #1 (solana): 7xkxtg2cw8...
+2026-10-03 15:17:38,914 - INFO -   - Vitalik Buterin (ethereum): 0xd8dA6BF2...
+2026-10-03 15:17:38,914 - INFO -   - Whale #1 (solana): 7xKXtg2CW8...
+2026-10-03 15:17:38,914 - INFO - Check interval: 60s
+2026-10-03 15:17:38,914 - INFO - Press Ctrl+C to stop
+2026-10-03 15:17:40,014 - ERROR - Solana check failed for Whale #1: Expecting value: line 1 column 1 (char 0)
+2026-10-03 15:17:40,976 - ERROR - Solana check failed for Whale #1: Expecting value: line 1 column 1 (char 0)
+2026-10-03 15:18:22,254 - INFO - Shutdown signal received...
+2026-10-03 16:09:19,991 - INFO - ==================================================
+2026-10-03 16:09:19,992 - INFO - Whale Sentry Monitor Starting (Simple)
+2026-10-03 16:09:19,992 - INFO - ==================================================
+2026-10-03 16:09:19,997 - INFO - Monitoring 4 wallets:
+2026-10-03 16:09:19,997 - INFO -   - Vitalik Buterin (ethereum): 0xd8da6bf2...
+2026-10-03 16:09:19,997 - INFO -   - Whale #1 (solana): 7xkxtg2cw8...
+2026-10-03 16:09:19,997 - INFO -   - Vitalik Buterin (ethereum): 0xd8dA6BF2...
+2026-10-03 16:09:19,997 - INFO -   - Whale #1 (solana): 7xKXtg2CW8...
+2026-10-03 16:09:19,997 - INFO - Check interval: 60s
+2026-10-03 16:09:19,997 - INFO - Press Ctrl+C to stop
+2026-10-03 16:09:21,138 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:09:22,118 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:09:38,321 - INFO - ==================================================
+2026-10-03 16:09:38,321 - INFO - Whale Sentry Monitor Starting (Simple)
+2026-10-03 16:09:38,321 - INFO - ==================================================
+2026-10-03 16:09:38,325 - INFO - Monitoring 4 wallets:
+2026-10-03 16:09:38,325 - INFO -   - Vitalik Buterin (ethereum): 0xd8da6bf2...
+2026-10-03 16:09:38,325 - INFO -   - Whale #1 (solana): 7xkxtg2cw8...
+2026-10-03 16:09:38,325 - INFO -   - Vitalik Buterin (ethereum): 0xd8dA6BF2...
+2026-10-03 16:09:38,325 - INFO -   - Whale #1 (solana): 7xKXtg2CW8...
+2026-10-03 16:09:38,325 - INFO - Check interval: 60s
+2026-10-03 16:09:38,325 - INFO - Press Ctrl+C to stop
+2026-10-03 16:09:39,352 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:09:40,327 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:10:21,404 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:10:22,333 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:10:39,333 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:10:40,327 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:11:39,335 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:11:40,320 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:12:39,341 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:12:40,333 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:13:39,366 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:13:40,812 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:14:39,348 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:14:40,264 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:15:39,356 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:15:40,362 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:16:39,383 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:16:40,371 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:17:39,536 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:17:40,485 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:18:39,446 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:18:40,476 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:19:39,504 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:19:40,503 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:20:39,479 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:20:40,464 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:21:39,686 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:21:40,684 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:22:39,505 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:22:40,523 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:23:39,854 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:23:40,846 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:24:39,548 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:24:40,517 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:25:39,601 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:25:40,753 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:26:39,615 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:26:40,662 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:27:39,879 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:27:40,865 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:28:39,484 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:28:40,465 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:29:39,577 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:29:40,610 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:30:39,601 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:30:40,647 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:31:39,582 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:31:40,567 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:32:39,651 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:32:40,770 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:33:39,665 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:33:40,690 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:34:39,743 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:34:40,771 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:35:40,893 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:35:41,837 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:36:39,629 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:36:40,663 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:37:39,616 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:37:40,599 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:38:39,628 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:38:40,581 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:39:39,611 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:39:40,558 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:40:39,641 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:40:40,617 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:41:39,607 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:41:40,575 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:42:39,741 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:42:40,764 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:43:39,881 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:43:40,852 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:44:39,775 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:44:40,783 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:45:39,660 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:45:40,666 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:46:39,663 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:46:40,599 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:47:40,638 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:47:41,624 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:48:40,529 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:48:41,566 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:49:39,729 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:49:40,700 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:50:39,705 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:50:40,671 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:51:39,774 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:51:40,808 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:52:39,715 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:52:40,691 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:53:39,712 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:53:40,698 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:54:39,771 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:54:40,770 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:55:39,787 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:55:40,749 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:56:39,893 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:56:41,019 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:57:39,851 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:57:40,821 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:58:39,871 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:58:40,830 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:59:42,839 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 16:59:48,053 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:00:40,618 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:00:41,750 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:01:44,487 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:01:49,631 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:02:39,813 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:02:40,816 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:03:39,767 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:03:40,739 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:04:39,826 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:04:40,777 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:05:39,806 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:05:40,767 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:06:39,808 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:06:40,821 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:07:39,839 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:07:40,845 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:08:41,074 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:08:42,084 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:09:39,821 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:09:40,868 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:10:39,868 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:10:40,889 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:11:45,390 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:11:46,576 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:12:40,020 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:12:41,012 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:13:44,058 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:13:44,972 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:14:39,900 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:14:40,876 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:15:39,809 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:15:40,791 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:16:39,889 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:16:42,137 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:17:39,892 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:17:40,892 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:18:40,139 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:18:41,153 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:19:40,048 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:19:42,382 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:20:40,079 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:20:41,073 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:21:39,948 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:21:42,542 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:22:39,920 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:22:40,912 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:23:39,923 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:23:40,873 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:24:40,327 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:24:41,273 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:25:39,975 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:25:40,922 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:26:40,011 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:26:41,070 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:27:40,036 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:27:40,986 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:28:40,055 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:28:41,071 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:29:40,100 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:29:41,173 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:30:40,247 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:30:41,221 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:31:40,077 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:31:41,075 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:47:49,240 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:47:50,315 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:48:34,139 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:48:35,137 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:49:34,200 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:49:35,158 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:50:35,360 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:50:36,318 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:51:34,197 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:51:35,145 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:52:34,155 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:52:35,085 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:53:34,180 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:53:35,224 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:54:34,188 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:54:35,167 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:55:34,278 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:55:35,231 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:56:34,218 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:56:35,211 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:57:34,251 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:57:35,229 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:58:34,212 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:58:35,141 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:59:34,294 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 17:59:35,230 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:00:34,223 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:00:35,193 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:01:34,253 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:01:35,257 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:02:34,301 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:02:35,299 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:03:34,244 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:03:35,171 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:04:34,222 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:04:35,195 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:05:34,852 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:05:35,809 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:06:34,264 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:06:35,255 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:07:36,763 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:07:38,460 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:08:35,168 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:08:36,127 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:09:34,326 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:09:35,276 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:10:34,344 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:10:35,404 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:11:34,255 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:11:35,153 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:12:34,309 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:12:35,287 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:13:34,311 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:13:35,231 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:14:34,361 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:14:35,326 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:15:34,388 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:15:35,438 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:16:34,382 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:16:35,344 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:17:34,395 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:17:35,614 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:18:34,335 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:18:35,282 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:19:34,322 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:19:35,294 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:20:34,367 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:20:35,281 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:21:34,361 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:21:35,291 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:22:34,357 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:22:35,368 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:23:34,288 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:23:35,200 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:24:34,399 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:24:35,440 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:25:34,380 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:25:35,420 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:26:34,472 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:26:35,433 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:27:34,432 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:27:35,398 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:28:34,497 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:28:35,477 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:29:34,437 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:29:35,431 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:30:34,426 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:30:35,399 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:31:34,532 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:31:35,488 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:32:34,652 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:32:35,617 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:33:34,665 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:33:35,618 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:34:34,495 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:34:35,446 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:35:34,545 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:35:35,508 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:36:34,434 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:36:35,396 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:37:34,436 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:37:35,444 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:38:34,716 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:38:35,794 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:39:34,556 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:39:35,514 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:40:34,565 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:40:35,535 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:41:34,503 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:41:35,451 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:42:34,519 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:42:35,456 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:43:34,570 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:43:35,559 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:44:34,510 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:44:35,513 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:45:34,523 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:45:35,518 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:46:34,503 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:46:35,448 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:47:34,571 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:47:35,544 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:48:34,549 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:48:35,456 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:49:34,634 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:49:35,582 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:50:34,532 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:50:35,531 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:51:34,718 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:51:35,754 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:52:34,768 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:52:35,811 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:53:34,611 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:53:35,634 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:54:34,693 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:54:35,856 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:55:34,688 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:55:35,699 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:56:35,049 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:56:36,630 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:57:35,372 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:57:37,083 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:58:34,644 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:58:35,665 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:59:34,619 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 18:59:35,594 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 19:00:34,655 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 19:00:35,867 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 19:01:34,645 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 19:01:35,613 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 19:12:07,815 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 19:12:09,618 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 19:28:04,190 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 19:28:05,183 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-03 19:43:10,113 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 19:43:10,118 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 19:43:10,122 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 19:43:10,126 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:32:25,526 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:32:25,532 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:32:25,537 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:32:25,542 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:33:25,522 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:33:25,530 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:33:25,535 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:33:25,540 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:34:25,528 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:34:25,534 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:34:25,540 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:34:25,545 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:35:25,538 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:35:25,545 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:35:25,550 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:35:25,556 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:36:25,540 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:36:25,545 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:36:25,551 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:36:25,556 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:37:25,550 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:37:25,556 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:37:25,562 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:37:25,568 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:53:23,196 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:53:23,203 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:53:23,208 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 20:53:23,213 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 21:28:26,272 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 21:28:26,290 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 21:28:26,293 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 21:28:26,296 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 22:13:55,234 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 22:13:55,241 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 22:13:55,245 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 22:13:55,250 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 22:44:50,351 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 22:44:50,359 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 22:44:50,364 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 22:44:50,369 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 23:30:21,440 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 23:30:21,445 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 23:30:21,450 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-03 23:30:21,454 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 00:00:54,335 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 00:00:54,341 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 00:00:54,345 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 00:00:54,350 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 00:31:49,368 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 00:31:49,374 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 00:31:49,378 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 00:31:49,382 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 01:01:51,985 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 01:01:51,991 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 01:01:51,994 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 01:01:51,998 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 02:02:41,356 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 02:02:41,359 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 02:02:41,362 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 02:02:41,366 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 02:33:36,230 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 02:33:36,235 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 02:33:36,240 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 02:33:36,244 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 03:18:55,254 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 03:18:55,261 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 03:18:55,265 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 03:18:55,269 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 03:34:53,247 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 03:34:53,251 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 03:34:53,254 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 03:34:53,257 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 04:35:22,268 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 04:35:22,307 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 04:35:22,318 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 04:35:22,321 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 05:20:53,518 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 05:20:53,526 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 05:20:53,531 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 05:20:53,537 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 05:36:51,605 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 05:36:51,611 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 05:36:51,615 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 05:36:51,622 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 06:22:21,559 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 06:22:21,561 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 06:22:21,563 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 06:22:21,565 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 07:07:52,962 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 07:07:52,968 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 07:07:52,972 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 07:07:52,976 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 07:16:05,034 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:16:06,021 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:17:04,967 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:17:05,907 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:18:04,973 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:18:05,960 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:19:04,907 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:19:05,848 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:20:04,927 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:20:05,911 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:21:05,001 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:21:05,951 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:22:05,023 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:22:06,143 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:23:05,137 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:23:06,141 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:24:05,100 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:24:06,095 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:25:05,079 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:25:06,076 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:26:05,040 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:26:35,439 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:45:15,874 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 07:45:16,978 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 08:11:59,791 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:11:59,794 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:11:59,796 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:11:59,798 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:46:03,302 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:46:03,308 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:46:03,312 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:46:03,315 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:47:03,305 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:47:03,311 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:47:03,315 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:47:03,320 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:48:03,300 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:48:03,304 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:48:03,310 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 08:48:03,323 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 09:42:38,859 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 09:42:38,863 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 09:42:38,866 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 09:42:38,869 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 10:58:36,123 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 10:58:36,127 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 10:58:36,130 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 10:58:36,133 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 12:23:15,421 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 12:23:15,424 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 12:23:15,427 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 12:23:15,430 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 12:36:55,002 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:36:56,011 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:37:56,018 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:37:57,587 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:38:55,026 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:38:56,147 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:39:55,016 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:39:56,115 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:40:54,950 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:40:56,441 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:41:55,203 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:41:56,525 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:42:54,979 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:42:55,984 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:43:55,087 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:43:56,296 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:44:55,113 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:44:56,118 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:45:55,219 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:45:56,386 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:46:55,123 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:46:56,143 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:47:55,110 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 12:47:56,168 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:51:11,861 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8da6bf26964af9d7eed9e03e53415d37aa96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 13:51:11,884 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xkxtg2cw87d97txjsdpbd5jbkhetqa83tzrujosgasu/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 13:51:11,894 - ERROR - Ethereum check failed for Vitalik Buterin: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=txlist&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&sort=desc&apikey=8C59RD%E2%80%A6RJ99 (Caused by NameResolutionError("HTTPSConnection(host='api.etherscan.io', port=443): Failed to resolve 'api.etherscan.io' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 13:51:11,898 - ERROR - Solana check failed for Whale #1: HTTPSConnectionPool(host='api.covalenthq.com', port=443): Max retries exceeded with url: /v1/1399811554/address/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU/transfers_v2/?key=cqt_rQ%E2%80%A6VYFT&page-size=20 (Caused by NameResolutionError("HTTPSConnection(host='api.covalenthq.com', port=443): Failed to resolve 'api.covalenthq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-10-04 13:52:10,041 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:52:11,085 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:53:11,698 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:53:12,801 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:54:09,832 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:54:11,245 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:55:09,864 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:55:10,833 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:56:11,922 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:56:12,952 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:57:09,848 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:57:10,815 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:58:09,967 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:58:10,930 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:59:09,911 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 13:59:10,892 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:00:10,495 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:00:11,510 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:01:10,703 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:01:12,891 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:02:10,496 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:02:11,911 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:03:10,145 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:03:11,111 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:04:12,475 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:04:13,559 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:05:09,917 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:05:10,853 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:06:09,943 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:06:10,969 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:07:10,081 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:07:11,098 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:08:12,210 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:08:13,509 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:09:11,624 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:09:12,733 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:10:10,505 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:10:11,782 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:11:10,100 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:11:11,209 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:12:09,941 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:12:10,894 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:13:10,451 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:13:11,742 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:14:10,530 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:14:11,595 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:15:10,634 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:15:11,968 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:16:10,714 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:16:11,844 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:17:10,798 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:17:12,038 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:18:10,457 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:18:11,516 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:19:10,581 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:19:11,617 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:20:10,454 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:20:11,518 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:21:10,399 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:21:11,473 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:22:10,326 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:22:11,330 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:23:10,401 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:23:11,406 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:24:10,358 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:24:11,372 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:25:12,441 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:25:13,441 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:26:10,346 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:26:11,382 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:27:10,944 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:27:13,240 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:28:29,136 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:28:30,572 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:29:12,594 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:29:13,782 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:30:10,971 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:30:11,981 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:31:10,434 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:31:11,409 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:32:10,417 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:32:11,503 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:33:10,486 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:33:11,471 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:34:10,400 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:34:11,415 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:35:10,468 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:35:11,497 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:36:10,561 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:36:11,626 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:37:12,699 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'
+2026-10-04 14:37:14,126 - ERROR - Solana check failed for Whale #1: 'NoneType' object has no attribute 'get'

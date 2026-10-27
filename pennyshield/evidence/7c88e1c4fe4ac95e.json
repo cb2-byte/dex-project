@@ -1,0 +1,97 @@
+{
+  "detection_id": "7c88e1c4fe4ac95e",
+  "token_address": "EYL99nMFPTcp1PQad2uMkXf7mcrzfKbxMbvjD3UaQSKq",
+  "chain": "solana",
+  "timestamp": 1792803040.1295462,
+  "timestamp_iso": "2026-10-24T00:50:40.129546",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "FPmWsk6aqB8NQi2KdoqjewobiudzCQTGPHujA2idjmh2",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792803040.1295462,
+    "timestamp_iso": "2026-10-24T00:50:40.129546"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "RGauXYhoY7VUVY1zX4kg4MKPJ3C3C7dKrK48Ky4wi5zKPrPxRcMYLuHnXHmrU326WEmoobNJBtBH1fpaGkn3MJS",
+    "log_index": 2,
+    "block_number": 460652453,
+    "block_time": 1792802911,
+    "bonding_curve": "7PsTWkvktnrrWVyuRYsD8Jyt4j2r4m4EtSDFWuCmmikH",
+    "associated_bonding_curve": "4pMjZ6CvGVKyEMsEcNs1MqKyM6yQkK3GLkKENpLagtRk",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "FPmWsk6aqB8NQi2KdoqjewobiudzCQTGPHujA2idjmh2",
+    "name": "Buffett Coin",
+    "symbol": "BFC",
+    "metadata_uri": "https://metadata.j7tracker.io/metadata/FuqeohigvZ.json",
+    "launch_timestamp": 1792802911,
+    "launch_slot": 460652453,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

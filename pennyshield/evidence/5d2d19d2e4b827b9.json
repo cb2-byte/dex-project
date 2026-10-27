@@ -1,0 +1,97 @@
+{
+  "detection_id": "5d2d19d2e4b827b9",
+  "token_address": "EzyvE4JQ9CX2R444Sbc3ZeJkFz8LGUF4vGNMFWcupump",
+  "chain": "solana",
+  "timestamp": 1792839299.976326,
+  "timestamp_iso": "2026-10-24T10:54:59.976326",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "6g7AkwkqCa57tUTjAxTshqMKBnLAuTgX7ShyQcEEwNcE",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792839299.976326,
+    "timestamp_iso": "2026-10-24T10:54:59.976326"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "x52oeet44sQFohYECVZk3YoN1Lf9kJ9BkyuwJVFEs9uokwpoR4TCaE4aEt13g5skFYeNmTzXetRVkxEv44p4uYr",
+    "log_index": 2,
+    "block_number": 460823637,
+    "block_time": 1792839240,
+    "bonding_curve": "BSbiBvZEpomXdN4RydQK8TQrqPVKDPT7qrs7p7qsCG28",
+    "associated_bonding_curve": "EZ7tuGmDSR88WU52Ha4RXCY5Z3dW1cPPWXVCRPaxReuJ",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "6g7AkwkqCa57tUTjAxTshqMKBnLAuTgX7ShyQcEEwNcE",
+    "name": "READ Dylan kerler has an OG COIN",
+    "symbol": "ATH",
+    "metadata_uri": "https://meta.uxento.io/data/4045f816-02ea-41f4-b310-31012e61f728",
+    "launch_timestamp": 1792839240,
+    "launch_slot": 460823637,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "detection_id": "095d62a1a9f2dbcf",
+  "token_address": "A5J3ndAsCn9fqZ1hRuEa2Q7nAgBypYyu4mp926QrEdGh",
+  "chain": "solana",
+  "timestamp": 1792896854.438586,
+  "timestamp_iso": "2026-10-25T02:54:14.438586",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "7YMpKbsGNv38fR3ViEAPyHHmcBY6dzjcGbo1CJZhcdQh",
+          "total_launches": 1,
+          "confirmed_rug_count": 0,
+          "rug_rate": 0.0,
+          "serial_rug_operator": false,
+          "recent_launches": [
+            {
+              "token": "Bg6JbgeUf9j3q5oPtkzmS95asywQnf3xmQKdYxWjiiNe",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer 7YMpKbsG... has 1 launches, 0 rugs (0.0%)"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792896854.438586,
+    "timestamp_iso": "2026-10-25T02:54:14.438586"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "48DXbSSMwmLzkJEfY1fhpLB9b5RhqYvosgbfYWXpNQY6rxHRsUUTVJRiPFvddFaQyPUZEWzKYefaXT1aLntrxwhJ",
+    "log_index": 2,
+    "block_number": 461094282,
+    "block_time": 1792896655,
+    "bonding_curve": "CY2D332eTGneV8mZwy4ohmd2HeMAK35omaiRvKpweRfU",
+    "associated_bonding_curve": "ACh2RSNvLYqBAZFyMv2rNTDfJ2SpN8NbDnuYRq6NwwXE",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "7YMpKbsGNv38fR3ViEAPyHHmcBY6dzjcGbo1CJZhcdQh",
+    "name": "Solana Company",
+    "symbol": "HSDT",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreic22r6umoaqotjymghoahoix3lg3svqapy7amwerpydly645xg72i",
+    "launch_timestamp": 1792896655,
+    "launch_slot": 461094282,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

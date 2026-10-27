@@ -1,0 +1,28 @@
+{
+  "detection_id": "69637841308199e8",
+  "token_address": "0xtest_alert",
+  "chain": "solana",
+  "timestamp": 1792319902.5028903,
+  "timestamp_iso": "2026-10-18T10:38:22.502890",
+  "risk_score": {
+    "overall_score": 0.85,
+    "threshold": 0.65,
+    "is_high_risk": true,
+    "triggered_indicators": [
+      "early_snipe",
+      "wallet_clustering"
+    ],
+    "indicators": [],
+    "timestamp": 1792319902.5028903,
+    "timestamp_iso": "2026-10-18T10:38:22.502890"
+  },
+  "pool_snapshot": {
+    "liquidity_usd": 50000
+  },
+  "token_snapshot": {
+    "creator": "0xdeployer1",
+    "total_supply": 1000000000
+  },
+  "outcome": null,
+  "outcome_timestamp": null
+}

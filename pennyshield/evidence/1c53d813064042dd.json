@@ -1,0 +1,97 @@
+{
+  "detection_id": "1c53d813064042dd",
+  "token_address": "CDw8AchNzdQuSmxicYBEsXbD54DRNUNVwbt3iqUVpump",
+  "chain": "solana",
+  "timestamp": 1792905638.6323678,
+  "timestamp_iso": "2026-10-25T05:20:38.632368",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "9t3qSqPNWoHgLHvkgpe2E5gwNEgVmFomTyssNStmF5vu",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792905638.6323678,
+    "timestamp_iso": "2026-10-25T05:20:38.632368"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "2uoW4frTcXywY4qbW27GYWHFL9BDiPS9eX5DdMZDq7fZupBgsNUctMdYLbiJ23obK7DoM9NJneiR3vqfvi1Txpij",
+    "log_index": 2,
+    "block_number": 461135595,
+    "block_time": 1792905455,
+    "bonding_curve": "2yMNG7YznB7GYuz72Q8MusTW4DLWgPwAzx7NESRWLk5H",
+    "associated_bonding_curve": "HpFpW9KL2pTzG2fYFRmVTA9iWbDnh3pP7iHUrZVP2WZJ",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "9t3qSqPNWoHgLHvkgpe2E5gwNEgVmFomTyssNStmF5vu",
+    "name": "Medic Tank",
+    "symbol": "MEDTANK",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreif5tt645kauohwaboeklxcfw3nvxl4fbconrxiiru4zup2wswknmy",
+    "launch_timestamp": 1792905455,
+    "launch_slot": 461135595,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

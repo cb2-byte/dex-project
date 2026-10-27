@@ -1,0 +1,109 @@
+{
+  "detection_id": "5a2df978cc870158",
+  "token_address": "AuHN95gY5VVMFDsL7jGEYFfQspko6KUKUV8ZrqJUpump",
+  "chain": "solana",
+  "timestamp": 1792882656.1596494,
+  "timestamp_iso": "2026-10-24T22:57:36.159649",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "2Hwnp6eDtWH8o4SWFNPEnmKu3M1ofS38jZuxrTRupX1b",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792882656.1596494,
+    "timestamp_iso": "2026-10-24T22:57:36.159649"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "4hvvTHaNhkTDEkwLLGhPyT1HbVUrvkm6Kvcqx43ETta3Buj99Qv8ATu3GEryfXewfuSptffoyX7caa5D6u7k4K5n",
+    "log_index": 0,
+    "block_number": 461027842,
+    "block_time": 1792882568,
+    "bonding_curve": "CEoDEHKZ9oDvdn8mtYqaTfNfaQBm8RF4E8fgDggHRwdr",
+    "associated_bonding_curve": "38ze4vMRZgGvzFrHkHkxtyYzu8F4GWjANbt8f45V4EAW",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "2Hwnp6eDtWH8o4SWFNPEnmKu3M1ofS38jZuxrTRupX1b",
+    "name": "The anti-AI Coin",
+    "symbol": "ANTI",
+    "metadata_uri": "https://gateway.pinata.cloud/ipfs/bafkreierfl3tp6txa4ziusapyczqww7k6ltcvxeh45nef2wn7sd4qcvtle",
+    "launch_timestamp": 1792882568,
+    "launch_slot": 461027842,
+    "instruction": "create_v2",
+    "funding_sources": [
+      {
+        "address": "EEBfyaQZ8zAs7j8Tkve6joEXksZj75CQKu4q3L4xgaYM",
+        "evidence": {
+          "signature": "4C45vsuRoP8LeaYFYE71otHMH5rH6jEpqhmqBin6WEhrcbrirMf6DPRP6Z5UtZxJZQMxdu3NtcMSeVUNUMjXh1cw",
+          "slot": 461027828,
+          "block_time": 1792882565,
+          "lamports": 8000000000,
+          "program": "system",
+          "transfer_type": "transfer"
+        }
+      }
+    ]
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

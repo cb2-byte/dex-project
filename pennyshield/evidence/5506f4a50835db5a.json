@@ -1,0 +1,128 @@
+{
+  "detection_id": "5506f4a50835db5a",
+  "token_address": "3jKRR9i5uazhANg9MWNTmmGkrRvC8ZnNKUoEquFP6NRL",
+  "chain": "solana",
+  "timestamp": 1793089494.0233305,
+  "timestamp_iso": "2026-10-27T08:24:54.023330",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "66mKPXWFqaeYudnYQxQg15ykTBjGXMhqARsJqsDRNiH7",
+          "total_launches": 4,
+          "confirmed_rug_count": 0,
+          "rug_rate": 0.0,
+          "serial_rug_operator": false,
+          "recent_launches": [
+            {
+              "token": "CNobFq2eADV1hbCJnqsXJtxjcPN1ajTfDCyPeTVWtQAf",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            },
+            {
+              "token": "MknvVZ8mhR8LsnjnCcNHHTMw4KLYU3HaGRQtaszWpFW",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            },
+            {
+              "token": "EWQ2yaDjmtAKH3KaBtVVzSFDxvnagrJ83A8WBsaJhvkY",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            },
+            {
+              "token": "9gRe3fVrTAhvKqgxB5jPJsuNwhDut6jJSPkPu2H5sQAU",
+              "timestamp": null,
+              "outcome": null,
+              "risk_score": 0.0
+            }
+          ],
+          "repeat_threshold": 3,
+          "rug_rate_threshold": 0.5
+        },
+        "explanation": "Deployer 66mKPXWF... has 4 launches, 0 rugs (0.0%)"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793089494.0233305,
+    "timestamp_iso": "2026-10-27T08:24:54.023330"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "MEXFjtgH2huTm6cHjRrx8VDofAFTBEzQsD7NosiB5d8zzshHftSvGzgacVffyB85A79v6EbP96R6RoSVHoH1Q19",
+    "log_index": 2,
+    "block_number": 462000820,
+    "block_time": 1793089277,
+    "bonding_curve": "JC1pxeBfZpBUzNubh6Dbob9Cv9MrSN75Zi2CxvSk4ini",
+    "associated_bonding_curve": "21KLdra2HLDK9o5xfkgVEBAaBT6n7K3A2TcSXvtxGKyH",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "66mKPXWFqaeYudnYQxQg15ykTBjGXMhqARsJqsDRNiH7",
+    "name": "Use Launch",
+    "symbol": "LAUNCH",
+    "metadata_uri": "https://vdrpxyqjaasussgt.public.blob.vercel-storage.com/tokens/metadata-OiaSD6FmWwLtOOeRUvlTMHV4NTpHA0.json",
+    "launch_timestamp": 1793089277,
+    "launch_slot": 462000820,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

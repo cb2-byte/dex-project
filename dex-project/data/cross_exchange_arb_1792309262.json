@@ -1,0 +1,11 @@
+{
+  "exchange_comparison": "Coinbase vs Kraken",
+  "eth_price_coinbase": 2405.61,
+  "eth_price_kraken": 2407.78,
+  "discrepancy_percentage": -0.09012451303690838,
+  "signal_threshold_low": 0.2,
+  "signal_threshold_medium": 0.5,
+  "arbitrage_opportunity": true,
+  "strong_opportunity": true,
+  "arbitrage_direction": "buy on Coinbase, sell on Kraken"
+}

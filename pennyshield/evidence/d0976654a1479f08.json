@@ -1,0 +1,97 @@
+{
+  "detection_id": "d0976654a1479f08",
+  "token_address": "3pt6KSPjsSvwPb7YUuBCHB3qBDm5NSaCnna8mgiRpump",
+  "chain": "solana",
+  "timestamp": 1792853487.0576808,
+  "timestamp_iso": "2026-10-24T14:51:27.057681",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "GNbYfwBaEbooU46p32LfMJkzEuBVqg6ejPyJ7gEbgf6L",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1792853487.0576808,
+    "timestamp_iso": "2026-10-24T14:51:27.057681"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "35jU9Aev1Fhkw2sZaPFCKxD2QAeVGneM2z6NofC4fTbdXS3VQHnBX5C2qY7kTe1P2zed8EzC1tLqy9ByRSY5GQ3Y",
+    "log_index": 2,
+    "block_number": 460890095,
+    "block_time": 1792853346,
+    "bonding_curve": "6ccfvkXKhuftiLpYyfcg3wsTu3SoveTa1D7kdGVMJcmf",
+    "associated_bonding_curve": "AHrGgZpRzSWYJfPeh9yxTGdv995ybbFR8kFHM9m46MuM",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "GNbYfwBaEbooU46p32LfMJkzEuBVqg6ejPyJ7gEbgf6L",
+    "name": "one life its worth an",
+    "symbol": "ATTEMPT",
+    "metadata_uri": "https://meta.uxento.io/data/b7a6a68d-8641-4045-a316-5522856fc0ab",
+    "launch_timestamp": 1792853346,
+    "launch_slot": 460890095,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

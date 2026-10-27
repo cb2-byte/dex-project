@@ -1,0 +1,55 @@
+{
+  "tokens": {
+    "TestMint111111111111111111111111111111111111111": [
+      "af0773d316988ca5"
+    ]
+  },
+  "wallets": {},
+  "operators": {
+    "deployer:TestCreator11111111111111111111111111111111111": [
+      {
+        "detection_id": "af0773d316988ca5",
+        "token_address": "TestMint111111111111111111111111111111111111111",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792673328.4197555
+      },
+      {
+        "detection_id": "af0773d316988ca5",
+        "token_address": "TestMint111111111111111111111111111111111111111",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792673328.4206226
+      },
+      {
+        "detection_id": "af0773d316988ca5",
+        "token_address": "TestMint111111111111111111111111111111111111111",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792673328.4220905
+      },
+      {
+        "detection_id": "af0773d316988ca5",
+        "token_address": "TestMint111111111111111111111111111111111111111",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792673416.0964067
+      },
+      {
+        "detection_id": "af0773d316988ca5",
+        "token_address": "TestMint111111111111111111111111111111111111111",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792673416.0977595
+      },
+      {
+        "detection_id": "af0773d316988ca5",
+        "token_address": "TestMint111111111111111111111111111111111111111",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1792673416.0991242
+      }
+    ]
+  },
+  "runs": []
+}
