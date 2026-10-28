@@ -1,0 +1,2 @@
+[main/sessions/main/25e27231-8776-484a-b91b-77df6c5df6f3#L5] User: Finish PennyShield RPC validation yourself. Do not tell Colin to run shell commands. Current facts: observer.env has RPC URLs but Alchemy returns HTTP 401. The production parser already parsed both known create_v2 and legacy create fixtures successfully via public RPC. Chec
+[main/sessions/main/25e27231-8776-484a-b91b-77df6c5df6f3#L5] User: commands.
