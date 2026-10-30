@@ -262,7 +262,12 @@
       "fb8c213227d447f0",
       "05c696a0f47b5d2a",
       "f1aeb029facd4de5",
-      "a2ca3aefc2efea29"
+      "a2ca3aefc2efea29",
+      "e7720a1c6c2816a1",
+      "61f9f043110acadb",
+      "e701bb1db7580c7d",
+      "d0a49e017e5f548e",
+      "9ff250da846f9774"
     ],
     "3PBxNGn9bgpg7JLNZFRUV7fquBTSgdoXCyH5K2yeDt5B": [
       "9386829b83ec5d0c"
@@ -1073,6 +1078,27 @@
     ],
     "0xadf6e9e689db89115cfd10358e96d30db76a9c58": [
       "35b165162aa52dfa"
+    ],
+    "7TQp4AorgffEZbmuq8i2GyeTL8oS1uUkxdCoCVFupump": [
+      "c6a3a9ca5ecab0b3"
+    ],
+    "0x2972c59e13239ac1cef301bd25835674b9efa202": [
+      "b257e482f0535853"
+    ],
+    "0x69cae18362abedab4bdbe03390313562f5cd14f2": [
+      "adf3d8d555e09c28"
+    ],
+    "0x416b427647986e4148c7f9561a744cef683012e8": [
+      "e4f4b7a40b9af1e2"
+    ],
+    "0x866f759e3500078560de1862f1191add529295b5": [
+      "24564e79f52ce9d6"
+    ],
+    "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5": [
+      "c69a519a7f9d3a9d"
+    ],
+    "0x133219df22929b7b983e68f5d0db904776e70506": [
+      "804ada89d4ee1736"
     ]
   },
   "wallets": {},
@@ -3481,6 +3507,15 @@
         "chain": "solana",
         "risk_score": 0.0,
         "linked_at": 1793362014.0810883
+      }
+    ],
+    "deployer:axzPY5oy4W8MMvKtxuvU63gH9thLqPRV969NqaWHd1V": [
+      {
+        "detection_id": "c6a3a9ca5ecab0b3",
+        "token_address": "7TQp4AorgffEZbmuq8i2GyeTL8oS1uUkxdCoCVFupump",
+        "chain": "solana",
+        "risk_score": 0.0,
+        "linked_at": 1793373530.8750582
       }
     ]
   },

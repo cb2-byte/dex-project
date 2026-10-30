@@ -272,6 +272,22 @@
       "source": "wallet:37FZpJsGh3MgCcDzDvR7dYicdrjMC98ti5BUwk9cZZM3",
       "target": "launch:solana:3xAgAEEiyddsb8RgCYXavJbdxXwDxGZy56H9WEGzpump"
     },
+    "0c90e25e5a8a253993f9ea80": {
+      "event_key": "c6a3a9ca5ecab0b3",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "c6a3a9ca5ecab0b3",
+        "name": "LOKI",
+        "signature": "4dJANKVaNNzmdw72bCPkctn55pjqEHFtWw4CqnuSFJhgweE692aP3h4AE1WVhfhkMnpLjNvY2KuVkHcYjKh7ZRbT",
+        "slot": 463332195,
+        "symbol": "LOKI",
+        "timestamp": 1793373348
+      },
+      "id": "0c90e25e5a8a253993f9ea80",
+      "relationship": "deployed",
+      "source": "wallet:axzPY5oy4W8MMvKtxuvU63gH9thLqPRV969NqaWHd1V",
+      "target": "launch:solana:7TQp4AorgffEZbmuq8i2GyeTL8oS1uUkxdCoCVFupump"
+    },
     "0de22b0b0f23d6f22c40e548": {
       "event_key": "a71debee4bf2dd65",
       "evidence": {
@@ -3600,6 +3616,12 @@
       "kind": "launch",
       "mint": "0x11653b1c29158697d004d21dde80161d29e9c052"
     },
+    "launch:base:0x133219df22929b7b983e68f5d0db904776e70506": {
+      "chain": "base",
+      "id": "launch:base:0x133219df22929b7b983e68f5d0db904776e70506",
+      "kind": "launch",
+      "mint": "0x133219df22929b7b983e68f5d0db904776e70506"
+    },
     "launch:base:0x13769a4e7e74f4fd1652329c848686516777896c": {
       "chain": "base",
       "id": "launch:base:0x13769a4e7e74f4fd1652329c848686516777896c",
@@ -3774,6 +3796,12 @@
       "kind": "launch",
       "mint": "0x291deda1ad1e2adf85c0f1a4bde40562a7804fe6"
     },
+    "launch:base:0x2972c59e13239ac1cef301bd25835674b9efa202": {
+      "chain": "base",
+      "id": "launch:base:0x2972c59e13239ac1cef301bd25835674b9efa202",
+      "kind": "launch",
+      "mint": "0x2972c59e13239ac1cef301bd25835674b9efa202"
+    },
     "launch:base:0x2994818b0c4dd77ea0db6e5907bdfcf22fd1d37e": {
       "chain": "base",
       "id": "launch:base:0x2994818b0c4dd77ea0db6e5907bdfcf22fd1d37e",
@@ -3942,6 +3970,12 @@
       "kind": "launch",
       "mint": "0x411d5e8c0ca903b0a6dc145402fb99db9a86ff63"
     },
+    "launch:base:0x416b427647986e4148c7f9561a744cef683012e8": {
+      "chain": "base",
+      "id": "launch:base:0x416b427647986e4148c7f9561a744cef683012e8",
+      "kind": "launch",
+      "mint": "0x416b427647986e4148c7f9561a744cef683012e8"
+    },
     "launch:base:0x4200000000000000000000000000000000000006": {
       "chain": "base",
       "id": "launch:base:0x4200000000000000000000000000000000000006",
@@ -3953,6 +3987,12 @@
       "id": "launch:base:0x451c94c4ae9923573c5bc06f04a59db3b13c15da",
       "kind": "launch",
       "mint": "0x451c94c4ae9923573c5bc06f04a59db3b13c15da"
+    },
+    "launch:base:0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5": {
+      "chain": "base",
+      "id": "launch:base:0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
+      "kind": "launch",
+      "mint": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5"
     },
     "launch:base:0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea": {
       "chain": "base",
@@ -3966,11 +4006,23 @@
       "kind": "launch",
       "mint": "0x638336aa8c7330a45d727ab7611e57da62286f0b"
     },
+    "launch:base:0x69cae18362abedab4bdbe03390313562f5cd14f2": {
+      "chain": "base",
+      "id": "launch:base:0x69cae18362abedab4bdbe03390313562f5cd14f2",
+      "kind": "launch",
+      "mint": "0x69cae18362abedab4bdbe03390313562f5cd14f2"
+    },
     "launch:base:0x833589fcd6edb6e08f4c7c32d4f71b54bda02913": {
       "chain": "base",
       "id": "launch:base:0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
       "kind": "launch",
       "mint": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+    },
+    "launch:base:0x866f759e3500078560de1862f1191add529295b5": {
+      "chain": "base",
+      "id": "launch:base:0x866f759e3500078560de1862f1191add529295b5",
+      "kind": "launch",
+      "mint": "0x866f759e3500078560de1862f1191add529295b5"
     },
     "launch:base:0xadf0fc1edb4bd915e3f6cb5b46750fe4933f8d1a": {
       "chain": "base",
@@ -4565,6 +4617,15 @@
       "mint": "7SaabEcE5fV1713tbeXxeBBwcCTmJzHw41SkbQYv95o4",
       "name": "Dogewifpinkbeanie",
       "symbol": "WIF"
+    },
+    "launch:solana:7TQp4AorgffEZbmuq8i2GyeTL8oS1uUkxdCoCVFupump": {
+      "chain": "solana",
+      "creator": "axzPY5oy4W8MMvKtxuvU63gH9thLqPRV969NqaWHd1V",
+      "id": "launch:solana:7TQp4AorgffEZbmuq8i2GyeTL8oS1uUkxdCoCVFupump",
+      "kind": "launch",
+      "mint": "7TQp4AorgffEZbmuq8i2GyeTL8oS1uUkxdCoCVFupump",
+      "name": "LOKI",
+      "symbol": "LOKI"
     },
     "launch:solana:7WqQsgtD9pWPhFS75vA4tGk9m4X9s5cbQR3mKq22pump": {
       "chain": "solana",
@@ -7000,6 +7061,13 @@
       "address": "LpwUsv9iJ7YZYn13QuWHn1nrdMJgVMLEZbaTg9wK7w5",
       "chain": "solana",
       "id": "wallet:LpwUsv9iJ7YZYn13QuWHn1nrdMJgVMLEZbaTg9wK7w5",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:axzPY5oy4W8MMvKtxuvU63gH9thLqPRV969NqaWHd1V": {
+      "address": "axzPY5oy4W8MMvKtxuvU63gH9thLqPRV969NqaWHd1V",
+      "chain": "solana",
+      "id": "wallet:axzPY5oy4W8MMvKtxuvU63gH9thLqPRV969NqaWHd1V",
       "kind": "wallet",
       "role": "creator"
     },

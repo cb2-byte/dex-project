@@ -1,0 +1,97 @@
+{
+  "detection_id": "c6a3a9ca5ecab0b3",
+  "token_address": "7TQp4AorgffEZbmuq8i2GyeTL8oS1uUkxdCoCVFupump",
+  "chain": "solana",
+  "timestamp": 1793373530.8627458,
+  "timestamp_iso": "2026-10-30T15:18:50.862746",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "axzPY5oy4W8MMvKtxuvU63gH9thLqPRV969NqaWHd1V",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793373530.8627458,
+    "timestamp_iso": "2026-10-30T15:18:50.862746"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "4dJANKVaNNzmdw72bCPkctn55pjqEHFtWw4CqnuSFJhgweE692aP3h4AE1WVhfhkMnpLjNvY2KuVkHcYjKh7ZRbT",
+    "log_index": 2,
+    "block_number": 463332195,
+    "block_time": 1793373348,
+    "bonding_curve": "86o84vQc6aqbje15UoJ17uM453GS1xPqT5D5cKK31R1k",
+    "associated_bonding_curve": "6iK7dV86znQgYyPmx4KbVGA6cuP4KCnrQz94EEAj1Lrk",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "axzPY5oy4W8MMvKtxuvU63gH9thLqPRV969NqaWHd1V",
+    "name": "LOKI",
+    "symbol": "LOKI",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreibtc2qrpqtmdylcktx3g7ipvvg54vq7kevlxhrpjq5s6cxr3dru3u",
+    "launch_timestamp": 1793373348,
+    "launch_slot": 463332195,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}
