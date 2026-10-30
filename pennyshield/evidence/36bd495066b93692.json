@@ -1,0 +1,97 @@
+{
+  "detection_id": "36bd495066b93692",
+  "token_address": "EJP6X4MJnYW9roeLUszLs9EmHaKfWUWqNUdvXq1v9s9x",
+  "chain": "solana",
+  "timestamp": 1793346619.2285767,
+  "timestamp_iso": "2026-10-30T07:50:19.228577",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "HvUsAVtadCtXQLqXfTE7gKd9cr1g1s6d7LHtPKgktvf8",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793346619.2285767,
+    "timestamp_iso": "2026-10-30T07:50:19.228577"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "4j9sWJhKmDKeBNbp7xWkXucRYGCF2A8TztHawjMHmHNgha5wiruRoSSduX5ieiBUAzbTyD9evZ5cbueuPLbwRkuR",
+    "log_index": 2,
+    "block_number": 463206226,
+    "block_time": 1793346454,
+    "bonding_curve": "ER6Xc7pgUriHc4wtMDdtYpdNb86uQttKnHVSqabGn9ye",
+    "associated_bonding_curve": "BrjBEviaN9RxGggQc7XLAGvdzi2ZWVsqjMDmBYzhFaUy",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "HvUsAVtadCtXQLqXfTE7gKd9cr1g1s6d7LHtPKgktvf8",
+    "name": "Chameleon Trading",
+    "symbol": "Chameleon ",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreichgymsbl5jchkiiiaqljhfkhm5jqmk5drezjraqotk523invwfau",
+    "launch_timestamp": 1793346454,
+    "launch_slot": 463206226,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "detection_id": "eee686f5aac85494",
+  "token_address": "Bso1zwerPiUAS93TqFvVjyhCsztQ6gtEBSNXxxrGpump",
+  "chain": "solana",
+  "timestamp": 1793284801.663883,
+  "timestamp_iso": "2026-10-29T14:40:01.663883",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "7t65ki1GrUDm5hTF9Wc1QcqB3y2WSWuZYXo7aM3spNpY",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793284801.663883,
+    "timestamp_iso": "2026-10-29T14:40:01.663883"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "57WR2ZxQsh3SF93PwangJYmY4bCBViPJDcJGiqPQ7wkr9ToHmxrqB1QW8B4CkeHTboJC3ETk3fX4HVhMpP3zirqE",
+    "log_index": 2,
+    "block_number": 462916722,
+    "block_time": 1793284538,
+    "bonding_curve": "C7fGHd8uAAVU4M52r6jtdbsgVpkXiKszoMo62Qz4Bjux",
+    "associated_bonding_curve": "6sBTJiQMK4q6oieKMWvt4pWdtyswrKwMUfKCjVGneT6w",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "7t65ki1GrUDm5hTF9Wc1QcqB3y2WSWuZYXo7aM3spNpY",
+    "name": "TESLA 2027",
+    "symbol": "ELON",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreifnogjcjehqztze3fembd2uyxpxi4pcz5jq7noy3abgciwykck2j4",
+    "launch_timestamp": 1793284538,
+    "launch_slot": 462916722,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

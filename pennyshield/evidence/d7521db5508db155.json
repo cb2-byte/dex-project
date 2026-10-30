@@ -1,0 +1,109 @@
+{
+  "detection_id": "d7521db5508db155",
+  "token_address": "4NL3p4f8Fa2GHpYshQeLzoA9d4fA65ERSEX8ZraVpump",
+  "chain": "solana",
+  "timestamp": 1793361261.2361677,
+  "timestamp_iso": "2026-10-30T11:54:21.236168",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "Hj5tXuCCbdJ7YpvdUPaC3rJrtnKZFC4z3QN4jAnwD249",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793361261.2361677,
+    "timestamp_iso": "2026-10-30T11:54:21.236168"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "xSPEuxSs1W8bM6Tv3TUpaoJCoaiB7uL7HgENocq7AJZRyX6dzpwAXhJiF1nJnFYGm8WgNRiUCBmztdMqtqUTQFg",
+    "log_index": 2,
+    "block_number": 463274845,
+    "block_time": 1793361095,
+    "bonding_curve": "8Zjd6xWx62Rmp5ggAnneEV2UuehLeUm5BVeyXtxRxkBh",
+    "associated_bonding_curve": "FSgGHUK8EpXMJTHrM8bsPpZPMPnLWkdG5rSHWczCkNBd",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "Hj5tXuCCbdJ7YpvdUPaC3rJrtnKZFC4z3QN4jAnwD249",
+    "name": "Project YUYito",
+    "symbol": "YUYito",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreihz2os4ql2ik4kjz7rd642at6yrnydwmdwcldcgmq6ndp3tpi5m24",
+    "launch_timestamp": 1793361095,
+    "launch_slot": 463274845,
+    "instruction": "create_v2",
+    "funding_sources": [
+      {
+        "address": "HJ6tdyESPoLXa3S4AmeWHwGDrwm9L6ZwPyTV3AfUzdsN",
+        "evidence": {
+          "signature": "3f97vwoHcRCNTKX6hQbBYD6n5sYWZncSTDJGpMmTN77fZwNrEvrcFUXjHdJ42g2rENaGyuvaNffgZWp1TSTyJrso",
+          "slot": 463270444,
+          "block_time": 1793360157,
+          "lamports": 740163242,
+          "program": "system",
+          "transfer_type": "transfer"
+        }
+      }
+    ]
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}

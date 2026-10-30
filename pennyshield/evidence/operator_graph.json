@@ -144,6 +144,22 @@
       "source": "wallet:78dKc9MKSuTrDMSqucg1DkyoFasj9oadYJpTZhH7wi7D",
       "target": "launch:solana:3jp3dT9BHZjJz9HDrEGfhSmZK7XPNXBxkydnLQmqj9Yj"
     },
+    "0768d0295c75accdb2d669e5": {
+      "event_key": "c971d11bf034887b",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "c971d11bf034887b",
+        "name": "The 184 Billion BTC Hack",
+        "signature": "2kVk3mCVonftpsbgdaZt3Yu75YzVmvPzcSmrxVNUp2GBw89oCrRXJZYZsnLo2yxgYyQL2C2PudQVxrRPiNBd6iYy",
+        "slot": 463265258,
+        "symbol": "BTCHACK",
+        "timestamp": 1793359048
+      },
+      "id": "0768d0295c75accdb2d669e5",
+      "relationship": "deployed",
+      "source": "wallet:58Va2M8jAG7Yq2TRaiReXYAxFWdSKvZbzh6NaHFRnNef",
+      "target": "launch:solana:FXzWQHQ7jEA9CQExTjVdqM9brphrTDTdTc37ZRiaww6p"
+    },
     "077c0428e69c05d861293d9d": {
       "event_key": "e85d29d49eca0c31",
       "evidence": {
@@ -223,6 +239,22 @@
       "relationship": "deployed",
       "source": "wallet:D6tfu4AWsEYTPZxcuYMtU7WN5HWeYH8gWDu9nNAJiUBk",
       "target": "launch:solana:2Jy7FcKLsSHrjcxuzBjnhTw9ijUAqbQxySxVWNHmpump"
+    },
+    "09bfeeead3dd8a622af8360d": {
+      "event_key": "1a73dddb9917564f",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "1a73dddb9917564f",
+        "name": "justice for james",
+        "signature": "5kY9BwVDBVEJ9A2q3Zh3N1J7hxLWchpJNZwzBUcUz8cduRqFGqKxAmSEZvEvKfEvF7eSFMzUUHfi2DnACXz25S1q",
+        "slot": 463164499,
+        "symbol": "JAMES",
+        "timestamp": 1793337544
+      },
+      "id": "09bfeeead3dd8a622af8360d",
+      "relationship": "deployed",
+      "source": "wallet:m82n2SEHbGjsFwNHhCmZdjdo3BwzjmHsDU33kt9NkTR",
+      "target": "launch:solana:G5ExivoMuJkuF8yZxLZDFKLmo3KXAjtQ9KR6wLKJYrcX"
     },
     "0bedc0380b3125e61d45e2a7": {
       "event_key": "079c31705708ac5d",
@@ -384,6 +416,22 @@
       "source": "wallet:9wRuFPJZFviuHv9q4hsaxUUADDphX6oSjcMA3RuxTFRG",
       "target": "launch:solana:F1B3zfVPdMuEZ9qeruomNdTe7pss49YByzA1k1HV4fdz"
     },
+    "1ceead2f1eaced07304aef23": {
+      "event_key": "a3af2015d8a5738b",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "a3af2015d8a5738b",
+        "name": "Elvara",
+        "signature": "2AcXkftv9f4BCo3PqHouhr1w6gWn9CASehCFLDDWiqk5YvUrVp4qnMP4NYvRfq8bWbTc9ShqrQnmGzaNbMGA2Vge",
+        "slot": 462930126,
+        "symbol": "Elvara",
+        "timestamp": 1793287411
+      },
+      "id": "1ceead2f1eaced07304aef23",
+      "relationship": "deployed",
+      "source": "wallet:8EvtenybRGnUmxD9DhzPp7j7L62Yy6L4AEjPAbihXxi5",
+      "target": "launch:solana:Cki13shbi8KvkekmHv18Du6m6LSKw6ejkvNNsaCApump"
+    },
     "1d6b9124d6d7f16ab83ff1d7": {
       "event_key": "2eb1f97634290b98",
       "evidence": {
@@ -528,6 +576,38 @@
       "source": "wallet:rkjvuysWNjW8Yt4tUW2xQQvvPaGizGLfFzCC9wiumEZ",
       "target": "launch:solana:25ZmAGDQgXQuZNdhWYLgWXTMB5QjbVwGCdzQdyJR27rt"
     },
+    "25ba5c32586f45efd5b8801d": {
+      "event_key": "0dfef2d12342f8af",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "0dfef2d12342f8af",
+        "name": "Opsec Level",
+        "signature": "3Gi1BrxmX6KzJFpAGEqEYWM5Qre23nPjMVzqbiAwAV92vL97A6sv75bvp3tf5HnEwRc8wJ1c2AtLeGYaBRdTxt61",
+        "slot": 463110842,
+        "symbol": "OPSEC",
+        "timestamp": 1793326085
+      },
+      "id": "25ba5c32586f45efd5b8801d",
+      "relationship": "deployed",
+      "source": "wallet:3ep8j4RVF5uPAkn4mgsMsL3an1CoSWYuWFhJPLWeSoup",
+      "target": "launch:solana:6fBqT6PLdCTBmASFsXzU5EcESPihv1Ys7v51dvy2oGsG"
+    },
+    "261c34aed76cb82c104c8a16": {
+      "event_key": "27ce2ce4c937e3ae",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "27ce2ce4c937e3ae",
+        "name": "Mars",
+        "signature": "2zuU24zt7mxWjgWkGMUshTT1YeefVS4YjqZLvKzM8Si4JR5VhbeE4a9tE7WzJokuw3c7dfhnkm8Hv5jdvR1Jfdsj",
+        "slot": 463179423,
+        "symbol": "Mars",
+        "timestamp": 1793340732
+      },
+      "id": "261c34aed76cb82c104c8a16",
+      "relationship": "deployed",
+      "source": "wallet:uTjYQMxWFLS26fdYTeNYbJhSYzcwCKEwKKb1xkEZJoL",
+      "target": "launch:solana:F2ZZq8QR2K4xKCLkRfDEu6X7KX4sHizBrPkPakKsDRFo"
+    },
     "27843db264e886890ec67fa0": {
       "event_key": "dcab6291936f4819",
       "evidence": {
@@ -543,6 +623,22 @@
       "relationship": "deployed",
       "source": "wallet:8HfTU7hr4WFyBdewNbpcxZHpeTGf7Tr5fb5kd6TyoKKW",
       "target": "launch:solana:DUWGYAUNLFQWpjNyxfmVmutWK51F1Zn7k3rrpP6z6uqr"
+    },
+    "298a3b0855c85b08b2eb7844": {
+      "event_key": "12dd0e48bf99626f",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "12dd0e48bf99626f",
+        "name": "Pouch",
+        "signature": "5ZwgnWh9WJxKZBFUiUmueh1U4ZGPmbjNSvXNqKn8NRQUD8hfuW6D9pcwtj651MaMUCCE2mGXda7bsBock5DsAZy",
+        "slot": 462925820,
+        "symbol": "POUCH",
+        "timestamp": 1793286488
+      },
+      "id": "298a3b0855c85b08b2eb7844",
+      "relationship": "deployed",
+      "source": "wallet:HQMwFz5usJC81zLbaFwAGWzJ8TuY5YG4EDxnA5VAeg52",
+      "target": "launch:solana:8UDg7ZsPjXqtwXNhYtyqUWjyDWbhRuwWaJGWK98apump"
     },
     "29b7af6082ae10f6b332316a": {
       "event_key": "63c3056114c4cb80",
@@ -912,6 +1008,22 @@
       "source": "wallet:B3rM6meQUs4ugJX7MhkGNeqHpU5dWZwZgDphnDpAaeHo",
       "target": "launch:solana:FXqbm2AsPLWrwbgu4VtenM84QqBMJQV5d2Y1V7MEM4Xw"
     },
+    "42f26a873e6b24c7450dd638": {
+      "event_key": "3f97vwoHcRCNTKX6hQbBYD6n5sYWZncSTDJGpMmTN77fZwNrEvrcFUXjHdJ42g2rENaGyuvaNffgZWp1TSTyJrso",
+      "evidence": {
+        "block_time": 1793360157,
+        "lamports": 740163242,
+        "observed_for_detection": "d7521db5508db155",
+        "program": "system",
+        "signature": "3f97vwoHcRCNTKX6hQbBYD6n5sYWZncSTDJGpMmTN77fZwNrEvrcFUXjHdJ42g2rENaGyuvaNffgZWp1TSTyJrso",
+        "slot": 463270444,
+        "transfer_type": "transfer"
+      },
+      "id": "42f26a873e6b24c7450dd638",
+      "relationship": "funded",
+      "source": "wallet:HJ6tdyESPoLXa3S4AmeWHwGDrwm9L6ZwPyTV3AfUzdsN",
+      "target": "wallet:Hj5tXuCCbdJ7YpvdUPaC3rJrtnKZFC4z3QN4jAnwD249"
+    },
     "440fbfe4d3832e471d7a01f5": {
       "event_key": "682d68d5f880dc72",
       "evidence": {
@@ -1135,6 +1247,22 @@
       "relationship": "deployed",
       "source": "wallet:66mKPXWFqaeYudnYQxQg15ykTBjGXMhqARsJqsDRNiH7",
       "target": "launch:solana:GdH2qgDS3enPDWdsgVoHmGKvzQbUPywBLJ81RGowy6UN"
+    },
+    "573b39e282456838052ee07a": {
+      "event_key": "db219bdcd30ab539",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "db219bdcd30ab539",
+        "name": "Devlog",
+        "signature": "2JoqpwXqewB415ogBqv9fzH4Hw8kJTpy8CMpsvfhMoLxKG54owcH2tnJpyfxAt9wd7tS5ca93dgdMUgik5XcP4pU",
+        "slot": 463204064,
+        "symbol": "DEVLOG",
+        "timestamp": 1793345989
+      },
+      "id": "573b39e282456838052ee07a",
+      "relationship": "deployed",
+      "source": "wallet:7axwYMszYLXiyiXeK84uMfmTunAs6AkLURJm2qs9JWXR",
+      "target": "launch:solana:AsKZNuGNPwCBUNgU9TP8skCuNkkBGkKsHNMYndBKpump"
     },
     "596962ddcb2d02f8b88f03a1": {
       "event_key": "140b8c59ed583517",
@@ -1376,6 +1504,22 @@
       "source": "wallet:2QdUCi8VDmwjj9SSBTw4HZbnyYgfm1Ptuxb4Po4Agw7y",
       "target": "launch:solana:8rBe5m1WTkxjNFytE62momNzCSWf8EXHPWvy8DVepump"
     },
+    "67f7e7e25c04d711c04cf3f7": {
+      "event_key": "2d538898e4c03980",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "2d538898e4c03980",
+        "name": "NYCP",
+        "signature": "2B9qTps4BvQypWhdN69Mv9jg8rJrWEakgZxmjihipuuC9PnymtFtUhT4SZ1fdL33bdVJTMT3v7pEHN7cZQZmtQ6s",
+        "slot": 463255804,
+        "symbol": "NYCP",
+        "timestamp": 1793357033
+      },
+      "id": "67f7e7e25c04d711c04cf3f7",
+      "relationship": "deployed",
+      "source": "wallet:D5D46LjcsgU2X2aGigX2EnmU5AqCm8wcB6WY8ygjWnMx",
+      "target": "launch:solana:3ZRs9gCai5qVJZ295D4Ed3zCgXKSgPaPDNLsCQbepump"
+    },
     "6815907a8a098b718197390f": {
       "event_key": "f3f9ca019986d4e0",
       "evidence": {
@@ -1520,6 +1664,22 @@
       "source": "wallet:5KpwG4vSzfpddpTVpYhzYRSew26GFwy6HNuCz9hiJz2e",
       "target": "launch:solana:412g37cVjJZYvQjLcSreQ53XvCUyhGyfyktJdw7Spump"
     },
+    "7421c97573ec228f630cf5aa": {
+      "event_key": "5VPa12Rj6LwaoaE1yN2qNshMMWTkWcLdnhY17sxQJNFZWbqA2hceJnEgz8uQLWTmDDqmSFYwhkHp5N8rSupGPZQP",
+      "evidence": {
+        "block_time": 1793361802,
+        "lamports": 3000000000,
+        "observed_for_detection": "64848ad6e7b45100",
+        "program": "system",
+        "signature": "5VPa12Rj6LwaoaE1yN2qNshMMWTkWcLdnhY17sxQJNFZWbqA2hceJnEgz8uQLWTmDDqmSFYwhkHp5N8rSupGPZQP",
+        "slot": 463278151,
+        "transfer_type": "transfer"
+      },
+      "id": "7421c97573ec228f630cf5aa",
+      "relationship": "funded",
+      "source": "wallet:8rmpVPsr9Mp7e4FABb5w7azCYcebQgN26bVutmd6ZAir",
+      "target": "wallet:C8qmTR1jm58hmKoXoJoYdffpB4Bk21UN47MS1m5hQsMJ"
+    },
     "75cbf0748ddc7c10bcaf90b2": {
       "event_key": "2cbFaZMteWTFzXFj5n2zfxJSXvoJzLcx2tp2JD1denx2PEuW94GJ8Y7avrCzzckdRPGpk7Anrbfh1vcwaRxmb9cF",
       "evidence": {
@@ -1552,6 +1712,22 @@
       "source": "wallet:9t3qSqPNWoHgLHvkgpe2E5gwNEgVmFomTyssNStmF5vu",
       "target": "launch:solana:CDw8AchNzdQuSmxicYBEsXbD54DRNUNVwbt3iqUVpump"
     },
+    "770fb0318136b27481448a3c": {
+      "event_key": "752d66b9645c31d9",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "752d66b9645c31d9",
+        "name": "shitpiss coin",
+        "signature": "JXHomDny3yWJYueU6mBTSCGYL8ndwPeBzBVbiCvNnoMXuP1Ln41ugEnEWQv8EChAW3Yn1fCxHRZnwiR7p7qQoBz",
+        "slot": 462914300,
+        "symbol": "shitpiss",
+        "timestamp": 1793284021
+      },
+      "id": "770fb0318136b27481448a3c",
+      "relationship": "deployed",
+      "source": "wallet:FoZHpK5nHPwdgTvXqjkKunJ9yCuFJcN7sDrm7ssxL4Be",
+      "target": "launch:solana:9Q3VMut7ZtC38rVqxqAiQdjQ2WbCm5edn3BYfZmm7aNm"
+    },
     "78427462a7e6409927c9d3ec": {
       "event_key": "ce8b8e2e7bf7de63",
       "evidence": {
@@ -1567,6 +1743,22 @@
       "relationship": "deployed",
       "source": "wallet:DXGjbdkayUHr43PohYFZBrpyK5i78qDpohrKBgSmMreU",
       "target": "launch:solana:9icYmge9qaaGaeSrkk8ucHJbfrBp7pPqbgS14TRvpump"
+    },
+    "7c515ce5f9cec4592f4269e3": {
+      "event_key": "eee686f5aac85494",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "eee686f5aac85494",
+        "name": "TESLA 2027",
+        "signature": "57WR2ZxQsh3SF93PwangJYmY4bCBViPJDcJGiqPQ7wkr9ToHmxrqB1QW8B4CkeHTboJC3ETk3fX4HVhMpP3zirqE",
+        "slot": 462916722,
+        "symbol": "ELON",
+        "timestamp": 1793284538
+      },
+      "id": "7c515ce5f9cec4592f4269e3",
+      "relationship": "deployed",
+      "source": "wallet:7t65ki1GrUDm5hTF9Wc1QcqB3y2WSWuZYXo7aM3spNpY",
+      "target": "launch:solana:Bso1zwerPiUAS93TqFvVjyhCsztQ6gtEBSNXxxrGpump"
     },
     "7c769f95c59adb58232c6d11": {
       "event_key": "2JzEQMXLwwD6fJdRMprYUDvbgnLPLFW6e8Vh6qNWzrHYEzsBnFaawHnqX9EgUEaHbSHUmdwwZMar6UiHxAU8jU3j",
@@ -1840,6 +2032,22 @@
       "source": "wallet:GNbYfwBaEbooU46p32LfMJkzEuBVqg6ejPyJ7gEbgf6L",
       "target": "launch:solana:3pt6KSPjsSvwPb7YUuBCHB3qBDm5NSaCnna8mgiRpump"
     },
+    "92d546dc37994295ca599faa": {
+      "event_key": "d7521db5508db155",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "d7521db5508db155",
+        "name": "Project YUYito",
+        "signature": "xSPEuxSs1W8bM6Tv3TUpaoJCoaiB7uL7HgENocq7AJZRyX6dzpwAXhJiF1nJnFYGm8WgNRiUCBmztdMqtqUTQFg",
+        "slot": 463274845,
+        "symbol": "YUYito",
+        "timestamp": 1793361095
+      },
+      "id": "92d546dc37994295ca599faa",
+      "relationship": "deployed",
+      "source": "wallet:Hj5tXuCCbdJ7YpvdUPaC3rJrtnKZFC4z3QN4jAnwD249",
+      "target": "launch:solana:4NL3p4f8Fa2GHpYshQeLzoA9d4fA65ERSEX8ZraVpump"
+    },
     "957e71292e5ebe5f5ae336f6": {
       "event_key": "90907376d4eec869",
       "evidence": {
@@ -2016,6 +2224,22 @@
       "source": "wallet:7yokEFdVe9ZBLa6EB9EDo4FM8Gn9aDTYyftwa2GnVDR5",
       "target": "wallet:4nMpqY3SeaYbFvNs4vmCPE7y3LTJ4XGPfnUoZz8cQ2ej"
     },
+    "a1f07968e38e44baa94e34a7": {
+      "event_key": "26673bf23c7a7ded",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "26673bf23c7a7ded",
+        "name": "PiGGS",
+        "signature": "3eQiJLmCKZ7HYBtd1V8MzUbtGn1eTXdKrnESFQi7ZjXrcDBc5YdFr68W4GeHWrH6TMfygacCfktmarG2TnHkpzyG",
+        "slot": 463096555,
+        "symbol": "PIG",
+        "timestamp": 1793323041
+      },
+      "id": "a1f07968e38e44baa94e34a7",
+      "relationship": "deployed",
+      "source": "wallet:3k7wygTAy65xdE2aK3fr9fccf6KNda6SZj4ADkBwatRd",
+      "target": "launch:solana:5f6gxJgrJhXiCPSPjsUskURKw9LGk28qeb8hqSdupump"
+    },
     "a25dde22d2060ecb427443b3": {
       "event_key": "13ef3eda74348c4b",
       "evidence": {
@@ -2096,6 +2320,22 @@
       "source": "wallet:DGdAKTVXQS1xESMkUkK1DwzUfwEYwvFckw6At4jbbaQr",
       "target": "launch:solana:52SGTjgv5SnNpeMaJjhg33Ceh5hRjD77Xc7CtB1apump"
     },
+    "a63611f2da22893d3c72e9cb": {
+      "event_key": "b1b0ff6bf7d4cdaa",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "b1b0ff6bf7d4cdaa",
+        "name": "Bearmarket",
+        "signature": "3sjJasT7uEmpRswBfKsZsLwdjsMrt5Wx52HSAkaY8uPzVxFgmWVkTFTxn78XuDRCRAVWjGPHJw8rUm7NgZgXNBCM",
+        "slot": 463092041,
+        "symbol": "BEAR",
+        "timestamp": 1793322080
+      },
+      "id": "a63611f2da22893d3c72e9cb",
+      "relationship": "deployed",
+      "source": "wallet:6rbXe8dtZ5PZU25e8VpkDaMsSjb42ySVGJtCCHqgNT4x",
+      "target": "launch:solana:42T3DJ49ZTDRPs1Xa72U3XJmwRFfuu58GnpTaE1kjD2e"
+    },
     "acb6d26984e15a1e073bf158": {
       "event_key": "65QwbgcBougGX5GESe8eKkhmC2pBkDFvg5UEaZGUcNpufFVrkfo1xNPcHDCZkRJqnrWF8KC2pDnDAL3QG53D8ZNg",
       "evidence": {
@@ -2127,6 +2367,38 @@
       "relationship": "deployed",
       "source": "wallet:5MTjkAZMe1ur64ADTgnaYFN1ByTapu2RqcKYUdQNaE2E",
       "target": "launch:solana:13SfHhn8LPw3s2Qi1ovbovj97vy2F5h4ZPJKNYeTpump"
+    },
+    "b0fa9275131be4c701845c4f": {
+      "event_key": "3ay41Bhx2zkJBXK4T8xDWc387jRG9kTZUw6tvwgLfPZfGK5Et1F147ufHCTyFUAKyFEXmV3B98VHs2S316WopitP",
+      "evidence": {
+        "block_time": 1793287087,
+        "lamports": 4936368479,
+        "observed_for_detection": "a3af2015d8a5738b",
+        "program": "system",
+        "signature": "3ay41Bhx2zkJBXK4T8xDWc387jRG9kTZUw6tvwgLfPZfGK5Et1F147ufHCTyFUAKyFEXmV3B98VHs2S316WopitP",
+        "slot": 462928613,
+        "transfer_type": "transfer"
+      },
+      "id": "b0fa9275131be4c701845c4f",
+      "relationship": "funded",
+      "source": "wallet:ExQ4ioyN1LWn7fmCQusg4zYkZ63Xc8wgsRRPqi3EPU3W",
+      "target": "wallet:8EvtenybRGnUmxD9DhzPp7j7L62Yy6L4AEjPAbihXxi5"
+    },
+    "b141a39e8eb8c26962e2ff24": {
+      "event_key": "36bd495066b93692",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "36bd495066b93692",
+        "name": "Chameleon Trading",
+        "signature": "4j9sWJhKmDKeBNbp7xWkXucRYGCF2A8TztHawjMHmHNgha5wiruRoSSduX5ieiBUAzbTyD9evZ5cbueuPLbwRkuR",
+        "slot": 463206226,
+        "symbol": "Chameleon ",
+        "timestamp": 1793346454
+      },
+      "id": "b141a39e8eb8c26962e2ff24",
+      "relationship": "deployed",
+      "source": "wallet:HvUsAVtadCtXQLqXfTE7gKd9cr1g1s6d7LHtPKgktvf8",
+      "target": "launch:solana:EJP6X4MJnYW9roeLUszLs9EmHaKfWUWqNUdvXq1v9s9x"
     },
     "b1d82207564e0f56b443a213": {
       "event_key": "bb05b2d6d11daf0c",
@@ -2239,6 +2511,22 @@
       "relationship": "deployed",
       "source": "wallet:2PTFKL94o7KiC31RkJWCFJ9rxeoUHod7QeYwAVDTECBe",
       "target": "launch:solana:6MZPc68y2LR26QGuR4Bqs1HCaditEHNxnMBpYRGGrxQm"
+    },
+    "b8975c1d6823c18463ddc7c6": {
+      "event_key": "64848ad6e7b45100",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "64848ad6e7b45100",
+        "name": "Two-headed turtle?",
+        "signature": "3Sxkpxs37UqY147GDGSD1PknQNoSxzzpFTVqy5CR7u1KdNCyeSgv1rsYdKq8aCEV1CtjA3jugywBGbWpP8ZHiF9H",
+        "slot": 463278159,
+        "symbol": "FlipFlop",
+        "timestamp": 1793361803
+      },
+      "id": "b8975c1d6823c18463ddc7c6",
+      "relationship": "deployed",
+      "source": "wallet:C8qmTR1jm58hmKoXoJoYdffpB4Bk21UN47MS1m5hQsMJ",
+      "target": "launch:solana:85ofjEuWPtjRSr3uGiCWsjPZAj8LnxzGLN499nsfpump"
     },
     "b98e4b2441260e0a466d22f6": {
       "event_key": "3467200415407d61",
@@ -2928,6 +3216,22 @@
       "source": "wallet:7fMwZddcRnuwWsZQT5Eg9cqa9of516sgBZQruH1pj5b8",
       "target": "wallet:5q6zdmWQAJuzr9Mv6mtYTEww1sF3WGuFAVQV5V3FCN3F"
     },
+    "e53e38867594b4ff83257059": {
+      "event_key": "d418963f7105ed08",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "d418963f7105ed08",
+        "name": "Coinflip",
+        "signature": "GzkC7sDFWGKq4ajf97fTLBVcRyZpvZ6NVBtwqGupy7LJDp2czJuzsZgvhbzbSwhR8E2mGF1KhfvFnFF5NK5p4iw",
+        "slot": 462862570,
+        "symbol": "FLIP",
+        "timestamp": 1793272950
+      },
+      "id": "e53e38867594b4ff83257059",
+      "relationship": "deployed",
+      "source": "wallet:4A3sefYXFNu2kewbYGrmKD8cNPHGgquEg1abEuvp1Jyn",
+      "target": "launch:solana:3ALBbM7V73DxMxvE6mDhh47kY95o4jLAZ5KbtmY3pump"
+    },
     "e6d4d9988d981408371b924f": {
       "event_key": "9488d46cb186a286",
       "evidence": {
@@ -3184,6 +3488,22 @@
       "source": "wallet:6WoMtMsBNppeSo9xBz6k7XiETEmyyLoPMF5sZDr36ruJ",
       "target": "launch:solana:4UpRdE9WLriGJomXCFKXicNnNhp1nxYUi268bBfypump"
     },
+    "fc3a19c884b93de5a98f68df": {
+      "event_key": "2fc240524d64adec",
+      "evidence": {
+        "chain": "solana",
+        "detection_id": "2fc240524d64adec",
+        "name": "dessa",
+        "signature": "4UGKoCJScZpPVyeZNwquhbQ7HiHRkrRAiHgLkyAucZV61dTkcXDC1pRWRmU9yN2Gsfh4qSwzABzVgVhD4mKEQRZy",
+        "slot": 462873379,
+        "symbol": "dessa",
+        "timestamp": 1793275266
+      },
+      "id": "fc3a19c884b93de5a98f68df",
+      "relationship": "deployed",
+      "source": "wallet:8ViMueLyFo3buZxW17PhfV4urpQEPvSHnkHVgKp2hwg7",
+      "target": "launch:solana:HMkSCuDhiybLGGG3mwwUYqghzPAX6A7aN4fkowSCZ3Jf"
+    },
     "fed7b06f8a848976b8a418b0": {
       "event_key": "5cKYC1kKXrHSgrnnEyKjaziTfDdrMww9eZsKAn9krwWfL1g8UtYfGJmkZyi8SADcPid1pbNcxxrh6UX9Pzx8enSn",
       "evidence": {
@@ -3286,11 +3606,29 @@
       "kind": "launch",
       "mint": "0x13769a4e7e74f4fd1652329c848686516777896c"
     },
+    "launch:base:0x147bf06a22e2c9ea05ccb2553fe68a0cb79acce2": {
+      "chain": "base",
+      "id": "launch:base:0x147bf06a22e2c9ea05ccb2553fe68a0cb79acce2",
+      "kind": "launch",
+      "mint": "0x147bf06a22e2c9ea05ccb2553fe68a0cb79acce2"
+    },
+    "launch:base:0x153019a82e7fcd6fb93ef256fa8580befaa1e346": {
+      "chain": "base",
+      "id": "launch:base:0x153019a82e7fcd6fb93ef256fa8580befaa1e346",
+      "kind": "launch",
+      "mint": "0x153019a82e7fcd6fb93ef256fa8580befaa1e346"
+    },
     "launch:base:0x17122fb4facc3188d661669b90577865a16c2f6b": {
       "chain": "base",
       "id": "launch:base:0x17122fb4facc3188d661669b90577865a16c2f6b",
       "kind": "launch",
       "mint": "0x17122fb4facc3188d661669b90577865a16c2f6b"
+    },
+    "launch:base:0x1815e35af7cea6a44780f2eef232d3e18a37e1ff": {
+      "chain": "base",
+      "id": "launch:base:0x1815e35af7cea6a44780f2eef232d3e18a37e1ff",
+      "kind": "launch",
+      "mint": "0x1815e35af7cea6a44780f2eef232d3e18a37e1ff"
     },
     "launch:base:0x18ee8cc79a7f3ab1e2fe88ba0c1af0c82fdb8215": {
       "chain": "base",
@@ -3316,6 +3654,12 @@
       "kind": "launch",
       "mint": "0x1d3d7435604eab724e4747de9dbb82ffc61dd0b3"
     },
+    "launch:base:0x1e04aa15c7f1f839ecf108e4c62e724a46968ec9": {
+      "chain": "base",
+      "id": "launch:base:0x1e04aa15c7f1f839ecf108e4c62e724a46968ec9",
+      "kind": "launch",
+      "mint": "0x1e04aa15c7f1f839ecf108e4c62e724a46968ec9"
+    },
     "launch:base:0x1e96de0578b37d8e6ec3ff02c3de362cd489a2b7": {
       "chain": "base",
       "id": "launch:base:0x1e96de0578b37d8e6ec3ff02c3de362cd489a2b7",
@@ -3334,11 +3678,29 @@
       "kind": "launch",
       "mint": "0x1f29162d00751408fe208f0a91f0b1d5e1b78599"
     },
+    "launch:base:0x1f7481cc55bd8d7700ba6f0f9192c3c8e08b1a72": {
+      "chain": "base",
+      "id": "launch:base:0x1f7481cc55bd8d7700ba6f0f9192c3c8e08b1a72",
+      "kind": "launch",
+      "mint": "0x1f7481cc55bd8d7700ba6f0f9192c3c8e08b1a72"
+    },
     "launch:base:0x1fc84b4990460732073335e4f312b1c3f9430602": {
       "chain": "base",
       "id": "launch:base:0x1fc84b4990460732073335e4f312b1c3f9430602",
       "kind": "launch",
       "mint": "0x1fc84b4990460732073335e4f312b1c3f9430602"
+    },
+    "launch:base:0x20024b1490e56210e677c1346b62c04be568aad1": {
+      "chain": "base",
+      "id": "launch:base:0x20024b1490e56210e677c1346b62c04be568aad1",
+      "kind": "launch",
+      "mint": "0x20024b1490e56210e677c1346b62c04be568aad1"
+    },
+    "launch:base:0x20e83d0999ae34839b80da32f121797256eeb461": {
+      "chain": "base",
+      "id": "launch:base:0x20e83d0999ae34839b80da32f121797256eeb461",
+      "kind": "launch",
+      "mint": "0x20e83d0999ae34839b80da32f121797256eeb461"
     },
     "launch:base:0x218507e2a22e0437905c033bfb937abd33158574": {
       "chain": "base",
@@ -3394,6 +3756,18 @@
       "kind": "launch",
       "mint": "0x25d6e6d1726219bb65feee3791c5de4087a90ef1"
     },
+    "launch:base:0x26be6275cfc7b6c27557cf6977e595e8d4a4462c": {
+      "chain": "base",
+      "id": "launch:base:0x26be6275cfc7b6c27557cf6977e595e8d4a4462c",
+      "kind": "launch",
+      "mint": "0x26be6275cfc7b6c27557cf6977e595e8d4a4462c"
+    },
+    "launch:base:0x27bf7a9da2a3ac16be5da7daa2b8bbabc914ebda": {
+      "chain": "base",
+      "id": "launch:base:0x27bf7a9da2a3ac16be5da7daa2b8bbabc914ebda",
+      "kind": "launch",
+      "mint": "0x27bf7a9da2a3ac16be5da7daa2b8bbabc914ebda"
+    },
     "launch:base:0x291deda1ad1e2adf85c0f1a4bde40562a7804fe6": {
       "chain": "base",
       "id": "launch:base:0x291deda1ad1e2adf85c0f1a4bde40562a7804fe6",
@@ -3406,17 +3780,41 @@
       "kind": "launch",
       "mint": "0x2994818b0c4dd77ea0db6e5907bdfcf22fd1d37e"
     },
+    "launch:base:0x2b13115fef65a30817fdf8134cb50e1b812c8915": {
+      "chain": "base",
+      "id": "launch:base:0x2b13115fef65a30817fdf8134cb50e1b812c8915",
+      "kind": "launch",
+      "mint": "0x2b13115fef65a30817fdf8134cb50e1b812c8915"
+    },
+    "launch:base:0x2b3f543092684888bad7e76e3a42b4e9729d84f4": {
+      "chain": "base",
+      "id": "launch:base:0x2b3f543092684888bad7e76e3a42b4e9729d84f4",
+      "kind": "launch",
+      "mint": "0x2b3f543092684888bad7e76e3a42b4e9729d84f4"
+    },
     "launch:base:0x2bdc3e3441dd5540ea50920c158405ccd5727de2": {
       "chain": "base",
       "id": "launch:base:0x2bdc3e3441dd5540ea50920c158405ccd5727de2",
       "kind": "launch",
       "mint": "0x2bdc3e3441dd5540ea50920c158405ccd5727de2"
     },
+    "launch:base:0x2c8e33192ffe53082ba8e66df59eaee194e06e20": {
+      "chain": "base",
+      "id": "launch:base:0x2c8e33192ffe53082ba8e66df59eaee194e06e20",
+      "kind": "launch",
+      "mint": "0x2c8e33192ffe53082ba8e66df59eaee194e06e20"
+    },
     "launch:base:0x2cb154fd85ff38818cc5413e79cd54496aa9c7ae": {
       "chain": "base",
       "id": "launch:base:0x2cb154fd85ff38818cc5413e79cd54496aa9c7ae",
       "kind": "launch",
       "mint": "0x2cb154fd85ff38818cc5413e79cd54496aa9c7ae"
+    },
+    "launch:base:0x2ce3fab35b5df41d969565b42c5c9b024cf3e348": {
+      "chain": "base",
+      "id": "launch:base:0x2ce3fab35b5df41d969565b42c5c9b024cf3e348",
+      "kind": "launch",
+      "mint": "0x2ce3fab35b5df41d969565b42c5c9b024cf3e348"
     },
     "launch:base:0x2e789c5d5fcad3cb45bfc0ed611a5b73357393d6": {
       "chain": "base",
@@ -3429,6 +3827,12 @@
       "id": "launch:base:0x2e8e1989ac0772cb7abb67541c4c7fe644fbc10f",
       "kind": "launch",
       "mint": "0x2e8e1989ac0772cb7abb67541c4c7fe644fbc10f"
+    },
+    "launch:base:0x2ef38183a2d1b215f9347c1991f232ff82e9a629": {
+      "chain": "base",
+      "id": "launch:base:0x2ef38183a2d1b215f9347c1991f232ff82e9a629",
+      "kind": "launch",
+      "mint": "0x2ef38183a2d1b215f9347c1991f232ff82e9a629"
     },
     "launch:base:0x2fdd930daa8c46095ea8b56f98e4faa3b85d4d6e": {
       "chain": "base",
@@ -3448,11 +3852,29 @@
       "kind": "launch",
       "mint": "0x30f7040e7d8329e60c80ded74815cd19ed427a76"
     },
+    "launch:base:0x32b39441c44a9fd3be1e8cbc5e3ab960a7bd0ac2": {
+      "chain": "base",
+      "id": "launch:base:0x32b39441c44a9fd3be1e8cbc5e3ab960a7bd0ac2",
+      "kind": "launch",
+      "mint": "0x32b39441c44a9fd3be1e8cbc5e3ab960a7bd0ac2"
+    },
+    "launch:base:0x32f15068e9731655146639ac2abd1c77b6f1e34c": {
+      "chain": "base",
+      "id": "launch:base:0x32f15068e9731655146639ac2abd1c77b6f1e34c",
+      "kind": "launch",
+      "mint": "0x32f15068e9731655146639ac2abd1c77b6f1e34c"
+    },
     "launch:base:0x334465a9c1d6a8a74b7939cbfbd9339135d912d9": {
       "chain": "base",
       "id": "launch:base:0x334465a9c1d6a8a74b7939cbfbd9339135d912d9",
       "kind": "launch",
       "mint": "0x334465a9c1d6a8a74b7939cbfbd9339135d912d9"
+    },
+    "launch:base:0x336d7eb463472f4c1ee972146d3e7031ef1dd28f": {
+      "chain": "base",
+      "id": "launch:base:0x336d7eb463472f4c1ee972146d3e7031ef1dd28f",
+      "kind": "launch",
+      "mint": "0x336d7eb463472f4c1ee972146d3e7031ef1dd28f"
     },
     "launch:base:0x36239c8b26d8329a41a3754f9cc4f6101f529a88": {
       "chain": "base",
@@ -3490,6 +3912,12 @@
       "kind": "launch",
       "mint": "0x3ac0d3b228502dfa9f107f0cba7aab4f357c4e36"
     },
+    "launch:base:0x3c29aa0c7507bdc977b7ee0925dba9ae6cb61ae1": {
+      "chain": "base",
+      "id": "launch:base:0x3c29aa0c7507bdc977b7ee0925dba9ae6cb61ae1",
+      "kind": "launch",
+      "mint": "0x3c29aa0c7507bdc977b7ee0925dba9ae6cb61ae1"
+    },
     "launch:base:0x3d1dfa08239068791c606468b575b131a9dab826": {
       "chain": "base",
       "id": "launch:base:0x3d1dfa08239068791c606468b575b131a9dab826",
@@ -3520,6 +3948,12 @@
       "kind": "launch",
       "mint": "0x4200000000000000000000000000000000000006"
     },
+    "launch:base:0x451c94c4ae9923573c5bc06f04a59db3b13c15da": {
+      "chain": "base",
+      "id": "launch:base:0x451c94c4ae9923573c5bc06f04a59db3b13c15da",
+      "kind": "launch",
+      "mint": "0x451c94c4ae9923573c5bc06f04a59db3b13c15da"
+    },
     "launch:base:0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea": {
       "chain": "base",
       "id": "launch:base:0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
@@ -3538,11 +3972,23 @@
       "kind": "launch",
       "mint": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
     },
+    "launch:base:0xadf0fc1edb4bd915e3f6cb5b46750fe4933f8d1a": {
+      "chain": "base",
+      "id": "launch:base:0xadf0fc1edb4bd915e3f6cb5b46750fe4933f8d1a",
+      "kind": "launch",
+      "mint": "0xadf0fc1edb4bd915e3f6cb5b46750fe4933f8d1a"
+    },
     "launch:base:0xadf3ce4fa65df8e25acf7af62ed7059843a31ccc": {
       "chain": "base",
       "id": "launch:base:0xadf3ce4fa65df8e25acf7af62ed7059843a31ccc",
       "kind": "launch",
       "mint": "0xadf3ce4fa65df8e25acf7af62ed7059843a31ccc"
+    },
+    "launch:base:0xadf6e9e689db89115cfd10358e96d30db76a9c58": {
+      "chain": "base",
+      "id": "launch:base:0xadf6e9e689db89115cfd10358e96d30db76a9c58",
+      "kind": "launch",
+      "mint": "0xadf6e9e689db89115cfd10358e96d30db76a9c58"
     },
     "launch:base:0xadf87f2859e7ad15109f47dd964a7fd2e39ce69b": {
       "chain": "base",
@@ -3652,6 +4098,15 @@
       "name": "CHAD",
       "symbol": "CHAD"
     },
+    "launch:solana:3ALBbM7V73DxMxvE6mDhh47kY95o4jLAZ5KbtmY3pump": {
+      "chain": "solana",
+      "creator": "4A3sefYXFNu2kewbYGrmKD8cNPHGgquEg1abEuvp1Jyn",
+      "id": "launch:solana:3ALBbM7V73DxMxvE6mDhh47kY95o4jLAZ5KbtmY3pump",
+      "kind": "launch",
+      "mint": "3ALBbM7V73DxMxvE6mDhh47kY95o4jLAZ5KbtmY3pump",
+      "name": "Coinflip",
+      "symbol": "FLIP"
+    },
     "launch:solana:3C77JKvBZMoUpF6Ro67Rms23t1L7nqMFJ8tthpvVr3aL": {
       "chain": "solana",
       "creator": "d7fN77kH6H8mwi8msA6Vir1WtvmNJ69V8PPHfVkz3ps",
@@ -3705,6 +4160,15 @@
       "mint": "3Vx2D9yQm6LZkXMkLAx2un7t41Z5dhkH6Mncbohepump",
       "name": "CASHKIMCHIS",
       "symbol": "CKIMS"
+    },
+    "launch:solana:3ZRs9gCai5qVJZ295D4Ed3zCgXKSgPaPDNLsCQbepump": {
+      "chain": "solana",
+      "creator": "D5D46LjcsgU2X2aGigX2EnmU5AqCm8wcB6WY8ygjWnMx",
+      "id": "launch:solana:3ZRs9gCai5qVJZ295D4Ed3zCgXKSgPaPDNLsCQbepump",
+      "kind": "launch",
+      "mint": "3ZRs9gCai5qVJZ295D4Ed3zCgXKSgPaPDNLsCQbepump",
+      "name": "NYCP",
+      "symbol": "NYCP"
     },
     "launch:solana:3jHLsDzzVXcum8WGFBYh6qUA5GgTRBVMguuaLYVUpump": {
       "chain": "solana",
@@ -3805,6 +4269,15 @@
       "name": "Masa & Petar",
       "symbol": "FRIENDSHIP"
     },
+    "launch:solana:42T3DJ49ZTDRPs1Xa72U3XJmwRFfuu58GnpTaE1kjD2e": {
+      "chain": "solana",
+      "creator": "6rbXe8dtZ5PZU25e8VpkDaMsSjb42ySVGJtCCHqgNT4x",
+      "id": "launch:solana:42T3DJ49ZTDRPs1Xa72U3XJmwRFfuu58GnpTaE1kjD2e",
+      "kind": "launch",
+      "mint": "42T3DJ49ZTDRPs1Xa72U3XJmwRFfuu58GnpTaE1kjD2e",
+      "name": "Bearmarket",
+      "symbol": "BEAR"
+    },
     "launch:solana:4BEcVEab46feF7LANMoJ5krR7N8tSADLmF8YQBNNpump": {
       "chain": "solana",
       "creator": "2mncRSZ7tAPBGCcYA7kfNx84spSJnz9w6zcawGxCH8K7",
@@ -3822,6 +4295,15 @@
       "mint": "4Mt7jLukA5H11g8ee4HJABteFcuDG6Rizr7mPs9UgnHL",
       "name": "clank",
       "symbol": "clank"
+    },
+    "launch:solana:4NL3p4f8Fa2GHpYshQeLzoA9d4fA65ERSEX8ZraVpump": {
+      "chain": "solana",
+      "creator": "Hj5tXuCCbdJ7YpvdUPaC3rJrtnKZFC4z3QN4jAnwD249",
+      "id": "launch:solana:4NL3p4f8Fa2GHpYshQeLzoA9d4fA65ERSEX8ZraVpump",
+      "kind": "launch",
+      "mint": "4NL3p4f8Fa2GHpYshQeLzoA9d4fA65ERSEX8ZraVpump",
+      "name": "Project YUYito",
+      "symbol": "YUYito"
     },
     "launch:solana:4R8EBLbeihbz9PngzZVp5tcbNVECCZwjXChLAa1788V4": {
       "chain": "solana",
@@ -3931,6 +4413,15 @@
       "name": "Assay AI",
       "symbol": "ASSAYAI"
     },
+    "launch:solana:5f6gxJgrJhXiCPSPjsUskURKw9LGk28qeb8hqSdupump": {
+      "chain": "solana",
+      "creator": "3k7wygTAy65xdE2aK3fr9fccf6KNda6SZj4ADkBwatRd",
+      "id": "launch:solana:5f6gxJgrJhXiCPSPjsUskURKw9LGk28qeb8hqSdupump",
+      "kind": "launch",
+      "mint": "5f6gxJgrJhXiCPSPjsUskURKw9LGk28qeb8hqSdupump",
+      "name": "PiGGS",
+      "symbol": "PIG"
+    },
     "launch:solana:649rrzxeaTt1KvhLqcBidKAAHHjxV88unPT1mCpXpump": {
       "chain": "solana",
       "creator": "BAoJmpEfo7MQcUeeeH5rHm4ktLBubT5jLeUNhLYKVAak",
@@ -3984,6 +4475,15 @@
       "mint": "6dWiC4PwWzZs1VW1iuRa4WSV8h1dkMhrkggggjPopump",
       "name": "whitewhale devved one on stonk?",
       "symbol": "check devwall"
+    },
+    "launch:solana:6fBqT6PLdCTBmASFsXzU5EcESPihv1Ys7v51dvy2oGsG": {
+      "chain": "solana",
+      "creator": "3ep8j4RVF5uPAkn4mgsMsL3an1CoSWYuWFhJPLWeSoup",
+      "id": "launch:solana:6fBqT6PLdCTBmASFsXzU5EcESPihv1Ys7v51dvy2oGsG",
+      "kind": "launch",
+      "mint": "6fBqT6PLdCTBmASFsXzU5EcESPihv1Ys7v51dvy2oGsG",
+      "name": "Opsec Level",
+      "symbol": "OPSEC"
     },
     "launch:solana:6jZZmErTZkThUeTuS3dBVWihJs6DbUB5RYEZVNSZpump": {
       "chain": "solana",
@@ -4084,6 +4584,15 @@
       "name": "Feral Specter",
       "symbol": "FERSPE"
     },
+    "launch:solana:85ofjEuWPtjRSr3uGiCWsjPZAj8LnxzGLN499nsfpump": {
+      "chain": "solana",
+      "creator": "C8qmTR1jm58hmKoXoJoYdffpB4Bk21UN47MS1m5hQsMJ",
+      "id": "launch:solana:85ofjEuWPtjRSr3uGiCWsjPZAj8LnxzGLN499nsfpump",
+      "kind": "launch",
+      "mint": "85ofjEuWPtjRSr3uGiCWsjPZAj8LnxzGLN499nsfpump",
+      "name": "Two-headed turtle?",
+      "symbol": "FlipFlop"
+    },
     "launch:solana:86ePAAR3zwN3RDic7gvD6ho1YHCqeAVrFgJNtoDQ74GS": {
       "chain": "solana",
       "creator": "Eng5uxhG9kduuqXFiT33kqgUwauGrL7LNLEcHSZEL28M",
@@ -4137,6 +4646,15 @@
       "mint": "8QgHUmACmZFh4KhcVccbu6dFH1x775vitPrWKqjHpump",
       "name": "Savage Piranha",
       "symbol": "SAVPIR"
+    },
+    "launch:solana:8UDg7ZsPjXqtwXNhYtyqUWjyDWbhRuwWaJGWK98apump": {
+      "chain": "solana",
+      "creator": "HQMwFz5usJC81zLbaFwAGWzJ8TuY5YG4EDxnA5VAeg52",
+      "id": "launch:solana:8UDg7ZsPjXqtwXNhYtyqUWjyDWbhRuwWaJGWK98apump",
+      "kind": "launch",
+      "mint": "8UDg7ZsPjXqtwXNhYtyqUWjyDWbhRuwWaJGWK98apump",
+      "name": "Pouch",
+      "symbol": "POUCH"
     },
     "launch:solana:8WGdvdyh2Tyw7Rxz5P6T4zi4H8NQ1GpuVNaQtfGzpump": {
       "chain": "solana",
@@ -4227,6 +4745,15 @@
       "mint": "9HokCbkxga47pBUMrdLiqMLv7n11ePBwFq2rftCHpump",
       "name": "WOOF COIN",
       "symbol": "$WOOF"
+    },
+    "launch:solana:9Q3VMut7ZtC38rVqxqAiQdjQ2WbCm5edn3BYfZmm7aNm": {
+      "chain": "solana",
+      "creator": "FoZHpK5nHPwdgTvXqjkKunJ9yCuFJcN7sDrm7ssxL4Be",
+      "id": "launch:solana:9Q3VMut7ZtC38rVqxqAiQdjQ2WbCm5edn3BYfZmm7aNm",
+      "kind": "launch",
+      "mint": "9Q3VMut7ZtC38rVqxqAiQdjQ2WbCm5edn3BYfZmm7aNm",
+      "name": "shitpiss coin",
+      "symbol": "shitpiss"
     },
     "launch:solana:9TuauPHLXhGjpW75SYKcM3QdxmAD9fnmsPP6vwSWpump": {
       "chain": "solana",
@@ -4363,6 +4890,15 @@
       "name": "NBASOLANA",
       "symbol": "SOLNBA"
     },
+    "launch:solana:AsKZNuGNPwCBUNgU9TP8skCuNkkBGkKsHNMYndBKpump": {
+      "chain": "solana",
+      "creator": "7axwYMszYLXiyiXeK84uMfmTunAs6AkLURJm2qs9JWXR",
+      "id": "launch:solana:AsKZNuGNPwCBUNgU9TP8skCuNkkBGkKsHNMYndBKpump",
+      "kind": "launch",
+      "mint": "AsKZNuGNPwCBUNgU9TP8skCuNkkBGkKsHNMYndBKpump",
+      "name": "Devlog",
+      "symbol": "DEVLOG"
+    },
     "launch:solana:AtjLTrjkxMtYxzBmMcoM9jVRgK7eV7N9j197hREApump": {
       "chain": "solana",
       "creator": "5LhEcVnJZk9Y8m27UPddXYbkX48mrUwoaEGZ5EXpMmhn",
@@ -4498,6 +5034,15 @@
       "name": "Farm it",
       "symbol": "FARM"
     },
+    "launch:solana:Bso1zwerPiUAS93TqFvVjyhCsztQ6gtEBSNXxxrGpump": {
+      "chain": "solana",
+      "creator": "7t65ki1GrUDm5hTF9Wc1QcqB3y2WSWuZYXo7aM3spNpY",
+      "id": "launch:solana:Bso1zwerPiUAS93TqFvVjyhCsztQ6gtEBSNXxxrGpump",
+      "kind": "launch",
+      "mint": "Bso1zwerPiUAS93TqFvVjyhCsztQ6gtEBSNXxxrGpump",
+      "name": "TESLA 2027",
+      "symbol": "ELON"
+    },
     "launch:solana:Bx5hoVBNGveZKNJE32vrQazfvFF7iCxcEQ841HoGpump": {
       "chain": "solana",
       "creator": "4uB1sip34w6caBQrp751c7b2YLXhtCbWseBJYMejYHga",
@@ -4623,6 +5168,15 @@
       "mint": "Ckeut4EeDRB8h6Yz6YbjRnZ6m7rtjkwc2dAazC8Nh96c",
       "name": "Goodcalloutss",
       "symbol": "Goodcalloutss"
+    },
+    "launch:solana:Cki13shbi8KvkekmHv18Du6m6LSKw6ejkvNNsaCApump": {
+      "chain": "solana",
+      "creator": "8EvtenybRGnUmxD9DhzPp7j7L62Yy6L4AEjPAbihXxi5",
+      "id": "launch:solana:Cki13shbi8KvkekmHv18Du6m6LSKw6ejkvNNsaCApump",
+      "kind": "launch",
+      "mint": "Cki13shbi8KvkekmHv18Du6m6LSKw6ejkvNNsaCApump",
+      "name": "Elvara",
+      "symbol": "Elvara"
     },
     "launch:solana:CmFs24gaetSKdgJJBQGkW7BXgjRMsQDLRTmYB8g5pump": {
       "chain": "solana",
@@ -4759,6 +5313,15 @@
       "name": "Fly Fight",
       "symbol": "FLYPVP"
     },
+    "launch:solana:EJP6X4MJnYW9roeLUszLs9EmHaKfWUWqNUdvXq1v9s9x": {
+      "chain": "solana",
+      "creator": "HvUsAVtadCtXQLqXfTE7gKd9cr1g1s6d7LHtPKgktvf8",
+      "id": "launch:solana:EJP6X4MJnYW9roeLUszLs9EmHaKfWUWqNUdvXq1v9s9x",
+      "kind": "launch",
+      "mint": "EJP6X4MJnYW9roeLUszLs9EmHaKfWUWqNUdvXq1v9s9x",
+      "name": "Chameleon Trading",
+      "symbol": "Chameleon "
+    },
     "launch:solana:ETyRT4U1sXwEo5MafQiKHMk1p39gd8wsTcSU4R2Zh1WR": {
       "chain": "solana",
       "creator": "66mKPXWFqaeYudnYQxQg15ykTBjGXMhqARsJqsDRNiH7",
@@ -4849,6 +5412,15 @@
       "name": "Mixture of Experts",
       "symbol": "MOE"
     },
+    "launch:solana:F2ZZq8QR2K4xKCLkRfDEu6X7KX4sHizBrPkPakKsDRFo": {
+      "chain": "solana",
+      "creator": "uTjYQMxWFLS26fdYTeNYbJhSYzcwCKEwKKb1xkEZJoL",
+      "id": "launch:solana:F2ZZq8QR2K4xKCLkRfDEu6X7KX4sHizBrPkPakKsDRFo",
+      "kind": "launch",
+      "mint": "F2ZZq8QR2K4xKCLkRfDEu6X7KX4sHizBrPkPakKsDRFo",
+      "name": "Mars",
+      "symbol": "Mars"
+    },
     "launch:solana:FSYqZaiR9jmYynaFCFCCZ51D3wxVtEyDH4Noc799pump": {
       "chain": "solana",
       "creator": "2oqDrFSz1sdeYN2KRzqTR4rnpN8BUjdgQ4jtDtBQDcck",
@@ -4866,6 +5438,15 @@
       "mint": "FXqbm2AsPLWrwbgu4VtenM84QqBMJQV5d2Y1V7MEM4Xw",
       "name": "Kill Switch",
       "symbol": "KILLSWITCH"
+    },
+    "launch:solana:FXzWQHQ7jEA9CQExTjVdqM9brphrTDTdTc37ZRiaww6p": {
+      "chain": "solana",
+      "creator": "58Va2M8jAG7Yq2TRaiReXYAxFWdSKvZbzh6NaHFRnNef",
+      "id": "launch:solana:FXzWQHQ7jEA9CQExTjVdqM9brphrTDTdTc37ZRiaww6p",
+      "kind": "launch",
+      "mint": "FXzWQHQ7jEA9CQExTjVdqM9brphrTDTdTc37ZRiaww6p",
+      "name": "The 184 Billion BTC Hack",
+      "symbol": "BTCHACK"
     },
     "launch:solana:FYKrYjkRC3LJWZY6mUkUmGP87CnCbM4S8wsXrR4bne2g": {
       "chain": "solana",
@@ -4902,6 +5483,15 @@
       "mint": "FzAZUKMV3M8qPCQPkDKArCY1qnJxT9UTvfq632H6pump",
       "name": "November Is Coming",
       "symbol": "$NOVEMBER"
+    },
+    "launch:solana:G5ExivoMuJkuF8yZxLZDFKLmo3KXAjtQ9KR6wLKJYrcX": {
+      "chain": "solana",
+      "creator": "m82n2SEHbGjsFwNHhCmZdjdo3BwzjmHsDU33kt9NkTR",
+      "id": "launch:solana:G5ExivoMuJkuF8yZxLZDFKLmo3KXAjtQ9KR6wLKJYrcX",
+      "kind": "launch",
+      "mint": "G5ExivoMuJkuF8yZxLZDFKLmo3KXAjtQ9KR6wLKJYrcX",
+      "name": "justice for james",
+      "symbol": "JAMES"
     },
     "launch:solana:G6mNg1PvrBGsLjoVdjmn4MftwbdmteENWtqqmqaLtGRQ": {
       "chain": "solana",
@@ -5001,6 +5591,15 @@
       "mint": "HKnqBsoWszkdqmHTMmRhBGDFwG57tfd4he5YWS1Jpump",
       "name": "whitewhale devved one on stonk?",
       "symbol": "check devwall"
+    },
+    "launch:solana:HMkSCuDhiybLGGG3mwwUYqghzPAX6A7aN4fkowSCZ3Jf": {
+      "chain": "solana",
+      "creator": "8ViMueLyFo3buZxW17PhfV4urpQEPvSHnkHVgKp2hwg7",
+      "id": "launch:solana:HMkSCuDhiybLGGG3mwwUYqghzPAX6A7aN4fkowSCZ3Jf",
+      "kind": "launch",
+      "mint": "HMkSCuDhiybLGGG3mwwUYqghzPAX6A7aN4fkowSCZ3Jf",
+      "name": "dessa",
+      "symbol": "dessa"
     },
     "launch:solana:HS1v456Nfj2ZEjRXy4EfGD8uzn2mWXkBmYi4DaLepump": {
       "chain": "solana",
@@ -5284,6 +5883,13 @@
       "kind": "wallet",
       "role": "creator"
     },
+    "wallet:3k7wygTAy65xdE2aK3fr9fccf6KNda6SZj4ADkBwatRd": {
+      "address": "3k7wygTAy65xdE2aK3fr9fccf6KNda6SZj4ADkBwatRd",
+      "chain": "solana",
+      "id": "wallet:3k7wygTAy65xdE2aK3fr9fccf6KNda6SZj4ADkBwatRd",
+      "kind": "wallet",
+      "role": "creator"
+    },
     "wallet:3mubCXGdifxThfK59QctdZ3KRcuFUhsWW7auuHJjgLfb": {
       "address": "3mubCXGdifxThfK59QctdZ3KRcuFUhsWW7auuHJjgLfb",
       "chain": "solana",
@@ -5326,6 +5932,13 @@
       "kind": "wallet",
       "role": "funding_source"
     },
+    "wallet:4A3sefYXFNu2kewbYGrmKD8cNPHGgquEg1abEuvp1Jyn": {
+      "address": "4A3sefYXFNu2kewbYGrmKD8cNPHGgquEg1abEuvp1Jyn",
+      "chain": "solana",
+      "id": "wallet:4A3sefYXFNu2kewbYGrmKD8cNPHGgquEg1abEuvp1Jyn",
+      "kind": "wallet",
+      "role": "creator"
+    },
     "wallet:4Z5qZgQv2uYp7ggSxHKxJPFs9Ayd2qukFhG55x7L87gk": {
       "address": "4Z5qZgQv2uYp7ggSxHKxJPFs9Ayd2qukFhG55x7L87gk",
       "chain": "solana",
@@ -5344,6 +5957,13 @@
       "address": "4uB1sip34w6caBQrp751c7b2YLXhtCbWseBJYMejYHga",
       "chain": "solana",
       "id": "wallet:4uB1sip34w6caBQrp751c7b2YLXhtCbWseBJYMejYHga",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:58Va2M8jAG7Yq2TRaiReXYAxFWdSKvZbzh6NaHFRnNef": {
+      "address": "58Va2M8jAG7Yq2TRaiReXYAxFWdSKvZbzh6NaHFRnNef",
+      "chain": "solana",
+      "id": "wallet:58Va2M8jAG7Yq2TRaiReXYAxFWdSKvZbzh6NaHFRnNef",
       "kind": "wallet",
       "role": "creator"
     },
@@ -5494,6 +6114,13 @@
       "kind": "wallet",
       "role": "creator"
     },
+    "wallet:6rbXe8dtZ5PZU25e8VpkDaMsSjb42ySVGJtCCHqgNT4x": {
+      "address": "6rbXe8dtZ5PZU25e8VpkDaMsSjb42ySVGJtCCHqgNT4x",
+      "chain": "solana",
+      "id": "wallet:6rbXe8dtZ5PZU25e8VpkDaMsSjb42ySVGJtCCHqgNT4x",
+      "kind": "wallet",
+      "role": "creator"
+    },
     "wallet:6sX1HMESuqLSGWto9CCmHALeiUzdCmbh9TWYwrMHeCHJ": {
       "address": "6sX1HMESuqLSGWto9CCmHALeiUzdCmbh9TWYwrMHeCHJ",
       "chain": "solana",
@@ -5557,6 +6184,13 @@
       "kind": "wallet",
       "role": "creator"
     },
+    "wallet:7axwYMszYLXiyiXeK84uMfmTunAs6AkLURJm2qs9JWXR": {
+      "address": "7axwYMszYLXiyiXeK84uMfmTunAs6AkLURJm2qs9JWXR",
+      "chain": "solana",
+      "id": "wallet:7axwYMszYLXiyiXeK84uMfmTunAs6AkLURJm2qs9JWXR",
+      "kind": "wallet",
+      "role": "creator"
+    },
     "wallet:7fMwZddcRnuwWsZQT5Eg9cqa9of516sgBZQruH1pj5b8": {
       "address": "7fMwZddcRnuwWsZQT5Eg9cqa9of516sgBZQruH1pj5b8",
       "chain": "solana",
@@ -5568,6 +6202,13 @@
       "address": "7phBUYiijEuJR96hd2NxrjQVVW5az9fR6RxA6KDoz3Ch",
       "chain": "solana",
       "id": "wallet:7phBUYiijEuJR96hd2NxrjQVVW5az9fR6RxA6KDoz3Ch",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:7t65ki1GrUDm5hTF9Wc1QcqB3y2WSWuZYXo7aM3spNpY": {
+      "address": "7t65ki1GrUDm5hTF9Wc1QcqB3y2WSWuZYXo7aM3spNpY",
+      "chain": "solana",
+      "id": "wallet:7t65ki1GrUDm5hTF9Wc1QcqB3y2WSWuZYXo7aM3spNpY",
       "kind": "wallet",
       "role": "creator"
     },
@@ -5606,6 +6247,13 @@
       "kind": "wallet",
       "role": "creator"
     },
+    "wallet:8EvtenybRGnUmxD9DhzPp7j7L62Yy6L4AEjPAbihXxi5": {
+      "address": "8EvtenybRGnUmxD9DhzPp7j7L62Yy6L4AEjPAbihXxi5",
+      "chain": "solana",
+      "id": "wallet:8EvtenybRGnUmxD9DhzPp7j7L62Yy6L4AEjPAbihXxi5",
+      "kind": "wallet",
+      "role": "creator"
+    },
     "wallet:8HfTU7hr4WFyBdewNbpcxZHpeTGf7Tr5fb5kd6TyoKKW": {
       "address": "8HfTU7hr4WFyBdewNbpcxZHpeTGf7Tr5fb5kd6TyoKKW",
       "chain": "solana",
@@ -5634,6 +6282,13 @@
       "kind": "wallet",
       "role": "creator"
     },
+    "wallet:8ViMueLyFo3buZxW17PhfV4urpQEPvSHnkHVgKp2hwg7": {
+      "address": "8ViMueLyFo3buZxW17PhfV4urpQEPvSHnkHVgKp2hwg7",
+      "chain": "solana",
+      "id": "wallet:8ViMueLyFo3buZxW17PhfV4urpQEPvSHnkHVgKp2hwg7",
+      "kind": "wallet",
+      "role": "creator"
+    },
     "wallet:8ewU3An7PwxcJok5ayxCEXCENxSKJdd24kQrbihsga1t": {
       "address": "8ewU3An7PwxcJok5ayxCEXCENxSKJdd24kQrbihsga1t",
       "chain": "solana",
@@ -5647,6 +6302,13 @@
       "id": "wallet:8nSfTwRE1va3CPjxoNBLpPvUne5AfxvGVCjLL21vdtpx",
       "kind": "wallet",
       "role": "creator"
+    },
+    "wallet:8rmpVPsr9Mp7e4FABb5w7azCYcebQgN26bVutmd6ZAir": {
+      "address": "8rmpVPsr9Mp7e4FABb5w7azCYcebQgN26bVutmd6ZAir",
+      "chain": "solana",
+      "id": "wallet:8rmpVPsr9Mp7e4FABb5w7azCYcebQgN26bVutmd6ZAir",
+      "kind": "wallet",
+      "role": "funding_source"
     },
     "wallet:8rwh68LhKbwAcLGSkTQWJAyAEmchRwNHXQrZ6rCMJU4T": {
       "address": "8rwh68LhKbwAcLGSkTQWJAyAEmchRwNHXQrZ6rCMJU4T",
@@ -5872,6 +6534,13 @@
       "kind": "wallet",
       "role": "creator"
     },
+    "wallet:C8qmTR1jm58hmKoXoJoYdffpB4Bk21UN47MS1m5hQsMJ": {
+      "address": "C8qmTR1jm58hmKoXoJoYdffpB4Bk21UN47MS1m5hQsMJ",
+      "chain": "solana",
+      "id": "wallet:C8qmTR1jm58hmKoXoJoYdffpB4Bk21UN47MS1m5hQsMJ",
+      "kind": "wallet",
+      "role": "creator"
+    },
     "wallet:CBKZsJu7oLcCGmkoUS54sLy1tGq8TwJ3skYyYtDE2qC3": {
       "address": "CBKZsJu7oLcCGmkoUS54sLy1tGq8TwJ3skYyYtDE2qC3",
       "chain": "solana",
@@ -5946,6 +6615,13 @@
       "address": "Cgj4ExKkDAkDhAuR5HJNbu8GWetKXwL1WTG2sCgRQY4K",
       "chain": "solana",
       "id": "wallet:Cgj4ExKkDAkDhAuR5HJNbu8GWetKXwL1WTG2sCgRQY4K",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:D5D46LjcsgU2X2aGigX2EnmU5AqCm8wcB6WY8ygjWnMx": {
+      "address": "D5D46LjcsgU2X2aGigX2EnmU5AqCm8wcB6WY8ygjWnMx",
+      "chain": "solana",
+      "id": "wallet:D5D46LjcsgU2X2aGigX2EnmU5AqCm8wcB6WY8ygjWnMx",
       "kind": "wallet",
       "role": "creator"
     },
@@ -6033,6 +6709,13 @@
       "kind": "wallet",
       "role": "creator"
     },
+    "wallet:ExQ4ioyN1LWn7fmCQusg4zYkZ63Xc8wgsRRPqi3EPU3W": {
+      "address": "ExQ4ioyN1LWn7fmCQusg4zYkZ63Xc8wgsRRPqi3EPU3W",
+      "chain": "solana",
+      "id": "wallet:ExQ4ioyN1LWn7fmCQusg4zYkZ63Xc8wgsRRPqi3EPU3W",
+      "kind": "wallet",
+      "role": "funding_source"
+    },
     "wallet:FEU94vsdMqzYXCDNcdUGrSFpxFZooA1ifYwJ8t5qMmJY": {
       "address": "FEU94vsdMqzYXCDNcdUGrSFpxFZooA1ifYwJ8t5qMmJY",
       "chain": "solana",
@@ -6072,6 +6755,13 @@
       "address": "FenAmipD5ZX1ig5VTyHLgSUgMt23C6jGEyXDJtq89NoJ",
       "chain": "solana",
       "id": "wallet:FenAmipD5ZX1ig5VTyHLgSUgMt23C6jGEyXDJtq89NoJ",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:FoZHpK5nHPwdgTvXqjkKunJ9yCuFJcN7sDrm7ssxL4Be": {
+      "address": "FoZHpK5nHPwdgTvXqjkKunJ9yCuFJcN7sDrm7ssxL4Be",
+      "chain": "solana",
+      "id": "wallet:FoZHpK5nHPwdgTvXqjkKunJ9yCuFJcN7sDrm7ssxL4Be",
       "kind": "wallet",
       "role": "creator"
     },
@@ -6208,10 +6898,24 @@
       "kind": "wallet",
       "role": "creator"
     },
+    "wallet:HJ6tdyESPoLXa3S4AmeWHwGDrwm9L6ZwPyTV3AfUzdsN": {
+      "address": "HJ6tdyESPoLXa3S4AmeWHwGDrwm9L6ZwPyTV3AfUzdsN",
+      "chain": "solana",
+      "id": "wallet:HJ6tdyESPoLXa3S4AmeWHwGDrwm9L6ZwPyTV3AfUzdsN",
+      "kind": "wallet",
+      "role": "funding_source"
+    },
     "wallet:HNVu9iRGQN5S1JhjSYYzsd9zh6hr5UmpCSE3Btp1XBNq": {
       "address": "HNVu9iRGQN5S1JhjSYYzsd9zh6hr5UmpCSE3Btp1XBNq",
       "chain": "solana",
       "id": "wallet:HNVu9iRGQN5S1JhjSYYzsd9zh6hr5UmpCSE3Btp1XBNq",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:HQMwFz5usJC81zLbaFwAGWzJ8TuY5YG4EDxnA5VAeg52": {
+      "address": "HQMwFz5usJC81zLbaFwAGWzJ8TuY5YG4EDxnA5VAeg52",
+      "chain": "solana",
+      "id": "wallet:HQMwFz5usJC81zLbaFwAGWzJ8TuY5YG4EDxnA5VAeg52",
       "kind": "wallet",
       "role": "creator"
     },
@@ -6250,6 +6954,13 @@
       "kind": "wallet",
       "role": "creator"
     },
+    "wallet:Hj5tXuCCbdJ7YpvdUPaC3rJrtnKZFC4z3QN4jAnwD249": {
+      "address": "Hj5tXuCCbdJ7YpvdUPaC3rJrtnKZFC4z3QN4jAnwD249",
+      "chain": "solana",
+      "id": "wallet:Hj5tXuCCbdJ7YpvdUPaC3rJrtnKZFC4z3QN4jAnwD249",
+      "kind": "wallet",
+      "role": "creator"
+    },
     "wallet:HkRzNU9Nh7F49UAycTSW1NHQmn3cwgfjQPxfkWTtJPdp": {
       "address": "HkRzNU9Nh7F49UAycTSW1NHQmn3cwgfjQPxfkWTtJPdp",
       "chain": "solana",
@@ -6261,6 +6972,13 @@
       "address": "HruLpsSVCxSWB8j8EhKnRYFPtntUcKdLmwERa3BGYS1B",
       "chain": "solana",
       "id": "wallet:HruLpsSVCxSWB8j8EhKnRYFPtntUcKdLmwERa3BGYS1B",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:HvUsAVtadCtXQLqXfTE7gKd9cr1g1s6d7LHtPKgktvf8": {
+      "address": "HvUsAVtadCtXQLqXfTE7gKd9cr1g1s6d7LHtPKgktvf8",
+      "chain": "solana",
+      "id": "wallet:HvUsAVtadCtXQLqXfTE7gKd9cr1g1s6d7LHtPKgktvf8",
       "kind": "wallet",
       "role": "creator"
     },
@@ -6299,10 +7017,24 @@
       "kind": "wallet",
       "role": "creator"
     },
+    "wallet:m82n2SEHbGjsFwNHhCmZdjdo3BwzjmHsDU33kt9NkTR": {
+      "address": "m82n2SEHbGjsFwNHhCmZdjdo3BwzjmHsDU33kt9NkTR",
+      "chain": "solana",
+      "id": "wallet:m82n2SEHbGjsFwNHhCmZdjdo3BwzjmHsDU33kt9NkTR",
+      "kind": "wallet",
+      "role": "creator"
+    },
     "wallet:rkjvuysWNjW8Yt4tUW2xQQvvPaGizGLfFzCC9wiumEZ": {
       "address": "rkjvuysWNjW8Yt4tUW2xQQvvPaGizGLfFzCC9wiumEZ",
       "chain": "solana",
       "id": "wallet:rkjvuysWNjW8Yt4tUW2xQQvvPaGizGLfFzCC9wiumEZ",
+      "kind": "wallet",
+      "role": "creator"
+    },
+    "wallet:uTjYQMxWFLS26fdYTeNYbJhSYzcwCKEwKKb1xkEZJoL": {
+      "address": "uTjYQMxWFLS26fdYTeNYbJhSYzcwCKEwKKb1xkEZJoL",
+      "chain": "solana",
+      "id": "wallet:uTjYQMxWFLS26fdYTeNYbJhSYzcwCKEwKKb1xkEZJoL",
       "kind": "wallet",
       "role": "creator"
     }

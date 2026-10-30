@@ -1,0 +1,97 @@
+{
+  "detection_id": "d418963f7105ed08",
+  "token_address": "3ALBbM7V73DxMxvE6mDhh47kY95o4jLAZ5KbtmY3pump",
+  "chain": "solana",
+  "timestamp": 1793273032.6050384,
+  "timestamp_iso": "2026-10-29T11:23:52.605038",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "4A3sefYXFNu2kewbYGrmKD8cNPHGgquEg1abEuvp1Jyn",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793273032.6050384,
+    "timestamp_iso": "2026-10-29T11:23:52.605038"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "GzkC7sDFWGKq4ajf97fTLBVcRyZpvZ6NVBtwqGupy7LJDp2czJuzsZgvhbzbSwhR8E2mGF1KhfvFnFF5NK5p4iw",
+    "log_index": 2,
+    "block_number": 462862570,
+    "block_time": 1793272950,
+    "bonding_curve": "EyEt5uxTNHKEsvS8BnSZj4ragCXhevWQPr4vvUhLKSKR",
+    "associated_bonding_curve": "BrQ3FnCW56djoAJfNnXYoj39VteiTUdXQZHkXknSnXM8",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "4A3sefYXFNu2kewbYGrmKD8cNPHGgquEg1abEuvp1Jyn",
+    "name": "Coinflip",
+    "symbol": "FLIP",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreihz5kdxy46dacgu35dp675usm5rg5h3hv2bkcnknkob7gjnid3wxm",
+    "launch_timestamp": 1793272950,
+    "launch_slot": 462862570,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}
