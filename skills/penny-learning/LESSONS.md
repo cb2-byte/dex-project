@@ -68,3 +68,16 @@ Format:
 <!-- project: path:/home/ubuntu/.openclaw/workspace/skills/penny-learning -->
 
 <!-- project: path:/home/ubuntu/.openclaw/workspace/skills/penny-learning -->
+
+## L-006 — PennyShield observer 401 Unauthorized due to malformed observer.env and stale Alchemy key
+- **Condition:** PennyShield observer systemd service runs but all RPC calls return HTTP 401 Unauthorized; observer cannot verify Pump.fun creates via RPC
+- **Lesson:** The PennyShield observer requires valid Alchemy API keys in `/home/ubuntu/.config/pennyshield/observer.env`. The environment file must have clean `KEY=value` lines (one per line, no prefixes). Systemd's `EnvironmentFile=` directive is sensitive to malformed lines — a line like `alch_AUs17q0s9ydsH1miNmwEh ALCHEMY_API_KEY=...` causes `systemd` to ignore the entire file. After fixing the env file, `systemctl --user daemon-reload` must be run before restarting the service. The observer also requires a valid, non-revoked Alchemy API key with access to Solana Mainnet and Base Mainnet RPC endpoints.
+- **Confidence:** high
+- **Evidence:** 
+  - Observer logs showed `HTTP Error 401: Unauthorized` for both Solana and Base RPC calls
+  - `cat /home/ubuntu/.config/pennyshield/observer.env` revealed malformed first line: `alch_AUs17q0s9ydsH1miNmwEh ALCHEMY_API_KEY=...`
+  - `systemctl --user show pennyshield-observer.service --property=Environment` returned empty
+  - After fixing env file format and running `systemctl --user daemon-reload && systemctl --user restart pennyshield-observer.service`, RPC health check returned `{"jsonrpc":"2.0","result":"ok","id":1}` and `debug_pumpfun_v2.py` successfully parsed Creates (Wired/WIRED, Launchoors)
+- **Counter-evidence:** None — direct verification of fix
+- **Revision history:** 2026-10-29: Created from PennyShield observer recovery after Alchemy key rotation
+- **Source experience:** EXPERIENCES.md entry "2026-10-29 — PennyShield observer recovery after Alchemy key rotation"

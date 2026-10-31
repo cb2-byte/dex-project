@@ -108,3 +108,20 @@ Format:
 <!-- project: path:/home/ubuntu/.openclaw/workspace/skills/penny-learning -->
 
 <!-- project: path:/home/ubuntu/.openclaw/workspace/skills/penny-learning -->
+
+## 2026-10-29 — PennyShield observer recovery after Alchemy key rotation
+- **Attempted:** Fix PennyShield observer service on Oracle server which was returning HTTP 401 Unauthorized for all RPC calls, preventing Pump.fun create verification
+- **Result:** Success — observer now fully operational with new Alchemy key
+- **Evidence:**
+  - Observer service logs showed `HTTP Error 401: Unauthorized` for both Solana and Base RPC calls
+  - `cat /home/ubuntu/.config/pennyshield/observer.env` revealed malformed first line: `alch_AUs17q0s9ydsH1miNmwEh ALCHEMY_API_KEY=...`
+  - `systemctl --user show pennyshield-observer.service --property=Environment` returned empty (EnvironmentFile not loaded)
+  - Fixed env file format: removed malformed first line, ensured clean `KEY=value` format
+  - Ran `systemctl --user daemon-reload && systemctl --user restart pennyshield-observer.service`
+  - RPC health check: `curl -X POST "$SOLANA_MAINNET_RPC_URL" -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","id":1,"method":"getHealth"}` returned `{"jsonrpc":"2.0","result":"ok","id":1}`
+  - `debug_pumpfun_v2.py` successfully parsed Creates: Wired/WIRED (create_v2) and Launchoors (create_v2) from 32 Pump.fun transactions
+  - Observer logs now show `[INFO] Scanned new launches: 1 tokens analyzed` without 401 errors
+- **Lesson reference:** L-006 (PennyShield observer 401 Unauthorized due to malformed observer.env and stale Alchemy key)
+- **Next steps:** Register pennyshield-agent on ClawWork; push git repo; accept Syncthing share on Oracle
+
+<!-- project: path:/home/ubuntu/.openclaw/workspace/skills/penny-learning -->

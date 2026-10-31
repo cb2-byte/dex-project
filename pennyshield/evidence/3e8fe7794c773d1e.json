@@ -1,0 +1,97 @@
+{
+  "detection_id": "3e8fe7794c773d1e",
+  "token_address": "BvjB2RE47iJzZXjmKCZin1JfVPH1g61yBdjRwEBapump",
+  "chain": "solana",
+  "timestamp": 1793411451.250145,
+  "timestamp_iso": "2026-10-31T01:50:51.250145",
+  "risk_score": {
+    "overall_score": 0.0,
+    "threshold": 0.65,
+    "is_high_risk": false,
+    "triggered_indicators": [],
+    "indicators": [
+      {
+        "indicator": "early_snipe",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "reason": "no_launch_block_data"
+        },
+        "explanation": "Cannot determine launch block"
+      },
+      {
+        "indicator": "deployer_intelligence",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "deployer": "DWUd7xJpqUoU1zipotFfffSL2kAQS2Dnm6biSofPvTh6",
+          "total_launches": 0
+        },
+        "explanation": "First known launch for this deployer"
+      },
+      {
+        "indicator": "wallet_clustering",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "wallet_count": 0,
+          "min_required": 3
+        },
+        "explanation": "Insufficient wallets for clustering"
+      },
+      {
+        "indicator": "distribution",
+        "triggered": false,
+        "confidence": 0,
+        "evidence": {
+          "suspicious_clusters": [],
+          "total_clusters": 0,
+          "min_sell_volume_ratio": 0.2,
+          "min_price_support_ratio": 0.3,
+          "launch_window_blocks": 10
+        },
+        "explanation": "No distribution pattern detected"
+      },
+      {
+        "indicator": "exit_detector",
+        "triggered": false,
+        "confidence": 0.0,
+        "evidence": {
+          "signals": [],
+          "pool_liquidity_usd": 0,
+          "liquidity_drop_threshold": 0.3
+        },
+        "explanation": "No exit signals"
+      }
+    ],
+    "timestamp": 1793411451.250145,
+    "timestamp_iso": "2026-10-31T01:50:51.250145"
+  },
+  "pool_snapshot": {
+    "transaction_hash": "53PaHDWY19h3uNvQQdHFWTbszb9wswC2c3QJ8fRehQZeLNoY9kJLDvHAE4mCRFohnA3cQBA8jQgh42B7rLtk6uPW",
+    "log_index": 2,
+    "block_number": 463509003,
+    "block_time": 1793411250,
+    "bonding_curve": "8bHkRC65PX3YywKBLjYZ3GRpscoEVmtPXP3KFxnUya2T",
+    "associated_bonding_curve": "Gb4MMsjqRR7WCxsjdD9JPXKoZdfCatjJS8GAy7zn1SQ",
+    "real_sol_reserves": 0,
+    "virtual_sol_reserves": 0,
+    "virtual_token_reserves": 0,
+    "discovery_source": "pumpfun_create_instruction"
+  },
+  "token_snapshot": {
+    "creator": "DWUd7xJpqUoU1zipotFfffSL2kAQS2Dnm6biSofPvTh6",
+    "name": "ZELENTONK",
+    "symbol": "ZELENTONK",
+    "metadata_uri": "https://ipfs.io/ipfs/bafkreidtcfh3ffby6tvokmdkpsh7hww76fw2sxof4epef5ziefxyldxmdm",
+    "launch_timestamp": 1793411250,
+    "launch_slot": 463509003,
+    "instruction": "create_v2",
+    "funding_sources": []
+  },
+  "outcome": null,
+  "outcome_timestamp": null,
+  "metadata": {
+    "deduplication_status": "stable"
+  }
+}
